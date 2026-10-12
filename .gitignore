@@ -1,0 +1,23 @@
+# Secrets — never commit an API key
+apikey
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+.claude/
+
+# Benchmark run scratch (run_benchmark.py writes .jsonl here before consolidating)
+data/responses/**/*.jsonl

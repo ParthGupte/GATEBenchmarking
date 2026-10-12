@@ -1,0 +1,652 @@
+[
+  {
+    "question_number": 1,
+    "question": "Suresh said, “I did it yesterday.”\nWhich one of the following options is the correct form of this sentence in indirect\nspeech?\n\n\n(A)\nSuresh said that I did it yesterday.\n(B)\nSuresh says I did it yesterday.\n(C)\nSuresh says that he did it the day before.\n(D)\nSuresh said that he had done it the day before.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 4.519,
+    "generation_cost": 0.001565
+  },
+  {
+    "question_number": 2,
+    "question": "To continue the sequence of tiles shown, the tile indicated by the question mark\nshould be\n\n\n\n\n(A)\n\n(B)\n\n(C)\n\n(D)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Sequence: 0, 1, 1, 2, 3, 5, ? — Fibonacci, next is 8.\n\nOption D shows 8 dots... let me check: B has 6, C has 7, D has 8.\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 9.861,
+    "generation_cost": 0.00637
+  },
+  {
+    "question_number": 3,
+    "question": "Consider an art gallery whose walkways are shown as lines in the diagram. A\nblack dot represents a junction of two walkways. A guard may be placed at a\njunction to watch over the walkways that join at that junction. The minimum\nnumber of guards needed to watch all the walkways is ________.\n\n\n\n(A)\n2\n(B)\n3\n(C)\n4\n(D)\n5",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nHouse shape: 5 vertices, edges: top-left to apex, apex to top-right, top-left to bottom-left, top-right to bottom-right, bottom-left to bottom-right. That's 5 edges.\n\nNeed minimum vertex cover. Vertices: A=apex, B=top-left, C=top-right, D=bottom-left, E=bottom-right.\nEdges: AB, AC, BD, CE, DE.\n\nTry {B, C, D or E}: B covers AB, BD. C covers AC, CE. Need DE - pick D or E. So 3 vertices: {B,C,D}.\n\nCan we do 2? Need to cover 5 edges, each vertex covers at most... A covers 2, B covers 2, C covers 2, D covers 2, E covers 2. Two vertices cover at most 4 edges, but need to be non-overlapping. Not possible with 5 edges. So minimum is 3.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 3.992,
+    "generation_cost": 0.00953
+  },
+  {
+    "question_number": 4,
+    "question": "The 2nd of June is a Thursday in a certain year. Which day of the week is the\n3rd of July in that year?\n\n\n(A)\nThursday\n(B)\nFriday\n(C)\nSaturday\n(D)\nSunday",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "June 2 = Thursday. June 30 is 28 days later = Thursday. July 3 is 3 days after June 30 = Sunday.\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 5.383,
+    "generation_cost": 0.00254
+  },
+  {
+    "question_number": 5,
+    "question": "A coin with heads facing up is shown as\nand a coin with tails facing up is\nshown as\n.\nSix coins are placed in the Starting Arrangement, as shown in the figure below.\nA “step” is defined as interchanging a pair of adjacent coins without flipping\nthem. The minimum number of steps needed to go from the Starting Arrangement\nto the Final Arrangement, as shown in the figure, is ________.\n\n\n\n(A)\n3\n(B)\n6\n(C)\n9\n(D)\n12",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nEach H needs to move from positions 1,2,3 to 4,5,6. Swapping adjacent. This is like bubble sort inversions. Starting HHHTTT, final TTTHHH. Number of inversions: each H must pass each T. 3×3=9.\n</think>\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 2.388,
+    "generation_cost": 0.004375
+  },
+  {
+    "question_number": 6,
+    "question": "Exacerbate : Mitigate :: ___________\nChoose the option with the correct pair of words to fill the blank.\n\n\n(A)\nAggravate : Alleviate\n(B)\nAlleviate : Precipitate\n(C)\nAggravate : Precipitate\n(D)\nEmancipate : Exonerate",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Exacerbate and Mitigate are antonyms. Aggravate and Alleviate are antonyms.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.529,
+    "generation_cost": 0.0024
+  },
+  {
+    "question_number": 7,
+    "question": "A paper shown in Panel I is folded along the dashed lines (- - -) to construct a\ncube. The shaded regions shown in Panel I appear on the outer surface of the cube.\nReferring to cubes shown in Panel II, which one of the options is correct?\n\n\n\n(A)\nOnly (i) can correspond to the unfolded cube in Panel I.\n(B)\nOnly (ii) can correspond to the unfolded cube in Panel I.\n(C)\nBoth (i) and (ii) can correspond to the unfolded cube in Panel I.\n(D)\nNeither (i) nor (ii) can correspond to the unfolded cube in Panel I.",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Based on careful analysis of the folding pattern and matching the shaded regions on the cube faces.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 2.741,
+    "generation_cost": 0.004415
+  },
+  {
+    "question_number": 8,
+    "question": "In a population, patients who have high cholesterol also have high blood-pressure\n(BP). Some patients with high BP also have diabetes. There are no patients who\nhave both high cholesterol and diabetes. Furthermore,\n1. the total number of patients with at least one of these conditions is 75,\n2. the number of patients with high cholesterol is 10,\n3. the number of patients with high BP is 45, and\n4. the number of patients with only high BP and no other conditions is 20.\nThen the number of patients who have both diabetes and high BP is _______\n\n\n(A)\n0\n(B)\n15\n(C)\n20\n(D)\n10",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nHigh cholesterol ⊂ high BP (all with high cholesterol have high BP).\nNo overlap between cholesterol and diabetes.\n\nCholesterol=10, all have BP. BP=45. Diabetes ∩ Cholesterol = 0.\nOnly BP = 20.\nBP = only cholesterol+BP + only BP + BP+diabetes (no triple since cholesterol∩diabetes=0)\n= 10 + 20 + (BP∩diabetes) = 45\nSo BP∩diabetes = 15.\n\nCheck total: cholesterol only (without BP) = 0, only BP=20, BP+chol=10, BP+diab=15, diabetes only = ?\nTotal with at least one = 10+20+15+diabetes_only = 45+diabetes_only=75, so diabetes only=30. OK.\n\nAnswer: 15\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 4.167,
+    "generation_cost": 0.009135
+  },
+  {
+    "question_number": 9,
+    "question": "Four people P, Q, R, and S, of different ages, make the following observations.\nP – I am younger than S.\nQ – I am neither the youngest nor the oldest.\nR – P is older than me.\nBased on these observations, the youngest person is ______.\n\n\n(A)\nP\n(B)\nQ\n(C)\nR\n(D)\nS",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "P is younger than S. R is younger than P. So R < P < S, and Q is in middle.\nOrder: R < Q < P < S (Q not youngest/oldest). Youngest is R.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 4.964,
+    "generation_cost": 0.00302
+  },
+  {
+    "question_number": 10,
+    "question": "Circles 𝐶1, 𝐶2, and 𝐶3, with centers 𝑂1, 𝑂2, and 𝑂3 , and radii 𝑟1 , 𝑟2, and 𝑟3,\nrespectively, touch each other as shown in the following figure. Given 𝑟1 = 2 cm,\n𝑟2 = 1 cm and the angle ∠𝑂1𝑂3𝑂2 is 90°, 𝑟3 = _____ cm.\n\n\n\n(A)\n1\n2 (−3 + √17 )\n(B)\n1\n2 (3 + √17 )\n(C)\n1\n2 (−2 + √17 )\n(D)\n1\n2 (−3 + 2√17 )",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nO1O2 = r1+r2 = 3, O1O3 = r1+r3 = 2+r3, O2O3 = r2+r3 = 1+r3.\nRight angle at O3: (2+r3)² + (1+r3)² = 9\n4+4r3+r3² + 1+2r3+r3² = 9\n2r3² + 6r3 + 5 = 9\n2r3² + 6r3 - 4 = 0\nr3² + 3r3 - 2 = 0\nr3 = (-3+√17)/2\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 5.061,
+    "generation_cost": 0.008355
+  },
+  {
+    "question_number": 11,
+    "question": "Let 𝑀3(ℝ) be the vector space of all 3 × 3 real matrices over ℝ under usual\nmatrix addition and scalar multiplication. Let 𝑇3(ℝ) be the set of all 3 × 3 real\nupper triangular matrices. Which one of the following is TRUE?\n\n\n(A)\nThe quotient space 𝑀3(ℝ)\n𝑇3(ℝ)\n⁄\nis isomorphic to the vector space of all 3 × 3\nreal skew symmetric matrices over ℝ under usual matrix addition and scalar\nmultiplication.\n(B)\nThe quotient space 𝑀3(ℝ)\n𝑇3(ℝ)\n⁄\nis isomorphic to the vector space of all 3 × 3\nreal symmetric matrices over ℝ under usual matrix addition and scalar\nmultiplication.\n(C)\nThe quotient space 𝑀3(ℝ)\n𝑇3(ℝ)\n⁄\nis isomorphic to the vector space of all 3 × 3\nreal lower triangular matrices over ℝ under usual matrix addition and scalar\nmultiplication.\n(D)\nThe quotient space 𝑀3(ℝ)\n𝑇3(ℝ)\n⁄\nis isomorphic to the vector space of all 3 × 3\nreal matrices with trace zero over ℝ under usual matrix addition and scalar\nmultiplication.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "dim M3 = 9, dim T3 = 6, quotient dim = 3.\n\nSkew symmetric: dim 3 ✓\nSymmetric: dim 6\nLower triangular: dim 6\nTrace zero: dim 8\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.507,
+    "generation_cost": 0.00533
+  },
+  {
+    "question_number": 12,
+    "question": "Let 𝐼 be the integral defined as follows:\n𝐼= ∫ ∫\n𝑑𝑥 𝑑𝑦\n√𝑦\n0\n1\n0\n+ ∫ ∫\n𝑑𝑥 𝑑𝑦\n1\n√𝑦−1\n2\n1\n\nIf the order of the integration is changed, then which one of the following is the\ncorrect expression for 𝐼?\n\n\n(A)\n∫\n∫\n𝑑𝑦 𝑑𝑥\n𝑥\n−𝑥\n1/2\n0\n+ ∫\n∫\n𝑑𝑦 𝑑𝑥\n−𝑥2+1\n−𝑥2\n1\n1/2\n\n(B)\n∫ ∫\n𝑑𝑦 𝑑𝑥\n𝑥2+1\n𝑥2\n1\n0\n\n(C)\n∫\n∫\n𝑑𝑦 𝑑𝑥\n𝑥2+1\n𝑥2\n1/2\n0\n+ ∫\n∫\n𝑑𝑦 𝑑𝑥\n√𝑥+1\n√𝑥\n1\n1/2\n\n(D)\n∫ ∫\n𝑑𝑦 𝑑𝑥\n𝑥2−1\n𝑥2\n1\n0",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nRegion 1: 0≤y≤1, 0≤x≤√y. So x from 0 to 1, and for given x, x²≤y≤1.\n\nRegion 2: 1≤y≤2, √(y-1)≤x≤1. So x from 0 to 1, y-1≤x² means y≤x²+1, and y≥1. For given x in [0,1], y from 1 to x²+1.\n\nCombined: for x in [0,1], y from x² to x²+1.\n\nAnswer B.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 5.265,
+    "generation_cost": 0.00665
+  },
+  {
+    "question_number": 13,
+    "question": "Let 𝐶 denote the Cantor set and 𝑓: [0,1] →ℝ be defined as follows:\n𝑓(𝑥) =\n{\n𝑥2026\nfor 𝑥∈𝐶\ncos(𝜋𝑥)\nfor 𝑥∈[ 0, 1\n2 ] \\𝐶\nsin(𝜋𝑥)\nfor 𝑥∈[ 1\n2 , 1 ] \\𝐶\n\nThe value of the Lebesgue integral of 𝑓(𝑥) over the interval [0,1] is equal to\n\n\n(A)\n2\n𝜋\n(B)\n1\n𝜋\n(C)\n3\n𝜋\n(D)\n0",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "The Cantor set has Lebesgue measure 0, so the x^2026 part contributes nothing.\n\n∫₀^(1/2) cos(πx)dx + ∫_(1/2)^1 sin(πx)dx = [sin(πx)/π]₀^(1/2) + [-cos(πx)/π]_(1/2)^1 = 1/π + 1/π = 2/π\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.841,
+    "generation_cost": 0.00545
+  },
+  {
+    "question_number": 14,
+    "question": "Let 𝐺 be a group of order 595. Which one of the following is TRUE?\n\n\n(A)\n𝐺 cannot have a proper normal subgroup.\n(B)\n𝐺 must have a proper normal subgroup.\n(C)\n𝐺 cannot have an element of order 17.\n(D)\nThe number of Sylow 5-subgroups is 17.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "595 = 5 × 7 × 17.\n\nBy Sylow: n_17 divides 35 and ≡1 mod 17. Divisors of 35: 1,5,7,35. Only 1 works. So Sylow 17-subgroup is normal.\n\nThus G must have a proper normal subgroup.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 2.941,
+    "generation_cost": 0.004
+  },
+  {
+    "question_number": 15,
+    "question": "Let 𝑢(𝑥, 𝑡) be the solution of the initial value problem for the heat equation on the\nreal line:\n𝜕𝑢\n𝜕𝑡= 𝑘 𝜕2𝑢\n𝜕𝑥2 ,\n−∞< 𝑥< ∞,\n𝑡> 0,\n𝑘∈ℝ\nwith the initial condition\n𝑢(𝑥, 0) = 𝑒−𝑎|𝑥| ,\n𝑎> 0.\nIf 𝑢̂(𝑤, 𝑡) = ∫\n𝑢(𝑥, 𝑡)𝑒𝑖𝑤𝑥\n∞\n−∞\n𝑑𝑥 is the Fourier transform of 𝑢(𝑥, 𝑡) with respect\nto 𝑥, then 𝑢̂(𝑤, 𝑡) is equal to\n\n\n(A)\n2𝑎\n𝑎2+𝑤2 𝑒−𝑘𝑤2𝑡\n(B)\n𝑎\n𝑎2+𝑤2 𝑒−𝑘𝑤2𝑡\n(C)\n2𝑎\n𝑎2+𝑤2 𝑒−𝑘𝑎2𝑡\n(D)\n1\n√4 𝜋𝑘𝑡 𝑒\n−𝑤2\n4𝑘𝑡",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Fourier transform of e^(-a|x|) is 2a/(a²+w²). Heat equation gives factor e^(-kw²t).\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.004,
+    "generation_cost": 0.004565
+  },
+  {
+    "question_number": 16,
+    "question": "Let 𝑓: ℝ2 →ℝ2 be defined as\n𝑓(𝑥, 𝑦) = (𝑒𝑥cos 𝑦 , 𝑒𝑥sin 𝑦) .\nWhich one of the following is TRUE?\n\n\n(A)\n𝑓 is one-to-one.\n(B)\nThe Jacobian of 𝑓 is negative.\n(C)\n𝑓 is locally invertible.\n(D)\n𝑓 is invertible on ℝ2.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 2.346,
+    "generation_cost": 0.0018
+  },
+  {
+    "question_number": 17,
+    "question": "Let 𝑓: ℂ →ℂ be defined by 𝑓(𝑧) = |𝑧|2 −5𝑧̅ + 2.\nWhich one of the following is TRUE?\n\n\n(A)\n𝑓 is differentiable at 𝑧= 5𝑖.\n(B)\n𝑓 is differentiable at 𝑧= 5.\n(C)\n𝑓 is differentiable at 𝑧= −5𝑖.\n(D)\n𝑓 is differentiable at 𝑧= −5.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 5.202,
+    "generation_cost": 0.0014
+  },
+  {
+    "question_number": 18,
+    "question": "Let 𝐷= {𝑧∈ℂ | |𝑧| < 1} denote the unit disc in the complex plane ℂ.\nLet 𝑓: 𝐷→𝐷 be an analytic function which satisfies 𝑓(0) = 0. Then which one of\nthe following is a possible value of 𝑓′(0)?\n\n\n(A)\n5\n2 𝑖\n(B)\n𝑖\n10\n(C)\n3\n2\n(D)\n−\n5\n2 𝑖",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "By Schwarz lemma, |f'(0)| ≤ 1.\n\nOnly i/10 has modulus ≤ 1.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.997,
+    "generation_cost": 0.0029
+  },
+  {
+    "question_number": 19,
+    "question": "Let 𝑋 be the space of all continuously differentiable real valued functions on\n[0,1]. Define the following norms on 𝑋:\n𝑝1(𝑥) = sup{|𝑥(𝑡)| ∶ 𝑡∈[0,1]}\n𝑝2(𝑥) = sup {| 𝑑\n𝑑𝑡 𝑥(𝑡)| ∶ 𝑡∈[0,1]}\nand 𝑝3(𝑥) = 𝑝1(𝑥) + 𝑝2(𝑥).\nWhich one of the following is TRUE?\n\n\n(A)\n(𝑋, 𝑝1) is a Banach space.\n(B)\n(𝑋, 𝑝2) is a Banach space.\n(C)\n(𝑋, 𝑝3) is not a Banach space.\n(D)\n(𝑋, 𝑝3) is a Banach space.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "C¹[0,1] with sup norm p₁ is not complete (limit may not be differentiable). p₂ is not even a norm (constant nonzero functions have p₂=0). p₃ = sup|x| + sup|x'| makes C¹[0,1] a Banach space.\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 3.186,
+    "generation_cost": 0.00441
+  },
+  {
+    "question_number": 20,
+    "question": "Let 𝑋 be a set with at least two elements. Let 𝑑1, 𝑑2 and 𝑑3 be metrics on 𝑋.\nWhich one of the following is NOT a metric on 𝑋?\n\n\n(A)\n𝑑(𝑥, 𝑦) ≔min(𝑑1(𝑥, 𝑦), 3) for all 𝑥, 𝑦∈𝑋.\n(B)\n𝑑(𝑥, 𝑦) ≔max(𝑑2(𝑥, 𝑦), 3) for all 𝑥, 𝑦∈𝑋.\n(C)\n𝑑(𝑥, 𝑦) ≔\n10 𝑑3(𝑥,𝑦)\n1+𝑑3(𝑥,𝑦) for all 𝑥, 𝑦∈𝑋.\n(D)\n𝑑(𝑥, 𝑦) ≔\n1\n3 (𝑑1(𝑥, 𝑦) + 𝑑2(𝑥, 𝑦) + 𝑑3(𝑥, 𝑦)) for all 𝑥, 𝑦∈𝑋.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "max with 3: when x=y, d(x,x)=max(0,3)=3≠0. Not a metric.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 8.812,
+    "generation_cost": 0.00304
+  },
+  {
+    "question_number": 21,
+    "question": "Let 𝑃 be a 3 × 3 real symmetric positive definite matrix. Which of the following\nstatements is/are TRUE?\n\n\n(A)\n𝑄⊤𝑃𝑄 is positive definite for all nonzero 𝑄∈ℝ3×3.\n(B)\n𝑄⊤𝑃𝑄 is positive semidefinite for all 𝑄∈ℝ3×3.\n(C)\n𝑄⊤𝑃𝑄 is positive definite if 𝑄∈ℝ3×3 is nonsingular.\n(D)\n𝑄⊤𝑃𝑄 is not positive semidefinite for some 𝑄∈ℝ3×3.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "For any Q, Q^T P Q is symmetric. For vector x: x^T Q^T P Q x = (Qx)^T P (Qx) ≥ 0, with equality iff Qx=0.\n\n(A) False: if Q is nonzero but singular, there exists x≠0 with Qx=0, giving x^T Q^T P Q x = 0.\n(B) True: always ≥ 0.\n(C) True: if Q nonsingular, Qx=0 only when x=0.\n(D) False: always PSD.\n\nFINAL_ANSWER: B,C",
+    "final_answer": "B,C",
+    "generation_time_s": 4.672,
+    "generation_cost": 0.006375
+  },
+  {
+    "question_number": 22,
+    "question": "Let 𝑓: ℝ2 →ℝ be a function defined as follows:\n𝑓(𝑥, 𝑦) = {\n𝑥 √𝑥2 + 𝑦2\n|𝑥|\nfor 𝑥≠0\n\n\n0\nfor 𝑥= 0\n\n\n\n(A)\n𝑓(𝑥, 𝑦) is continuous at (0,0).\n(B)\nFor any 𝑢∈ℝ2, the directional derivative of 𝑓 at (0,0) in the direction of 𝑢 exists.\n(C)\n𝜕𝑓\n𝜕𝑥(0,0) = 1 =\n𝜕𝑓\n𝜕𝑦(0,0).\n(D)\n𝑓(𝑥, 𝑦) is differentiable at (0,0).",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf(x,y) = x·√(x²+y²)/|x| = sign(x)·√(x²+y²) for x≠0, and 0 at x=0.\n\nAt (0,0): |f(x,y)| = √(x²+y²) → 0, so continuous. (A) true.\n\nDirectional derivative in direction u=(a,b), unit vector:\nf(ta, tb)/t for t→0.\nIf a≠0: f(ta,tb) = sign(ta)·√(t²a²+t²b²) = sign(t)·sign(a)·|t|·√(a²+b²) = t·sign(a)·√(a²+b²)... wait, sign(t)·|t| = t. So = sign(a)·t·√(a²+b²).\nThen divided by t: sign(a)·√(a²+b²). Exists.\n\nIf a=0: f(0,tb) = 0, derivative = 0. Exists.\n\nSo (B) true.\n\n∂f/∂x(0,0): direction (1,0), a=1, b=0: sign(1)·1 = 1. ✓\n∂f/∂y(0,0): f(0,y)=0, so derivative = 0. Not 1.\n(C) false.\n\nDifferentiability: need f(x,y) ≈ x·1 + y·0 = x near origin.\nf(x,y) - x = sign(x)√(x²+y²) - x\nFor x>0: √(x²+y²) - x. Divide by √(x²+y²): 1 - x/√(x²+y²). Along y=0, x>0: 0. Along x=y>0: 1 - 1/√2 ≠ 0.\nSo not differentiable. (D) false.\n\nAnswer: A, B.\n</think>\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 9.599,
+    "generation_cost": 0.016225
+  },
+  {
+    "question_number": 23,
+    "question": "Let ℤ11 be the ring of integers modulo 11. Let ℤ11[𝑥] be the ring of all\npolynomials with coefficients in ℤ11. Which of the following statements is/are\nTRUE?\n\n\n(A)\nThe polynomial 𝑥2 + 𝑥+ 4 is irreducible over ℤ11.\n(B)\nℤ11[𝑥]\n〈𝑥2 + 𝑥+ 4〉\n⁄\nis a field.\n(C)\nThe ideal 〈𝑥2 + 𝑥+ 4〉 is maximal.\n(D)\nThe ideal 〈𝑥2 + 𝑥+ 4〉 is not a prime ideal.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nCheck if x^2+x+4 irreducible over Z_11. Discriminant = 1-16 = -15 = -15+22=7 mod 11. Is 7 a QR mod 11? QRs mod 11: 1,3,4,5,9. 7 not in list. So irreducible. A true, B true (since Z_11[x] is PID, irreducible => maximal ideal => field), C true, D false.\n</think>\n\nFINAL_ANSWER: A,B,C",
+    "final_answer": "A,B,C",
+    "generation_time_s": 11.679,
+    "generation_cost": 0.00582
+  },
+  {
+    "question_number": 24,
+    "question": "Consider ℝ with the topology\n𝜏= {𝐴 ⊆ ℝ∶ 𝐴𝑐 is finite} ∪{𝜙}.\n\n\n(A)\n(ℝ, 𝜏) is a Hausdorff space.\n(B)\nAny finite subset of (ℝ, 𝜏) is closed.\n(C)\n(ℝ, 𝜏) is compact.\n(D)\n(ℝ, 𝜏) is connected.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Cofinite topology on R.\n\nA: Not Hausdorff (any two nonempty opens intersect). False.\nB: Finite sets are closed (complement is cofinite, hence open). True.\nC: Compact - yes, cofinite topology is compact. True.\nD: Connected - yes, any two nonempty opens intersect, so can't split. True.\n\nFINAL_ANSWER: B,C,D",
+    "final_answer": "B,C,D",
+    "generation_time_s": 2.401,
+    "generation_cost": 0.004845
+  },
+  {
+    "question_number": 25,
+    "question": "Consider the following partial differential equation:\n𝑎 𝜕2𝑓(𝑥, 𝑦)\n𝜕𝑥2\n+ 𝑏 𝜕2𝑓(𝑥, 𝑦)\n𝜕𝑦2\n= 8𝑓(𝑥, 𝑦)\nwhere 𝑎 and 𝑏 are distinct positive real numbers.\nThe combination(s) of the values of the real parameters 𝜉 and 𝜂 for which\n𝑓(𝑥, 𝑦) = 𝑒2𝜉𝑥+𝜂𝑦 is a solution of the given partial differential equation, is/are\n\n\n(A)\n𝜉=\n1\n√𝑎 , 𝜂=\n2\n√𝑏\n(B)\n𝜉= 0 , 𝜂= 0\n(C)\n𝜉=\n1\n√2𝑎 , 𝜂=\n1\n√2𝑏\n(D)\n𝜉= 0, 𝜂= 2 √\n2\n𝑏",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf = e^(2ξx + ηy). f_xx = 4ξ² f, f_yy = η² f.\nEquation: 4aξ² + bη² = 8.\n\nA: 4a(1/a) + b(4/b) = 4+4 = 8 ✓\nB: 0 ≠ 8 ✗\nC: 4a/(2a) + b/(2b) = 2+0.5 = 2.5 ✗\nD: 0 + b(8/b) = 8 ✓\n</think>\n\nFINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 6.524,
+    "generation_cost": 0.00668
+  },
+  {
+    "question_number": 26,
+    "question": "Consider the following assignment problem where 𝑋, 𝑌, 𝑍 are tasks, 𝑃, 𝑄, 𝑅 are\nagents and the cost matrix is given by\n\nX\nY\nZ\nP\n4\n2\n8\nQ\n2\n3\n7\nR\n3\n1\n6\nWhich of the following statements is/are TRUE for an optimal assignment?\n\n\n(A)\nThe cost is 9.\n(B)\nAgent P is assigned to task Y.\n(C)\nAgent Q is assigned to task X.\n(D)\nAgent R is assigned to task Y.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Possible assignments:\n- P-X, Q-Y, R-Z: 4+3+6=13\n- P-X, Q-Z, R-Y: 4+7+1=12\n- P-Y, Q-X, R-Z: 2+2+6=10\n- P-Y, Q-Z, R-X: 2+7+3=12\n- P-Z, Q-X, R-Y: 8+2+1=11\n- P-Z, Q-Y, R-X: 8+3+3=14\n\nMinimum is 10: P-Y, Q-X, R-Z.\n\nCost is 10 (not 9), P→Y ✓, Q→X ✓, R→Z (not Y).\n\nFINAL_ANSWER: B,C",
+    "final_answer": "B,C",
+    "generation_time_s": 7.475,
+    "generation_cost": 0.007495
+  },
+  {
+    "question_number": 27,
+    "question": "Consider the following differential equation:\n2𝑥(𝑥−2)2 𝑑2𝑦\n𝑑𝑥2 + 3𝑥 𝑑𝑦\n𝑑𝑥+ (𝑥−2)𝑦= 0\nWhich of the following statements is/are TRUE ?\n\n\n(A)\nThe point 𝑥= 2 is not a singular point.\n(B)\nThe point 𝑥= 2 is a singular point.\n(C)\nThe point 𝑥= 2 is a regular singular point.\n(D)\nThe point 𝑥= 2 is not a regular singular point.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Standard form: divide by 2x(x-2)².\n\nP(x) = 3x/[2x(x-2)²] = 3/[2(x-2)²]\nQ(x) = (x-2)/[2x(x-2)²] = 1/[2x(x-2)]\n\nAt x=2: P has (x-2)² in denominator, so singular point.\n\nCheck regular: (x-2)P(x) = 3/[2(x-2)] → not analytic at x=2.\n\nSo x=2 is singular but not regular.\n\nFINAL_ANSWER: B,D",
+    "final_answer": "B,D",
+    "generation_time_s": 4.024,
+    "generation_cost": 0.005875
+  },
+  {
+    "question_number": 28,
+    "question": "Let 𝑇: ℝ3 →ℝ3 be the linear transformation which reflects every vector in ℝ3\nthrough a two-dimensional subspace of ℝ3. Let 𝑃∈ ℝ3×3 be the matrix\nrepresentation of 𝑇 using the basis { (\n1\n0\n0\n) , (\n0\n1\n0\n) , (\n0\n0\n1\n) }.\nThen the value of\n2 × trace(𝑃) − 3 × determinant(𝑃) is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Reflection through 2D subspace: eigenvalues 1,1,-1. Trace=1, det=-1.\n\n2(1)-3(-1)=2+3=5.\n\nFINAL_ANSWER: 5",
+    "final_answer": "5",
+    "generation_time_s": 1.981,
+    "generation_cost": 0.003305
+  },
+  {
+    "question_number": 29,
+    "question": "Let 𝑥3 −𝑥+ 1 ∈ℤ3[𝑥], where ℤ3[𝑥] is the ring of all polynomials with\ncoefficients in ℤ3. Then the degree of the field extension ℤ3[𝑥]\n〈𝑥3 −𝑥+ 1〉\n⁄\nof\nℤ3 is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "x³-x+1 is irreducible over Z_3 (no roots: 0→1, 1→1, 2→7=1). Degree = 3.\n\nFINAL_ANSWER: 3",
+    "final_answer": "3",
+    "generation_time_s": 1.402,
+    "generation_cost": 0.00292
+  },
+  {
+    "question_number": 30,
+    "question": "Consider the differential equation\n𝑑𝑦\n𝑑𝑥= 𝑥+ 𝑦 with the initial condition 𝑦(0) = 1.\nUsing the modified Euler’s method, the second approximation to 𝑦(ℎ), where\nℎ= 0.05 (step size), is equal to . (rounded off to TWO decimal places)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nModified Euler: y1 predictor = y0 + h*f(x0,y0) = 1 + 0.05*(0+1) = 1.05\nCorrector: y1 = y0 + h/2*(f(x0,y0) + f(x1, y1_pred)) = 1 + 0.025*(1 + (0.05+1.05)) = 1 + 0.025*(1+1.1) = 1 + 0.025*2.1 = 1.0525\n\nSecond approximation = 1.05\n</think>\n\nStep 1: Given dy/dx = f(x,y) = x+y, y(0)=1, h=0.05.\n\nStep 2: Predictor (first approximation):\ny₁⁽⁰⁾ = y₀ + h·f(x₀,y₀) = 1 + 0.05·(0+1) = 1.05\n\nStep 3: Corrector (second approximation):\ny₁⁽¹⁾ = y₀ + (h/2)[f(x₀,y₀) + f(x₁,y₁⁽⁰⁾)]\n     = 1 + (0.025)[1 + (0.05+1.05)]\n     = 1 + 0.025·(2.1)\n     = 1.0525\n\nRounded to two decimal places: 1.05\n\nFINAL_ANSWER: 1.05",
+    "final_answer": "1.05",
+    "generation_time_s": 4.195,
+    "generation_cost": 0.011905
+  },
+  {
+    "question_number": 31,
+    "question": "Let\n𝛼= lim\n𝑛→∞∫𝑛2 + (sin 𝑒𝑥)𝑛\n7𝑛2 + 𝑥8\n1\n0\n𝑑𝑥 .\nThe value of 14𝛼 is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nsin(e^x) for x in [0,1], e^x in [1,e]. sin(1)≈0.841, sin(e)≈sin(2.718)≈0.410. All values of sin(e^x) in [0,1] range... need to check if |sin(e^x)|<1 always. Max of sin(e^x) when e^x = π/2, x=ln(π/2)≈0.452, yes in [0,1]. There sin=1. So (sin e^x)^n doesn't go to 0 uniformly, but the set where it equals 1 is measure zero.\n\nSo integrand → n²/(7n²+x^8) → 1/7 pointwise a.e., bounded by (n²+1)/(7n²) → 1/7. By DCT, α = ∫₀¹ 1/7 dx = 1/7.\n\n14α = 2.\n</think>\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 3.699,
+    "generation_cost": 0.00845
+  },
+  {
+    "question_number": 32,
+    "question": "Let 𝑋= (ℝ3, ‖ ⋅‖1) where ‖(\n𝑥\n𝑦\n𝑧\n)‖\n1\n= |𝑥| + |𝑦| + |𝑧| and 𝑇: 𝑋→𝑋 be a linear\ntransformation defined as\n𝑇(\n𝑥\n𝑦\n𝑧\n) = (\n1\n1\n3\n2\n2\n−2\n1\n3\n−3\n) (\n𝑥\n𝑦\n𝑧\n) .\nThen the operator norm of 𝑇 is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "dim P_3 = 4, rank ≤ 2. T is surjective (e.g., constant gives (1,0), (x-1) gives (0,1)), so rank = 2, nullity = 4-2 = 2.\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 3.036,
+    "generation_cost": 0.00369
+  },
+  {
+    "question_number": 33,
+    "question": "Consider the following Linear Programming Problem (LPP):\nmaximize 𝑧= 10𝑥1 + 20𝑥2\nsubject to\n𝑥1 ≤36\n𝑥2 ≥42\n𝑥1 + 𝑥2 ≥48\n5𝑥1 + 𝑥2 ≤150\n𝑥1, 𝑥2 ≥0\nThe maximum value of 𝑧 in the above LPP is equal to . (answer in\ninteger)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nFrom constraints: 4(4)+0+2=18 ✓, -12+4+β=2, so β=10.\n\nBasic feasible solution with x1=4, x3=2, x4=10, x2=0. Basis: columns 1,3,4.\n\nFor optimality, reduced cost of non-basic x2 ≥ 0.\n\nLet me compute. Basis B = columns of x1, x3, x4:\nA1=(4,-3), A3=(1,2), A4=(0,1).\n\nB = [[4,1,0],[-3,2,1]]... wait only 2 constraints, so basis has 2 variables, not 3.\n\nWe have 2 constraints, 4 variables. BFS has 2 basic variables. But x1=4, x3=2, x4=10 are all nonzero - that's 3 nonzero, degenerate? Actually with only 2 constraints we can have at most 2 basic nonzero in non-degenerate case. Here 3 nonzero means it's not a basic solution... unless one constraint redundant.\n\nHmm, let me recheck. Actually for optimality we can use duality/KKT.\n\nMinimize c^T x s.t. Ax=b, x≥0. \nc = (1,3,2,-α).\nA row 1: (4,1,1,0), b1=18\nA row 2: (-3,0,2,1), b2=2\n\nAt point (4,0,2,β=10), all of x1,x3,x4>0, x2=0.\n\nKKT: exists y1,y2 such that:\nc_j - (A^T y)_j = 0 if x_j>0, ≥0 if x_j=0.\n\nFor j=1: 1 - 4y1 + 3y2 = 0\nFor j=3: 2 - y1 - 2y2 = 0\nFor j=4: -α - y2 = 0\nFor j=2: 3 - y1 ≥ 0\n\nFrom j=1: 4y1 - 3y2 = 1\nFrom j=3: y1 + 2y2 = 2\n\nSolve: from second y1 = 2-2y2. Sub: 4(2-2y2)-3y2=1 → 8-8y2-3y2=1 → 11y2=7 → y2=7/11\ny1 = 2 - 14/11 = 8/11\n\nCheck j=2: 3 - 8/11 = 25/11 ≥ 0 ✓\nj=4: α = -y2 = -7/11\n\nSo α = -7/11, β = 10.\n\n22(α+β) = 22(-7/11 + 10) = -14 + 220 = 206.\n\nMaximum value... The problem says \"maximum value of 22(α+β)\". Maybe α isn't uniquely determined?\n\nActually wait - since three primal variables are positive but we only have 2 constraints, the solution is on a face, not a vertex. The dual variables y might not be unique? Let me reconsider.\n\nActually with 3 positive variables and 2 equality constraints, the KKT system for y has 3 equations in 2 unknowns — overdetermined. So y exists only if consistent, which determines y uniquely (if consistent).\n\nWe found y1=8/11, y2=7/11 from j=1 and j=3. Check j=4: -α-y2=0 requires α=-7/11. This is necessary.\n\nSo α = -7/11, β=10, and 22(α+β)=206.\n\nBut why \"maximum\"? Maybe β can vary? Let me recheck constraint 2: -3(4)+2(2)+β = -12+4+β = -8+β =2, so β=10. Unique.\n\nHmm. Maybe the solution (4,0,2,β) allows for some flexibility? Like maybe x1=4, x2=0, x3=2 is required but β is something else and feasibility gives β=10.\n\nSo answer is 206.\n</think>\n\n**Setting up the problem:**\n\nFrom the constraints with (4, 0, 2, β):\n- Constraint 1: 4(4) + 0 + 2 = 18 ✓\n- Constraint 2: -3(4) + 2(2) + β = 2 → β = 10\n\n**Optimality conditions (KKT):**\n\nFor the dual variables y₁, y₂, we need:\n- For xⱼ > 0: cⱼ = (Aᵀy)ⱼ\n- For xⱼ = 0: cⱼ ≥ (Aᵀy)ⱼ\n\nSince x₁, x₃, x₄ > 0:\n- j=1: 1 = 4y₁ - 3y₂\n- j=3: 2 = y₁ + 2y₂  \n- j=4: -α = y₂\n\nFrom j=3: y₁ = 2 - 2y₂\nSubstituting into j=1: 4(2-2y₂) - 3y₂ = 1 → 11y₂ = 7 → y₂ = 7/11\nThus y₁ = 8/11\n\n**Check j=2:** 3 - y₁ = 3 - 8/11 = 25/11 ≥ 0 ✓\n\n**Finding α:** α = -y₂ = -7/11\n\n**Computing:**\n$$22(\\alpha + \\beta) = 22\\left(-\\frac{7}{11} + 10\\right) = -14 + 220 = 206$$\n\nFINAL_ANSWER: 206",
+    "final_answer": "206",
+    "generation_time_s": 15.526,
+    "generation_cost": 0.044365
+  },
+  {
+    "question_number": 34,
+    "question": "The number of distinct topologies on the set {1, 2, 3} consisting of exactly four\nelements is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nTopologies on 3-element set with exactly 4 open sets.\n\nKnown count: number of topologies on 3 points total is 29. By size:\n- 4 opens: ?\n\nLet me enumerate. Must contain ∅ and {1,2,3}. Need 2 more subsets, closed under union and intersection.\n\nLet the two extra sets be A, B (both proper nonempty). Need A∪B and A∩B in topology.\n\nCase 1: A ⊂ B (or B⊂A). Then A∩B=A, A∪B=B, closed. So any chain ∅⊂A⊂B⊂X works where A,B proper nonempty distinct.\n\nNumber of such chains: choose A of size 1, B of size 2, with A⊂B. 3 choices for A, then B must contain A and have size 2: 2 choices. Total 6.\n\nCase 2: A, B incomparable. Then A∪B and A∩B must be in topology. A∩B could be ∅ or equal to... since topology has only 4 elements {∅, X, A, B}, we need A∩B ∈ {∅, X, A, B}. Since incomparable, A∩B ≠ A, B. A∩B = X impossible (proper). So A∩B = ∅. Similarly A∪B ∈ {∅,X,A,B}, must be X.\n\nSo A, B partition X (disjoint, union X). On {1,2,3}: pairs (A,B) unordered with A∪B=X, A∩B=∅, both nonempty. Sizes 1+2. Pairs: {1},{2,3}; {2},{1,3}; {3},{1,2}. 3 topologies.\n\nTotal: 6 + 3 = 9.\n</think>\n\n**Step 1:** Any topology on {1,2,3} must contain ∅ and {1,2,3}. We need exactly 2 more proper nonempty subsets A, B, closed under ∪ and ∩.\n\n**Step 2: Case A ⊂ B (chain)**\nThen A∩B = A, A∪B = B — automatically closed.\n- Choose A (size 1): 3 ways\n- Choose B (size 2) containing A: 2 ways\n\nTotal: **6 topologies**\n\n**Step 3: Case A, B incomparable**\nA∩B ∈ {∅, X, A, B}; must be ∅. A∪B must be X.\nSo A, B form a partition of {1,2,3}:\n- {1},{2,3}\n- {2},{1,3}  \n- {3},{1,2}\n\nTotal: **3 topologies**\n\n**Step 4:** Total = 6 + 3 = 9\n\nFINAL_ANSWER: 9",
+    "final_answer": "9",
+    "generation_time_s": 9.482,
+    "generation_cost": 0.02255
+  },
+  {
+    "question_number": 35,
+    "question": "For 𝑎𝑛∈ ℂ, 𝑛= 0,1,2, …, the power series\n∑𝑎𝑛(𝑧−2)𝑛\n∞\n𝑛=0\n\nconverges at 𝑧= 5 and diverges at 𝑧= −1. Then the radius of convergence of\nthis power series is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Converges at z=5: |5-2|=3, so R≥3. Diverges at z=-1: |-1-2|=3, so R≤3. Thus R=3.\n\nFINAL_ANSWER: 3",
+    "final_answer": "3",
+    "generation_time_s": 2.481,
+    "generation_cost": 0.00294
+  },
+  {
+    "question_number": 36,
+    "question": "The solution 𝑦(𝑥) = (𝑦1(𝑥)\n𝑦2(𝑥)) of the initial value problem\n𝑑𝑦\n𝑑𝑥= (−3\n4\n−2\n3) 𝑦,\n𝑦(0) = (1\n2)\nis equal to\n\n\n(A)\n3 (1\n1) 𝑒𝑥+ (2\n1) 𝑒−𝑥\n(B)\n−3 (1\n1) 𝑒𝑥+ (2\n1) 𝑒−𝑥\n(C)\n3 (1\n1) 𝑒𝑥+ 2 (2\n1) 𝑒−𝑥\n(D)\n3 (1\n1) 𝑒𝑥−(2\n1) 𝑒−𝑥",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Eigenvalues: det(A-λI) = (-3-λ)(3-λ)+8 = λ²-9+8 = λ²-1, so λ=±1.\n\nFor λ=1: (-4,4;-2,2)v=0, v=(1,1).\nFor λ=-1: (-2,4;-2,4)v=0, v=(2,1).\n\ny = c₁(1,1)eˣ + c₂(2,1)e⁻ˣ\nAt x=0: c₁+2c₂=1, c₁+c₂=2. So c₂=-1, c₁=3.\n\ny = 3(1,1)eˣ - (2,1)e⁻ˣ\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 2.942,
+    "generation_cost": 0.008585
+  },
+  {
+    "question_number": 37,
+    "question": "Let 𝑃= (\n1\n0\n0\n0\n9\n0\n0\n0\n16\n) . Define an inner product on ℝ3 with respect to 𝑃 as\n〈𝑥, 𝑦〉𝑃= 𝑥⊤𝑃𝑦, for all 𝑥, 𝑦 ∈ℝ3.\nConsider the subspace 𝑉= span { (\n1\n0\n0\n) , (\n1\n1\n1\n) }. Which one of the following sets is\nan orthonormal basis of 𝑉 with respect to 〈𝑥, 𝑦〉𝑃?\n\n\n(A)\n{ (\n1\n0\n0\n) , (\n0\n1\n1\n) }\n(B)\n{ (\n0\n1\n0\n) , (\n0\n1\n1\n) }\n(C)\n{ (\n1\n0\n0\n) , (\n0\n1\n5\n1\n5\n) }\n(D)\n{ (\n1\n0\n0\n) , (\n0\n1\n√2\n1\n√2\n) }",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Check (C): e1 has norm √(1·1)=1. Second vector (0,1/5,1/5): inner product = 9·(1/25) + 16·(1/25) = 25/25 = 1. ✓ Orthogonal to e1: yes (first component 0).\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 8.752,
+    "generation_cost": 0.006365
+  },
+  {
+    "question_number": 38,
+    "question": "The value of the contour integral\n∫\n\nΓ\n(1 −𝑧)(3cos𝑧+ 5sin𝑧)\n1 −𝑧101\n𝑑𝑧 ,\nwhere Γ = {𝑧∈ℂ∶|𝑧| =\n7\n9}, oriented in the counter-clockwise direction, is equal\nto\n\n\n(A)\n2π𝑖\n(B)\n−2π𝑖\n(C)\n0\n(D)\n4π𝑖",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nThe integrand has poles at 101st roots of unity. Inside |z|=7/9, none of them are on the circle (all have |z|=1). So no poles inside? Wait, all 101st roots of unity lie on |z|=1, which is outside |z|=7/9. So the integrand is analytic inside, integral = 0.\n\nWait, but z=1 is a root of both numerator and denominator. Let me check: 1-z^101 = 0 at z=1, and (1-z) in numerator. So z=1 is removable. All other roots of 1-z^101 are on |z|=1, outside the contour of radius 7/9.\n\nSo inside |z|=7/9, the function is analytic. Integral = 0.\n</think>\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 13.323,
+    "generation_cost": 0.007645
+  },
+  {
+    "question_number": 39,
+    "question": "Let 𝑓(𝑧) = ∑\n5−𝑛cos(𝑛𝑧)\n∞\n𝑛=1\n. On which one of the following domains, does 𝑓(𝑧)\nrepresent an analytic function?\n\n\n(A)\n{𝑧∈ℂ∶ |Im 𝑧| < ln5}\n(B)\n{𝑧∈ℂ∶ |Im 𝑧| > ln5}\n(C)\n{𝑧∈ℂ∶ |Re 𝑧| < ln5}\n(D)\n{𝑧∈ℂ∶ |Re 𝑧| > ln5}",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "cos(nz) = (e^(inz)+e^(-inz))/2. |e^(inz)| = e^(-n Im z). For convergence need 5^(-n) e^(n|Im z|) → need |Im z| < ln 5.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.833,
+    "generation_cost": 0.004045
+  },
+  {
+    "question_number": 40,
+    "question": "Let δ(𝑡) be the unit impulse function defined by δ(𝑥−𝑥0) = 0 when 𝑥≠𝑥0 and\n∫\nδ(𝑥−𝑥0) 𝑑𝑥 = 1.\n∞\n−∞\n\nConsider the following initial value problem\n2 𝑑2𝑦\n𝑑𝑥2 + 𝑑𝑦\n𝑑𝑥+ 2𝑦= δ(𝑥−5)\nwith 𝑦(0) = 0 and\n𝑑𝑦\n𝑑𝑥(0) = 0. Which one of the following is TRUE?\n\n\n(A)\n𝑦(10) =\n10\n√15 𝑒−5/4sin (√15\n4 )\n(B)\n𝑦(10) =\n2\n√15 𝑒−5/4sin (\n5√15\n4 )\n(C)\n𝑦(10) =\n10\n√15 𝑒5/4sin (√15\n4 )\n(D)\n𝑦(10) =\n2\n√15 𝑒5/4sin (\n5√15\n4 )",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\n2y'' + y' + 2y = δ(x-5)\n\nTake Laplace: 2s²Y + sY + 2Y = e^(-5s)\nY(s) = e^(-5s)/(2s² + s + 2)\n\n2s² + s + 2 = 2(s² + s/2 + 1) = 2[(s+1/4)² + 1 - 1/16] = 2[(s+1/4)² + 15/16]\n\nY(s) = e^(-5s) / [2((s+1/4)² + 15/16)]\n\nInverse: (1/2) · e^(-(x-5)/4) · sin(√15/4 · (x-5)) / (√15/4) · u(x-5)\n= (2/√15) e^(-(x-5)/4) sin(√15(x-5)/4) u(x-5)\n\nAt x=10: y(10) = (2/√15) e^(-5/4) sin(5√15/4)\n\nAnswer B.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 3.304,
+    "generation_cost": 0.01085
+  },
+  {
+    "question_number": 41,
+    "question": "Which one of the following statements is TRUE?\n\n\n(A)\nThe set of all 2 × 2 real matrices under usual matrix addition and multiplication is\na Unique Factorization Domain.\n(B)\nThe set of all real valued functions under usual function addition and\nmultiplication is a Unique Factorization Domain.\n(C)\nThe set of all polynomials with coefficients in ℝ under usual polynomial addition\nand multiplication is a Unique Factorization Domain.\n(D)\nThe set of Riemann integrable functions in [0,1] under usual function addition and\nmultiplication is a Unique Factorization Domain.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "R[x] is a UFD.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 1.68,
+    "generation_cost": 0.00227
+  },
+  {
+    "question_number": 42,
+    "question": "Let ℓ∞= {𝑥= (𝑥𝑛)𝑛≥1 | 𝑥𝑛 ∈ℝ, sup {|𝑥𝑛|: 𝑛= 1,2, … } < ∞} with the\nsupremum norm. Let 𝑇: ℓ∞→ℓ∞ be given by 𝑇(𝑥1, 𝑥2, 𝑥3, … ) = (𝑥1,\n𝑥2\n2 ,\n𝑥3\n3 , … ).\nWhich one of the following is TRUE?\n\n\n(A)\n𝑇 is bounded but not one-to-one.\n(B)\n𝑇 is one-to-one but not bounded.\n(C)\n𝑇 is bounded and the inverse (from the range of 𝑇) exists but not bounded.\n(D)\n𝑇 is bounded and the inverse (from the range of 𝑇) is bounded.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "T is bounded (norm 1), one-to-one. Inverse maps (y_n) to (n·y_n), unbounded.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 2.005,
+    "generation_cost": 0.00361
+  },
+  {
+    "question_number": 43,
+    "question": "Let 𝑢(𝑥, 𝑡) satisfy the wave equation\n∂2𝑢\n∂𝑡2 = 𝑐2 ∂2𝑢\n∂𝑥2 , −∞< 𝑥< ∞,\n𝑡> 0,\n𝑐> 0\nwith\n𝑢(𝑥, 0) = {1\nif |𝑥| < 1\n0\notherwise\nand\n∂𝑢\n∂𝑡(𝑥, 0) = 0.\n\nBy using D’Alembert’s formula, the maximum value of 𝑢(0, 𝑡) for 𝑡> 0 is\n\n\n(A)\n1\n(B)\n1\n2\n(C)\n1\n4\n(D)\n0",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "D'Alembert: u(x,t) = [f(x+ct)+f(x-ct)]/2.\n\nu(0,t) = [f(ct)+f(-ct)]/2.\n\nFor t>0, ct>0. f(ct)=1 if ct<1, else 0. f(-ct)=1 if ct<1, else 0.\n\nSo u(0,t) = 1 for 0<t<1/c, and 0 otherwise. Max = 1.\n\nWait, but t>0 strictly. At small t, u(0,t)=1.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.807,
+    "generation_cost": 0.006545
+  },
+  {
+    "question_number": 44,
+    "question": "Consider the Laplace equation\n∂2𝑇\n∂𝑥2 +\n∂2𝑇\n∂𝑦2 = 0, 0 < 𝑥< 1, 0 < 𝑦< 1, with the\nboundary conditions\n𝑇(𝑥, 0) = 𝑥,\n𝑇(0, 𝑦) = 𝑦\n𝑇(𝑥, 1) = 1 + 𝑥,\n𝑇(1, 𝑦) = 1 + 𝑦.\nThen the value of 𝑇(\n1\n2 ,\n1\n3) is equal to\n\n\n(A)\n7\n6\n(B)\n5\n6\n(C)\n1\n6\n(D)\n1\n2",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "T=x+y satisfies Laplace and all BCs. T(1/2,1/3)=5/6.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 4.113,
+    "generation_cost": 0.003
+  },
+  {
+    "question_number": 45,
+    "question": "Let 𝐸1 and 𝐸2 be subsets of a normed linear space 𝑋, and\n𝐸1 + 𝐸2 = {𝑥+ 𝑦∶𝑥∈𝐸1, 𝑦∈𝐸2}\n𝐸1 × 𝐸2 = {(𝑥, 𝑦) ∶𝑥∈𝐸1, 𝑦∈𝐸2}.\nWhich one of the following is NOT TRUE?\n\n\n(A)\nIf either of 𝐸1 or 𝐸2 is open, then 𝐸1 + 𝐸2 is open.\n(B)\nIf 𝐸1 and 𝐸2 are convex, then 𝐸1 + 𝐸2 is convex.\n(C)\nIf 𝐸1and 𝐸2 are closed, then 𝐸1 + 𝐸2 is closed.\n(D)\nIf 𝐸1and 𝐸2 are connected, then 𝐸1 × 𝐸2 is connected.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "C\n\nSum of two closed sets need not be closed.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 5.38,
+    "generation_cost": 0.00264
+  },
+  {
+    "question_number": 46,
+    "question": "For a transportation problem, let 𝑐𝑖𝑗 denote the unit cost of the cell (𝑖, 𝑗). Assume\nthat 𝑐11 = 10, 𝑐12 = 12, 𝑐21 = 11 and 𝑐22 = 13. Let α𝑖 and β𝑗, 𝑖, 𝑗= 1,2,3,\nrepresent the simplex multipliers associated with any basis corresponding to the\nunit cost 𝑐𝑖𝑗. Assume that α1 = 𝑥, α2 = 𝑥+ 1, β1 = 𝑦 and β2 = 𝑦+ 2. The\nrelative cost coefficient 𝑑𝑖𝑗 is the difference between the current solution and the\nnew improved solution.\nIf 𝑥= 4, 𝑐13 = 19 and β3 = 𝑦+ 5, then which one of the following is TRUE?\n\n\n(A)\n𝑦= 6 and 𝑑13 = 7\n(B)\n𝑦= 6 and 𝑑13 = 4\n(C)\n𝑦= 5 and 𝑑13 = 7\n(D)\n𝑦= 5 and 𝑑13 = 4",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nc_ij = α_i + β_j for basic cells.\nc11=10: x+y=10, x=4, so y=6.\nd_ij = c_ij - (α_i + β_j) for non-basic.\nd13 = 19 - (4 + 6+5) = 19 - 15 = 4.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 2.9,
+    "generation_cost": 0.005675
+  },
+  {
+    "question_number": 47,
+    "question": "Let 𝑋 and 𝑌 be topological spaces and 𝑓: 𝑋 →𝑌 be a continuous and bijective\nmapping. Which one of the following statements is TRUE?\n\n\n(A)\n𝑓 is a homeomorphism if 𝑋 and 𝑌 are compact.\n(B)\n𝑓 is a homeomorphism if 𝑋 is Hausdorff and 𝑌 is compact.\n(C)\n𝑓 is a homeomorphism if 𝑋 is compact and 𝑌 is Hausdorff.\n(D)\n𝑓 is a homeomorphism if 𝑋 and 𝑌 are Hausdorff.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 1.522,
+    "generation_cost": 0.002165
+  },
+  {
+    "question_number": 48,
+    "question": "Let 𝑃 and 𝑄 be 3 × 3 nonzero real matrices. Assume that there exists a 3 × 3 real\nnonsingular matrix 𝑆 such that 𝑆−1𝑃𝑆 and 𝑆−1𝑄𝑆 are both upper triangular.\n\n\n(A)\nThe matrix 𝑃𝑄−𝑄𝑃 is invertible.\n(B)\nThe matrix 𝑃𝑄−𝑄𝑃 is nilpotent.\n(C)\nThe matrix 𝐼+ 𝑃𝑄−𝑄𝑃 is invertible, where 𝐼 is the 3 × 3 identity matrix.\n(D)\nIf 𝑃𝑄−𝑄𝑃 is a nonzero matrix, then 𝑃𝑄−𝑄𝑃 is diagonalizable.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nIf both are simultaneously triangularizable, then PQ-QP is strictly upper triangular (in that basis), hence nilpotent. So B true. Not invertible generally (could be zero or nilpotent nonzero, never invertible since nilpotent 3x3). So A false. I + nilpotent is invertible, C true. Nilpotent nonzero is not diagonalizable, D false.\n</think>\n\nFINAL_ANSWER: B,C",
+    "final_answer": "B,C",
+    "generation_time_s": 3.781,
+    "generation_cost": 0.0055
+  },
+  {
+    "question_number": 49,
+    "question": "Let 𝑆= ⋃\n{(𝑥, 𝑦) ∈ℝ2: (𝑥−𝑛)2 + 𝑦2 =\n1\n𝑛2}\n∞\n𝑛=1\nwith usual topology. Which of\nthe following statements is/are TRUE?\n\n\n(A)\n𝑆 is not compact.\n(B)\n𝑆 is compact.\n(C)\n𝑆 is connected.\n(D)\n𝑆 is not connected.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A: true. B: true. C: sum of two independent chi-square(1) = chi-square(2) = exponential with mean 2. True. D: √n X̄ ~ N(0,1), so its square is chi-square(1), not 2.\n\nFINAL_ANSWER: A,B,C",
+    "final_answer": "A,B,C",
+    "generation_time_s": 3.344,
+    "generation_cost": 0.004395
+  },
+  {
+    "question_number": 50,
+    "question": "Let 𝑓(𝑧) =\n𝑧\n1−𝑧 and 𝑔(𝑧) =\n1+𝑧\n1−𝑧 be two Mӧbius transformations defined on the\nunit disc 𝐷= {𝑧∈ℂ∶|𝑧| < 1}. Consider the following statements:\n𝑆1: 𝑓(𝐷) ⊆𝑔(𝐷)\n𝑆2: 𝑔(𝐷) ⊆f(𝐷)\nWhich of the following statements is/are CORRECT?\n\n\n(A)\n𝑆1 is true.\n(B)\n𝑆2 is true.\n(C)\n𝑆2 is true and 𝑆1 is false.\n(D)\nNeither 𝑆1 is true nor 𝑆2 is true.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf(z) = z/(1-z). Map unit disk. f(0)=0, f(1)=∞, f(-1)=-1/2. The image of unit disk under f: |z|<1 maps to half-plane Re(w) > -1/2.\n\nCheck: w = z/(1-z), so z = w/(1+w). |z|<1 means |w|<|1+w|, i.e., |w|² < |1+w|², so Re(w) > -1/2.\n\ng(z) = (1+z)/(1-z). This maps unit disk to right half-plane Re(w)>0. Standard.\n\nSo f(D) = {Re(w) > -1/2}, g(D) = {Re(w) > 0}.\n\nS1: f(D) ⊆ g(D)? No, f(D) is larger.\nS2: g(D) ⊆ f(D)? Yes, {Re>0} ⊆ {Re>-1/2}.\n\nSo S2 true, S1 false. Answer C.\n</think>\n\n**Solution:**\n\n**For f(z) = z/(1-z):** Setting w = z/(1-z), we get z = w/(1+w). The condition |z| < 1 becomes |w| < |1+w|, i.e., |w|² < |1+w|², which simplifies to **Re(w) > -1/2**.\n\nSo f(D) = {w : Re(w) > -1/2}.\n\n**For g(z) = (1+z)/(1-z):** This is the standard Cayley transform mapping the unit disk to the right half-plane **Re(w) > 0**.\n\nSo g(D) = {w : Re(w) > 0}.\n\n**Comparing:**\n- S1: f(D) ⊆ g(D)? {Re > -1/2} ⊆ {Re > 0}? **False** (e.g., w = -1/4 is in f(D) but not g(D)).\n- S2: g(D) ⊆ f(D)? {Re > 0} ⊆ {Re > -1/2}? **True**.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 7.555,
+    "generation_cost": 0.0185
+  },
+  {
+    "question_number": 51,
+    "question": "Let α and β be the roots of the indicial equation obtained in the method of finding\nFrobenius series solution to the differential equation:\n2𝑥2 𝑑2𝑦\n𝑑𝑥2 −𝑥𝑑𝑦\n𝑑𝑥+ (1 −𝑥2)𝑦= 0 .\n\n\n(A)\nα ≠β\n(B)\nα −β ∈ℤ\n(C)\nα −β ∉ℤ\n(D)\nα = β",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nIndicial: 2r(r-1) - r + 1 = 0 → 2r² - 3r + 1 = 0 → r = 1, 1/2. Difference = 1/2, not integer.\n</think>\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 2.812,
+    "generation_cost": 0.003795
+  },
+  {
+    "question_number": 52,
+    "question": "Let ℚ[𝑥] be the ring of all polynomials with coefficients in ℚ under the usual\npolynomial addition and multiplication. Let 𝑇: ℚ[𝑥] →ℚ[𝑥] be defined by\n𝑇(𝑝(𝑥)) = 𝑝(𝑥2), for all 𝑝(𝑥) ∈ℚ[𝑥] .\n\n\n(A)\n𝑇 is a ring homomorphism.\n(B)\n𝑇 is one-to-one.\n(C)\n𝑇 is onto.\n(D)\n𝑇 is a ring isomorphism.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "T(p+q) = (p+q)(x²) = p(x²)+q(x²) ✓\nT(pq) = (pq)(x²) = p(x²)q(x²) ✓\nSo T is a ring homomorphism.\n\nOne-to-one: if p(x²)=q(x²), then p=q. Yes.\n\nOnto: x is not in image (no p(x²) = x). Not onto.\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 2.939,
+    "generation_cost": 0.00529
+  },
+  {
+    "question_number": 53,
+    "question": "Let 𝑋 be any normed linear space and 𝑋′ be the dual space of 𝑋. Which of the\nfollowing statements is/are TRUE?\n\n\n(A)\nIf 𝑋 is separable and 𝑋′ is non-separable, then 𝑋 must be reflexive.\n(B)\nIf 𝑋 is separable and 𝑋′ is non-separable, then 𝑋 cannot be reflexive.\n(C)\nIf 𝑋 is reflexive, then 𝑋′ is reflexive.\n(D)\nIf 𝑋′ is separable, then 𝑋 is separable.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nA: If X separable and X' non-separable. If X reflexive, then X'' = X separable, so X'' separable implies X' separable (by standard result). Contradiction. So X cannot be reflexive. So B is true, A false.\n\nC: X reflexive iff X' reflexive. True.\n\nD: X' separable implies X separable. True.\n\nAnswer: B, C, D\n</think>\n\nFINAL_ANSWER: B,C,D",
+    "final_answer": "B,C,D",
+    "generation_time_s": 2.416,
+    "generation_cost": 0.004915
+  },
+  {
+    "question_number": 54,
+    "question": "Let (ℤ𝑛, +) be the group of integers modulo 𝑛. Let 𝐺= ℤ30⨁ ℤ12 be the external\ndirect product of ℤ30 and ℤ12.\nThen which of the following statements is/are TRUE?\n\n\n(A)\n𝐺 is not a cyclic group.\n(B)\nThe order of the element (14,7) in 𝐺 is 98.\n(C)\nThe order of the element (14,7) in 𝐺 is 60.\n(D)\nThere is an element in 𝐺 of order 360.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nG = Z_30 ⊕ Z_12. Order 360. Cyclic iff gcd(30,12)=1, but gcd=6, so not cyclic. (A) true.\n\nOrder of (14,7): order of 14 in Z_30 = 30/gcd(14,30)=30/2=15. Order of 7 in Z_12 = 12/gcd(7,12)=12/1=12. lcm(15,12)=60. (C) true.\n\nMax order in G = lcm(30,12)=60, so no element of order 360. (D) false.\n</think>\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 2.96,
+    "generation_cost": 0.00661
+  },
+  {
+    "question_number": 55,
+    "question": "Let 𝐽=\n(\n\n\n2\n1\n0\n2\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n2\n1\n0\n2\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n3\n1\n0\n3)\n\n\n.\nThen the geometric multiplicity of the eigenvalue 2 of 𝐽 is equal to .\n(answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Two Jordan blocks for eigenvalue 2, so geometric multiplicity = 2.\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 7.432,
+    "generation_cost": 0.002945
+  },
+  {
+    "question_number": 56,
+    "question": "Let α = ∬𝐹⃗\n\n𝑆\n∙ 𝑛̂ 𝑑𝑆, where 𝐹⃗= (2𝑥+ 3𝑧)𝑖̂ + (𝑥𝑧−𝑦)𝑗̂ + (𝑦2 + 2𝑧)𝑘̂ and 𝑆 is\nthe sphere with centre at (3, −1, 2) and radius 9. Here, 𝑛̂ is the unit normal drawn\noutward and 𝑖̂, 𝑗̂, 𝑘̂ are unit vectors.\nThen the value of\n1\n36 𝜋α is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Divergence = 2 - 1 + 2 = 3.\n\nVolume of sphere radius 9 = (4/3)π(729) = 972π.\n\nα = 3 × 972π = 2916π.\n\nα/(36π) = 81.\n\nFINAL_ANSWER: 81",
+    "final_answer": "81",
+    "generation_time_s": 1.792,
+    "generation_cost": 0.003915
+  },
+  {
+    "question_number": 57,
+    "question": "Consider the problem of maximizing\n𝑧= (𝑥1\n𝑥2\n𝑥3) (\n2\n0\n0\n0\n2\n1\n0\n1\n2\n) (\n𝑥1\n𝑥2\n𝑥3\n)\nsubject to\n(𝑥1\n𝑥2\n𝑥3) (\n𝑥1\n𝑥2\n𝑥3\n) = 1,\nwhere (\n𝑥1\n𝑥2\n𝑥3\n) ∈ℝ3.\nThen the maximum value of 𝑧 is . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Max eigenvalue of matrix. Eigenvalues: 2, and from 2x2 block [[2,1],[1,2]]: 3,1. Max = 3.\n\nFINAL_ANSWER: 3",
+    "final_answer": "3",
+    "generation_time_s": 3.954,
+    "generation_cost": 0.00395
+  },
+  {
+    "question_number": 58,
+    "question": "Let 𝑃3(ℝ) be the vector space of all polynomials of degree at most three with the\nreal coefficients under usual polynomial addition and scalar multiplication. Let\n𝑇: 𝑃3(ℝ) →ℝ2 be the linear transformation defined as\n𝑇(𝑝) = (𝑝(1), 𝑝′(1))\nfor all 𝑝 ∈𝑃3(ℝ), where 𝑝′ is the derivative of 𝑝. Then the nullity of 𝑇 is equal to\n. (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Dim P3 = 4, rank = 2 (T is onto), nullity = 2.\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 3.003,
+    "generation_cost": 0.00275
+  },
+  {
+    "question_number": 59,
+    "question": "The number of zeros of the complex polynomial 𝑧6 + 5𝑧3 + 4𝑧+ 11 in the\nannulus {𝑧∈ℂ∶1 < |𝑧| < 3} is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nUse Rouché's theorem.\n\nOn |z|=3: dominant term z^6, |z^6|=729. Other terms: |5z^3+4z+11| ≤ 5·27+12+11=135+23=158 < 729. So 6 zeros inside |z|<3.\n\nOn |z|=1: find dominant. |z^6+5z^3+4z+11|. Try 11 as dominant: |z^6+5z^3+4z| ≤ 1+5+4=10 < 11. So no zeros inside |z|≤1, meaning 0 zeros in |z|<1.\n\nNeed to check no zeros on |z|=1. Since strict inequality holds, no zeros on |z|=1.\n\nCheck |z|=3: strict, no zeros on boundary.\n\nSo zeros in annulus = 6 - 0 = 6.\n</think>\n\nFINAL_ANSWER: 6",
+    "final_answer": "6",
+    "generation_time_s": 3.702,
+    "generation_cost": 0.008335
+  },
+  {
+    "question_number": 60,
+    "question": "Let 𝐿2[0, π] denote the space of all real valued Lebesgue square integrable\nfunctions on [0, π]. Let 𝑇: 𝐿2[0, π] →𝐿2[0, π] be defined as follows:\n𝑇(𝑓(𝑥)) = sin𝑥∫𝑓(𝑡)cos𝑡 𝑑𝑡\n𝜋\n0\n+ cos𝑥∫𝑓(𝑡)sin𝑡 𝑑𝑡\n𝜋\n0\n.\nThen the value of\n4\n𝜋‖𝑇‖ is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nT(f) = sin(x) <f, cos> + cos(x) <f, sin>, where <f,g> = ∫₀^π f(t)g(t)dt.\n\nT maps into span{sin x, cos x}. Let u = sin x, v = cos x. ||u||² = π/2, ||v||² = π/2, <u,v> = 0.\n\nFor f in L², let a = <f, cos>, b = <f, sin>. Then T(f) = a·sin(x) + b·cos(x).\n\n||T(f)||² = a²(π/2) + b²(π/2) = (π/2)(a² + b²).\n\nBy Cauchy-Schwarz, a² ≤ ||f||²·||cos||² = ||f||²·(π/2), similarly b². But a and b are inner products with orthogonal functions cos and sin.\n\na² + b² = |<f, cos>|² + |<f, sin>|² ≤ ||f||² · ||cos||² ... wait, this is the projection onto span{sin, cos}/normalized.\n\nSince sin and cos are orthogonal with norm² = π/2, the orthonormal basis is √(2/π)sin, √(2/π)cos. Projection of f: coefficients <f, √(2/π)cos> = √(2/π)·a, etc. So (2/π)(a²+b²) ≤ ||f||².\n\nThus a² + b² ≤ (π/2)||f||².\n\nThen ||T(f)||² = (π/2)(a²+b²) ≤ (π/2)²||f||².\n\nSo ||T|| ≤ π/2. Equality when f is in span{sin, cos}.\n\n||T|| = π/2. Then (4/π)||T|| = (4/π)(π/2) = 2.\n</think>\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 8.313,
+    "generation_cost": 0.016545
+  },
+  {
+    "question_number": 61,
+    "question": "Let Ω = {(𝑥, 𝑦) ∈ℝ2: 𝑥2 + 𝑦2 < 1} be the open unit disc and ∂Ω be its\nboundary. If 𝑢(𝑥, 𝑦) is the solution of the following Dirichlet problem\n∂2𝑢\n∂𝑥2 + ∂2𝑢\n∂𝑦2 = 0 in Ω\n𝑢(𝑥, 𝑦) = 𝑥2 −𝑦2 on ∂Ω,\nthen the value of 4 (𝑢(\n1\n2 , 0) − 𝑢(0,\n1\n2)) is . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "u = x²-y² is harmonic, satisfies boundary. So u(1/2,0)-u(0,1/2) = 1/4-(-1/4)=1/2. Times 4 = 2.\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 2.167,
+    "generation_cost": 0.003845
+  },
+  {
+    "question_number": 62,
+    "question": "Let 𝑋= {5, 6, 7, 8, 9, 10} be equipped with the topology\nτ = {𝜙, 𝑋, {5,6,7}, {8,9,10}}.\nThen the number of subsets of 𝑋 which are neither open nor closed is .\n(answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Open sets: ∅, X, {5,6,7}, {8,9,10}. Closed sets are complements: X, ∅, {8,9,10}, {5,6,7}. So same 4 sets are both open and closed.\n\nTotal subsets = 64. Neither open nor closed = 64 - 4 = 60.\n\nFINAL_ANSWER: 60",
+    "final_answer": "60",
+    "generation_time_s": 2.504,
+    "generation_cost": 0.00412
+  },
+  {
+    "question_number": 63,
+    "question": "Let α, β ∈ℝ. If (4, 0, 2, β) is an optimal solution of the Linear Programming\nProblem:\nminimize 𝑥1 + 3𝑥2 + 2𝑥3 −α𝑥4\nsubject to\n4𝑥1 + 𝑥2 + 𝑥3 = 18\n−3𝑥1 + 2𝑥3 + 𝑥4 = 2\n𝑥1, 𝑥2, 𝑥3, 𝑥4 ≥0,\nthen the maximum value of 22(α + β) is equal to . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nConstraints: 4x1+x2+x3=18: 16+0+2=18 ✓\n-3x1+2x3+x4=2: -12+4+β=2, so β=10.\n\nBasic feasible solution with x1=4, x3=2, x4=10, x2=0. Basis: {x1,x3,x4}.\n\nCompute reduced costs. c_B = (c1,c3,c4)=(1,2,-α).\nB = columns of x1,x3,x4:\n[4 1 0]\n[-3 2 1]\n\nB^{-1}: det = 4*2 - 1*(-3) = 8+3=11.\nB^{-1} = (1/11)[2 -1; 3 4]... wait 3x3? No, 2 equations, 3 basic vars? That's wrong.\n\nWait, 2 constraints, so basis has 2 variables. But we have 3 nonzero: x1=4, x3=2, x4=10. Degenerate? No, 3 nonzero with 2 constraints means it's not a basic solution unless degenerate... Actually it can still be optimal.\n\nLet me reconsider. With 2 constraints, basic solution has ≤2 nonzero. Here we have 3 nonzero, so it's not basic. But optimal solutions don't need to be basic.\n\nFor optimality, use duality. Dual:\nmax 18y1 + 2y2\ns.t. 4y1 - 3y2 ≤ 1 (x1)\n     y1 ≤ 3 (x2)\n     y1 + 2y2 ≤ 2 (x3)\n     y2 ≤ -α (x4)\n\nWait, primal is minimize, equality constraints, so dual variables free.\nDual: max 18y1+2y2 s.t. A^T y ≤ c.\n\nComplementary slackness: since x1,x3,x4 >0, corresponding dual constraints are tight:\n4y1 - 3y2 = 1\ny1 + 2y2 = 2\ny2 = -α\n\nFrom first two: 4y1-3y2=1, y1+2y2=2. y1=2-2y2. 4(2-2y2)-3y2=1 → 8-8y2-3y2=1 → 11y2=7 → y2=7/11.\nThen y1 = 2-14/11 = 8/11.\nAnd -α = 7/11, so α = -7/11.\n\nFor x2=0, need dual constraint y1 ≤ 3: 8/11 ≤ 3 ✓.\n\nSo α = -7/11, β = 10.\nα+β = 10 - 7/11 = 103/11.\n22(α+β) = 22·103/11 = 2·103 = 206.\n\nBut question says \"maximum value\". Maybe α can vary? Let me check: for the given point to be optimal, α must satisfy certain conditions.\n\nActually since x4>0, complementary slackness forces y2=-α exactly. So α is determined... unless we allow the solution to be optimal with x4 possibly at boundary. Hmm.\n\nWait, perhaps β is not uniquely determined either? β=10 is forced by feasibility.\n\nActually let me reconsider. Maybe the problem wants us to find range of α for which (4,0,2,β) is optimal, then maximize.\n\nIf we don't require x4 to have tight dual (but x4=10>0 requires it), then α is uniquely -7/11.\n\nHmm, \"maximum value\" suggests there's a range. Let me reconsider if the solution needs to be basic optimal.\n\nActually maybe the point isn't unique optimal - it just needs to be AN optimal solution. Let me think again about the reduced cost approach.\n\nFor (4,0,2,β) to be optimal, we need dual feasibility with complementary slackness. Since all of x1,x3,x4 are strictly positive, their dual constraints must be equalities. This gives unique y1,y2, hence unique α.\n\nSo α=-7/11, β=10, 22(α+β)=206.\n</think>\n\n**Setting up the problem:**\n\nFrom the constraints with x₁=4, x₂=0, x₃=2:\n- Constraint 1: 4(4) + 0 + 2 = 18 ✓\n- Constraint 2: -3(4) + 2(2) + β = 2, giving **β = 10**\n\n**Using LP Duality and Complementary Slackness:**\n\nThe dual problem:\n- max 18y₁ + 2y₂\n- Subject to: 4y₁ - 3y₂ ≤ 1 (x₁), y₁ ≤ 3 (x₂), y₁ + 2y₂ ≤ 2 (x₃), y₂ ≤ -α (x₄)\n\nSince x₁ = 4 > 0, x₃ = 2 > 0, x₄ = 10 > 0, complementary slackness requires their dual constraints to be tight:\n- 4y₁ - 3y₂ = 1\n- y₁ + 2y₂ = 2\n- y₂ = -α\n\n**Solving:**\nFrom y₁ + 2y₂ = 2: y₁ = 2 - 2y₂\nSubstituting: 4(2 - 2y₂) - 3y₂ = 1 → 8 - 11y₂ = 1 → **y₂ = 7/11**\nThen y₁ = 8/11\n\nCheck x₂ constraint: y₁ = 8/11 ≤ 3 ✓\n\nSo **α = -y₂ = -7/11**\n\n**Final calculation:**\n\n22(α + β) = 22(-7/11 + 10) = 22(103/11) = 2(103) = **206**\n\nFINAL_ANSWER: 206",
+    "final_answer": "206",
+    "generation_time_s": 22.776,
+    "generation_cost": 0.04757
+  },
+  {
+    "question_number": 64,
+    "question": "Let 𝐷= {(𝑥, 𝑦) ∈ℝ2 ∶0 ≤𝑥≤2, 0 ≤𝑦≤2} and let 𝑓(𝑡) denote the smallest\ninteger greater than or equal to 𝑡. Then the value of the integral\n∬𝑓(𝑥+ 𝑦)𝑑𝑥𝑑𝑦\n\n𝐷\n\nis . (answer in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf(t) = ceiling of t. Integrate ceil(x+y) over [0,2]^2.\n\nx+y ranges from 0 to 4. ceil(x+y) = k for k-1 < x+y ≤ k, k=1,2,3,4. At x+y=0, ceil=0, measure zero.\n\nArea where ceil(x+y)=k is area of {k-1 < x+y ≤ k} ∩ [0,2]^2.\n\nLet A(s) = area of {x+y ≤ s} in [0,2]^2.\n- s≤0: 0\n- 0≤s≤2: s²/2\n- 2≤s≤4: 4 - (4-s)²/2\n- s≥4: 4\n\nArea for k: A(k) - A(k-1).\nk=1: A(1)-A(0) = 1/2 - 0 = 1/2\nk=2: A(2)-A(1) = 2 - 1/2 = 3/2\nk=3: A(3)-A(2) = (4-1/2) - 2 = 3/2\nk=4: A(4)-A(3) = 4 - 7/2 = 1/2\n\nIntegral = 1·(1/2) + 2·(3/2) + 3·(3/2) + 4·(1/2) = 0.5 + 3 + 4.5 + 2 = 10.\n</think>\n\nFINAL_ANSWER: 10",
+    "final_answer": "10",
+    "generation_time_s": 8.39,
+    "generation_cost": 0.01254
+  },
+  {
+    "question_number": 65,
+    "question": "If Jacobi method is used to solve the following system of linear equations\n(\n1\n2\n1\n0\n2\n2\n1\n1\n1\n) (\n𝑥1\n𝑥2\n𝑥3\n) = (\n2\n2\n2\n)\nwith the initial guess 𝑥(0) = (\n0\n0\n0\n) and 𝑥(𝑖) = (\n𝑥1\n(𝑖)\n𝑥2\n(𝑖)\n𝑥3\n(𝑖)\n) , 𝑖= 1,2,3 … , denotes the\n𝑖𝑡ℎ iterate, then the value of | 𝑥1\n(2) + 𝑥2\n(2) + 𝑥3\n(2)| is equal to . (answer in\ninteger)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Jacobi iteration:\nx1 = 2 - 2x2 - x3\nx2 = (2 - 2x3)/2 = 1 - x3\nx3 = 2 - x1 - x2\n\nx(0) = (0,0,0)\nx(1): x1=2, x2=1, x3=2\nx(2): x1 = 2 - 2(1) - 2 = -2\nx2 = 1 - 2 = -1\nx3 = 2 - 2 - 1 = -1\nSum = -4, |sum| = 4\n\nFINAL_ANSWER: 4",
+    "final_answer": "4",
+    "generation_time_s": 2.51,
+    "generation_cost": 0.00703
+  }
+]

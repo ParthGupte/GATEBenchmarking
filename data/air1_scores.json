@@ -1,0 +1,13 @@
+{
+  "_description": "Official GATE 2026 All India Rank 1 candidate scores, out of 100, for the six test papers benchmarked in this study. External reference data used as the human-topper baseline in Figures 1 and 2 -- these are not produced by this pipeline.",
+  "_source": "GATE 2026 results, published by the organising institute (IIT Guwahati).",
+  "_year": 2026,
+  "scores": {
+    "CS1": 92.6,
+    "CS2": 92.6,
+    "DA": 90.0,
+    "EC": 95.7,
+    "EE": 92.0,
+    "MA": 84.7
+  }
+}

@@ -1,0 +1,1021 @@
+[
+  {
+    "question_number": 1,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 8.042,
+    "generation_cost": 0.001973
+  },
+  {
+    "question_number": 2,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "D"
+    ],
+    "final_answer": "B",
+    "is_correct": false,
+    "marks_obtained": -0.33,
+    "generation_time_s": 13.442,
+    "generation_cost": 0.002064
+  },
+  {
+    "question_number": 3,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 23.869,
+    "generation_cost": 0.004145
+  },
+  {
+    "question_number": 4,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 17.165,
+    "generation_cost": 0.002256
+  },
+  {
+    "question_number": 5,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "C",
+    "is_correct": false,
+    "marks_obtained": -0.33,
+    "generation_time_s": 41.556,
+    "generation_cost": 0.006135
+  },
+  {
+    "question_number": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 16.987,
+    "generation_cost": 0.002245
+  },
+  {
+    "question_number": 7,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "D"
+    ],
+    "final_answer": "D",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 11.646,
+    "generation_cost": 0.002719
+  },
+  {
+    "question_number": 8,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": "MTA*",
+    "final_answer": "D",
+    "is_correct": null,
+    "marks_obtained": 2,
+    "generation_time_s": 62.259,
+    "generation_cost": 0.010779
+  },
+  {
+    "question_number": 9,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "C"
+    ],
+    "final_answer": "C",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 13.573,
+    "generation_cost": 0.002729
+  },
+  {
+    "question_number": 10,
+    "question_type": "MCQ",
+    "section": "GA",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 29.414,
+    "generation_cost": 0.004813
+  },
+  {
+    "question_number": 11,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 20.705,
+    "generation_cost": 0.00651
+  },
+  {
+    "question_number": 12,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 7.763,
+    "generation_cost": 0.001729
+  },
+  {
+    "question_number": 13,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 12.937,
+    "generation_cost": 0.002389
+  },
+  {
+    "question_number": 14,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 24.453,
+    "generation_cost": 0.004598
+  },
+  {
+    "question_number": 15,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 14.143,
+    "generation_cost": 0.001941
+  },
+  {
+    "question_number": 16,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "D"
+    ],
+    "final_answer": "D",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 19.966,
+    "generation_cost": 0.004205
+  },
+  {
+    "question_number": 17,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "D"
+    ],
+    "final_answer": "D",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 19.147,
+    "generation_cost": 0.003823
+  },
+  {
+    "question_number": 18,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "C",
+    "is_correct": false,
+    "marks_obtained": -0.33,
+    "generation_time_s": 70.618,
+    "generation_cost": 0.00617
+  },
+  {
+    "question_number": 19,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "28-20e^{-5t} V (t>0)",
+    "is_correct": null,
+    "marks_obtained": null,
+    "generation_time_s": 31.725,
+    "generation_cost": 0.005623
+  },
+  {
+    "question_number": 20,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 7.871,
+    "generation_cost": 0.002604
+  },
+  {
+    "question_number": 21,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 22.007,
+    "generation_cost": 0.005443
+  },
+  {
+    "question_number": 22,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "C"
+    ],
+    "final_answer": "1.92",
+    "is_correct": null,
+    "marks_obtained": null,
+    "generation_time_s": 15.34,
+    "generation_cost": 0.003599
+  },
+  {
+    "question_number": 23,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 12.289,
+    "generation_cost": 0.002389
+  },
+  {
+    "question_number": 24,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 28.785,
+    "generation_cost": 0.002919
+  },
+  {
+    "question_number": 25,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A",
+      "B"
+    ],
+    "final_answer": "A,B",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 8.158,
+    "generation_cost": 0.002874
+  },
+  {
+    "question_number": 26,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      "C"
+    ],
+    "final_answer": "B",
+    "is_correct": false,
+    "marks_obtained": 0,
+    "generation_time_s": 44.885,
+    "generation_cost": 0.00772
+  },
+  {
+    "question_number": 27,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "C",
+      "D"
+    ],
+    "final_answer": "C,D",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 17.698,
+    "generation_cost": 0.003748
+  },
+  {
+    "question_number": 28,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A",
+      "D"
+    ],
+    "final_answer": "A,D",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 35.963,
+    "generation_cost": 0.006523
+  },
+  {
+    "question_number": 29,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A",
+      "C"
+    ],
+    "final_answer": "A,C",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 12.049,
+    "generation_cost": 0.001851
+  },
+  {
+    "question_number": 30,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "B",
+      "D"
+    ],
+    "final_answer": "B,D",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 17.584,
+    "generation_cost": 0.002901
+  },
+  {
+    "question_number": 31,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      "A",
+      "D"
+    ],
+    "final_answer": "A,D",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 10.973,
+    "generation_cost": 0.002139
+  },
+  {
+    "question_number": 32,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      [
+        0.25,
+        0.25
+      ]
+    ],
+    "final_answer": "0.25",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 20.992,
+    "generation_cost": 0.005316
+  },
+  {
+    "question_number": 33,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 1,
+    "has_image": false,
+    "correct_answer": [
+      [
+        3.0,
+        3.0
+      ]
+    ],
+    "final_answer": "3",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 19.875,
+    "generation_cost": 0.004368
+  },
+  {
+    "question_number": 34,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      [
+        50.0,
+        50.0
+      ]
+    ],
+    "final_answer": "50",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 37.127,
+    "generation_cost": 0.005979
+  },
+  {
+    "question_number": 35,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 1,
+    "has_image": true,
+    "correct_answer": [
+      [
+        250.0,
+        250.0
+      ]
+    ],
+    "final_answer": "250",
+    "is_correct": true,
+    "marks_obtained": 1,
+    "generation_time_s": 13.527,
+    "generation_cost": 0.00302
+  },
+  {
+    "question_number": 36,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "D"
+    ],
+    "final_answer": "D",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 16.46,
+    "generation_cost": 0.003548
+  },
+  {
+    "question_number": 37,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 74.766,
+    "generation_cost": 0.009934
+  },
+  {
+    "question_number": 38,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 65.996,
+    "generation_cost": 0.010416
+  },
+  {
+    "question_number": 39,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "25 μF",
+    "is_correct": null,
+    "marks_obtained": null,
+    "generation_time_s": 20.46,
+    "generation_cost": 0.003305
+  },
+  {
+    "question_number": 40,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 33.513,
+    "generation_cost": 0.005305
+  },
+  {
+    "question_number": 41,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "D"
+    ],
+    "final_answer": "D",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 32.978,
+    "generation_cost": 0.00632
+  },
+  {
+    "question_number": 42,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 28.384,
+    "generation_cost": 0.004313
+  },
+  {
+    "question_number": 43,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "D"
+    ],
+    "final_answer": "D",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 25.049,
+    "generation_cost": 0.003566
+  },
+  {
+    "question_number": 44,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 30.701,
+    "generation_cost": 0.004416
+  },
+  {
+    "question_number": 45,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "B",
+    "is_correct": false,
+    "marks_obtained": -0.67,
+    "generation_time_s": 43.909,
+    "generation_cost": 0.006985
+  },
+  {
+    "question_number": 46,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 14.225,
+    "generation_cost": 0.002694
+  },
+  {
+    "question_number": 47,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "0.6, 0.4",
+    "is_correct": null,
+    "marks_obtained": null,
+    "generation_time_s": 41.176,
+    "generation_cost": 0.008145
+  },
+  {
+    "question_number": 48,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "98",
+    "is_correct": null,
+    "marks_obtained": null,
+    "generation_time_s": 11.399,
+    "generation_cost": 0.002258
+  },
+  {
+    "question_number": 49,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "C"
+    ],
+    "final_answer": "64",
+    "is_correct": null,
+    "marks_obtained": null,
+    "generation_time_s": 9.164,
+    "generation_cost": 0.002046
+  },
+  {
+    "question_number": 50,
+    "question_type": "MCQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 15.593,
+    "generation_cost": 0.002666
+  },
+  {
+    "question_number": 51,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A"
+    ],
+    "final_answer": "A",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 52.336,
+    "generation_cost": 0.007546
+  },
+  {
+    "question_number": 52,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A",
+      "B"
+    ],
+    "final_answer": "A,B",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 57.993,
+    "generation_cost": 0.006773
+  },
+  {
+    "question_number": 53,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 24.912,
+    "generation_cost": 0.006745
+  },
+  {
+    "question_number": 54,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "B",
+      "C"
+    ],
+    "final_answer": "B,C",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 30.66,
+    "generation_cost": 0.004891
+  },
+  {
+    "question_number": 55,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      "A",
+      "D"
+    ],
+    "final_answer": "A,D",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 54.752,
+    "generation_cost": 0.006948
+  },
+  {
+    "question_number": 56,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "B"
+    ],
+    "final_answer": "B,D",
+    "is_correct": false,
+    "marks_obtained": 0,
+    "generation_time_s": 91.9,
+    "generation_cost": 0.013001
+  },
+  {
+    "question_number": 57,
+    "question_type": "MSQ",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      "A",
+      "D"
+    ],
+    "final_answer": "A,D",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 21.118,
+    "generation_cost": 0.004453
+  },
+  {
+    "question_number": 58,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      [
+        6.95,
+        7.05
+      ]
+    ],
+    "final_answer": "7.00",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 15.61,
+    "generation_cost": 0.002649
+  },
+  {
+    "question_number": 59,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      [
+        2.95,
+        3.05
+      ]
+    ],
+    "final_answer": "3.00",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 38.772,
+    "generation_cost": 0.005084
+  },
+  {
+    "question_number": 60,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "final_answer": "0.00",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 30.424,
+    "generation_cost": 0.006406
+  },
+  {
+    "question_number": 61,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      [
+        13.32,
+        13.34
+      ]
+    ],
+    "final_answer": "6.67",
+    "is_correct": false,
+    "marks_obtained": 0,
+    "generation_time_s": 27.892,
+    "generation_cost": 0.002963
+  },
+  {
+    "question_number": 62,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      [
+        200.0,
+        200.0
+      ]
+    ],
+    "final_answer": "200",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 18.414,
+    "generation_cost": 0.003679
+  },
+  {
+    "question_number": 63,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      [
+        0.23,
+        0.24
+      ]
+    ],
+    "final_answer": "0.24",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 32.475,
+    "generation_cost": 0.006274
+  },
+  {
+    "question_number": 64,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": false,
+    "correct_answer": [
+      [
+        6.3,
+        6.5
+      ]
+    ],
+    "final_answer": "6.4",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 9.336,
+    "generation_cost": 0.002044
+  },
+  {
+    "question_number": 65,
+    "question_type": "NAT",
+    "section": "EC",
+    "marks": 2,
+    "has_image": true,
+    "correct_answer": [
+      [
+        0.62,
+        0.63
+      ]
+    ],
+    "final_answer": "0.63",
+    "is_correct": true,
+    "marks_obtained": 2,
+    "generation_time_s": 19.317,
+    "generation_cost": 0.003996
+  }
+]

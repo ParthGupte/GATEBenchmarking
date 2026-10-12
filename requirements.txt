@@ -1,0 +1,7 @@
+# Python 3.9+
+pymupdf==1.26.5      # PDF parsing for question / answer-key extraction
+matplotlib==3.9.4    # all figures
+numpy==2.0.2
+pillow==11.3.0       # image crops
+openpyxl==3.1.5      # the per-question spreadsheet report
+httpx==0.28.1        # OpenRouter API client (only needed to re-run the benchmark)

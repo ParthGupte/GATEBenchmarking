@@ -1,0 +1,652 @@
+[
+  {
+    "question_number": 1,
+    "question": "Here are two analogous groups, Group-I and Group-II, that list words in their\ndecreasing order of intensity. Identify the missing word in Group-II.\nGroup-I: Abuse → Insult → Ridicule\nGroup-II: ________ → Praise → Appreciate\n(A)\nExtol\n(B)\nPrize\n(C)\nAppropriate\n(D)\nEspouse",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Group-I decreasing intensity: Abuse (strongest) → Insult → Ridicule (mildest).\n\nGroup-II needs strongest positive word before Praise → Appreciate.\n\nExtol means to praise highly/enthusiastically - strongest.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.075,
+    "generation_cost": 0.00367
+  },
+  {
+    "question_number": 2,
+    "question": "Had I learnt acting as a child, I ________ a famous film star.\nSelect the most appropriate option to complete the above sentence.\n(A)\nwill be\n(B)\ncan be\n(C)\nam going to be\n(D)\ncould have been",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 0.891,
+    "generation_cost": 0.001385
+  },
+  {
+    "question_number": 3,
+    "question": "The 12 musical notes are given as 𝐶, 𝐶#, 𝐷, 𝐷#, 𝐸, 𝐹, 𝐹#, 𝐺, 𝐺#, 𝐴, 𝐴#, and 𝐵.\nFrequency of each note is √2\n12\ntimes the frequency of the previous note. If the\nfrequency of the note C is 130.8 Hz, then the ratio of frequencies of notes 𝐹# and 𝐶\nis:\n(A)\n√2\n6\n\n(B)\n√2\n(C)\n√2\n4\n\n(D)\n2",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "F# is 6 semitones above C. Ratio = 2^(6/12) = √2.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.582,
+    "generation_cost": 0.00261
+  },
+  {
+    "question_number": 4,
+    "question": "The following figures show three curves generated using an iterative algorithm. The\ntotal length of the curve generated after ‘Iteration 𝑛’ is:\nNote: The figures shown are representative.\n\n\nIteration 0:\n\n\nIteration 1:\n\n\n\nIteration 2:\n\n(A)\n(5\n3)\n𝑛\n2\n\n(B)\n(5\n3)\n𝑛\n\n(C)\n(5\n3)\n2𝑛\n\n(D)\n(5\n3)\n𝑛(2𝑛−1)\n\n\n\n\n\n\n\n1\nLength of each segment: 1\n3\nLength of each segment: 1\n9\n1\n3\n1\n9",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Iteration 1 has 5 segments each of length 1/3, total = 5/3.\nIteration 2: 25 segments × 1/9 = 25/9 = (5/3)².\n\nSo iteration n: (5/3)^n.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 2.874,
+    "generation_cost": 0.006015
+  },
+  {
+    "question_number": 5,
+    "question": "Which one of the following plots represents 𝑓(𝑥) = −\n|𝑥|\n𝑥, where 𝑥 is a non-\nzero real number?\nNote: The figures shown are representative.\n(A)\n\n(B)\n\n(C)\n\n(D)\n\n\n\n\n\n\n(0,1)\n(0, −1)\nx\nf(x)\n(1,0)\n(−1,0)\nx\nf(x)\n(0,1)\n(0, −1)\nx\nf(x)\n(0,1)\n(0, −1)\nx\nf(x)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "f(x) = -|x|/x equals -1 for x>0 and +1 for x<0.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.736,
+    "generation_cost": 0.00282
+  },
+  {
+    "question_number": 6,
+    "question": "Identify the option that has the most appropriate sequence such that a coherent\nparagraph is formed:\nP. Over time, such adaptations lead to significant evolutionary changes with\nthe potential to shape the development of new species.\n\nQ. In natural world, organisms constantly adapt to their environments in\nresponse to challenges and opportunities.\n\nR. This process of adaptation is driven by the principle of natural selection,\nwhere favorable traits increase an organism’s chances of survival and\nreproduction.\n\nS. As environments change, organisms that can adapt their behavior, structure\nand physiology to such changes are more likely to survive.\n(A)\nP → Q → R → S\n(B)\nQ → S → R → P\n(C)\nR → S → Q → P\n(D)\nS → P → R → Q",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Q introduces, S elaborates, R explains mechanism, P concludes.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.413,
+    "generation_cost": 0.003115
+  },
+  {
+    "question_number": 7,
+    "question": "A stick of length one meter is broken at two locations at distances of 𝑏1 and 𝑏2 from\nthe origin (0), as shown in the figure. Note that 0 < 𝑏1 < 𝑏2 < 1. Which one of the\nfollowing is NOT a necessary condition for forming a triangle using the three\npieces?\nNote: All lengths are in meter. The figure shown is representative.\n\n\n(A)\n𝑏1 < 0.5\n(B)\n𝑏2 > 0.5\n(C)\n𝑏2 < 𝑏1 + 0.5\n(D)\n𝑏1 + 𝑏2 < 1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Pieces: b1, b2-b1, 1-b2.\n\nTriangle inequality: each side < 0.5 (since sum=1).\n- b1 < 0.5 ✓ necessary\n- 1-b2 < 0.5 → b2 > 0.5 ✓ necessary\n- b2-b1 < 0.5 → b2 < b1+0.5 ✓ necessary\n- b1+b2 < 1: not necessary (e.g., b1=0.4, b2=0.7: sum=1.1, pieces 0.4, 0.3, 0.3 form triangle)\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 8.357,
+    "generation_cost": 0.007285
+  },
+  {
+    "question_number": 8,
+    "question": "Eight students (P, Q, R, S, T, U, V, and W) are playing musical chairs. The figure\nindicates their order of position at the start of the game. They play the game by\nmoving forward in a circle in the clockwise direction.\nAfter the 1st round, 4th student behind P leaves the game. After 2nd round, 5th student\nbehind Q leaves the game. After 3rd round, 3rd student behind V leaves the game.\nAfter 4th round, 4th student behind U leaves the game. Who all are left in the game\nafter the 4th round?\nNote: The figure shown is representative.\n\n\n\n\n\n\n\n\n\n(A)\nP; T; Q; S\n(B)\nV; P; T; Q\n(C)\nW; R; Q; V\n(D)\nQ; T; V; W\n\n\n\n\nP\nR\nT\nQ\nS\nV\nU\nW",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nClockwise order from P: P, R, T, Q, S, V, U, W.\n\nMoving forward clockwise. \"Behind\" means counter-clockwise direction (the one behind in the line of motion).\n\nBehind P (counter-clockwise from P): W, U, V, S, Q, T, R...\n4th behind P = S. S leaves.\n\nRemaining clockwise: P, R, T, Q, V, U, W.\n\nBehind Q: T, R, P, W, U, V (counter-clockwise from Q skipping S who left).\n5th behind Q = U. U leaves.\n\nRemaining: P, R, T, Q, V, W.\n\nBehind V: Q, T, R, P, W.\n3rd behind V = R. R leaves.\n\nRemaining: P, T, Q, V, W.\n\nBehind U: but U left. Hmm, problem says \"4th student behind U\". Maybe position-wise still counting from where U was? Or maybe I have direction wrong.\n\nLet me reconsider. Maybe \"behind\" means clockwise (the direction of motion - person behind you is the next one coming).\n\nActually in musical chairs moving clockwise, person \"behind\" you would be the one counter-clockwise (following you). Let me try opposite.\n\n\"Behind P\" clockwise: R, T, Q, S, V, U, W.\n4th behind P = S. Same answer.\n\nHmm both give S since 4th of 7. Wait 4th clockwise from P: R(1), T(2), Q(3), S(4). Yes S.\n4th counter-clockwise from P: W(1), U(2), V(3), S(4). Also S. Coincidence.\n\nLet me try clockwise interpretation throughout.\n\nAfter S leaves, remaining clockwise: P, R, T, Q, V, U, W.\n5th behind Q clockwise: V(1), U(2), W(3), P(4), R(5). R leaves.\n\nRemaining: P, T, Q, V, U, W.\n3rd behind V clockwise: U(1), W(2), P(3). P leaves.\n\nRemaining: T, Q, V, U, W.\n4th behind U clockwise: W(1), T(2), Q(3), V(4). V leaves.\n\nRemaining: T, Q, U, W. Not matching options.\n\nTry counter-clockwise interpretation:\nAfter round 1, S leaves. Remaining clockwise: P, R, T, Q, V, U, W.\n5th behind Q counter-clockwise: T(1), R(2), P(3), W(4), U(5). U leaves.\n\nRemaining: P, R, T, Q, V, W.\n3rd behind V counter-clockwise: Q(1), T(2), R(3). R leaves.\n\nRemaining: P, T, Q, V, W.\n4th behind U... U is gone. Problem.\n\nHmm. Let me try yet another: maybe \"behind\" position is counted including the original arrangement (positions don't shift).\n\nOr maybe people don't actually leave the circle order but are skipped. Let me re-examine: \"4th student behind U\" — perhaps U's position is still reference even after leaving.\n\nWith counter-clockwise:\nAfter R leaves (round 3), remaining: P, T, Q, V, W (in clockwise positions, with U position empty too).\nOriginal positions clockwise: P, R, T, Q, S, V, U, W.\n\n4th behind U counter-clockwise from U position: V(1), S-gone skip, Q(2)... or count empty spots?\n\nIf we count only existing students, counter-clockwise from U: V(1), Q(2), T(3), P(4). P leaves.\nRemaining: T, Q, V, W. Matches option (D)!\n\nLet me verify all with counter-clockwise (skipping eliminated):\n\nInitial clockwise: P, R, T, Q, S, V, U, W.\n\nRound 1: 4th behind P (counter-clockwise from P): W(1), U(2), V(3), S(4). S leaves. ✓\nRemaining: P, R, T, Q, V, U, W.\n\nRound 2: 5th behind Q counter-clockwise: T(1), R(2), P(3), W(4), U(5). U leaves. ✓\nRemaining: P, R, T, Q, V, W.\n\nRound 3: 3rd behind V counter-clockwise: Q(1), T(2), R(3). R leaves. ✓\nRemaining: P, T, Q, V, W.\n\nRound 4: 4th behind U (U not in game, use original position). Counter-clockwise from U's original spot: V(1, skip nothing), Q(2, S is gone so skip), T(3), P(4). P leaves.\n\nRemaining: T, Q, V, W. = Option D.\n</think>\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 16.832,
+    "generation_cost": 0.041775
+  },
+  {
+    "question_number": 9,
+    "question": "The table lists the top 5 nations according to the number of gold medals won in a\ntournament; also included are the number of silver and the bronze medals won by\nthem. Based only on the data provided in the table, which one of the following\nstatements is INCORRECT?\n\nNation\nGold\nSilver\nBronze\nUSA\n40\n44\n41\nCanada\n39\n27\n24\nJapan\n20\n12\n13\nAustralia\n17\n19\n16\nFrance\n16\n26\n22\n(A)\nFrance will occupy the third place if the list were made on the basis of the total\nnumber of medals won.\n(B)\nThe order of the top two nations will not change even if the list is made on the basis\nof the total number of medals won.\n(C)\nUSA and Canada together have less than 50% of the medals awarded to the nations\nin the above table.\n(D)\nCanada has won twice as many total medals as Japan.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nTotals: USA=125, Canada=90, Japan=45, Australia=52, France=64.\n\n(A) By total: USA 125, Canada 90, France 64, Australia 52, Japan 45. France is 3rd. Correct.\n\n(B) Top two: USA, Canada. Same. Correct.\n\n(C) Total all = 125+90+45+52+64 = 376. USA+Canada = 215. 215/376 ≈ 57%. So \"less than 50%\" is INCORRECT.\n\n(D) Canada 90, Japan 45. Twice. Correct.\n\nAnswer: C\n</think>\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 11.853,
+    "generation_cost": 0.007425
+  },
+  {
+    "question_number": 10,
+    "question": "An organization allows its employees to work independently on consultancy\nprojects but charges an overhead on the consulting fee. The overhead is 20% of the\nconsulting fee, if the fee is up to ₹ 5,00,000. For higher fees, the overhead is\n₹ 1,00,000 plus 10% of the amount by which the fee exceeds ₹ 5,00,000. The\ngovernment charges a Goods and Services Tax of 18% on the total amount (the\nconsulting fee plus the overhead). An employee of the organization charges this\nentire amount, i.e., the consulting fee, overhead, and tax, to the client. If the client\ncannot pay more than ₹ 10,00,000, what is the maximum consulting fee that the\nemployee can charge?\n(A)\n₹ 7,01,438\n(B)\n₹ 7,24,961\n(C)\n₹ 7,51,232\n(D)\n₹ 7,75,784",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nLet fee = F > 500000. Overhead = 100000 + 0.1(F-500000) = 50000 + 0.1F.\nTotal before tax = F + 50000 + 0.1F = 1.1F + 50000.\nWith tax: 1.18(1.1F + 50000) = 1000000.\n1.1F + 50000 = 847457.63\n1.1F = 797457.63\nF = 724961.48\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 4.049,
+    "generation_cost": 0.006015
+  },
+  {
+    "question_number": 11,
+    "question": "Consider the matrix 𝐴 below:\n𝐴= [\n2\n3\n0\n6 4\n5\n7\n8\n0\n0\n0\n0 𝛼\n𝛽\n0\n𝛾\n]\nFor which of the following combinations of 𝛼, 𝛽, and 𝛾, is the rank of 𝐴 at least\nthree?\n(i)\n𝛼= 0 and 𝛽= 𝛾≠0.\n(ii)\n𝛼= 𝛽= 𝛾= 0.\n(iii) 𝛽= 𝛾= 0 and 𝛼≠0.\n(iv)\n𝛼= 𝛽= 𝛾≠0.\n(A)\nOnly (i), (iii), and (iv)\n(B)\nOnly (iv)\n(C)\nOnly (ii)\n(D)\nOnly (i) and (iii)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nMatrix A is 4x4:\nRow 1: 2 3 0 6\nRow 2: 4 5 7 8\nRow 3: 0 0 0 0\nRow 4: α β 0 γ\n\nRow 3 is all zeros, so rank ≤ 3. Need rank exactly 3, meaning rows 1, 2, 4 must be linearly independent.\n\nRows 1, 2, 4 form a 3x4 matrix. Rank 3 requires these three rows to be independent.\n\nRow 1: (2,3,0,6)\nRow 2: (4,5,7,8)\nRow 4: (α,β,0,γ)\n\nCheck if row 4 is linearly independent of rows 1, 2.\n\nNote row 2 has 7 in column 3, rows 1 and 4 have 0. So row 2 is independent of rows 1 and 4 (any combination of rows 1,4 has 0 in column 3).\n\nSo we need rows 1 and 4 to be linearly independent (since row 2 is automatically independent).\n\nRow 1 = (2,3,0,6), Row 4 = (α,β,0,γ).\n\nRow 4 independent of row 1 means row 4 is not a scalar multiple of row 1.\n\n(i) α=0, β=γ≠0: Row 4 = (0,β,0,β). Is this scalar multiple of (2,3,0,6)? Would need 2k=0, so k=0, but β≠0. Independent. Rank 3. ✓\n\n(ii) α=β=γ=0: Row 4 is zero. Rank = 2. ✗\n\n(iii) β=γ=0, α≠0: Row 4 = (α,0,0,0). Not scalar multiple of row 1 (since row 1 has 3 in col 2). Independent. Rank 3. ✓\n\n(iv) α=β=γ≠0: Row 4 = (α,α,0,α). Scalar multiple of (2,3,0,6)? Need 2k=α, 3k=α, so k=α/2 and k=α/3, contradiction unless α=0. So independent. Rank 3. ✓\n\nAnswer: (i), (iii), (iv) → A\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 9.196,
+    "generation_cost": 0.020175
+  },
+  {
+    "question_number": 12,
+    "question": "Consider the following series:\n(i) ∑\n1\n√𝑛\n∞\n𝑛=1\n\n(ii) ∑\n1\n𝑛(𝑛+1)\n∞\n𝑛=1\n\n(iii) ∑\n1\n𝑛!\n∞\n𝑛=1\n\nChoose the correct option.\n(A)\nOnly (ii) converges\n(B)\nOnly (ii) and (iii) converge\n(C)\nOnly (iii) converges\n(D)\nAll three converge",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 0.997,
+    "generation_cost": 0.001815
+  },
+  {
+    "question_number": 13,
+    "question": "A pot contains two red balls and two blue balls. Two balls are drawn from this pot\nrandomly without replacement.\nWhat is the probability that the two balls drawn have different colours?\n(A)\n2 3\n⁄\n(B)\n1 3\n⁄\n(C)\n1 2\n⁄\n(D)\n1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Ways to pick 2 different colors: 2×2=4. Total: C(4,2)=6. Probability = 4/6 = 2/3.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 13.643,
+    "generation_cost": 0.002635
+  },
+  {
+    "question_number": 14,
+    "question": "Consider a frequency-modulated (FM) signal\n𝑓(𝑡) = 𝐴𝑐 cos(2𝜋𝑓𝑐𝑡+ 3 sin(2𝜋𝑓1𝑡) + 4 sin(6𝜋𝑓1𝑡)),\nwhere 𝐴𝑐 and 𝑓𝑐 are, respectively, the amplitude and frequency (in Hz) of the\ncarrier waveform. The frequency 𝑓1 is in Hz, and assume that 𝑓𝑐> 100𝑓1.\nThe peak frequency deviation of the FM signal in Hz is _______.\n(A)\n15𝑓1\n(B)\n12𝑓1\n(C)\n4𝑓1\n(D)\n2𝑓1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Instantaneous frequency deviation: (1/2π) d/dt[3sin(2πf₁t) + 4sin(6πf₁t)]\n= 3f₁cos(2πf₁t) + 12f₁cos(6πf₁t)\n\nPeak = 3f₁ + 12f₁ = 15f₁\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.919,
+    "generation_cost": 0.00469
+  },
+  {
+    "question_number": 15,
+    "question": "Consider an additive white Gaussian noise (AWGN) channel with bandwidth 𝑊\nand noise power spectral density\n𝑁0\n2 . Let 𝑃𝑎𝑣 denote the average transmit power\nconstraint.\nWhich one of the following plots illustrates the dependence of the channel capacity\n𝐶 on the bandwidth 𝑊 (keeping 𝑃𝑎𝑣 and 𝑁0 fixed)?\n(A)\n\n(B)\n\n(C)\n\n(D)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "C = W log2(1 + P/(N0 W)). As W increases, C increases monotonically and saturates at P/(N0 ln 2).\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 6.417,
+    "generation_cost": 0.0047
+  },
+  {
+    "question_number": 16,
+    "question": "The Nyquist plot of a system is given in the figure below. Let 𝜔𝑃, 𝜔𝑄, 𝜔𝑅, and 𝜔𝑆\nbe the positive frequencies at the points 𝑷, 𝑸, 𝑹, and 𝑺, respectively.\nWhich one of the following statements is TRUE?\n\n\n\n\n(A)\n𝜔𝑆 is the gain crossover frequency and 𝜔𝑃 is the phase crossover frequency\n(B)\n𝜔𝑄 is the gain crossover frequency and 𝜔𝑅 is the phase crossover frequency\n(C)\n𝜔𝑄 is the gain crossover frequency and 𝜔𝑆 is the phase crossover frequency\n(D)\n𝜔𝑆 is the gain crossover frequency and 𝜔𝑄 is the phase crossover frequency",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Gain crossover: |G|=1, on unit circle. Point S is on the unit circle (dashed circle of radius 1).\n\nPhase crossover: phase = -180°, on negative real axis. Point Q is on negative real axis.\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 6.984,
+    "generation_cost": 0.00916
+  },
+  {
+    "question_number": 17,
+    "question": "Consider the discrete-time system below with input 𝑥[𝑛] and output 𝑦[𝑛]. In the\nfigure, ℎ1[𝑛] and ℎ2[𝑛] denote the impulse responses of LTI Subsystems 1 and 2,\nrespectively. Also, 𝛿[𝑛] is the unit impulse, and 𝑏> 0.\nAssuming ℎ2[𝑛] ≠𝛿[𝑛], the overall system (denoted by the dashed box) is _______.\n\n\n(A)\nlinear and time invariant\n(B)\nlinear and time variant\n(C)\nnonlinear and time invariant\n(D)\nnonlinear and time variant",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\ny[n] = (x*h1 + bδ) * h2 - bδ = x*h1*h2 + b·h2[n] - b·δ[n]\n\nWhen x=0, y = b(h2[n] - δ[n]) ≠ 0, so not linear. Time-invariant since the extra term is fixed (not shifted with input). Actually check time invariance: if input is shifted, x[n-k]*h1*h2 shifted, plus b(h2-δ) unchanged. Output for shifted input: x[n-k]*h1*h2 + b(h2-δ). Shifted output: x[n-k]*h1*h2 (shifted) + b(h2[n-k]-δ[n-k]). These differ, so time-variant.\n\nWait, let me recheck. Let T denote system. T{x[n]}[n] = (x*h1*h2)[n] + b·h2[n] - b·δ[n].\n\nFor input x[n-k]: output = (x[·-k]*h1*h2)[n] + b·h2[n] - b·δ[n] = (x*h1*h2)[n-k] + b·h2[n] - b·δ[n].\n\nShifted output y[n-k] = (x*h1*h2)[n-k] + b·h2[n-k] - b·δ[n-k].\n\nThese are equal only if h2[n] - δ[n] = h2[n-k] - δ[n-k] for all k, which requires h2[n]=δ[n]. Since h2≠δ, time-variant.\n\nNonlinear (since not zero-in-zero-out and superposition fails).\n\nSo nonlinear and time variant.\n</think>\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 11.092,
+    "generation_cost": 0.017355
+  },
+  {
+    "question_number": 18,
+    "question": "Consider a continuous-time, real-valued signal 𝑓(𝑡) whose Fourier transform\n𝐹(𝜔) = ∫\n𝑓(𝑡) exp(−𝑗 𝜔𝑡) 𝑑𝑡\n∞\n−∞\nexists.\nWhich one of the following statements is always TRUE?\n(A)\n|𝐹(𝜔)| ≤ ∫\n|𝑓(𝑡)| 𝑑𝑡\n∞\n−∞\n\n(B)\n|𝐹(𝜔)| > ∫\n|𝑓(𝑡)| 𝑑𝑡\n∞\n−∞\n\n(C)\n|𝐹(𝜔)| ≤ ∫\n𝑓(𝑡) 𝑑𝑡\n∞\n−∞\n\n(D)\n|𝐹(𝜔)| ≥ ∫\n𝑓(𝑡) 𝑑𝑡\n∞\n−∞",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Trace = 1 + 2cos(t) = 1 + √2, so cos(t) = √2/2, t = ±π/4.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 4.559,
+    "generation_cost": 0.00374
+  },
+  {
+    "question_number": 19,
+    "question": "Consider a part of an electrical network as shown below. Some node voltages, and\nthe current flowing through the 3Ω resistor are as indicated.\nThe voltage (in Volts) at node 𝑋 is ______.\n\n\n(A)\n20 3\n⁄\n(B)\n32 3\n⁄\n(C)\n22 3\n⁄\n(D)\n2 3\n⁄",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nLet me analyze this circuit. We have a 10V source, 25kΩ resistor, 10μF capacitor, 1mA current source (which appears to be switched - the \"1 mA\" with switch at t=0 suggests it turns off at t=0, or the current source is u(t)).\n\nWait, re-reading: \"current source (1 u(t) mA)\" - so it's 1·u(t) mA, meaning it turns ON at t=0.\n\nLooking at the figure: there's a switch labeled \"0\" with \"t=0s\" near a 1mA source. This suggests the 1mA switches at t=0.\n\nActually, the problem states the current source is 1u(t) mA, so before t=0 it's 0, after t=0 it's 1mA.\n\nWait - looking again, there seem to be TWO current sources: one shown as an upward arrow circle, and another \"1 mA\" with switch at t=0.\n\nLet me reconsider. The circuit has:\n- 10V source on left\n- 25kΩ in series at top\n- 10μF capacitor\n- A current source (arrow up)\n- 1mA source with switch opening/closing at t=0\n- 100kΩ on right\n\nFor t<0: switch position determines initial condition. The capacitor has some initial voltage.\n\nActually, the question asks something but it's not shown. Let me assume the question asks for the voltage across the capacitor or current at some time.\n\nHmm, the question text is incomplete. Let me think about typical questions for this circuit.\n\nThis appears to be a GATE problem. Let me search memory - this is likely asking for voltage across capacitor at t=∞ or similar.\n\nGiven typical GATE problem: For t<0 (steady state), capacitor is open. Then at t=0, switch operates.\n\nWithout the actual question, I'll guess this is asking for v(∞) or initial value.\n\nActually, looking more carefully - \"1 u(t) mA\" means the current source is 1mA·u(t). So before t=0, current = 0, after t=0, current = 1mA.\n\nFor t<0: current source = 0 (open). The circuit has 10V, 25kΩ, capacitor, and 100kΩ. In steady state, capacitor is open, no current flows through 25kΩ (since cap blocks DC and the only path... wait, there's 100kΩ to ground on the right).\n\nLet me redraw: 10V → 25kΩ → node A. From node A: capacitor to ground, current source to ground, 100kΩ to ground (through some connection).\n\nFor t<0, current source = 0. Voltage at node A = 10V × 100k/(25k+100k) = 10×100/125 = 8V.\n\nSo V_C(0-) = 8V = V_C(0+).\n\nFor t>∞: current source = 1mA flowing up (into node A). \nUsing superposition or node analysis at node A:\n(V_A - 10)/25k + V_A/100k - 1mA = 0\nMultiply by 100k:\n4(V_A - 10) + V_A - 100 = 0\n4V_A - 40 + V_A - 100 = 0\n5V_A = 140\nV_A = 28V\n\nSo V_C(∞) = 28V.\n\nTime constant: Thevenin resistance seen by capacitor = 25k || 100k = 2500k/125 = 20kΩ\nτ = RC = 20k × 10μF = 0.2 s\n\nV_C(t) = 28 + (8-28)e^(-t/0.2) = 28 - 20e^(-5t) V for t>0\n\nWithout knowing exact question, common answers: 28V (final), 8V (initial), or expression.\n\nThe question likely asks for V_C(∞) or similar. Given the format, probably NAT type answer.\n\nMost likely answer: 28 V or 0.2 s for time constant.\n\nLet me guess they ask for steady state voltage = 28V.\n</think>\n\nLooking at this circuit, I need to analyze it for t < 0 and t → ∞.\n\n## Circuit Analysis\n\n**Components:**\n- 10V DC source with 25kΩ in series\n- 10μF capacitor (node A to ground)\n- Current source: 1·u(t) mA\n- 100kΩ resistor to ground\n\n## For t < 0 (Initial Condition)\n\nThe current source u(t) = 0, so it acts as open circuit. In DC steady state, capacitor is open.\n\nVoltage divider at node A:\n$$V_C(0^-) = 10 \\times \\frac{100k}{25k + 100k} = 8\\text{ V}$$\n\n## For t → ∞ (Final Value)\n\nCurrent source delivers 1 mA into node A. Capacitor is open in steady state.\n\nApplying KCL at node A:\n$$\\frac{V_A - 10}{25k} + \\frac{V_A}{100k} = 1\\text{ mA}$$\n\nMultiplying by 100k:\n$$4(V_A - 10) + V_A = 100$$\n$$5V_A = 140$$\n$$V_C(\\infty) = 28\\text{ V}$$\n\n## Time Constant\n\nThevenin resistance seen by capacitor:\n$$R_{th} = 25k \\parallel 100k = 20\\text{ k}\\Omega$$\n$$\\tau = RC = 20k \\times 10\\mu F = 0.2\\text{ s}$$\n\n## Complete Response\n\n$$V_C(t) = 28 - 20e^{-5t}\\text{ V}, \\quad t \\geq 0$$\n\nThe steady-state capacitor voltage is **28 V**.\n\nFINAL_ANSWER: 28",
+    "final_answer": "28",
+    "generation_time_s": 17.891,
+    "generation_cost": 0.046405
+  },
+  {
+    "question_number": 20,
+    "question": "Let 𝑖𝐶, 𝑖𝐿, and 𝑖𝑅 be the currents flowing through the capacitor, inductor, and\nresistor, respectively, in the circuit given below. The AC admittances are given in\nSiemens (S).\nWhich one of the following is TRUE?\n\n\n(A)\n𝑖𝐶= 0.25∠180° A, 𝑖𝐿= 0.1∠0° A, 𝑖𝑅= 0.2∠90° A\n(B)\n𝑖𝐶= 4∠180° A, 𝑖𝐿= 10∠0° A, 𝑖𝑅= 5∠90° A\n(C)\n𝑖𝐶= 0.25∠270° A, 𝑖𝐿= 0.1∠90° A, 𝑖𝑅= 0.2∠90° A\n(D)\n𝑖𝐶= 4∠90° A, 𝑖𝐿= 10∠270° A, 𝑖𝑅= 5∠0° A",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "V = 1∠90° = j\n\ni_C = V × Y_C = j × j0.25 = -0.25 = 0.25∠180°\ni_L = V × Y_L = j × (-j0.1) = 0.1 = 0.1∠0°\ni_R = V × Y_R = j × 0.2 = j0.2 = 0.2∠90°\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.352,
+    "generation_cost": 0.00813
+  },
+  {
+    "question_number": 21,
+    "question": "A simplified small-signal equivalent circuit of a BJT-based amplifier is given\nbelow.\nThe small-signal voltage gain vo/vs (in V/V) is ___________.\n\n\n(A)\n−𝛽RL\nRS + rπ\n\n(B)\n+𝛽RL\nRS\n\n(C)\n−𝛽RL\nRS\n\n(D)\n+𝛽RL\nRS + rπ",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "The output node has rπ from node to ground? Wait, looking again: input node connects through rπ to ground, and the same node connects to βib current source (pointing down to ground) and to RL to ground, with Vo at this node.\n\nActually all elements are at the same node. So:\n- ib flows through Rs into node\n- rπ from node to ground\n- βib current source from node to ground (arrow down)\n- RL from node to ground\n\nKCL at node: ib = V_o/rπ + βib + V_o/RL\n\nAlso V_s = ib·Rs + V_o (since V_o is the node voltage, and rπ is between node and ground, voltage across rπ = V_o)\n\nSo ib = (V_s - V_o)/Rs\n\nHmm, but the answer choices suggest a simpler form. Let me reconsider - typically ib is defined as current through rπ, so V_π = ib·rπ = V_o.\n\nThen V_o = ib·rπ, so ib = V_o/rπ.\n\nKCL at output node: current from Rs in = current through βib source down + current through RL down\n(But rπ current is ib itself going down, which equals V_o/rπ)\n\nCurrent into node from source side = ib (through Rs into node, then this same current goes into rπ)\nWait, if ib goes through Rs and then through rπ to ground, then at the node, ib comes in and ib goes out through rπ. The βib source and RL must balance: \n\nActually KCL: ib (in from Rs) = ib (out through rπ) + βib (out through source) + V_o/RL (out through RL)\n\nThis gives 0 = βib + V_o/RL, so V_o = -βib·RL\n\nAnd V_s = ib·Rs + ib·rπ = ib(Rs + rπ)\nSo ib = V_s/(Rs + rπ)\n\nV_o/V_s = -βRL/(Rs + rπ)\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 12.135,
+    "generation_cost": 0.01921
+  },
+  {
+    "question_number": 22,
+    "question": "The ideal BJT in the circuit given below is biased in the active region with a 𝛽 of\n100.\nIf 𝐼𝐵 is 10 µA, then 𝑉𝐶𝐸 (in Volts, rounded off to two decimal places) is _______ .\n\n\n(A)\n4.95\n(B)\n3.03\n(C)\n1.92\n(D)\n3.73",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nIC = 100 * 10µA = 1mA\nIE = IB + IC = 1.01mA\n\nVCE = VCC - IC*5k - IE*3k = 10 - 5 - 3.03 = 1.97V\n\nHmm, closest to 1.92. Let me recheck.\n\nActually VCE = 10 - 1mA*5k - 1.01mA*3k = 10 - 5 - 3.03 = 1.97\n\nHmm, but option C is 1.92. Let me reconsider - maybe IC flows through both resistors? The collector resistor has IC, emitter resistor has IE.\n\nWait, looking again: VCE measured from collector to emitter.\nVC = 10 - IC*5k = 10 - 5 = 5V\nVE = IE*3k = 1.01*3 = 3.03V\nVCE = VC - VE = 5 - 3.03 = 1.97V\n\nClosest answer is 1.92 (C). Maybe they used IE through 5k too? Let's check: if both currents are IE...\nOr maybe β=100 means IC = β*IB exactly and IE ≈ IC, so VCE = 10 - 1*5 - 1*3 = 2V... still not exact.\n\nLet me try: VCE = 10 - IC(5k+3k) considering... no.\n\nActually perhaps RB connects collector to base (feedback). Looking at circuit: RB goes from collector node to base. So this is collector-feedback bias. But that doesn't change KVL for output loop.\n\nThe output loop: VCC - IC*5k - VCE - IE*3k = 0\n10 - 5 - VCE - 3.03 = 0\nVCE = 1.97V\n\nHmm. Answer should be 1.97 but closest is 1.92. Maybe I should reconsider - is current through 5k just IC or IC+IB (since RB goes from that node to base)?\n\nCurrent through 5k = IC + IB (since IB flows from collector node through RB to base)\n= 1mA + 0.01mA = 1.01mA\nVoltage drop = 1.01 * 5 = 5.05V\nVC = 10 - 5.05 = 4.95V\nVE = 1.01 * 3 = 3.03V\nVCE = 4.95 - 3.03 = 1.92V ✓\n</think>\n\nLooking at this circuit, RB provides collector-to-base feedback, so current through the 5kΩ resistor equals IC + IB.\n\n**Step 1: Find IC and IE**\n- IC = β·IB = 100 × 10µA = 1 mA\n- IE = IB + IC = 0.01 + 1 = 1.01 mA\n\n**Step 2: Current through 5kΩ resistor**\nSince RB connects the collector node to the base, IB flows from collector node through RB:\n- I(5kΩ) = IC + IB = 1 + 0.01 = 1.01 mA\n\n**Step 3: Find VC and VE**\n- VC = VCC - (IC + IB)(5k) = 10 - (1.01m)(5k) = 10 - 5.05 = 4.95 V\n- VE = IE × 3k = (1.01m)(3k) = 3.03 V\n\n**Step 4: VCE**\n- VCE = VC - VE = 4.95 - 3.03 = 1.92 V\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 13.213,
+    "generation_cost": 0.02984
+  },
+  {
+    "question_number": 23,
+    "question": "A 3-input majority logic gate has inputs 𝑋, 𝑌, and 𝑍. The output 𝐹 of the gate is\nlogic ‘1’ if two or more of the inputs are logic ‘1’. The output 𝐹 is logic ‘0’ if two\nor more of the inputs are logic ‘0’.\nWhich one of the following options is a Boolean expression of the output 𝐹?\n(A)\n𝑋𝑌+ 𝑌𝑍+ 𝑍𝑋\n(B)\n𝑋⊕𝑌⊕𝑍\n(C)\n𝑋+ 𝑌+ 𝑍\n(D)\n𝑋𝑌𝑍",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.275,
+    "generation_cost": 0.00176
+  },
+  {
+    "question_number": 24,
+    "question": "A full adder and an XOR gate are used to design a digital circuit with inputs X, Y,\nand Z, and output F, as shown below. The input Z is connected to the carry-in input\nof the full adder.\nIf the input Z is set to logic ‘1’, then the circuit functions as ________ with X and\nY as inputs.\n\n\n(A)\nan adder\n(B)\na subtractor\n(C)\na multiplier\n(D)\na binary to Gray code converter",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "When Z=1:\n- XOR gate output = Y⊕1 = Y'\n- Full adder inputs: X, Y', carry-in = 1\n- Sum = X ⊕ Y' ⊕ 1 = X ⊕ Y\n- Carry = majority(X, Y', 1) = X + Y' = X OR Y'\n\nFor subtraction X - Y: using 2's complement, X + Y' + 1\n- Sum bit = X ⊕ Y' ⊕ 1 = X ⊕ Y (difference)\n- Carry out = borrow complement\n\nThis is exactly a subtractor (X - Y).\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 3.903,
+    "generation_cost": 0.00749
+  },
+  {
+    "question_number": 25,
+    "question": "Consider the function 𝑓: ℝ→ℝ, defined as\n𝑓(𝑥) = 2𝑥3 −3𝑥2 −12𝑥+ 1.\nWhich of the following statements is/are correct?\n(Here, ℝ is the set of real numbers.)\n(A)\n𝑓 has no global maximizer\n(B)\n𝑓 has no global minimizer\n(C)\n𝑥= −1 is a local minimizer of 𝑓\n(D)\n𝑥= 2 is a local maximizer of 𝑓",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "f'(x) = 6x²-6x-12 = 6(x-2)(x+1). Critical points: x=-1, x=2.\nf''(x) = 12x-6. f''(-1)=-18<0 → local max. f''(2)=18>0 → local min.\nCubic with positive leading coefficient: no global max, no global min.\n\nA and B correct. C and D incorrect.\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 3.656,
+    "generation_cost": 0.0051
+  },
+  {
+    "question_number": 26,
+    "question": "Consider the unity-negative-feedback system shown in Figure (i) below, where\ngain 𝐾 ≥0. The root locus of this system is shown in Figure (ii) below.\nFor what value(s) of 𝐾 will the system in Figure (i) have a pole at −1 + 𝑗1?\n\n\n\n\n(A)\n𝐾= 5\n(B)\n𝐾= 1 5\n⁄\n(C)\nFor no positive value of 𝐾\n(D)\nFor all positive values of 𝐾",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Looking at the root locus, the circle appears centered around -2 with radius ~1, so -1+j1 is not on the circle (distance from -2 to -1+j1 is √2 ≈ 1.414).\n\nLet me check: poles at -1, -2; zeros at -3, -4.\n\nFor s = -1+j1 to be on root locus, angle condition must be satisfied:\n- Angle from pole -1: vector (0+j1), angle = 90°\n- Angle from pole -2: vector (1+j1), angle = 45°\n- Angle from zero -3: vector (2+j1), angle = arctan(1/2) ≈ 26.57°\n- Angle from zero -4: vector (3+j1), angle = arctan(1/3) ≈ 18.43°\n\nSum of zero angles - sum of pole angles = (26.57 + 18.43) - (90 + 45) = 45 - 135 = -90°\n\nFor point to be on root locus, this must equal ±180°(2k+1). -90° doesn't satisfy this.\n\nSo -1+j1 is not on the root locus for any K > 0.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 4.798,
+    "generation_cost": 0.012735
+  },
+  {
+    "question_number": 27,
+    "question": "Let 𝑥[𝑛] be a discrete-time signal whose 𝑧-transform is 𝑋(𝑧).\nWhich of the following statements is/are TRUE?\n(A)\nThe discrete-time Fourier transform (DTFT) of 𝑥[𝑛] always exists\n(B)\nThe region of convergence (RoC) of 𝑋(𝑧) contains neither poles nor zeros\n(C)\nThe discrete-time Fourier transform (DTFT) exists if the region of convergence\n(RoC) contains the unit circle\n(D)\nIf 𝑥[𝑛] = 𝛼𝛿[𝑛], where 𝛿[𝑛] is the unit impulse and 𝛼 is a scalar, then the\nregion of convergence (RoC) is the entire 𝑧-plane",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "B, C, D\n\n(A) False - DTFT doesn't always exist\n(B) True - ROC cannot contain poles, and by definition ROC contains no poles; zeros can be in ROC actually... wait, let me reconsider. ROC cannot contain poles but CAN contain zeros. So (B) is false regarding zeros.\n\nLet me reconsider: ROC contains no poles (by definition, since X(z) must converge). Zeros CAN be in ROC. So statement (B) says \"contains neither poles nor zeros\" - this is FALSE because zeros can be in ROC.\n\n(C) True\n(D) For x[n] = αδ[n], X(z) = α, which converges everywhere including z=0 and z=∞. ROC is entire z-plane. True.\n\nFINAL_ANSWER: C,D",
+    "final_answer": "C,D",
+    "generation_time_s": 7.746,
+    "generation_cost": 0.00836
+  },
+  {
+    "question_number": 28,
+    "question": "Consider a message signal 𝑚(𝑡) which is bandlimited to [−𝑊, 𝑊], where 𝑊 is in\nHz. Consider the following two modulation schemes for the message signal:\n•\nDouble sideband-suppressed carrier (DSB-SC):\n𝑓𝐷𝑆𝐵(𝑡) = 𝐴𝑐 𝑚(𝑡) cos(2𝜋𝑓𝑐𝑡)\n\n•\nAmplitude modulation (AM):\n𝑓𝐴𝑀(𝑡) = 𝐴𝑐 (1 + 𝜇 𝑚(𝑡)) cos(2𝜋𝑓𝑐𝑡)\nHere, 𝐴𝑐 and 𝑓𝑐 are the amplitude and frequency (in Hz) of the carrier, respectively.\nIn the case of AM, 𝜇 denotes the modulation index.\nConsider the following statements:\n(i)\nAn envelope detector can be used for demodulation in the DSB-SC\nscheme if 𝑚(𝑡) > 0 for all 𝑡.\n(ii)\nAn envelope detector can be used for demodulation in the AM scheme\nonly if 𝑚(𝑡) > 0 for all 𝑡.\nWhich of the following options is/are correct?\n(A)\n(i) is TRUE\n(B)\n(i) is FALSE\n(C)\n(ii) is TRUE\n(D)\n(ii) is FALSE",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Statement (i): If m(t) > 0 for all t, then DSB-SC signal A_c m(t)cos(2πf_c t) has envelope A_c|m(t)| = A_c m(t), which recovers the message. TRUE.\n\nStatement (ii): For AM, envelope detector works if 1 + μm(t) ≥ 0, i.e., |μm(t)| ≤ 1. This does NOT require m(t) > 0 for all t. So \"only if m(t) > 0\" is FALSE.\n\nFINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 2.514,
+    "generation_cost": 0.00706
+  },
+  {
+    "question_number": 29,
+    "question": "Which of the following statements is/are TRUE with respect to an ideal opamp?\n(A)\nIt has an infinite input resistance\n(B)\nIt has an infinite output resistance\n(C)\nIt has an infinite open-loop differential gain\n(D)\nIt has an infinite open-loop common-mode gain",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 1.102,
+    "generation_cost": 0.001525
+  },
+  {
+    "question_number": 30,
+    "question": "Which of the following statements is/are TRUE with respect to ideal MOSFET-\nbased DC-coupled single-stage amplifiers having finite load resistors?\n(A)\nThe common-gate amplifier has an infinite input resistance\n(B)\nThe common-source amplifier has an infinite input resistance\n(C)\nThe input and output voltages of the common-source amplifier are in phase\n(D)\nThe input and output voltages of the common-drain amplifier are in phase",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "B: Common-source has infinite input resistance (gate) - TRUE\nA: Common-gate has low input resistance (1/gm) - FALSE\nC: Common-source inverts signal - FALSE\nD: Common-drain (source follower) - in phase - TRUE\n\nFINAL_ANSWER: B,D",
+    "final_answer": "B,D",
+    "generation_time_s": 1.951,
+    "generation_cost": 0.00398
+  },
+  {
+    "question_number": 31,
+    "question": "Which of the following can be used as an n-type dopant for silicon?\nSelect the correct option(s).\n(A)\nArsenic\n(B)\nBoron\n(C)\nGallium\n(D)\nPhosphorous",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 1.995,
+    "generation_cost": 0.001385
+  },
+  {
+    "question_number": 32,
+    "question": "The function 𝑦(𝑡) satisfies\n𝑡2𝑦′′(𝑡) −2𝑡𝑦′(𝑡) + 2𝑦(𝑡) = 0,\nwhere 𝑦′(𝑡) and 𝑦′′(𝑡) denote the first and second derivatives of 𝑦(𝑡),\nrespectively.\nGiven 𝑦′(0) = 1 and 𝑦′(1) = −1, the maximum value of 𝑦(𝑡) over [0,1] is\n_____ (rounded off to two decimal places).",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nEuler equation: solutions t and t². General y = At + Bt².\ny' = A + 2Bt.\ny'(0) = A = 1.\ny'(1) = 1 + 2B = -1, so B = -1.\ny(t) = t - t².\nMax at t=1/2: 1/2 - 1/4 = 0.25.\n</think>\n\nFINAL_ANSWER: 0.25",
+    "final_answer": "0.25",
+    "generation_time_s": 5.331,
+    "generation_cost": 0.004615
+  },
+  {
+    "question_number": 33,
+    "question": "The generator matrix of a (6,3) binary linear block code is given by\n𝐺= [\n1\n0\n0\n0\n1\n0\n0\n0\n1\n\n1\n0\n1\n0\n1\n1\n1\n1\n0\n].\nThe minimum Hamming distance 𝑑𝑚𝑖𝑛 between codewords equals _____ (answer\nin integer).",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Rows have weights 3,3,3. Sums: r1+r2 = 110110 (weight 4), r1+r3 = 101011 (weight 4), r2+r3 = 011101 (weight 4), r1+r2+r3 = 111000... let me compute: 100101+010011+001110 = 111000 then +101=... \n\nr1=100101, r2=010011, r3=001110\nr1+r2+r3: \n1+0+0=1, 0+1+0=1, 0+0+1=1, 1+0+1=0, 0+1+1=0, 1+1+0=0\n= 111000, weight 3.\n\nMin weight = 3.\n\nFINAL_ANSWER: 3",
+    "final_answer": "3",
+    "generation_time_s": 19.154,
+    "generation_cost": 0.007065
+  },
+  {
+    "question_number": 34,
+    "question": "All the components in the bandpass filter given below are ideal. The lower −3 dB\nfrequency of the filter is 1 MHz.\nThe upper −3 dB frequency (in MHz, rounded off to the nearest integer) is\n__________.",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nInverting amplifier with input impedance Z1 = R + 1/(jω·10C) and feedback Z2 = 2R || 1/(jω·0.1C).\n\nLower -3dB: from input high-pass: ω_L = 1/(R·10C) = 1/(10RC) = 2π·1MHz\nSo RC = 1/(2π·10·10^6) ... let me just find ratio.\n\nUpper -3dB: from feedback low-pass: ω_H = 1/(2R·0.1C) = 1/(0.2RC) = 5/RC\n\nRatio ω_H/ω_L = (5/RC)/(1/(10RC)) = 50\n\nSo upper = 50 MHz.\n</think>\n\nFINAL_ANSWER: 50",
+    "final_answer": "50",
+    "generation_time_s": 4.145,
+    "generation_cost": 0.008425
+  },
+  {
+    "question_number": 35,
+    "question": "A 4-bit weighted-resistor DAC with inputs b3, b2, b1, and b0 (MSB to LSB) is\ndesigned using an ideal opamp, as shown below. The switches are closed when the\ncorresponding input bits are logic ‘1’ and open otherwise.\nWhen the input b3b2b1b0 changes from 1110 to 1101, the magnitude of the change\nin the output voltage VO (in mV, rounded off to the nearest integer) is ________.",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Vo = -V_REF * (b3 + b2/2 + b1/4 + b0/8)\n\nChange from 1110 to 1101: difference in (b1/4 - b0/8) = 1/4 - 1/8 = 1/8\n\nΔVo magnitude = 2 × 1/8 = 0.25 V = 250 mV\n\nFINAL_ANSWER: 250",
+    "final_answer": "250",
+    "generation_time_s": 5.082,
+    "generation_cost": 0.007025
+  },
+  {
+    "question_number": 36,
+    "question": "Let 𝐺(𝑠) =\n1\n10𝑠2 be the transfer function of a second-order system. A controller\n𝑀(𝑠) is connected to the system 𝐺(𝑠) in the configuration shown below.\nConsider the following statements.\n(i) There exists no controller of the form 𝑀(𝑠) =\n𝐾𝐼\n𝑠, where 𝐾𝐼 is a positive real\nnumber, such that the closed loop system is stable.\n(ii) There exists at least one controller of the form 𝑀(𝑠) = 𝐾𝑃+ 𝑠𝐾𝐷, where 𝐾𝑃\nand 𝐾𝐷 are positive real numbers, such that the closed loop system is stable.\nWhich one of the following options is correct?\n\n\n(A)\n(i) is TRUE and (ii) is FALSE\n(B)\n(i) is FALSE and (ii) is TRUE\n(C)\nBoth (i) and (ii) are FALSE\n(D)\nBoth (i) and (ii) are TRUE",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "G(s) = 1/(10s²)\n\n(i) M(s) = K_I/s: Loop = K_I/(10s³). Characteristic: 10s³ + K_I = 0. Missing s² and s terms → unstable for all K_I > 0. Statement (i) TRUE.\n\n(ii) M(s) = K_P + sK_D: Loop = (K_D s + K_P)/(10s²). Characteristic: 10s² + K_D s + K_P = 0. All coefficients positive → stable. Statement (ii) TRUE.\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 3.604,
+    "generation_cost": 0.00727
+  },
+  {
+    "question_number": 37,
+    "question": "Consider the polynomial 𝑝(𝑠) = 𝑠5 + 7𝑠4 + 3𝑠3 −33𝑠2 + 2𝑠−40. Let\n(𝐿, 𝐼, 𝑅) be defined as follows.\n𝐿 is the number of roots of 𝑝(𝑠) with negative real parts.\n𝐼 is the number of roots of 𝑝(𝑠) that are purely imaginary.\n𝑅 is the number of roots of 𝑝(𝑠) with positive real parts.\nWhich one of the following options is correct?\n(A)\n𝐿= 2, 𝐼= 2, and 𝑅= 1\n(B)\n𝐿= 3, 𝐼= 2, and 𝑅= 0\n(C)\n𝐿= 1, 𝐼= 2, and 𝑅= 2\n(D)\n𝐿= 0, 𝐼= 4, and 𝑅= 1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nRouth array for p(s) = s^5 + 7s^4 + 3s^3 - 33s^2 + 2s - 40.\n\nRow s^5: 1, 3, 2\nRow s^4: 7, -33, -40\nRow s^3: (7·3 - 1·(-33))/7 = (21+33)/7 = 54/7\n         (7·2 - 1·(-40))/7 = (14+40)/7 = 54/7\nSo row s^3: 54/7, 54/7, 0\n\nRow s^2: (54/7·(-33) - 7·54/7)/(54/7) = (-33 - 7) = -40... let me recompute.\nFormula: new = (a·d - b·c)/a where a=54/7, b=54/7, c=7, d=-33 (wait, need proper setup)\n\nActually: for row s^2, element = (row_s3[0]·row_s4[1] - row_s4[0]·row_s3[1])/row_s3[0]\nWait, standard formula: next row element = -(1/pivot)·det of 2x2.\n\nLet me redo. Row s^4 pivot = 7.\nRow s^3: b1 = -(1/7)·det([1,3],[7,-33]) = -(1/7)(−33−21) = -(1/7)(-54) = 54/7\nb2 = -(1/7)·det([1,2],[7,-40]) = -(1/7)(-40-14) = 54/7\nb3 = 0\n\nRow s^2: pivot of row s^3 = 54/7\nc1 = -(7/54)·det([7,-33],[54/7, 54/7]) = -(7/54)(7·54/7 - (-33)·54/7) = -(7/54)(54 + 33·54/7)\n= -(7/54)·54·(1 + 33/7) = -7·(1+33/7) = -7 - 33 = -40\nc2 = -(7/54)·det([7,-40],[54/7, 0]) = -(7/54)(0 - (-40·54/7)) = -(7/54)(40·54/7) = -40\nSo row s^2: -40, -40\n\nRow s^1: pivot = -40\nd1 = -(1/-40)·det([54/7, 54/7],[-40,-40]) = (1/40)(54/7·(-40) - 54/7·(-40)) = 0\nSo row s^1 all zeros → auxiliary polynomial from s^2 row: -40s^2 - 40 = 0 → s^2 = -1 → s = ±j\nSo 2 purely imaginary roots.\n\nDerivative of aux: -80s. Replace row s^1: -80, 0.\n\nRow s^0: pivot = -80\ne1 = -(1/-80)·det([-40,-40],[-80,0]) = (1/80)(0 - 3200) = -40\n\nSign changes in first column: 1, 7, 54/7, -40, -80, -40\n1→7: no, 7→54/7: no, 54/7→-40: change (1), -40→-80: no, -80→-40: no\nSo 1 sign change → 1 root with positive real part.\n\nTotal: 5 roots. 2 imaginary, 1 RHP, so 2 LHP.\n\nL=2, I=2, R=1. Answer A.\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 9.974,
+    "generation_cost": 0.02881
+  },
+  {
+    "question_number": 38,
+    "question": "Consider a continuous-time finite-energy signal 𝑓(𝑡) whose Fourier transform\nvanishes outside the frequency interval [−𝜔 𝑐, 𝜔𝑐], where 𝜔𝑐 is in rad/sec.\nThe signal 𝑓(𝑡) is uniformly sampled to obtain 𝑦(𝑡) = 𝑓(𝑡) 𝑝(𝑡). Here,\n𝑝(𝑡) = ∑𝛿(𝑡−𝜏−𝑛𝑇𝑠)\n∞\n𝑛=−∞\n,\nwith 𝛿(𝑡) being the Dirac impulse, 𝑇𝑠> 0, and 𝜏> 0. The sampled signal 𝑦(𝑡)\nis passed through an ideal lowpass filter ℎ(𝑡) = 𝜔𝑐𝑇𝑠\nsin (𝜔𝑐𝑡)\n𝜋𝜔𝑐𝑡 with cutoff\nfrequency 𝜔𝑐 and passband gain 𝑇𝑠.\nThe output of the filter is given by ________________.\n(A)\n𝑓(𝑡) if 𝑇𝑠< 𝜋/𝜔𝑐\n(B)\n𝑓(𝑡−𝜏) if 𝑇𝑠< 𝜋/𝜔𝑐\n(C)\n𝑓(𝑡−𝜏) if 𝑇𝑠< 2𝜋/𝜔𝑐\n(D)\n𝑇𝑠𝑓(𝑡) if 𝑇𝑠< 2𝜋/𝜔𝑐",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "The sampling impulse train is shifted by τ. So y(t) = f(t)·Σδ(t-τ-nT_s).\n\nWhen we reconstruct with ideal LPF, the samples are f(τ+nT_s) at times τ+nT_s. \n\nLet me think more carefully. p(t) = Σδ(t-τ-nT_s) is periodic with period T_s. Its Fourier series gives p(t) = (1/T_s)Σ e^{jnω_s(t-τ)} where ω_s = 2π/T_s.\n\nSo y(t) = f(t)·(1/T_s)Σ e^{jnω_s(t-τ)}\n\nY(ω) = (1/T_s)Σ F(ω-nω_s)·e^{-jnω_sτ}\n\nPassing through LPF with cutoff ω_c and gain T_s, only n=0 term survives if ω_s > 2ω_c, i.e., T_s < π/ω_c.\n\nOutput spectrum = F(ω), so output = f(t).\n\nWait, the e^{-jnω_sτ} for n=0 is 1. So output is f(t), not f(t-τ).\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 5.641,
+    "generation_cost": 0.01233
+  },
+  {
+    "question_number": 39,
+    "question": "In the circuit below, 𝑀1 is an ideal AC voltmeter and 𝑀2 is an ideal AC ammeter.\nThe source voltage (in Volts) is 𝑣𝑠(𝑡) = 100 cos(200𝑡).\nWhat should be the value of the variable capacitor 𝐶 such that the RMS readings\non 𝑀1 and 𝑀2 are 25 V and 5 A, respectively?\n\n\n\n\n(A)\n25 μF\n(B)\n4 μF\n(C)\n0.25 μF\n(D)\nInsufficient information to find 𝐶",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nVoltage across load = 25V rms, current = 5A rms, so impedance magnitude = 5Ω.\n\nLoad: 5Ω resistor + capacitor C + 1H inductor in series.\nω = 200 rad/s\nX_L = 200, X_C = 1/(200C)\n\n|Z|² = 5² + (200 - 1/(200C))² = 25\nSo (200 - 1/(200C))² = 0\n1/(200C) = 200\nC = 1/40000 = 25 μF\n</think>\n\nFINAL_ANSWER: 25e-6",
+    "final_answer": "25e-6",
+    "generation_time_s": 5.052,
+    "generation_cost": 0.00788
+  },
+  {
+    "question_number": 40,
+    "question": "The 𝑍-parameter matrix of a two port network relates the port voltages and port\ncurrents as follows:\n[𝑉1\n𝑉2] = 𝑍[𝐼1\n𝐼2]\nThe 𝑍-parameter matrix (with each entry in Ohms) of the network shown below is\n__________.\n\n\n(A)\n[\n10 3\n⁄\n2 3\n⁄\n2 3\n⁄\n10 3\n⁄\n]\n(B)\n[\n2 3\n⁄\n10 3\n⁄\n10 3\n⁄\n2 3\n⁄\n]\n(C)\n[\n10\n2\n2\n10\n]\n(D)\n[\n10 3\n⁄\n1 3\n⁄\n1 3\n⁄\n10 3\n⁄\n]",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nFind Z11 with I2=0 (port 2 open).\n\nFrom port 1: 2Ω series, then node A to ground via 2Ω parallel with (2Ω + 2Ω parallel with (2Ω + open)).\n\nWith I2=0, the rightmost 2Ω carries no current. So node B sees 2Ω to ground in parallel with... wait, the rightmost 2Ω goes to port 2 which is open, so no current flows through it. So at node B: 2Ω to ground only (the shunt).\n\nThen from A to B: 2Ω series, then 2Ω to ground at B.\nSo impedance from A to ground (right side) = 2 + 2 = 4Ω.\nAt node A: 2Ω shunt parallel with 4Ω = 8/6 = 4/3.\nZ11 = 2 + 4/3 = 10/3. ✓\n\nBy symmetry Z22 = 10/3.\n\nZ21 with I2=0: V2 = voltage at port 2 = voltage at node B (since no current through last 2Ω).\nV_A = I1 · (4/3)\nCurrent from A through 2Ω to B: I_AB = V_A/4 (since 2+2=4 from A to ground through B path)\nV_B = I_AB · 2 = V_A/2\nV2 = V_B = V_A/2 = I1·(4/3)/2 = I1·(2/3)\nZ21 = 2/3. ✓\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 6.909,
+    "generation_cost": 0.01642
+  },
+  {
+    "question_number": 41,
+    "question": "A source transmits symbol 𝑆 that takes values uniformly at random from the set\n{−2,0,2}. The receiver obtains 𝑌= 𝑆+ 𝑁, where 𝑁 is a zero-mean Gaussian\nrandom variable independent of 𝑆. The receiver uses the maximum likelihood\ndecoder to estimate the transmitted symbol 𝑆.\nSuppose the probability of symbol estimation error 𝑃𝑒 is expressed as follows:\n𝑃𝑒= 𝛼 𝑃(𝑁> 1),\nwhere 𝑃(𝑁> 1) denotes the probability that 𝑁 exceeds 1.\nWhat is the value of 𝛼 ?\n(A)\n1 3\n⁄\n(B)\n1\n(C)\n2 3\n⁄\n(D)\n4 3\n⁄",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nML decoder with equal priors: decision boundaries at midpoints: -1 and 1.\n\nFor S=-2: error if Y > -1, i.e., N > 1. Prob = P(N>1).\nFor S=0: error if |N| > 1. Prob = 2P(N>1).\nFor S=2: error if N < -1. Prob = P(N>1).\n\nTotal Pe = (1/3)(P(N>1) + 2P(N>1) + P(N>1)) = (4/3)P(N>1).\n</think>\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 5.102,
+    "generation_cost": 0.006325
+  },
+  {
+    "question_number": 42,
+    "question": "Consider a real-valued random process\n𝑓(𝑡) = ∑𝑎𝑛\n𝑁\n𝑛=1\n𝑝(𝑡−𝑛𝑇),\nwhere 𝑇> 0 and 𝑁 is a positive integer. Here, 𝑝(𝑡) = 1 for 𝑡∈[0, 0.5𝑇] and\n0 otherwise. The coefficients 𝑎𝑛 are pairwise independent, zero-mean unit-\nvariance random variables.\nRead the following statements about the random process and choose the correct\noption.\n(i)\nThe mean of the process 𝑓(𝑡) is independent of time 𝑡.\n\n(ii)\nThe autocorrelation function 𝐸[ 𝑓(𝑡)𝑓(𝑡+ 𝜏)] is independent of\ntime 𝑡 for all 𝜏.\n(Here, 𝐸[⋅] is the expectation operation.)\n(A)\n(i) is TRUE and (ii) is FALSE\n(B)\nBoth (i) and (ii) are TRUE\n(C)\nBoth (i) and (ii) are FALSE\n(D)\n(i) is FALSE and (ii) is TRUE",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nMean is zero, independent of t. True.\n\nAutocorrelation: E[f(t)f(t+τ)] = Σ_n Σ_m E[a_n a_m] p(t-nT)p(t+τ-mT) = Σ_n p(t-nT)p(t+τ-nT).\n\nThis depends on t because p is not periodic-like to make it stationary. For example at τ=0, sum = Σ p(t-nT)^2, which varies with t (equals 1 when t in some [nT, nT+0.5T], else 0).\n\nSo (ii) is false.\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 4.234,
+    "generation_cost": 0.00728
+  },
+  {
+    "question_number": 43,
+    "question": "The identical MOSFETs M1 and M2 in the circuit given below are ideal and biased\nin the saturation region. M1 and M2 have a transconductance 𝑔𝑚 of 5 mS.\nThe input signals (in Volts) are:\n𝑉1 = 2.5 + 0.01 sin 𝜔𝑡\n𝑉2 = 2.5 −0.01 sin 𝜔𝑡\nThe output signal 𝑉3 (in Volts) is __________.\n\n\n\n(A)\n3 + 0.05 sin 𝜔𝑡\n(B)\n3 −0.1 sin 𝜔𝑡\n(C)\n4 + 0.1 sin 𝜔𝑡\n(D)\n4 −0.05 sin 𝜔𝑡",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nDifferential pair. DC: each MOSFET carries 1 mA. V3 DC = 5 - 1mA*1k = 4V.\n\nSmall signal: differential gain for V3 = -gm*RD * (vid/2) where vid = v1-v2.\nActually v3 = -gm*RD*(v1-v2)/2... let me think.\n\nFor a diff pair with tail current source, output at drain of M1: v3 = -gm*RD*(v1-v2)/2.\n\nv1-v2 = 0.02 sin ωt\nv3_ac = -5e-3 * 1000 * 0.02/2 * sin ωt = -5 * 0.01 * sin ωt = -0.05 sin ωt\n\nSo V3 = 4 - 0.05 sin ωt.\n</think>\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 4.076,
+    "generation_cost": 0.01067
+  },
+  {
+    "question_number": 44,
+    "question": "A 10-bit analog-to-digital converter (ADC) has a sampling frequency of 1 MHz and\na full scale voltage of 3.3 V.\nFor an input sinusoidal signal with frequency 500 kHz, the maximum SNR (in dB,\nrounded off to two decimal places) and the data rate (in Mbps) at the output of the\nADC are ________, respectively.\n(A)\n61.96 and 10\n(B)\n61.96 and 5\n(C)\n33.36 and 10\n(D)\n33.36 and 5",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "SNR = 6.02*10 + 1.76 = 61.96 dB\nData rate = 10 bits × 1 MHz = 10 Mbps\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 7.589,
+    "generation_cost": 0.00318
+  },
+  {
+    "question_number": 45,
+    "question": "A positive-edge-triggered sequential circuit is shown below. There are no timing\nviolations in the circuit. Input P0 is set to logic ‘0’ and P1 is set to logic ‘1’ at all\ntimes. The timing diagram of the inputs SEL and S are also shown below.\nThe sequence of output Y from time T0 to T3 is ________.\n\n\n\n(A)\n1011\n(B)\n0100\n(C)\n0010\n(D)\n1101",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nLet me analyze the circuit.\n\nMUX1: SEL=0 → P0=0, SEL=1 → S\nMUX1 output → D of FF1 → Q1\n\nMUX2: SEL=0 → P1=1, SEL=1 → Q1\nMUX2 output → D of FF2 → Q2\n\nY = Q1_bar XOR Q2_bar = Q1 XOR Q2 (since both inverted, XOR same)\n\nWait, let me look again. The XOR takes Q̄ from FF1 and Q̄ from FF2.\nY = Q1' XOR Q2' = Q1 XOR Q2\n\nFrom the timing diagram:\n- CLK has rising edges at T0, T1, T2, T3\n- SEL: 0 before T1, then 1 from T1 onwards (rises between T0 and T1)\n- S: 0 before T2, then 1 from T2 onwards (rises between T1 and T2)\n\nLet me read more carefully. Looking at the diagram:\n- SEL goes high somewhere between T0 and T1 (looks like at T1 or just before)\n- S goes high between T1 and T2\n\nActually, the timing diagram shows:\n- SEL is 0 initially, rises after T0 (between T0 and T1)\n- S is 0 initially, rises between T1 and T2\n\nAt each clock edge, we sample the inputs.\n\nLet me say at clock edge Tn, the value just before the edge is what gets latched.\n\nJust before T0: SEL=0, S=0\nJust before T1: SEL=1 (just risen), S=0\nJust before T2: SEL=1, S=1\nJust before T3: SEL=1, S=1\n\nWait, need to check setup. Let me check if SEL changes before T0 or after.\n\nLooking again: the SEL signal rises right at or just before T1. Actually looking at typical such problems, let me assume:\n- Before T0: SEL=0, S=0\n- Between T0 and T1: SEL becomes 1\n- Between T1 and T2: S becomes 1\n\nSo at clock edges:\n- T0 edge: SEL=0, S=0 → MUX1=P0=0, MUX2=P1=1. D1=0, D2=1\n- T1 edge: SEL=1, S=0 → MUX1=S=0, MUX2=Q1(old)=0. D1=0, D2=0\n- T2 edge: SEL=1, S=1 → MUX1=S=1, MUX2=Q1(old)=0. D1=1, D2=0\n- T3 edge: SEL=1, S=1 → MUX1=S=1, MUX2=Q1(old)=1. D1=1, D2=1\n\nInitial state: assume Q1=Q2=0 (need to determine output BEFORE/AT each Tn)\n\nHmm, \"sequence of output Y from T0 to T3\" - probably Y values at those time points (after the clock edge, or right at).\n\nLet's track:\nInitial: Q1=0, Q2=0\nY = Q1 XOR Q2 = 0\n\nAfter T0 edge: Q1=0, Q2=1, Y = 1\nAfter T1 edge: Q1=0, Q2=0, Y = 0\nAfter T2 edge: Q1=1, Q2=0, Y = 1\nAfter T3 edge: Q1=1, Q2=1, Y = 0\n\nSequence: 1, 0, 1, 0... not in options.\n\nHmm. Let me reconsider Y. Y = Q1' XOR Q2'. \nQ1' XOR Q2' = (NOT Q1) XOR (NOT Q2) = Q1 XOR Q2. Same thing.\n\nWait, maybe Y is at T0,T1,T2,T3 meaning value BEFORE the clock edge at each Tn.\n\nAt T0 (before edge): Q1=0, Q2=0, Y=0\nAt T1 (before edge): Q1=0, Q2=1, Y=1\nAt T2 (before edge): Q1=0, Q2=0, Y=0\nAt T3 (before edge): Q1=1, Q2=0, Y=1\n\nSequence: 0101... not matching either.\n\nLet me reconsider the timing. Maybe SEL=0 throughout T0 region and changes later.\n\nLooking again: \"SEL\" rises between T1 and T2 maybe? And S rises between T2 and T3?\n\nLet me try:\n- Before T0: SEL=0, S=0\n- Before T1: SEL=0, S=0\n- Before T2: SEL=1, S=0 (SEL rose between T1 and T2)\n- Before T3: SEL=1, S=1 (S rose between T2 and T3)\n\nT0 edge: SEL=0,S=0 → D1=0, D2=1. Q1=0, Q2=1\nT1 edge: SEL=0,S=0 → D1=0, D2=1. Q1=0, Q2=1\nT2 edge: SEL=1,S=0 → D1=0, D2=Q1=0. Q1=0, Q2=0\nT3 edge: SEL=1,S=1 → D1=1, D2=Q1=0. Q1=1, Q2=0\n\nY after edges: \nT0: Q1⊕Q2 = 0⊕1 = 1\nT1: 0⊕1 = 1\nT2: 0⊕0 = 0\nT3: 1⊕0 = 1\n\nSequence: 1101 = option D!\n\nLet me verify the timing diagram interpretation. Looking again carefully at the description: SEL rises somewhere around T1, and S rises around T2. Hmm.\n\nActually reading once more: \"SEL\" - the rising edge appears between T0 and T1. And S rises between T1 and T2.\n\nLet me re-examine my first attempt. At T0 edge what's SEL? If SEL rises between T0 and T1, then at T0 edge SEL=0. At T1 edge SEL=1.\n\nIf S rises between T1 and T2, then at T1 edge S=0, at T2 edge S=1.\n\nSo my first analysis was right giving 1010 which isn't an option.\n\nBut option D 1101 matches the second interpretation where SEL changes between T1-T2 and S between T2-T3.\n\nLooking at the problem image description again more carefully - The dashed lines T0,T1,T2,T3 align with clock. SEL goes high - if I look, it rises around T1 region, S rises around T2.\n\nHmm, but maybe the clock edges are at T0,T1,T2,T3 but the inputs change AT those times after the edge. Setup time means inputs need to be stable BEFORE clock edge.\n\nIf SEL changes at T1 (just after the edge), then for T1 edge SEL was still 0.\n\nLet me try: SEL changes just after T1, S changes just after T2.\n\nT0 edge: SEL=0, S=0 → D1=P0=0, D2=P1=1\nT1 edge: SEL=0, S=0 → D1=0, D2=1\nT2 edge: SEL=1, S=0 → D1=S=0, D2=Q1=0\nT3 edge: SEL=1, S=1 → D1=1, D2=Q1=0\n\nAfter edges:\nT0: Q1=0, Q2=1, Y=1\nT1: Q1=0, Q2=1, Y=1\nT2: Q1=0, Q2=0, Y=0\nT3: Q1=1, Q2=0, Y=1\n\nY sequence: 1,1,0,1 = 1101 → Option D\n</think>\n\nLooking at this circuit:\n- **MUX1**: SEL=0 → P0=0; SEL=1 → S. Output goes to D of FF1 (Q1)\n- **MUX2**: SEL=0 → P1=1; SEL=1 → Q1. Output goes to D of FF2 (Q2)\n- **Y** = Q1' ⊕ Q2' = Q1 ⊕ Q2\n\n**Reading the timing diagram** (inputs must be stable before clock edges):\n- At T0 edge: SEL=0, S=0\n- At T1 edge: SEL=0, S=0  \n- At T2 edge: SEL=1, S=0\n- At T3 edge: SEL=1, S=1\n\n**Tracing flip-flop values after each clock edge:**\n\n| Edge | SEL | S | D1 (MUX1 out) | D2 (MUX2 out) | Q1 | Q2 | Y=Q1⊕Q2 |\n|------|-----|---|---------------|---------------|----|----|---------| \n| T0 | 0 | 0 | P0=0 | P1=1 | 0 | 1 | **1** |\n| T1 | 0 | 0 | P0=0 | P1=1 | 0 | 1 | **1** |\n| T2 | 1 | 0 | S=0 | Q1=0 | 0 | 0 | **0** |\n| T3 | 1 | 1 | S=1 | Q1=0 | 1 | 0 | **1** |\n\n**Sequence of Y from T0 to T3: 1101**\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 23.929,
+    "generation_cost": 0.07805
+  },
+  {
+    "question_number": 46,
+    "question": "The intrinsic carrier concentration of a semiconductor is 2.5 × 1016 /m3 at 300 K.\nIf the electron and hole mobilities are 0.15 m2/Vs and 0.05 m2/Vs, respectively, then\nthe intrinsic resistivity of the semiconductor (in kΩ.m) at 300 K is ________.\n(Charge of an electron 𝑒 = 1.6 × 10−19 C.)\n(A)\n1.65\n(B)\n1.25\n(C)\n0.85\n(D)\n1.95",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "σ = ni·e·(μn+μp) = 2.5e16 × 1.6e-19 × 0.20 = 2.5×1.6×0.20 × 10^-3 = 0.8 × 10^-3 S/m\n\nρ = 1/σ = 1250 Ω·m = 1.25 kΩ·m\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.989,
+    "generation_cost": 0.00482
+  },
+  {
+    "question_number": 47,
+    "question": "In the circuit shown, the identical transistors Q1 and Q2 are biased in the active\nregion with 𝛽= 120. The Zener diode is in the breakdown region with VZ = 5 V\nand IZ = 25 mA.\nIf IL = 12 mA and VEB1 = VEB2 = 0.7 V, then the values of R1 and R2 (in kΩ,\nrounded off to one decimal place) are ______, respectively.\n\n\n\n(A)\n0.6 and 0.4\n(B)\n1.4 and 2.5\n(C)\n14.0 and 25.0\n(D)\n6.0 and 4.0",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nLet me analyze this circuit.\n\nQ1 is a PNP transistor (V_EB1 = 0.7V), with emitter connected to R2 (top) and collector to R_L (load), giving I_L = 12 mA.\n\nQ2 is PNP, diode-connected (base-collector shorted), acting as a current source/mirror element. Its emitter at 20V, base/collector at the top of the Zener.\n\nZener: V_Z = 5V, I_Z = 25 mA, with cathode up (top), anode down at R1.\n\nLet me trace:\n- Top of Zener is at 20 - V_EB2 = 20 - 0.7 = 19.3 V\n- Bottom of Zener is at 19.3 - 5 = 14.3 V\n- R1 connects from 14.3V to ground: current through R1\n\nQ1: emitter at top of R2, base at the bottom of Zener (14.3V).\nV_EB1 = V_E - V_B = 0.7, so V_E = 14.3 + 0.7 = 15 V\nVoltage across R2 = 20 - 15 = 5 V\nI_E1 = I_L × (β+1)/β... wait, I_L is collector current = 12 mA\nI_E1 = I_L × (β+1)/β = 12 × 121/120 = 12.1 mA\nR2 = 5V / 12.1 mA = 0.413 kΩ ≈ 0.4 kΩ\n\nWait, let me check I_E. Actually I_E = I_C + I_B = I_C(1 + 1/β) = 12(1+1/120) = 12.1 mA\nR2 = 5/12.1 = 0.4132 kΩ\n\nI_B1 = I_L/β = 12/120 = 0.1 mA\n\nNow for R1: Current through R1 = I_Z + I_C2 - I_B1? Let me think about node at bottom of Zener.\n\nAt node (bottom of Zener, base of Q1, top of R1):\nCurrents in: I_Z (from zener, flowing down through zener), I_B1 flows out of base of PNP Q1 (so into this node)\nCurrents out: through R1 to ground\n\nWait, for PNP Q1, base current flows out of base (conventional). So I_B1 flows from base node toward... actually for PNP, I_B flows out of the base terminal into the external circuit. Looking at arrow in figure, I_B points from Q1 base toward the Zener node, meaning current flows from Q1 base into the node.\n\nSo at bottom-of-zener node:\nIn: I_Z (current through zener flows down, so enters this node from above) + I_B1\nOut: I_R1 (through R1 to ground)\n\nI_R1 = I_Z + I_B1 = 25 + 0.1 = 25.1 mA\nR1 = 14.3 V / 25.1 mA = 0.5697 kΩ ≈ 0.6 kΩ\n\nHmm, let me verify Q2's role. Q2 is diode-connected PNP with emitter at 20V, base=collector at top of Zener (19.3V). It supplies current to the Zener.\n\nAt top-of-zener node:\nIn: I_C2 + I_E2 from Q2... wait Q2's collector connects here. Actually base and collector both connect here (diode connected).\nCurrent from Q2 into node = I_E2 (since I_E2 = I_C2 + I_B2, all flow into the node through the short)\n\nActually current entering the node from Q2 is I_C2 + I_B2 = I_E2.\n\nOut of node: I_Z (down through zener)\nAlso, this node connects to base of Q1? Let me re-read the figure.\n\nLooking again: The top of Zener (with + sign for V_Z) connects to Q2's base/collector. The bottom of Zener connects to base of Q1 and top of R1.\n\nSo at top-of-Zener: I_E2 flows in, I_Z flows out (down through zener).\nI_E2 = I_Z = 25 mA\n\nThis doesn't directly affect R1, R2 calculation.\n\nSo:\nR1 = 14.3/25.1 ≈ 0.6 kΩ\nR2 = 5/12.1 ≈ 0.4 kΩ\n</think>\n\n**Step 1: Analyze Q1 (PNP transistor delivering I_L)**\n\n- I_C1 = I_L = 12 mA\n- I_B1 = I_L/β = 12/120 = 0.1 mA\n- I_E1 = I_L(β+1)/β = 12 × 121/120 = 12.1 mA\n\n**Step 2: Find voltage at base of Q1**\n\nTop of Zener: V = 20 − V_EB2 = 20 − 0.7 = 19.3 V\nBottom of Zener (= base of Q1): V_B1 = 19.3 − 5 = 14.3 V\n\n**Step 3: Calculate R2**\n\nEmitter of Q1: V_E1 = V_B1 + V_EB1 = 14.3 + 0.7 = 15 V\nVoltage across R2 = 20 − 15 = 5 V\nR2 = 5 V / 12.1 mA = **0.4 kΩ**\n\n**Step 4: Calculate R1**\n\nAt the node connecting bottom of Zener, base of Q1, and top of R1:\n- I_Z (25 mA) flows down through Zener into node\n- I_B1 (0.1 mA) flows out of Q1's base into node\n- Current through R1 = I_Z + I_B1 = 25.1 mA\n\nR1 = 14.3 V / 25.1 mA = **0.6 kΩ**\n\nFINAL_ANSWER: R1 = 0.6 kΩ, R2 = 0.4 kΩ",
+    "final_answer": "R1 = 0.6 kΩ, R2 = 0.4 kΩ",
+    "generation_time_s": 20.67,
+    "generation_cost": 0.050095
+  },
+  {
+    "question_number": 48,
+    "question": "The electron mobility µn in a non-degenerate germanium semiconductor at 300 K\nis 0.38 m2/Vs.\nThe electron diffusivity 𝐷𝑛 at 300 K (in cm2/s, rounded off to the nearest integer)\nis _______.\n(Consider the Boltzmann constant 𝑘B = 1.38 × 10−23J/K and the charge of an\nelectron 𝑒 = 1.6 × 10−19 C.)\n(A)\n26\n(B)\n98\n(C)\n38\n(D)\n10",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Einstein relation: D_n = μ_n × kT/e\n\nkT/e = (1.38e-23 × 300)/1.6e-19 = 4.14e-21/1.6e-19 = 0.02587 V\n\nD_n = 0.38 × 0.02587 = 0.00983 m²/s = 98.3 cm²/s ≈ 98\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 4.993,
+    "generation_cost": 0.00491
+  },
+  {
+    "question_number": 49,
+    "question": "A square metal sheet of 4 m × 4 m is placed on the x-y plane as shown in the figure\nbelow.\nIf the surface charge density (in µC/m2) on the sheet is 𝜌𝑠(𝑥, 𝑦) = 4|𝑦|, then the\ntotal charge (in µC, rounded off to the nearest integer) on the sheet is ________.\n\n\n\n(A)\n16\n(B)\n85\n(C)\n64\n(D)\n256",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Q = ∫∫ 4|y| dA = 4 · ∫_{-2}^{2} dx · ∫_{-2}^{2} |y| dy = 4 · 4 · 4 = 64\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 3.329,
+    "generation_cost": 0.005625
+  },
+  {
+    "question_number": 50,
+    "question": "An electric field of 0.01 V/m is applied along the length of a copper wire of circular\ncross-section with diameter 1 mm. Copper has a conductivity of 5.8 × 107 S/m.\nThe current (in Amperes, rounded off to two decimal places) flowing through the\nwire is _________.\n(A)\n0.46\n(B)\n1.82\n(C)\n0.58\n(D)\n1.12",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "J = σE = 5.8e7 × 0.01 = 5.8e5 A/m²\nA = π(0.5e-3)² = π×2.5e-7 = 7.854e-7 m²\nI = 5.8e5 × 7.854e-7 = 0.4555 ≈ 0.46\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 3.302,
+    "generation_cost": 0.00415
+  },
+  {
+    "question_number": 51,
+    "question": "Consider a non-negative function 𝑓(𝑥) which is continuous and bounded over the\ninterval [2, 8]. Let 𝑀 and 𝑚 denote, respectively, the maximum and the minimum\nvalues of 𝑓(𝑥) over the interval.\nAmong the combinations of 𝛼 and 𝛽 given below, choose the one(s) for which the\ninequality\n𝛽≤∫𝑓(𝑥) 𝑑𝑥\n8\n2\n≤𝛼\nis guaranteed to hold.\n(A)\n𝛽= 5𝑚, 𝛼= 7𝑀\n(B)\n𝛽= 6𝑚, 𝛼= 5𝑀\n(C)\n𝛽= 7𝑚, 𝛼= 6𝑀\n(D)\n𝛽= 7𝑚, 𝛼= 5𝑀",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "The integral satisfies 6m ≤ ∫ ≤ 6M (interval length 6).\n\nWe need β ≤ 6m and α ≥ 6M.\n\n(A) β=5m ≤ 6m ✓, α=7M ≥ 6M ✓ \n(B) β=6m ≤ 6m ✓, α=5M ≥ 6M? No ✗\n(C) β=7m ≤ 6m? No ✗\n(D) β=7m ✗\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 7.395,
+    "generation_cost": 0.00595
+  },
+  {
+    "question_number": 52,
+    "question": "Which of the following statements involving contour integrals (evaluated counter-\nclockwise) on the unit circle 𝐶 in the complex plane is/are TRUE?\n(A)\n∮𝑒𝑧\n𝐶\n𝑑𝑧= 0\n(B)\n∮𝑧𝑛\n𝐶\n𝑑𝑧= 0, where 𝑛 is an even integer\n(C)\n∮cos 𝑧\n𝐶\n𝑑𝑧≠0\n(D)\n∮sec 𝑧\n𝐶\n𝑑𝑧≠0",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\ne^z analytic: integral = 0. A true.\nz^n for n even integer: if n≥0, analytic, integral 0. If n negative even, e.g., n=-2, integral of z^-2 = 0 (since residue at 0 is 0, only n=-1 gives 2πi). So B true.\ncos z analytic, integral = 0, so C false.\nsec z = 1/cos z has singularities where cos z = 0, i.e., z = π/2 ≈ 1.57, outside unit circle. So sec z analytic inside unit disk, integral = 0. D false.\n</think>\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 3.143,
+    "generation_cost": 0.00662
+  },
+  {
+    "question_number": 53,
+    "question": "Consider a system where 𝑥1(𝑡), 𝑥2(𝑡), and 𝑥3(𝑡) are three internal state signals\nand 𝑢(𝑡) is the input signal. The differential equations governing the system are\ngiven by\n𝑑\n𝑑𝑡[\n𝑥1(𝑡)\n𝑥2(𝑡)\n𝑥3(𝑡)\n] = [\n2\n0\n0\n0\n−2\n0\n0\n0\n0\n] [\n𝑥1(𝑡)\n𝑥2(𝑡)\n𝑥3(𝑡)\n] + [\n1\n1\n1\n] 𝑢(𝑡).\nWhich of the following statements is/are TRUE?\n(A)\nThe signals 𝑥1(𝑡), 𝑥2(𝑡), and 𝑥3(𝑡) are bounded for all bounded inputs\n(B)\nThere exists a bounded input such that at least one of the signals 𝑥1(𝑡),\n𝑥2(𝑡), and 𝑥3(𝑡) is unbounded\n(C)\nThere exists a bounded input such that the signals 𝑥1(𝑡), 𝑥2(𝑡), and 𝑥3(𝑡) are\nunbounded\n(D)\nThe signals 𝑥1(𝑡), 𝑥2(𝑡), and 𝑥3(𝑡) are unbounded for all bounded inputs",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Eigenvalues are 2, -2, 0. x1 has eigenvalue 2 (unstable), so for any bounded input (even u=0 with x1(0)≠0, but let's consider u bounded), x1(t) = e^(2t)x1(0) + ∫e^(2(t-τ))u(τ)dτ grows unbounded for most inputs.\n\nx3 has eigenvalue 0: x3(t) = x3(0) + ∫u(τ)dτ - could be unbounded for bounded u (e.g., u=1 constant).\n\nx2 has eigenvalue -2: bounded for bounded input.\n\n(A) False - x1 generally unbounded.\n(B) True - e.g., u=1 makes x1 and x3 unbounded.\n(C) True - u=1 constant: x1 unbounded, x3 unbounded, but x2 → -1/2 (bounded). So not ALL three unbounded... \n\nWait, (C) says \"the signals x1, x2, x3 are unbounded\" - meaning all three? With u=1: x2(t) → -1/2, bounded. Need input making all three unbounded. x2 with eigenvalue -2 is BIBO stable, so x2 always bounded for bounded input. So (C) is False.\n\n(D) False - x2 always bounded.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 7.867,
+    "generation_cost": 0.014035
+  },
+  {
+    "question_number": 54,
+    "question": "The random variable 𝑋 takes values in {−1,0,1} with probabilities\n𝑃(𝑋= −1) = 𝑃(𝑋= 1) = 𝛼 and 𝑃(𝑋= 0) = 1 −2𝛼, where 0 < 𝛼< 1 2\n⁄ .\nLet 𝑔(𝛼) denote the entropy of 𝑋 (in bits), parameterized by 𝛼.\nWhich of the following statements is/are TRUE?\n(A)\n𝑔(0.4) > 𝑔(0.3)\n(B)\n𝑔(0.3) > 𝑔(0.4)\n(C)\n𝑔(0.3) > 𝑔(0.25)\n(D)\n𝑔(0.25) > 𝑔(0.3)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\ng(α) = -2α log2(α) - (1-2α) log2(1-2α)\n\nMax entropy when all three equal, α=1/3. So entropy increases from 0 to 1/3, decreases after.\n\ng(0.4) vs g(0.3): 0.3 closer to 1/3, so g(0.3) > g(0.4). B true.\ng(0.3) vs g(0.25): 0.3 closer to 1/3 than 0.25. |0.3-1/3|=0.0333, |0.25-1/3|=0.0833. So g(0.3) > g(0.25). C true.\n\nBut entropy isn't symmetric around 1/3 necessarily. Let me verify numerically.\n\ng(0.25): -2(0.25)log2(0.25) - 0.5 log2(0.5) = 0.5·2 + 0.5·1 = 1 + 0.5 = 1.5\ng(0.3): -0.6 log2(0.3) - 0.4 log2(0.4) = -0.6(-1.737) - 0.4(-1.322) = 1.042 + 0.529 = 1.571\ng(0.4): -0.8 log2(0.4) - 0.2 log2(0.2) = 0.8(1.322) + 0.2(2.322) = 1.058 + 0.464 = 1.522\n\nSo g(0.3)=1.571 > g(0.4)=1.522 ✓ B\ng(0.3)=1.571 > g(0.25)=1.5 ✓ C\n</think>\n\nFINAL_ANSWER: B,C",
+    "final_answer": "B,C",
+    "generation_time_s": 6.363,
+    "generation_cost": 0.014545
+  },
+  {
+    "question_number": 55,
+    "question": "Let 𝑓(𝑡) be a periodic signal with fundamental period 𝑇0 > 0. Consider the signal\n𝑦(𝑡) = 𝑓(𝛼𝑡), where 𝛼> 1.\nThe Fourier series expansions of 𝑓(𝑡) and 𝑦(𝑡) are given by\n𝑓(𝑡) = ∑𝑐𝑘 𝑒\n𝑗2𝜋\n𝑇0 𝑘𝑡\n∞\n𝑘=−∞\nand 𝑦(𝑡) = ∑𝑑𝑘 𝑒\n𝑗2𝜋\n𝑇0 𝛼𝑘𝑡\n∞\n𝑘=−∞\n.\nWhich of the following statements is/are TRUE?\n(A)\n𝑐𝑘= 𝑑𝑘 for all 𝑘\n(B)\n𝑦(𝑡) is periodic with a fundamental period 𝛼𝑇0\n(C)\n𝑐𝑘= 𝑑𝑘/𝛼 for all 𝑘\n(D)\n𝑦(𝑡) is periodic with a fundamental period 𝑇0/𝛼",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "y(t) = f(αt), period T₀/α. Coefficients same: d_k = c_k.\n\nFINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 1.487,
+    "generation_cost": 0.00332
+  },
+  {
+    "question_number": 56,
+    "question": "Consider a system represented by the block diagram shown below. Which of the\nfollowing signal flow graphs represent(s) this system? Choose the correct option(s).\n\n\n(A)\n\n(B)\n\n(C)\n\n(D)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nLet me analyze the block diagram.\n\nR(s) goes into a summing junction (+ for R, - for feedback). Output of summer is X.\nX goes to G1 and also to G2 (parallel paths).\nG2 output and G1 output sum at the second summer (both +).\nOutput Y(s).\n\nAlso, there's a feedback from G1's output back to the first summer's negative input.\n\nWait, let me re-read. The feedback line goes from somewhere back to the first summer's minus input.\n\nLooking again: After first summer, signal X branches into G1 and G2. G1 output goes to second summer. G2 output goes to second summer. Second summer outputs Y(s). \n\nThe feedback: from the line between G1 and the second summer, there's a feedback to the first summer's negative input.\n\nSo: X = R - (G1·X)\nY = G1·X + G2·X\n\nX(1+G1) = R, so X = R/(1+G1)\nY = (G1+G2)/(1+G1) · R\n\nNow signal flow graph:\n- R → node1 (gain 1)\n- node1 → node2 (this is X)\n- From node2: G1 to node3, G2 to node3 (parallel)\n- node3 → Y (gain 1)\n- Feedback: from output of G1 back to node2 with gain -1\n\nThe feedback comes from after G1 (which is between node1/2 and node3 essentially). \n\nLet me set up nodes more carefully:\n- Node R\n- Node A (sum point output, = X)\n- Node B (after G1)\n- Node C (sum at output) \n- Node Y\n\nR → A with gain 1\nA → B with gain G1\nB → C with gain 1\nA → C with gain G2 (parallel path)\nC → Y with gain 1\nFeedback: B → A with gain -1\n\nLet me check transfer function with this SFG using Mason's:\nForward paths: \nP1: R→A→B→C→Y = 1·G1·1·1 = G1\nP2: R→A→C→Y = 1·G2·1 = G2\n\nLoops: A→B→A = G1·(-1) = -G1\nΔ = 1 + G1\nΔ1 = 1 (loop touches P1)... wait, loop A→B→A touches P1 (shares nodes A,B). So Δ1=1.\nΔ2 = 1 + G1? No, loop touches A which is on P2. So Δ2 = 1.\n\nT = (G1 + G2)/(1+G1) ✓\n\nNow check options:\n\n(A) R→(node)→(node)→Y with paths G1, G2 between two middle nodes, and -1 loop between same two nodes.\nForward: G1, G2\nLoop: G1·(-1) = -G1 (or G2·(-1)?)\nLooking at (A): the -1 is below G1, forming a loop with G1. So loop = -G1.\nΔ = 1+G1\nP1=G1, Δ1=1; P2=G2, Δ2=1 (loop touches both nodes)\nT = (G1+G2)/(1+G1) ✓\n\n(B) R→n1→n2→n3→n4→Y, with G1 from n2 to n3, G2 from n2 to n4 (skipping), -1 from n3 to n2.\nForward paths: \nP1: 1·G1·1·1 = G1\nP2: 1·G2·1 = G2 (R→n1→n2→n4→Y)... wait need to check connections.\n\nIn (B): R→n1 (gain 1), n1→n2 (gain G1)? Let me re-read.\n\"R(s)→o→o→o→o Y(s) with 1, G1, 1, 1\"\nG2 spans over the top from n2 to n3? or n1 to n3?\n-1 loop with G1.\n\nHmm, hard to tell exactly. Let me assume B has: R→A (1), A→B (G1), B→C (1), C→Y (1), with G2 from A to C, and -1 from B to A.\n\nForward paths:\nP1: R→A→B→C→Y = 1·G1·1·1 = G1\nP2: R→A→C→Y = 1·G2·1 = G2\nLoop: A→B→A = -G1\nΔ = 1+G1, Δ1=1, Δ2=1\nT = (G1+G2)/(1+G1) ✓\n\n(C) R→A→B→Y with G1, G2 parallel from A to B, and \"1\" loop (not -1).\nLoop = G1·1 = G1 (positive)\nΔ = 1 - G1\nT = (G1+G2)/(1-G1) ✗\n\n(D) R→A→B→C→Y with G1 from A to B, G2 from A to B (parallel), then 1, 1. -1 feedback from C to A or B to A?\n\"-1\" appears below, spanning back. If -1 goes from B (or C) back to A.\n\nIf -1 goes from C back to A (feedback around everything):\nForward: P1 = G1, P2 = G2\nLoop: A→B→C→A with gain G1·1·(-1) = -G1, and A→B→C→A via G2 = -G2\nΔ = 1+G1+G2\nT = (G1+G2)/(1+G1+G2) ✗\n\nIf -1 goes from B back to A only on G1 path... need to look more carefully.\n\nIn (D), the -1 arrow likely goes from a later node back. Based on description \"1, G1, 1, 1\" with G2 on top and -1 below spanning back from output side.\n\nLooking at D: R→n1 (1), n1→n2 (G1), n2→n3 (1), n3→Y (1), G2 from n1 to n2 (parallel with G1), -1 from n3 back to n1.\n\nForward: P1=G1, P2=G2\nLoop1: n1→n2→n3→n1 via G1: G1·1·(-1)=-G1\nLoop2: n1→n2→n3→n1 via G2: -G2\nΔ = 1+G1+G2\nT = (G1+G2)/(1+G1+G2) ✗\n\nSo A and B are correct.\n</think>\n\nLooking at this problem, I need to find the transfer function from the block diagram and check which signal flow graphs match.\n\n## Block Diagram Analysis\n\nLet X be the output of the first summer:\n- X = R - (feedback from G₁ output) = R - G₁X\n- Y = G₁X + G₂X\n\nSolving: X(1 + G₁) = R, so:\n$$\\frac{Y(s)}{R(s)} = \\frac{G_1 + G_2}{1 + G_1}$$\n\n## Checking Each SFG using Mason's Gain Formula\n\n**Option (A):** Two parallel paths G₁ and G₂ between two nodes, with a -1 feedback forming a loop with G₁.\n- Forward paths: P₁ = G₁, P₂ = G₂\n- Loop: L₁ = -G₁\n- Δ = 1 + G₁; Δ₁ = Δ₂ = 1 (loop touches both paths)\n- T = (G₁ + G₂)/(1 + G₁) ✓\n\n**Option (B):** R→n₁→n₂→n₃→n₄→Y with G₁ between n₂-n₃, G₂ bypass from n₂ to n₃ (or n₄), and -1 loop with G₁.\n- Forward paths: P₁ = G₁, P₂ = G₂\n- Loop: L₁ = -G₁\n- Δ = 1 + G₁; Δ₁ = Δ₂ = 1\n- T = (G₁ + G₂)/(1 + G₁) ✓\n\n**Option (C):** Same as (A) but with +1 feedback (not -1).\n- Loop = +G₁, Δ = 1 - G₁\n- T = (G₁ + G₂)/(1 - G₁) ✗\n\n**Option (D):** Has -1 feedback spanning back from output side, creating loops with both G₁ and G₂.\n- Two loops: -G₁ and -G₂\n- Δ = 1 + G₁ + G₂\n- T = (G₁ + G₂)/(1 + G₁ + G₂) ✗\n\n## Conclusion\n\nOptions (A) and (B) correctly represent the system.\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 27.501,
+    "generation_cost": 0.07322
+  },
+  {
+    "question_number": 57,
+    "question": "All the diodes in the circuit given below are ideal.\nWhich of the following plots is/are correct when VI (in Volts) is swept from –M to\nM ?\n\n\n\n(A)\n\n(B)\n\n(C)\n\n(D)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nThis is a bridge rectifier with resistor R. V_O is across R with polarity marked - on left, + on right.\n\nWhen V_I > 0: current flows through top-left diode, then through R from left to right (so V_O = +|V_I|... wait let me think).\n\nActually in a bridge rectifier, regardless of input polarity, the output across R has the same polarity. So V_O = |V_I|.\n\nFor V_I positive: V_O = V_I (positive)\nFor V_I negative: V_O = -V_I = |V_I| (positive)\n\nSo V_O vs V_I is a V-shape: V_O = |V_I|. That's plot (A).\n\nFor current I_I: this is the input current. When V_I > 0, current flows into the bridge, I_I = V_I/R (positive). When V_I < 0, the actual current direction reverses, so I_I (defined in the direction shown) would be negative... \n\nWait. I_I is defined with arrow pointing right (into the bridge from + terminal). \n\nWhen V_I > 0: I_I = V_I/R > 0\nWhen V_I < 0: current flows opposite to arrow, so I_I = V_I/R < 0 (negative)\n\nActually, I_I = V_I/R always, because the bridge always presents R as the load and the source delivers V_I with current flowing in the direction of V_I.\n\nSo I_I vs V_I is linear with slope 1/R. That's plot (D).\n\nWait but then V_O = |V_I| while I_I = V_I/R? Let's verify.\n\nWhen V_I > 0: I_I flows in direction shown, magnitude V_I/R. Through bridge, current through R is V_I/R from left to right, so V_O (- to +, left to right marked) = +V_I. ✓\nWhen V_I < 0: The +/- of V_I are reversed. Current flows opposite to I_I arrow, so I_I = V_I/R (negative). Through bridge diodes (other pair conducts), current through R still flows left to right, so V_O = +|V_I| = -V_I (positive).\n\nSo V_O = |V_I| → plot A\nI_I = V_I/R → plot D\n\nAnswers: A and D.\n</think>\n\nFINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 10.165,
+    "generation_cost": 0.022855
+  },
+  {
+    "question_number": 58,
+    "question": "Two fair dice (with faces labeled 1, 2, 3, 4, 5, and 6) are rolled. Let the random\nvariable 𝑋 denote the sum of the outcomes obtained.\nThe expectation of 𝑋 is______ (rounded off to two decimal places).",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "7\n\nFINAL_ANSWER: 7.00",
+    "final_answer": "7.00",
+    "generation_time_s": 4.18,
+    "generation_cost": 0.00157
+  },
+  {
+    "question_number": 59,
+    "question": "Consider the vectors\n𝒂= [\n1\n1\n] ,\n𝒃= [\n0\n3√2\n].\nFor real-valued scalar variable 𝑥, the value of\nmin\n𝑥‖𝒂𝑥−𝒃‖2\nis ____________ (rounded off to two decimal places).\n‖⋅‖2 denotes the Euclidean norm, i.e., for 𝒚= [\n𝑦1\n𝑦2\n], ‖𝒚‖2 = √𝑦1\n2 + 𝑦2\n2.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "x* = (a·b)/(a·a) = 3√2/2\n\nresidual = b - a*x* = [-3√2/2, 3√2/2], norm = 3\n\nFINAL_ANSWER: 3.00",
+    "final_answer": "3.00",
+    "generation_time_s": 5.872,
+    "generation_cost": 0.0037
+  },
+  {
+    "question_number": 60,
+    "question": "𝑋 and 𝑌 are Bernoulli random variables taking values in {0,1}. The joint\nprobability mass function of the random variables is given by:\n𝑃(𝑋= 0, 𝑌= 0) = 0.06\n𝑃(𝑋= 0, 𝑌= 1) = 0.14\n𝑃(𝑋= 1, 𝑌= 0) = 0.24\n𝑃(𝑋= 1, 𝑌= 1) = 0.56\nThe mutual information 𝐼(𝑋; 𝑌) is _________ (rounded off to two decimal places).",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "P(X=0) = 0.20, P(X=1) = 0.80\nP(Y=0) = 0.30, P(Y=1) = 0.70\n\nCheck independence: P(X=0)P(Y=0) = 0.06 ✓\nP(X=0)P(Y=1) = 0.14 ✓\nP(X=1)P(Y=0) = 0.24 ✓\nP(X=1)P(Y=1) = 0.56 ✓\n\nX and Y are independent, so I(X;Y) = 0.\n\nFINAL_ANSWER: 0",
+    "final_answer": "0",
+    "generation_time_s": 5.51,
+    "generation_cost": 0.006115
+  },
+  {
+    "question_number": 61,
+    "question": "The diode in the circuit shown below is ideal. The input voltage (in Volts) is given\nby 𝑉𝐼= 10 sin 100𝜋𝑡, where time 𝑡 is in seconds.\nThe time duration (in ms, rounded off to two decimal places) for which the diode is\nforward biased during one period of the input is ___________.",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nDiode forward biased when V_I > 5V. \n10 sin(100πt) > 5, so sin(100πt) > 0.5\nPeriod T = 2π/(100π) = 20 ms\n100πt between π/6 and 5π/6\nt between 1/600 and 5/600 seconds = 1.667 to 8.333 ms\nDuration = 6.67 ms\n</think>\n\nFINAL_ANSWER: 6.67",
+    "final_answer": "6.67",
+    "generation_time_s": 3.12,
+    "generation_cost": 0.005245
+  },
+  {
+    "question_number": 62,
+    "question": "In the circuit shown below, the AND gate has a propagation delay of 1 ns. The edge-\ntriggered flip-flops have a set-up time of 2 ns, a hold-time of 0 ns, and a clock-to-Q\ndelay of 2 ns.\nThe maximum clock frequency (in MHz, rounded off to the nearest integer) such\nthat there are no setup violations is ________.",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nTwo flip-flops in series, output goes through AND gate back to D of first FF.\n\nPath: FF2 Q -> AND gate -> D of FF1\nDelay = clock-to-Q (2) + AND (1) + setup (2) = 5 ns\n\nAlso FF1 Q -> D of FF2: clock-to-Q (2) + setup (2) = 4 ns\n\nMax is 5 ns, so f = 1/5ns = 200 MHz.\n</think>\n\nFINAL_ANSWER: 200",
+    "final_answer": "200",
+    "generation_time_s": 6.123,
+    "generation_cost": 0.006095
+  },
+  {
+    "question_number": 63,
+    "question": "An ideal p-n junction germanium diode has a reverse saturation current of 10 µA at\n300 K.\nThe voltage (in Volts, rounded off to two decimal places) to be applied across the\njunction to get a forward bias current of 100 mA at 300 K is _____.\n(Consider the Boltzmann constant 𝑘B = 1.38 × 10−23J/K and the charge of an\nelectron 𝑒 = 1.6 × 10−19 C.)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nV = (kT/e) ln(I/I0 + 1) = 0.02587 × ln(10000+1) ≈ 0.02587 × 9.2103 ≈ 0.2383\n\nkT/e = 1.38e-23 × 300 / 1.6e-19 = 4.14e-21/1.6e-19 = 0.025875\nln(10001) ≈ 9.2104\nV ≈ 0.2383 V\n</think>\n\nUsing the diode equation: I = I₀(e^(V/Vt) - 1)\n\n**Step 1:** Calculate thermal voltage Vt = kT/e\nVt = (1.38 × 10⁻²³ × 300)/(1.6 × 10⁻¹⁹) = 0.02588 V\n\n**Step 2:** Solve for V\nV = Vt × ln(I/I₀ + 1) = 0.02588 × ln(100×10⁻³/10×10⁻⁶ + 1)\nV = 0.02588 × ln(10001)\nV = 0.02588 × 9.2104\nV ≈ 0.2384 V\n\nFINAL_ANSWER: 0.24",
+    "final_answer": "0.24",
+    "generation_time_s": 5.298,
+    "generation_cost": 0.01104
+  },
+  {
+    "question_number": 64,
+    "question": "A 50 Ω lossless transmission line is terminated with a load ZL of (50 – j75) Ω.\nIf the average incident power on the line is 10 mW, then the average power\ndelivered to the load (in mW, rounded off to one decimal place) is __________.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nReflection coefficient: Γ = (ZL - Z0)/(ZL + Z0) = (-j75)/(100 - j75)\n\n|Γ|² = 75²/(100² + 75²) = 5625/15625 = 0.36\n\nPower delivered = 10(1 - 0.36) = 6.4 mW\n</think>\n\nFINAL_ANSWER: 6.4",
+    "final_answer": "6.4",
+    "generation_time_s": 1.83,
+    "generation_cost": 0.004395
+  },
+  {
+    "question_number": 65,
+    "question": "Two resistors are connected in a circuit loop of area 5 m2, as shown in the figure\nbelow. The circuit loop is placed on the x-y plane.\nWhen a time-varying magnetic flux, with flux-density 𝐵(𝑡) = 0.5𝑡 (in Tesla), is\napplied along the positive z-axis, the magnitude of current I (in Amperes, rounded\noff to two decimal places) in the loop is ________.",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "EMF = -dΦ/dt = -0.5 × 5 = -2.5 V (magnitude 2.5 V)\n\nTotal resistance = 2 + 2 = 4 Ω\n\nI = 2.5/4 = 0.625 A\n\nFINAL_ANSWER: 0.63",
+    "final_answer": "0.63",
+    "generation_time_s": 3.982,
+    "generation_cost": 0.004895
+  }
+]

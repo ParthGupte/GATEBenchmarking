@@ -1,0 +1,652 @@
+[
+  {
+    "question_number": 1,
+    "question": "Ravi had ______ younger brother who taught at ______ university. He was widely\nregarded as ______ honorable man.\nSelect the option with the correct sequence of articles to fill in the blanks.\n\n\n(A)\na; a; an\n(B)\nthe; an; a\n(C)\na; an; a\n(D)\nan; an; a",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "\"a younger\" (consonant sound), \"a university\" (yoo sound - consonant), \"an honorable\" (silent h - vowel sound)\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.336,
+    "generation_cost": 0.00265
+  },
+  {
+    "question_number": 2,
+    "question": "The CEO’s decision to downsize the workforce was considered myopic because it\nsacrificed long-term stability to accommodate short-term gains.\nSelect the most appropriate option that can replace the word “myopic” without\nchanging the meaning of the sentence.\n\n\n(A)\nvisionary\n(B)\nshortsighted\n(C)\nprogressive\n(D)\ninnovative",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.468,
+    "generation_cost": 0.00159
+  },
+  {
+    "question_number": 3,
+    "question": "The average marks obtained by a class in an examination were calculated as 30.8.\nHowever, while checking the marks entered, the teacher found that the marks of one\nstudent were entered incorrectly as 24 instead of 42. After correcting the marks, the\naverage becomes 31.4. How many students does the class have?\n\n\n(A)\n25\n(B)\n28\n(C)\n30\n(D)\n32",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Difference = 42-24 = 18\n18/n = 31.4 - 30.8 = 0.6\nn = 30\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 1.889,
+    "generation_cost": 0.00258
+  },
+  {
+    "question_number": 4,
+    "question": "Consider the relationships among P, Q, R, S, and T:\n• P is the brother of Q.\n• S is the daughter of Q.\n• T is the sister of S.\n• R is the mother of Q.\nThe following statements are made based on the relationships given above.\n(1) R is the grandmother of S.\n(2) P is the uncle of S and T.\n(3) R has only one son.\n(4) Q has only one daughter.\nWhich one of the following options is correct?\n\n\n(A)\nBoth (1) and (2) are true.\n(B)\nBoth (1) and (3) are true.\n(C)\nOnly (3) is true.\n(D)\nOnly (4) is true.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "(1) R is mother of Q, S is daughter of Q → R is grandmother of S. TRUE.\n(2) P is brother of Q, so P is uncle of S and T. TRUE (gender of P: brother means male).\n(3) R has Q and P as sons (P is brother of Q) → at least two sons. FALSE.\n(4) Q has S and T (both daughters) → two daughters. FALSE.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.967,
+    "generation_cost": 0.005385
+  },
+  {
+    "question_number": 5,
+    "question": "According to the map shown in the figure, which one of the following statements is\ncorrect?\nNote: The figure shown is representative.\n\n\n(A)\nThe library is located to the northwest of the canteen.\n(B)\nThe hospital is located to the east of the chemistry lab.\n(C)\nThe chemistry lab is to the southeast of physics lab.\n(D)\nThe classrooms and canteen are next to each other.\n\n\n\n\n\n\n\n5th Cross Road\n1st Main Road\nN\nE\nW\nS\nChemistry\nLab\nPhysics Lab\nLibrary\nHostels\nClassrooms\nHospital\nCanteen",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Library is NW quadrant, Canteen is NE quadrant - Library is west of Canteen, not northwest.\n\nHospital is NE, Chemistry Lab is SE - Hospital is north of Chemistry Lab.\n\nPhysics Lab is NW, Chemistry Lab is SE - Chemistry Lab is southeast of Physics Lab. ✓\n\nClassrooms and Canteen are in different quadrants, not next to each other.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 3.219,
+    "generation_cost": 0.009385
+  },
+  {
+    "question_number": 6,
+    "question": "“I put the brown paper in my pocket along with the chalks, and possibly other things.\nI suppose every one must have reflected how primeval and how poetical are the\nthings that one carries in one’s pocket: the pocket-knife, for instance the type of all\nhuman tools, the infant of the sword. Once I planned to write a book of poems\nentirely about the things in my pocket. But I found it would be too long: and the age\nof the great epics is past.”\n(From G.K. Chesterton’s “A Piece of Chalk”)\nBased only on the information provided in the above passage, which one of the\nfollowing statements is true?\n\n\n(A)\nThe author of the passage carries a mirror in his pocket to reflect upon things.\n(B)\nThe author of the passage had decided to write a poem on epics.\n(C)\nThe pocket-knife is described as the infant of the sword.\n(D)\nEpics are described as too inconvenient to write.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 1.424,
+    "generation_cost": 0.00245
+  },
+  {
+    "question_number": 7,
+    "question": "In the diagram, the lines QR and ST are parallel to each other. The shortest distance\nbetween these two lines is half the shortest distance between the point P and line\nQR. What is the ratio of the area of the triangle PST to the area of the trapezium\nSQRT?\nNote: The figure shown is representative.\n\n\n\n(A)\n1\n3\n(B)\n1\n4\n(C)\n2\n5\n(D)\n1\n2\n\n\n\n\n\n\n\nP\nQ\nR\nS\nT",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Distance from P to QR = h. Distance between ST and QR = h/2, so distance from P to ST = h/2.\n\nRatio of similarity PST/PQR = 1/2, so area ratio = 1/4.\n\nArea PST : Area PQR = 1:4, so trapezium = 3.\n\nRatio = 1/3.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 3.146,
+    "generation_cost": 0.005625
+  },
+  {
+    "question_number": 8,
+    "question": "A fair six-faced dice, with the faces labelled ‘1’, ‘2’, ‘3’, ‘4’, ‘5’, and ‘6’, is rolled\nthrice. What is the probability of rolling ‘6’ exactly once?\n\n\n(A)\n75\n216\n(B)\n1\n6\n(C)\n1\n18\n(D)\n25\n216",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "3(1/6)(5/6)² = 75/216\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.708,
+    "generation_cost": 0.002065
+  },
+  {
+    "question_number": 9,
+    "question": "A square paper, shown in figure (I), is folded along the dotted lines as shown in the\nfigures (II) and (III). Then a few cuts are made as shown in figure (IV). Which one\nof the following patterns will be obtained when the paper is unfolded?\nNote: The figures shown are representative.\n\n\n(A)\n\n(B)\n\n(C)\n\n(D)\n\n\n\n\n\n\n(I)\n(II)\n(III)\n(IV)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nThe square is folded along diagonal to form triangle (II→III), then folded again along the perpendicular from right angle to hypotenuse. This gives a smaller triangle with 4 layers.\n\nIn figure IV, cuts are made: triangle on top edge (hypotenuse), L-shape on left, and reverse-L on right.\n\nWhen unfolded, we need symmetry across both fold lines.\n\nThe first fold is along the diagonal (top-left to bottom-right in II, based on the dotted line). The second fold folds the triangle again.\n\nLooking at figure IV: it's a triangle pointing down with a small triangle mark at top-middle, an L-shape (square-like) at top-left, and a reverse-L at top-right.\n\nWhen unfolded:\n- The top edge of the triangle corresponds to two edges of the original square\n- Symmetry along the diagonal fold and the second fold\n\nThe triangle marks at top center appear as triangles on all four sides (top, bottom, left, right center points).\n\nThe L-shapes and squares appear at corners.\n\nOption A shows: squares at top-left and bottom-right corners, L-shapes at bottom-left and top-right corners, triangles at all 4 mid-edges pointing inward.\n\nThis symmetry matches folding along diagonal + perpendicular bisector.\n\nAnswer is A.\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 9.973,
+    "generation_cost": 0.0236
+  },
+  {
+    "question_number": 10,
+    "question": "A shop has 4 distinct flavors of ice-cream. One can purchase any number of scoops\nof any flavor. The order in which the scoops are purchased is inconsequential.\nIf one wants to purchase 3 scoops of ice-cream, in how many ways can one make\nthat purchase?\n\n\n(A)\n4\n(B)\n20\n(C)\n24\n(D)\n48",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "C(3+4-1,3)=C(6,3)=20\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.974,
+    "generation_cost": 0.0021
+  },
+  {
+    "question_number": 11,
+    "question": "Let\n𝑆= {𝑤= [\n𝑤1\n𝑤2\n𝑤3\n] ∈ℝ3 ∶[\n1\n−3\n2\n] [𝑤1 𝑤2 𝑤3] is diagonalizable and ‖𝑤‖ = 1},\nwhere ‖𝑤‖ = (𝑤1\n2 + 𝑤2\n2 + 𝑤3\n2)\n1\n2 . Then, which one of the following is TRUE?\n\n\n(A)\n𝑆 is compact and connected\n(B)\n𝑆 is neither compact nor connected\n(C)\n𝑆 is compact but not connected\n(D)\n𝑆 is connected but not compact",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nMatrix A = uv^T where u=(1,-3,2)^T, v=w. Rank 1 matrix. Diagonalizable iff trace ≠ 0 (nonzero eigenvalue) OR it's zero matrix. For rank-1 matrix uv^T, eigenvalues are v^T u (once) and 0 (twice). Diagonalizable iff v^T u ≠ 0, or the matrix is zero.\n\nHere v^T u = w1 - 3w2 + 2w3. Since ||w||=1, w≠0, so uv^T ≠ 0. So diagonalizable iff w1 - 3w2 + 2w3 ≠ 0.\n\nS = unit sphere minus great circle (intersection with plane w1-3w2+2w3=0).\n\nUnit sphere minus a great circle: two open hemispheres, disconnected. Not closed (missing the circle), so not compact.\n\nNeither compact nor connected.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 5.241,
+    "generation_cost": 0.01021
+  },
+  {
+    "question_number": 12,
+    "question": "Given that the Laplace transforms of 𝐽0(𝑥), 𝐽0\n′(𝑥) and 𝐽0\n′′(𝑥) exist, where 𝐽0(𝑥) is\nthe Bessel function. Let 𝑌= 𝑌(𝑠) be the Laplace transform of the Bessel function\n𝐽0(𝑥). Then, which one of the following is TRUE?\n\n\n(A)\n𝑑𝑌\n𝑑𝑠+\n2𝑠𝑌\n𝑠2 + 1 = 0,\n𝑠> 0\n(B)\n𝑑𝑌\n𝑑𝑠−\n2𝑠𝑌\n𝑠2 + 1 = 0,\n𝑠> 0\n(C)\n𝑑𝑌\n𝑑𝑠−\n𝑠𝑌\n𝑠2 + 1 = 0,\n𝑠> 0\n(D)\n𝑑𝑌\n𝑑𝑠+\n𝑠𝑌\n𝑠2 + 1 = 0,\n𝑠> 0",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Bessel equation: xy'' + y' + xy = 0.\n\nTaking Laplace transform with Y = L{J_0}, J_0(0)=1, J'_0(0)=0:\n- L{xy''} = -d/ds[s²Y - s·1 - 0] = -(2sY + s²Y' - 1)\n- L{y'} = sY - 1\n- L{xy} = -Y'\n\nSum: -2sY - s²Y' + 1 + sY - 1 - Y' = 0\n→ -(s²+1)Y' - sY = 0\n→ (s²+1)Y' + sY = 0\n→ Y' + sY/(s²+1) = 0\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 3.642,
+    "generation_cost": 0.007875
+  },
+  {
+    "question_number": 13,
+    "question": "To find a real root of the equation 𝑥3 + 4𝑥2 −10 = 0 in the interval (1,\n3\n2 ) by\nusing the fixed-point iteration scheme, consider the following two statements:\nS1: The iteration scheme 𝑥𝑘+1 = √\n10\n4+𝑥𝑘 , 𝑘= 0, 1, 2, …, converges for any initial\nguess 𝑥0 ∈(1,\n3\n2 ).\nS2: The iteration scheme 𝑥𝑘+1 =\n1\n2 √10 −𝑥𝑘\n3 , 𝑘= 0, 1, 2, …, diverges for some\ninitial guess 𝑥0 ∈(1,\n3\n2 ).\n\n\n(A)\n(B)\n(C)\n(D)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nS1: g(x) = sqrt(10/(4+x)). g'(x) = derivative. Let's compute |g'(x)| on (1, 1.5).\n\ng(x) = (10/(4+x))^(1/2). g'(x) = (1/2)(10/(4+x))^(-1/2) * (-10/(4+x)^2) = -5/((4+x)^2 * sqrt(10/(4+x))) = -5/((4+x)^2) * sqrt((4+x)/10) = -5/((4+x)^(3/2) * sqrt(10)).\n\nAt x=1: (4+1)^(3/2) = 5^1.5 ≈ 11.18. |g'| = 5/(11.18*3.162) ≈ 5/35.36 ≈ 0.1414.\nAt x=1.5: 5.5^1.5 ≈ 12.90. |g'| = 5/(12.90*3.162) ≈ 5/40.79 ≈ 0.1226.\n\nSo |g'|<1, converges. Also need g maps interval to itself. g(1) = sqrt(10/5) = sqrt(2) ≈ 1.414, g(1.5) = sqrt(10/5.5) ≈ sqrt(1.818) ≈ 1.348. Both in (1, 1.5). S1 TRUE.\n\nS2: g(x) = 0.5*sqrt(10-x^3). g'(x) = 0.5 * (-3x^2)/(2sqrt(10-x^3)) = -3x^2/(4 sqrt(10-x^3)).\n\nAt x=1.5: x^3 = 3.375, 10-3.375=6.625, sqrt ≈ 2.574. |g'| = 3*2.25/(4*2.574) = 6.75/10.296 ≈ 0.6556.\n\nHmm less than 1. At root ~1.365: x^2=1.863, x^3=2.543, 10-2.543=7.457, sqrt=2.731. |g'|=3*1.863/(4*2.731)=5.589/10.924≈0.512. Still less than 1 near root.\n\nBut does it diverge for some x0 in (1, 1.5)? Let's check mapping: g(1) = 0.5*sqrt(9) = 1.5. g(1.5) = 0.5*sqrt(6.625) ≈ 1.287. So g maps (1, 1.5) to (1.287, 1.5). \n\nActually g(1)=1.5 exactly. If x0=1, x1=1.5, x2=1.287, ...\n\nCheck |g'(x)| over whole interval (1,1.5): max at x=1.5 is 0.656. So contraction. Converges.\n\nHmm so S2 would be FALSE.\n\nWait but x0 in open interval (1, 3/2). Let's double-check more carefully. Is |g'(x)|<1 throughout? max likely at x=1.5. 0.656 < 1. So contracting on interval. And g maps interval into itself? g is decreasing. g(1)=1.5, g(1.5)≈1.287. So for x in (1, 1.5), g(x) in (1.287, 1.5). This is subset of (1, 1.5)? Actually 1.5 is boundary; since x>1 (strictly), g(x)<1.5. So g maps into (1.287, 1.5). Yes subset.\n\nSo converges for all x0. S2 is FALSE.\n\nAnswer: A.\n</think>\n\n**Step 1: Analyze S1** with g(x) = √(10/(4+x))\n\n- g'(x) = -5/[(4+x)^(3/2)·√10]\n- On (1, 1.5): |g'(x)| ≤ 0.142 < 1 ✓\n- g(1) = √2 ≈ 1.414, g(1.5) ≈ 1.348, so g maps (1, 1.5) into itself ✓\n\nBy the contraction mapping theorem, **S1 is TRUE**.\n\n**Step 2: Analyze S2** with g(x) = ½√(10−x³)\n\n- g'(x) = −3x²/[4√(10−x³)]\n- Maximum of |g'(x)| on (1, 1.5) occurs at x = 1.5: |g'(1.5)| = 6.75/10.296 ≈ 0.656 < 1 ✓\n- g(1) = 1.5, g(1.5) ≈ 1.287, so g maps (1, 1.5) into itself ✓\n\nSo this scheme also converges for every x₀ ∈ (1, 3/2). **S2 is FALSE**.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 12.312,
+    "generation_cost": 0.040485
+  },
+  {
+    "question_number": 14,
+    "question": "For the linear programming problem:\nMaximize 𝑍= 2𝑥1 + 4𝑥2 + 4𝑥3 −3𝑥4\nSubject to 𝛼𝑥1 + 𝑥2 + 𝑥3 = 4,\n𝑥1 + 𝛽𝑥2 + 𝑥4 = 8,\n𝑥1, 𝑥2, 𝑥3, 𝑥4 ≥0,\nconsider the following two statements:\nS1: If 𝛼= 2 and 𝛽= 1, then (𝑥1, 𝑥2)𝑇 forms an optimal basis.\nS2: If 𝛼= 1 and 𝛽= 4, then (𝑥3, 𝑥2)𝑇 forms an optimal basis.\n\n\n(A)\n(B)\n(C)\n(D)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nS1: α=2, β=1. Basis (x1,x2), so x3=x4=0.\n2x1+x2=4, x1+x2=8. Subtract: x1=-4. Infeasible. So not optimal basis.\n\nWait, let me recheck. x1+βx2+x4=8 with β=1: x1+x2=8. And 2x1+x2=4. Subtracting: x1=-4. Negative, infeasible. So S1 is false.\n\nS2: α=1, β=4. Basis (x3,x2), so x1=x4=0.\nx2+x3=4, 4x2=8, so x2=2, x3=2. Feasible.\nZ = 4(2)+4(2)=16.\n\nCheck optimality using reduced costs. \nB = [[1,1],[0,4]] for (x3,x2)... wait need to be careful with column order.\nColumns: x1: (1,1), x2:(1,4), x3:(1,0), x4:(0,1).\nBasis B with basic vars (x3,x2): columns [(1,0),(1,4)].\nB = [[1,1],[0,4]], B^-1 = (1/4)[[4,-1],[0,1]] = [[1,-1/4],[0,1/4]].\nc_B = (4,4).\ny = c_B B^-1 = (4,4)*[[1,-1/4],[0,1/4]] = (4, -1+1) = (4,0).\nReduced cost for x1: c1 - y*a1 = 2 - (4,0)·(1,1) = 2-4 = -2. ≤0 ✓\nReduced cost for x4: c4 - y*a4 = -3 - (4,0)·(0,1) = -3-0 = -3. ≤0 ✓\nFor maximization, optimal when all reduced costs ≤0. So optimal.\n\nS2 is true.\n\nSo only S2 is correct.\n</think>\n\nStep 1: Check S1 (α=2, β=1, basis (x1,x2)):\nSetting x3=x4=0: 2x1+x2=4, x1+x2=8 → x1=-4 (infeasible). S1 is false.\n\nStep 2: Check S2 (α=1, β=4, basis (x3,x2)):\nSetting x1=x4=0: x2+x3=4, 4x2=8 → x2=2, x3=2 (feasible).\nZ = 4(2)+4(2) = 16.\n\nCompute dual y = c_B B⁻¹ where B=[[1,1],[0,4]], c_B=(4,4):\ny = (4, 0).\n\nReduced costs:\n- x1: 2 - (4,0)·(1,1) = -2 ≤ 0 ✓\n- x4: -3 - (4,0)·(0,1) = -3 ≤ 0 ✓\n\nOptimal for maximization. S2 is true.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 12.123,
+    "generation_cost": 0.02581
+  },
+  {
+    "question_number": 15,
+    "question": "Consider the following subsets of the Euclidean space ℝ4:\n𝑆= {(𝑥1, 𝑥2, 𝑥3, 𝑥4) ∈ℝ4 ∶𝑥1\n2 + 𝑥2\n2 + 𝑥3\n2 −𝑥4\n2 = 0 },\n𝑇= {(𝑥1, 𝑥2, 𝑥3, 𝑥4) ∈ℝ4 ∶𝑥1\n2 + 𝑥2\n2 + 𝑥3\n2 −𝑥4\n2 = 1 },\nand\n𝑈= {(𝑥1, 𝑥2, 𝑥3, 𝑥4) ∈ℝ4 ∶𝑥1\n2 + 𝑥2\n2 + 𝑥3\n2 −𝑥4\n2 = −1 }.\nThen, which one of the following is TRUE?\n\n\n(A)\n𝑆 is connected, but 𝑇 and 𝑈 are not connected\n(B)\n𝑇 and 𝑈 are connected, but 𝑆 is not connected\n(C)\n𝑆 and 𝑈 are connected, but 𝑇 is not connected\n(D)\n𝑆 and 𝑇 are connected, but 𝑈 is not connected",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nS: cone x1²+x2²+x3²=x4². Connected (contains origin, parametrize).\n\nT: x1²+x2²+x3²=1+x4², always positive, x4∈ℝ, sphere of radius √(1+x4²) for each x4. Connected (one-sheeted hyperboloid analog).\n\nU: x1²+x2²+x3²=x4²-1, needs x4²≥1, two sheets x4≥1 and x4≤-1. Not connected.\n\nSo S and T connected, U not. Answer D.\n</think>\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 6.368,
+    "generation_cost": 0.007175
+  },
+  {
+    "question_number": 16,
+    "question": "Consider the system of ordinary differential equations\n\n𝑑𝑋\n𝑑𝑡= 𝑀𝑋,\n\nwhere 𝑀 is a 6 × 6 skew-symmetric matrix with entries in ℝ. Then, for this system,\nthe origin is a stable critical point for\n\n\n(A)\nany such matrix 𝑀\n(B)\nonly such matrices 𝑀 whose rank is 2\n(C)\nonly such matrices 𝑀 whose rank is 4\n(D)\nonly such matrices 𝑀 whose rank is 6",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Skew-symmetric real matrix has purely imaginary eigenvalues (including 0). So all eigenvalues have zero real part. For stability (Lyapunov stable), need eigenvalues on imaginary axis with those having zero real part being semisimple. Skew-symmetric matrices are normal, hence diagonalizable (over ℂ), so all eigenvalues are semisimple. Thus origin is always stable.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 12.812,
+    "generation_cost": 0.005205
+  },
+  {
+    "question_number": 17,
+    "question": "Let 𝑋= { 𝑓∈𝐶[0, 1] ∶𝑓(0) = 0 = 𝑓(1)} with the norm ‖𝑓‖∞= sup\n0≤𝑡≤1\n|𝑓(𝑡)|,\nwhere 𝐶[0, 1] is the space of all real-valued continuous functions on [0, 1].\nLet 𝑌= 𝐶[0, 1] with the norm ‖𝑓‖2 = (∫|𝑓(𝑡)|2𝑑𝑡\n1\n0\n)\n1\n2. Let 𝑈𝑋 and 𝑈𝑌 be the\nclosed unit balls in 𝑋 and 𝑌 centred at the origin, respectively. Consider 𝑇: 𝑋→ℝ\nand 𝑆: 𝑌→ℝ given by\n𝑇𝑓= ∫𝑓(𝑡) 𝑑𝑡\n1\n0\nand 𝑆𝑓= ∫𝑓(𝑡) 𝑑𝑡\n1\n0\n.\nConsider the following statements:\nS1: sup\n𝑓∈𝑈𝑋\n|𝑇𝑓| is attained at a point of 𝑈𝑋 .\nS2: sup\n𝑓∈𝑈𝑌\n|𝑆𝑓| is attained at a point of 𝑈𝑌 .\n\n\n(A)\n(B)\n(C)\n(D)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nFor T on X: sup |Tf| where f continuous, f(0)=f(1)=0, ||f||∞≤1. The sup is 1 (take f close to 1 except near endpoints), but not attained since f(0)=0 means f can't equal 1 everywhere. So S1 false.\n\nFor S on Y: sup |Sf| with ||f||_2 ≤ 1. By Cauchy-Schwarz, |∫f| ≤ ||f||_2·1 = 1, attained by f=1. So S2 true.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 7.599,
+    "generation_cost": 0.00774
+  },
+  {
+    "question_number": 18,
+    "question": "Let 𝑔(𝑥, 𝑦) = 𝑓(𝑥, 𝑦)𝑒2𝑥+3𝑦 be defined in ℝ2, where 𝑓(𝑥, 𝑦) is a continuously\ndifferentiable\nnon-zero\nhomogeneous\nfunction\nof\ndegree\n4.\nThen,\n𝑥\n𝜕𝑔\n𝜕𝑥+ 𝑦\n𝜕𝑔\n𝜕𝑦= 0 holds for\n\n\n(A)\nall points (𝑥, 𝑦) in ℝ2\n(B)\nall points (𝑥, 𝑦) on the line given by 2𝑥+ 3𝑦+ 4 = 0\n(C)\nall points (𝑥, 𝑦) in the region of ℝ2 except on the line given by 2𝑥+ 3𝑦+ 4 = 0\n(D)\nall points (𝑥, 𝑦) on the line given by 2𝑥+ 3𝑦= 0",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\ng = f·e^(2x+3y). xg_x + yg_y = e^(2x+3y)[xf_x+yf_y] + f·e^(2x+3y)(2x+3y) = e^(2x+3y)[4f + f(2x+3y)] = f·e^(2x+3y)(2x+3y+4). Zero when 2x+3y+4=0.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 3.506,
+    "generation_cost": 0.005965
+  },
+  {
+    "question_number": 19,
+    "question": "The partial differential equation\n\n(1 + 𝑥2) 𝜕2𝑢\n𝜕𝑥2 + 2𝑥(1 −𝑦2) 𝜕2𝑢\n𝜕𝑦𝜕𝑥+ (1 −𝑦2) 𝜕2𝑢\n𝜕𝑦2 + 𝑥\n𝜕𝑢\n𝜕𝑥+ (1 −𝑦2) 𝜕𝑢\n𝜕𝑦= 0\nis\n\n\n(A)\nelliptic in the region {(𝑥, 𝑦) ∈ℝ2: |𝑦| ≤1}\n(B)\nhyperbolic in the region {(𝑥, 𝑦) ∈ℝ2: |𝑦| > 1}\n(C)\nelliptic in the region {(𝑥, 𝑦) ∈ℝ2: |𝑦| > 1}\n(D)\nhyperbolic in the region {(𝑥, 𝑦) ∈ℝ2: |𝑦| < 1}",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nA=1+x², B=2x(1-y²), C=1-y² (with B being coefficient of mixed, so discriminant = B²-4AC... wait, standard form Au_xx + 2Bu_xy + Cu_yy, discriminant B²-AC).\n\nHere coefficient of u_xy is 2x(1-y²), so 2B = 2x(1-y²), B = x(1-y²).\nB² - AC = x²(1-y²)² - (1+x²)(1-y²) = (1-y²)[x²(1-y²) - (1+x²)]\n= (1-y²)[x² - x²y² - 1 - x²]\n= (1-y²)(-x²y² - 1)\n= -(1-y²)(1+x²y²)\n\nSo B²-AC = -(1-y²)(1+x²y²).\n\nElliptic: B²-AC < 0 → (1-y²)(1+x²y²) > 0 → 1-y² > 0 → |y|<1.\nHyperbolic: B²-AC > 0 → 1-y² < 0 → |y|>1.\n\nSo (B) is correct.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 5.237,
+    "generation_cost": 0.012075
+  },
+  {
+    "question_number": 20,
+    "question": "Let 𝑢(𝑥, 𝑡) be the solution of the following initial-boundary value problem\n\n𝜕𝑢\n𝜕𝑡−\n𝜕2𝑢\n𝜕𝑥2 = 0,\n𝑥∈(0, 𝜋),\n𝑡> 0,\n𝑢(0, 𝑡) = 𝑢(𝜋, 𝑡) = 0, 𝑢(𝑥, 0) = sin 4𝑥cos 3𝑥 .\nThen, for each 𝑡> 0, the value of 𝑢(\n𝜋\n4 , 𝑡) is\n\n\n(A)\n𝑒−49𝑡\n2√2\n(𝑒48𝑡−1)\n(B)\n𝑒−49𝑡\n2√2\n(1 −𝑒48𝑡)\n(C)\n𝑒−49𝑡\n2√2\n(1 + 𝑒48𝑡)\n(D)\n𝑒−49𝑡\n4√2\n(1 −𝑒48𝑡)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nsin4x cos3x = (sin7x + sinx)/2\n\nu(x,t) = (1/2)(e^{-49t} sin7x + e^{-t} sinx)\n\nAt x=π/4: sin(7π/4) = -√2/2, sin(π/4) = √2/2\n\nu = (1/2)[e^{-49t}(-√2/2) + e^{-t}(√2/2)]\n= (√2/4)[e^{-t} - e^{-49t}]\n= (√2/4)·e^{-49t}(e^{48t} - 1)\n= e^{-49t}(e^{48t}-1)·√2/4 = e^{-49t}(e^{48t}-1)/(2√2)\n\nMatches A.\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.983,
+    "generation_cost": 0.008675
+  },
+  {
+    "question_number": 21,
+    "question": "Consider the function 𝐹: ℝ2 ⟶ℝ2 given by\n𝐹(𝑥, 𝑦) = (𝑥3 −3𝑥𝑦2 −3𝑥 , 3𝑥2𝑦−𝑦3 −3𝑦).\nThen, for the function 𝐹, the inverse function theorem is\n\n\n(A)\napplicable at all points of ℝ2\n(B)\nnot applicable at exactly one point of ℝ2\n(C)\nnot applicable at exactly two points of ℝ2\n(D)\nnot applicable at exactly three points of ℝ2",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nJacobian: partial derivatives.\n∂F1/∂x = 3x²-3y²-3, ∂F1/∂y = -6xy\n∂F2/∂x = 6xy, ∂F2/∂y = 3x²-3y²-3\n\nDet = (3x²-3y²-3)² + 36x²y² \n\nWait, det = (3x²-3y²-3)(3x²-3y²-3) - (-6xy)(6xy) = (3x²-3y²-3)² + 36x²y²\n\nSet = 0: need both (3x²-3y²-3)=0 and xy=0.\n\nIf y=0: 3x²-3=0, x=±1. Points (1,0), (-1,0).\nIf x=0: -3y²-3=0, no solution.\n\nSo 2 points.\n</think>\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 4.48,
+    "generation_cost": 0.008645
+  },
+  {
+    "question_number": 22,
+    "question": "Let the functions 𝑓: ℝ2 →ℝ and 𝑔: ℝ2 →ℝ be given by\n𝑓(𝑥1, 𝑥2) = 𝑥1\n2 + 𝑥2\n2 −2𝑥1𝑥2,\nand\n𝑔(𝑥1, 𝑥2) = 2𝑥1\n2 + 2𝑥2\n2 −𝑥1𝑥2.\nConsider the following statements:\nS1: For every compact subset 𝐾 of ℝ, 𝑓−1(𝐾) is compact.\nS2: For every compact subset 𝐾 of ℝ, 𝑔−1(𝐾) is compact.\n\n\n(A)\n(B)\n(C)\n(D)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf = (x1-x2)^2. Preimage of {0} is the line x1=x2, not compact. So S1 false.\n\ng = 2x1^2+2x2^2-x1x2. Check if proper. Quadratic form matrix [[2,-1/2],[-1/2,2]], eigenvalues 2±1/2 = 2.5, 1.5, positive definite. So g(x) ≥ λ_min ||x||^2, hence preimage of compact (bounded) set is bounded and closed (continuous), so compact. S2 true.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 14.211,
+    "generation_cost": 0.00719
+  },
+  {
+    "question_number": 23,
+    "question": "Let 𝑝𝐴(𝑥) denote the characteristic polynomial of a square matrix 𝐴. Then, for\nwhich of the following invertible matrices 𝑀, the polynomial 𝑝𝑀(𝑥) −𝑝𝑀−1(𝑥) is\nconstant?\n\n\n(A)\n𝑀= [ 5\n7\n2\n3 ]\n(B)\n𝑀= [ 3\n1\n4\n2 ]\n(C)\n𝑀= [ 1\n3\n2\n−1 ]\n(D)\n𝑀= [ 5\n−8\n2\n−3 ]",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nFor 2x2 matrix M, p_M(x) = x² - tr(M)x + det(M).\np_{M^{-1}}(x) = x² - tr(M^{-1})x + det(M^{-1}) = x² - tr(M)/det(M) x + 1/det(M).\n\nDifference: p_M - p_{M^{-1}} = [-tr(M) + tr(M)/det(M)]x + [det(M) - 1/det(M)].\n\nFor this to be constant, coefficient of x must be 0:\ntr(M)(1/det(M) - 1) = 0, so either tr(M)=0 or det(M)=1.\n\n(A) det = 15-14=1, tr=8. det=1 ✓\n(B) det = 6-4=2, tr=5. Neither.\n(C) det = -1-6=-7, tr=0. tr=0 ✓\n(D) det = -15+16=1, tr=2. det=1 ✓\n\nCheck constant term: det(M) - 1/det(M).\n- If det=1: 1-1=0, constant is 0. ✓\n- If tr=0, det=-7: -7-(-1/7) = -7+1/7, nonzero constant. Still constant.\n\nAll of A, C, D work.\n</think>\n\nFor a 2×2 matrix M:\n- p_M(x) = x² − tr(M)x + det(M)\n- p_{M⁻¹}(x) = x² − tr(M⁻¹)x + det(M⁻¹) = x² − (tr(M)/det(M))x + 1/det(M)\n\nSo p_M(x) − p_{M⁻¹}(x) = tr(M)[1/det(M) − 1]·(−x) + [det(M) − 1/det(M)]\n\nFor this to be **constant**, the coefficient of x must vanish:\n**tr(M) = 0 or det(M) = 1**\n\nChecking:\n- (A): det = 15−14 = 1 ✓\n- (B): det = 2, tr = 5 ✗\n- (C): tr = 0 ✓\n- (D): det = −15+16 = 1 ✓\n\nFINAL_ANSWER: A,C,D",
+    "final_answer": "A,C,D",
+    "generation_time_s": 6.118,
+    "generation_cost": 0.01944
+  },
+  {
+    "question_number": 24,
+    "question": "Consider the balanced transportation problem with three sources 𝑆1, 𝑆2, 𝑆3, and four\ndestinations 𝐷1, 𝐷2, 𝐷3, 𝐷4, for minimizing the total transportation cost whose cost\nmatrix is as follows:\n\n\n𝐷1\n𝐷2\n𝐷3\n𝐷4\nSupply\n𝑆1\n2\n6\n20\n11\n𝛼+ 10\n𝑆2\n12\n7\n4\n10\n𝛼+ 𝜆+ 10\n𝑆3\n8\n14\n16\n11\n5\nDemand\n𝛼+ 5\n10\n𝜆+ 5\n𝛼+ 𝜆\n\n\nwhere 𝛼, 𝜆> 0. If the associated cost to the starting basic feasible solution obtained\nby using the North-West corner rule is 290, then which of the following is/are\ncorrect?\n\n\n(A)\n𝛼2 + 𝜆2 = 100\n(B)\n𝛼2 + 𝛼𝜆= 150\n(C)\nThe optimal cost of the transportation problem is 260\n(D)\nThe optimal cost of the transportation problem is 290",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nBalanced: total supply = (α+10)+(α+λ+10)+5 = 2α+λ+25\nTotal demand = (α+5)+10+(λ+5)+(α+λ) = 2α+2λ+20\nBalance: 2α+λ+25 = 2α+2λ+20 → λ = 5.\n\nSo λ=5. Supply: S1=α+10, S2=α+15, S3=5. Demand: D1=α+5, D2=10, D3=10, D4=α+5.\n\nNW corner:\n- x11 = min(α+10, α+5) = α+5. S1 left: 5, D1 done.\n- x12 = min(5, 10) = 5. S1 done, D2 left: 5.\n- x22 = min(α+15, 5) = 5. S2 left: α+10, D2 done.\n- x23 = min(α+10, 10) = 10 (if α≥0). S2 left: α, D3 done.\n- x24 = min(α, α+5) = α. S2 done, D4 left: 5.\n- x34 = 5.\n\nCost = (α+5)·2 + 5·6 + 5·7 + 10·4 + α·10 + 5·11\n= 2α+10 + 30 + 35 + 40 + 10α + 55\n= 12α + 170\n\nSet = 290: 12α = 120, α = 10.\n\nCheck: α=10, λ=5. α²+λ² = 100+25 = 125. (A) false.\nα² + αλ = 100+50 = 150. (B) true.\n\nNow find optimal cost. Supply: S1=20, S2=25, S3=5. Demand: D1=15, D2=10, D3=10, D4=15.\n\nCost matrix:\nS1: 2, 6, 20, 11\nS2: 12, 7, 4, 10\nS3: 8, 14, 16, 11\n\nUse VAM or just reason. S2 should use D3 (cost 4). S1 is cheapest for D1 (2). \n\nTry: x11=15 (D1 done), S1 left 5. x12: S1→D2 cost 6, S2→D2 cost 7. Assign x12=5, S1 done, D2 left 5. \nx22=5, S2 left 20. x23=10, S2 left 10, D3 done. x24=10, S2 done, D4 left 5. x34=5.\nCost: 15·2+5·6+5·7+10·4+10·10+5·11 = 30+30+35+40+100+55 = 290.\n\nHmm same. Try S3 to D1 instead? S3→D1=8, S1→D1=2. Better keep S1→D1.\n\nTry x14 instead: S1→D4=11 vs S3→D4=11 same. \nLet x11=15, x12=5 (S1 done). Then D2 needs 5 more from S2 or S3. S2→D2=7, S3→D2=14. Use S2=5. Then S2 has 20 left. D3=10 from S2 (cost 4). S2 left 10. D4=15: S2→D4=10, S3→D4=11. Use S2=10, S3=5. Cost=290.\n\nAlternative: what if S3 goes to D1? x31=5, S3 done. x11=10, S1 left 10. x12: S1=10... wait D1 needs 15, so x11=10 only if S3→D1=5. Cost increases by (8-2)·5=30. Worse.\n\nTry S1→D4: x11=15, S1 left 5. x14=5 (S1 done, cost 5·11=55 vs before 5·6+... let me recompute). If x14=5 instead of x12=5: Then D2=10 needs from S2/S3. S2→D2=7 use 10. S2 left 15. D3=10 from S2 cost 4. S2 left 5. D4 left 10: S2→D4=10 use 5, S3→D4=11 use 5. \nCost: 15·2+5·11+10·7+10·4+5·10+5·11 = 30+55+70+40+50+55 = 300. Worse.\n\nCheck optimality via MODI. Basic: x11=15, x12=5, x22=5, x23=10, x24=10, x34=5.\nu1=0. v1=2 (c11=2), v2=6 (c12=6). u2=c22-v2=7-6=1. v3=c23-u2=4-1=3. v4=c24-u2=10-1=9. u3=c34-v4=11-9=2.\n\nCheck non-basic: \nc13-u1-v3=20-0-3=17 ≥0 ✓\nc14-u1-v4=11-0-9=2 ≥0 ✓\nc21-u2-v1=12-1-2=9 ≥0 ✓\nc31-u3-v1=8-2-2=4 ≥0 ✓\nc32-u3-v2=14-2-6=6 ≥0 ✓\nc33-u3-v3=16-2-3=11 ≥0 ✓\n\nAll non-negative, optimal. Cost = 290.\n\nSo (B) and (D) correct.\n</think>\n\n**Step 1: Balance condition**\nTotal supply = 2α + λ + 25; Total demand = 2α + 2λ + 20\nBalance gives λ = 5.\n\n**Step 2: NW corner allocations** (with λ=5)\n- x₁₁ = α+5, x₁₂ = 5, x₂₂ = 5, x₂₃ = 10, x₂₄ = α, x₃₄ = 5\n\nCost = 2(α+5) + 6(5) + 7(5) + 4(10) + 10(α) + 11(5) = 12α + 170\n\nSetting = 290 gives **α = 10**.\n\n**Step 3: Check options**\n- α² + λ² = 100 + 25 = 125 ≠ 100 → (A) false\n- α² + αλ = 100 + 50 = 150 → (B) true ✓\n\n**Step 4: Optimal cost**\nWith α=10, λ=5: Supply (20, 25, 5), Demand (15, 10, 10, 15).\nUsing MODI on the NW solution, all reduced costs ≥ 0, so NW solution is optimal.\nOptimal cost = 290 → (D) true ✓\n\nFINAL_ANSWER: B,D",
+    "final_answer": "B,D",
+    "generation_time_s": 19.477,
+    "generation_cost": 0.05396
+  },
+  {
+    "question_number": 25,
+    "question": "Consider the following regions:\n𝑆1 = {(𝑥1, 𝑥2) ∈ℝ2 ∶ 2𝑥1 + 𝑥2 ≤4,\n𝑥1 + 2𝑥2 ≤5,\n𝑥1, 𝑥2 ≥0},\n𝑆2 = {(𝑥1, 𝑥2) ∈ℝ2 ∶ 2𝑥1 −𝑥2 ≤5,\n𝑥1 + 2𝑥2 ≤5,\n𝑥1, 𝑥2 ≥0}.\n\n\n(A)\nThe maximum value of 𝑥1 + 𝑥2 is 3 on the region 𝑆2\n(B)\nThe maximum value of 𝑥1 + 𝑥2 is 5 on the region 𝑆2 −𝑆1\n(C)\nThe maximum value of 𝑥1 + 𝑥2 is 3 on the region 𝑆1 ∩𝑆2\n(D)\nThe maximum value of 𝑥1 + 𝑥2 is 4 on the region 𝑆1 ∪𝑆2",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nS1: 2x1+x2≤4, x1+2x2≤5, x1,x2≥0.\nVertices: (0,0), (2,0), intersection of 2x1+x2=4 and x1+2x2=5: 4x1+2x2=8, subtract: 3x1=3, x1=1, x2=2. Point (1,2). Then (0,5/2).\nMax x1+x2 on S1: at (2,0)=2, (1,2)=3, (0,2.5)=2.5. So max=3.\n\nS2: 2x1-x2≤5, x1+2x2≤5, x1,x2≥0.\nVertices: (0,0), (2.5,0), intersection of 2x1-x2=5 and x1+2x2=5: 4x1-2x2=10, add: 5x1=15, x1=3, x2=1. Point (3,1). Then (0,2.5).\nMax x1+x2 on S2: at (3,1)=4, (2.5,0)=2.5, (0,2.5)=2.5. Max=4.\n\n(A) says max is 3 on S2 - false (it's 4).\n\n(C) S1∩S2: constraints combined. S1 has 2x1+x2≤4, S2 has 2x1-x2≤5. Both x1+2x2≤5. \nSince S1's 2x1+x2≤4 is more restrictive than 2x1-x2≤5 when x2≥0? Let's check: if 2x1+x2≤4 and x2≥0, then 2x1≤4, so 2x1-x2≤4≤5. Yes S1⊂S2. So S1∩S2=S1, max=3. (C) true.\n\n(D) S1∪S2=S2, max=4. (D) true.\n\n(B) S2-S1: max of x1+x2. Since S1⊂S2, S2-S1 is S2 minus S1. Max on S2 is 4 at (3,1), which is not in S1 (check: 2(3)+1=7>4). So (3,1)∈S2-S1, max=4, not 5. (B) false.\n\nAnswers: C, D.\n</think>\n\nFINAL_ANSWER: C,D",
+    "final_answer": "C,D",
+    "generation_time_s": 8.886,
+    "generation_cost": 0.020305
+  },
+  {
+    "question_number": 26,
+    "question": "Let 𝑓: ℝ2 −{(0,0)} ⟶ℝ be a function defined by\n𝑓(𝑥, 𝑦) = (𝑥2 −𝑦2\n𝑥2 + 𝑦2) + 𝑥sin (\n1\n𝑥2 + 𝑦2) .\nConsider the following three statements:\nS1: lim\n𝑥→0 lim\n𝑦→0 𝑓(𝑥, 𝑦) exists.\nS2: lim\n𝑦→0 lim\n𝑥→0 𝑓(𝑥, 𝑦) exists.\nS3:\nlim\n(𝑥,𝑦)→(0,0) 𝑓(𝑥, 𝑦) exists.\nThen, which of the following is/are correct?\n\n\n(A)\nS2 and S3 are TRUE and S1 is FALSE\n(B)\nS1 and S2 are TRUE and S3 is FALSE\n(C)\nS1 and S3 are TRUE and S2 is FALSE\n(D)\nS1, S2 and S3 all are TRUE",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf(x,y) = (x²-y²)/(x²+y²) + x·sin(1/(x²+y²))\n\nS1: lim x→0 lim y→0 f(x,y)\nInner: y→0: (x²-0)/(x²+0) + x sin(1/x²) = 1 + x sin(1/x²)\nThen x→0: 1 + 0 = 1. Exists.\n\nS2: lim y→0 lim x→0 f(x,y)\nInner x→0: (-y²)/(y²) + 0·sin(1/y²) = -1 + 0 = -1\nThen y→0: -1. Exists.\n\nS3: Along y=0: 1 + x sin(1/x²) → 1\nAlong x=0: -1 + 0 → -1. Different. Does not exist.\n\nSo S1 and S2 true, S3 false.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 4.284,
+    "generation_cost": 0.00988
+  },
+  {
+    "question_number": 27,
+    "question": "Let 𝑀 be a 7 × 7 matrix with entries in ℝ and having the characteristic polynomial\n𝑐𝑀(𝑥) = (𝑥−1)𝛼(𝑥−2)𝛽(𝑥−3)2, where 𝛼> 𝛽.\n\nLet rank(𝑀−𝐼7) = rank(𝑀−2𝐼7) = rank(𝑀−3𝐼7) = 5, where 𝐼7 is the 7 × 7\nidentity matrix. If 𝑚𝑀(𝑥) is the minimal polynomial of 𝑀, then 𝑚𝑀(5) is equal to\n_____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nCharacteristic polynomial degree 7: α+β+2=7, α+β=5, α>β, so α=3,β=2 or α=4,β=1.\n\nRank(M-I)=5 means nullity=2, so geometric multiplicity of eigenvalue 1 is 2.\nRank(M-2I)=5 means geometric multiplicity of 2 is 2.\nRank(M-3I)=5 means geometric multiplicity of 3 is 2.\n\nFor eigenvalue 3 with algebraic multiplicity 2 and geometric multiplicity 2: minimal poly factor is (x-3)^1.\n\nFor eigenvalue 1: algebraic α, geometric 2. Need α≥2.\nFor eigenvalue 2: algebraic β, geometric 2. Need β≥2.\n\nSo β=2, α=3.\n\nFor eigenvalue 2: alg=2, geom=2, so minimal poly factor (x-2)^1.\nFor eigenvalue 1: alg=3, geom=2, so Jordan blocks: sizes summing to 3 with 2 blocks: 2+1. Minimal poly factor (x-1)^2.\n\nm_M(x) = (x-1)^2(x-2)(x-3)\nm_M(5) = 16·3·2 = 96.\n</think>\n\nFINAL_ANSWER: 96",
+    "final_answer": "96",
+    "generation_time_s": 4.775,
+    "generation_cost": 0.01285
+  },
+  {
+    "question_number": 28,
+    "question": "Let 𝑦= 𝑃𝑛(𝑥) be the unique polynomial of degree 𝑛 satisfying the Legendre\ndifferential equation\n(1 −𝑥2)𝑦′′ −2𝑥𝑦′ + 𝑛(𝑛+ 1)𝑦= 0 and 𝑦(1) = 1.\nThen, the value of 𝑃11\n′ (1) is equal to _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nWe need f to extend to entire function, so numerator must have zero of order ≥6 at z=0.\n\nNumerator: α^6 sin(βz) - β^6(e^(2αz) - Q(z))\n\nExpand sin(βz) = βz - (βz)^3/6 + (βz)^5/120 - (βz)^7/5040 + ...\nα^6 sin(βz) = α^6[βz - β^3z^3/6 + β^5z^5/120 - β^7z^7/5040 + ...]\n\ne^(2αz) = Σ (2α)^n z^n / n!\n\nβ^6 e^(2αz) = β^6 Σ (2α)^n z^n/n!\n\nQ(z) has degree <5, so Q absorbs terms z^0 through z^4 freely. We need coefficients of z^0, z^1, z^2, z^3, z^4, z^5 in numerator to be zero.\n\nFor z^0 through z^4: Q can be chosen to cancel these. Actually, Q appears with coefficient -β^6, so β^6 Q(z) cancels terms. Wait, numerator = α^6 sin(βz) - β^6 e^(2αz) + β^6 Q(z).\n\nSo β^6 Q(z) can cancel any polynomial terms of degree ≤4. So the constraint is on coefficient of z^5.\n\nCoefficient of z^5:\nFrom α^6 sin(βz): α^6 · β^5/120\nFrom -β^6 e^(2αz): -β^6 · (2α)^5/120 = -β^6 · 32α^5/120\n\nSum = (α^6 β^5 - 32 α^5 β^6)/120 = α^5 β^5(α - 32β)/120\n\nSet to zero: α = 32β, so α/β = 32, α/(4β) = 8.\n\nWait, we also need the coefficient of z^5 to vanish. Let me also check — we need numerator to vanish to order 6, so z^5 coefficient must be 0. Higher order terms are fine (they give analytic function after dividing by z^6).\n\nSo α/(4β) = 8.\n</think>\n\n**Step 1:** For f(z) to satisfy Morera's theorem on ℂ∖{0}, it must be holomorphic there, and for the extension/removable singularity at 0, the numerator must vanish to order ≥ 6 at z = 0.\n\n**Step 2:** Expand the numerator:\n$$N(z) = \\alpha^6 \\sin(\\beta z) - \\beta^6 e^{2\\alpha z} + \\beta^6 Q(z)$$\n\nSince Q(z) has degree < 5, β⁶Q(z) can cancel any terms of degree 0 through 4 in the expansion. So the real constraint is the **coefficient of z⁵ must vanish**.\n\n**Step 3:** Find coefficient of z⁵:\n- From α⁶ sin(βz): coefficient of z⁵ is α⁶ · β⁵/120\n- From −β⁶ e^(2αz): coefficient of z⁵ is −β⁶ · (2α)⁵/5! = −β⁶ · 32α⁵/120\n\nSum:\n$$\\frac{\\alpha^6\\beta^5 - 32\\alpha^5\\beta^6}{120} = \\frac{\\alpha^5\\beta^5(\\alpha - 32\\beta)}{120} = 0$$\n\n**Step 4:** Since α, β ≠ 0: α = 32β, so \n$$\\frac{\\alpha}{4\\beta} = \\frac{32}{4} = 8$$\n\nFINAL_ANSWER: 8",
+    "final_answer": "8",
+    "generation_time_s": 12.177,
+    "generation_cost": 0.031295
+  },
+  {
+    "question_number": 29,
+    "question": "Let 𝒂̂ be a unit vector parallel to the tangent at the point 𝑃(1, 1, √2 ) to the curve\nof intersection of the surfaces 2𝑥2 + 3𝑦2 −𝑧2 = 3 and 𝑥2 + 𝑦2 = 𝑧2.\nThen, the absolute value of the directional derivative of\n𝑓(𝑥, 𝑦, 𝑧) = 𝑥2 + 2𝑦2 −2√11 𝑧\nat 𝑃 in the direction of 𝒂̂ is _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nFind tangent to curve of intersection at P(1,1,√2).\n\nGradient of F1 = 2x²+3y²-z²: (4x, 6y, -2z) at P = (4, 6, -2√2)\nGradient of F2 = x²+y²-z²: (2x, 2y, -2z) at P = (2, 2, -2√2)\n\nTangent direction = cross product:\n|i  j  k|\n|4  6  -2√2|\n|2  2  -2√2|\n\ni: 6(-2√2) - (-2√2)(2) = -12√2 + 4√2 = -8√2\nj: -[4(-2√2) - (-2√2)(2)] = -[-8√2 + 4√2] = -(-4√2) = 4√2\nk: 4(2) - 6(2) = 8 - 12 = -4\n\nTangent = (-8√2, 4√2, -4)\nMagnitude: √(128 + 32 + 16) = √176 = 4√11\n\nâ = (-8√2, 4√2, -4)/(4√11) = (-2√2, √2, -1)/√11\n\nGradient of f = (2x, 4y, -2√11) at P = (2, 4, -2√11)\n\nDirectional derivative = ∇f · â = [2(-2√2) + 4(√2) + (-2√11)(-1)]/√11\n= [-4√2 + 4√2 + 2√11]/√11\n= 2√11/√11 = 2\n\n|2| = 2\n</think>\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 4.139,
+    "generation_cost": 0.01408
+  },
+  {
+    "question_number": 30,
+    "question": "The volume of the region bounded by the cylinders 𝑥2 + 𝑦2 = 4 and 𝑥2 + 𝑧2 = 4\nis _____ (rounded off to TWO decimal places)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Volume of intersection of two cylinders (Steinmetz solid) = 16r³/3 = 16(8)/3 = 128/3 ≈ 42.67\n\nFINAL_ANSWER: 42.67",
+    "final_answer": "42.67",
+    "generation_time_s": 11.235,
+    "generation_cost": 0.002765
+  },
+  {
+    "question_number": 31,
+    "question": "Let 𝑊 be the vector space (over ℝ) consisting of all bounded real-valued solutions\nof the differential equation\n\n𝑑4𝑦\n𝑑𝑥4 + 2 𝑑2𝑦\n𝑑𝑥2 + 𝑦= 0 .\nThen, the dimension of 𝑊 is _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "u = x²-y² is harmonic and matches boundary, so u(1/2,0)-u(0,1/2) = 1/4-(-1/4)=1/2. Times 4 = 2.\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 5.526,
+    "generation_cost": 0.00382
+  },
+  {
+    "question_number": 32,
+    "question": "Let 𝐹⃗= (𝑦−𝑧)𝒊̂ + (𝑧−𝑥)𝒋̂ + (𝑥−𝑦)𝒌̂ be a vector field, and let 𝑆 be the surface\n𝑥2 + 𝑦2 + (𝑧−1)2 = 9, 1 ≤𝑧≤4. If 𝒏̂ denotes the unit outward normal vector\nto 𝑆, then the value of\n\n1\n𝜋|∬(∇⃗⃗× 𝐹⃗) ⋅𝒏̂\n\n𝑆\n𝑑𝑆|\nis equal to _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nCurl F = (-1-1, -1-1, -1-1) = (-2,-2,-2).\n\nS is upper half of sphere centered (0,0,1) radius 3, z from 1 to 4.\n\nBoundary of S is circle z=1, x²+y²=9.\n\nUse Stokes: ∫∫(∇×F)·n dS = ∮F·dr around boundary.\n\nBut need to check orientation. Outward normal on upper hemisphere... by right-hand rule, boundary circle at z=1 oriented... For outward normal pointing upward/outward, boundary traversed clockwise when viewed from above (since normal points away from z=1 plane, upward on top).\n\nActually alternative: use divergence-like approach. Close the surface with disk D at z=1, x²+y²≤9, with normal pointing down (-k) to be outward of closed region.\n\nThen ∫∫_closed (∇×F)·n dS = ∫∫∫ div(curl F) dV = 0.\n\nSo ∫∫_S (∇×F)·n dS = -∫∫_D (∇×F)·(-k) dS = ∫∫_D (∇×F)·k dS = ∫∫_D (-2) dA = -2·π·9 = -18π.\n\nAbsolute value / π = 18.\n</think>\n\n**Step 1: Compute curl F**\n\n∇ × F = (-1-1)î + (-1-1)ĵ + (-1-1)k̂ = (-2, -2, -2)\n\n**Step 2: Close the surface**\n\nS is the part of the sphere x² + y² + (z-1)² = 9 with 1 ≤ z ≤ 4 (upper hemisphere). Close it with disk D: x² + y² ≤ 9, z = 1, with outward normal -k̂.\n\n**Step 3: Apply divergence theorem to closed surface**\n\nSince div(curl F) = 0:\n$$\\iint_S (\\nabla \\times \\vec{F}) \\cdot \\hat{n}\\, dS + \\iint_D (\\nabla \\times \\vec{F}) \\cdot (-\\hat{k})\\, dS = 0$$\n\n**Step 4: Compute disk integral**\n\n$$\\iint_D (\\nabla \\times \\vec{F}) \\cdot (-\\hat{k})\\, dS = \\iint_D (-2)(-1)\\, dA = 2 \\cdot \\pi(3)^2 = 18\\pi$$\n\n**Step 5: Solve for S integral**\n\n$$\\iint_S (\\nabla \\times \\vec{F}) \\cdot \\hat{n}\\, dS = -18\\pi$$\n\n**Step 6: Final value**\n\n$$\\frac{1}{\\pi}|-18\\pi| = 18$$\n\nFINAL_ANSWER: 18",
+    "final_answer": "18",
+    "generation_time_s": 15.951,
+    "generation_cost": 0.02417
+  },
+  {
+    "question_number": 33,
+    "question": "Consider\n𝐼= 1\n2𝜋𝑖∮\nsin 𝑧\n1 −cos(𝑧3) 𝑑𝑧\n\n𝐶\n,\nwhere 𝐶= {𝑧∈ℂ∶𝑧= 𝑥+ 𝑖𝑦, |𝑥| + |𝑦| = 1, 𝑥, 𝑦∈ℝ} is oriented positively\nas a simple closed curve. Then, the value of 120𝐼 is equal to _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nWe need to compute I = (1/2πi) ∮_C sin(z)/(1-cos(z³)) dz.\n\nThe contour is the diamond |x|+|y|=1, which encloses z=0 (and no other singularities nearby since 1-cos(z³)=0 when z³ = 2πk, so z=0 is the only one inside).\n\nNear z=0: sin(z) ≈ z - z³/6 + z⁵/120 - ...\n1 - cos(z³) ≈ z⁶/2 - z¹²/24 + ...\n\nSo sin(z)/(1-cos(z³)) ≈ (z - z³/6 + z⁵/120 - ...) / (z⁶/2 · (1 - z⁶/12 + ...))\n= (2/z⁶)(z - z³/6 + z⁵/120 - ...)(1 + z⁶/12 + ...)\n= (2/z⁶)(z - z³/6 + z⁵/120 - z⁷/5040 + ...) · (1 + z⁶/12 + ...)\n\nWe need the residue at z=0, which is the coefficient of 1/z in the Laurent expansion.\n\nFrom (2/z⁶)·(z - z³/6 + z⁵/120 - z⁷/5040 + ...)·(1 + z⁶/12 + ...):\n\nThe coefficient of z⁵ in the numerator product gives 1/z after dividing by z⁶, multiplied by 2.\n\nNumerator: (z - z³/6 + z⁵/120 - z⁷/5040 + ...)·(1 + z⁶/12 + z¹²/... - ...)\n\nCoefficient of z⁵: from first factor z⁵/120 times 1 = 1/120. From z·(z⁶/12 term) would give z⁷, not z⁵. So coefficient of z⁵ is 1/120.\n\nSo residue = 2 · (1/120) = 1/60.\n\nWait, let me reconsider. The series for 1-cos(w) = w²/2 - w⁴/24 + ... where w = z³.\nSo 1 - cos(z³) = z⁶/2 - z¹²/24 + z¹⁸/720 - ...\n= (z⁶/2)(1 - z⁶/12 + z¹²/360 - ...)\n\n1/(1-cos(z³)) = (2/z⁶)·(1/(1 - z⁶/12 + ...)) = (2/z⁶)(1 + z⁶/12 + ...)\n\nSo sin(z)/(1-cos(z³)) = (2/z⁶)(sin z)(1 + z⁶/12 + ...)\n\n= (2/z⁶)(z - z³/6 + z⁵/120 - z⁷/5040 + ...)(1 + z⁶/12 + ...)\n\nFor residue (coeff of z^{-1}), need coeff of z⁵ in (sin z)(1 + z⁶/12 + ...).\n\nCoeff of z⁵ in sin z is 1/120. The (1 + z⁶/12) term contributes z⁶·(lower odd powers of sin z). z⁶ · (nothing of z^{-1}), so doesn't contribute to z⁵.\n\nSo coeff of z⁵ = 1/120. Residue = 2/120 = 1/60.\n\nI = residue = 1/60. So 120I = 2.\n</think>\n\nLooking at this problem, I need to find the residue of sin(z)/(1-cos(z³)) at singularities inside the diamond contour |x|+|y|=1.\n\n## Identifying Singularities\n\nSingularities occur where 1 - cos(z³) = 0, i.e., z³ = 2πk for integer k. Inside the diamond (which has \"radius\" at most 1), only z = 0 lies inside.\n\n## Laurent Expansion Near z = 0\n\n**Numerator:** sin(z) = z - z³/6 + z⁵/120 - z⁷/5040 + ...\n\n**Denominator:** Using 1 - cos(w) = w²/2 - w⁴/24 + ... with w = z³:\n$$1 - \\cos(z^3) = \\frac{z^6}{2} - \\frac{z^{12}}{24} + \\cdots = \\frac{z^6}{2}\\left(1 - \\frac{z^6}{12} + \\cdots\\right)$$\n\nTherefore:\n$$\\frac{1}{1-\\cos(z^3)} = \\frac{2}{z^6}\\left(1 + \\frac{z^6}{12} + \\cdots\\right)$$\n\n## Computing the Residue\n\n$$\\frac{\\sin z}{1-\\cos(z^3)} = \\frac{2}{z^6}\\left(z - \\frac{z^3}{6} + \\frac{z^5}{120} - \\cdots\\right)\\left(1 + \\frac{z^6}{12} + \\cdots\\right)$$\n\nThe residue is the coefficient of 1/z, which requires the coefficient of z⁵ in the product of the two series.\n\nFrom sin(z): the coefficient of z⁵ is **1/120**.\n\nThe term z⁶/12 multiplied by sin(z) only contributes to powers ≥ 7, so it doesn't affect z⁵.\n\nThus: **Residue = 2 · (1/120) = 1/60**\n\n## Computing I\n\nBy the Residue Theorem:\n$$I = \\frac{1}{2\\pi i}\\oint_C \\frac{\\sin z}{1-\\cos(z^3)}\\,dz = \\text{Res}_{z=0} = \\frac{1}{60}$$\n\n## Final Calculation\n\n$$120I = 120 \\cdot \\frac{1}{60} = 2$$\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 14.727,
+    "generation_cost": 0.048185
+  },
+  {
+    "question_number": 34,
+    "question": "Let 𝛼, 𝛽, 𝛾, 𝛿∈ℝ be such that the quadrature formula\n∫𝑓(𝑥) 𝑑𝑥= 𝛼𝑓(−1) + 𝛽𝑓(1) + 𝛾𝑓′(−1) + 𝛿𝑓′(1)\n1\n−1\n\nis exact for all polynomials of degree less than or equal to 3.\nThen, 9(𝛼2 + 𝛽2 + 𝛾2 + 𝛿2) is equal to _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nStandard Hermite: α=β=1, γ=1/3, δ=-1/3.\n\nCheck: f=1: 2 = α+β=2 ✓\nf=x: 0 = -α+β+γ+δ = -1+1+1/3-1/3=0 ✓\nf=x²: 2/3 = α+β -2γ+2δ = 2 -2/3-2/3 = 2-4/3=2/3 ✓\nf=x³: 0 = -α+β+3γ+3δ = 0+1-1=0 ✓\n\nSum of squares: 1+1+1/9+1/9 = 2+2/9 = 20/9\n9 × 20/9 = 20.\n</think>\n\nFINAL_ANSWER: 20",
+    "final_answer": "20",
+    "generation_time_s": 4.556,
+    "generation_cost": 0.007595
+  },
+  {
+    "question_number": 35,
+    "question": "Let 𝑦(𝑥) be the solution of the initial value problem\n𝑑𝑦\n𝑑𝑥= sin(𝜋(𝑥+ 𝑦)), 𝑦(0) = 0.\nUsing Euler’s method, with the step-size ℎ= 0.5, the approximate value of\n𝑦(1.5) + 2𝑦(1) is equal to _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nT is a rank-2 operator. Let u(x)=sin x, v(x)=cos x. Then T(f) = u ⟨f,v⟩ + v⟨f,u⟩ where inner product is ∫₀^π f t g t dt.\n\nNote ‖u‖² = ∫₀^π sin²x dx = π/2, same for v. And ⟨u,v⟩ = ∫₀^π sin x cos x dx = 0.\n\nSo u,v orthogonal with norm √(π/2).\n\nT(f) = u⟨f,v⟩ + v⟨f,u⟩.\n\nLet a = ⟨f,u⟩, b = ⟨f,v⟩. Then T(f) = bu + av.\n\n‖T(f)‖² = b²‖u‖² + a²‖v‖² = (π/2)(a²+b²).\n\nBy Cauchy-Schwarz, a² ≤ ‖f‖²‖u‖² = ‖f‖²·π/2, similarly b². But a and b come from orthogonal projections, so a²+b² ≤ ‖f‖²·... wait, a/‖u‖ and b/‖v‖ are components in orthonormal basis, so (a/‖u‖)² + (b/‖v‖)² ≤ ‖f‖². Thus a²+b² ≤ (π/2)‖f‖².\n\nSo ‖T(f)‖² ≤ (π/2)·(π/2)‖f‖² = (π/2)²‖f‖².\n\n‖T‖ ≤ π/2. Equality when f ∈ span{u,v}.\n\nSo ‖T‖ = π/2, and (4/π)·(π/2) = 2.\n</think>\n\nFINAL_ANSWER: 2",
+    "final_answer": "2",
+    "generation_time_s": 6.264,
+    "generation_cost": 0.01598
+  },
+  {
+    "question_number": 36,
+    "question": "Consider the linear system 𝐴𝒙= 𝒃, where 𝐴= [𝑎𝑖𝑗], 𝑖, 𝑗= 1, 2, 3, and 𝑎𝑖𝑖≠0 for\n𝑖= 1, 2, 3, is a matrix with entries in ℝ. For 𝐷= [\n𝑎11\n0\n0\n0\n𝑎22\n0\n0\n0\n𝑎33\n], let\n𝐷−1𝐴= [\n1\n1\n−2\n3\n1\n2\n1\n1\n1\n] and 𝐷−1𝒃= [\n4\n4\n1\n].\nConsider the following two statements:\nS1: The approximation of 𝒙 after one iteration of the Jacobi scheme with initial\nvector 𝒙𝟎= [1 1 1]𝑇 is 𝒙𝟏= [5 −1 −1]𝑇.\nS2: There exists an initial vector 𝒙𝟎 for which Jacobi iterative scheme diverges.\n\n\n(A)\n(B)\n(C)\n(D)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nJacobi: x^(k+1) = D^{-1}(b - (A-D)x^k) = D^{-1}b - (D^{-1}A - I)x^k\n\nD^{-1}A - I = [[0,3,1],[1,0,1],[-2,2,0]]\n\nx1 = [4,4,1] - [[0,3,1],[1,0,1],[-2,2,0]]*[1,1,1]\n= [4,4,1] - [4, 2, 0]\n= [0, 2, 1]\n\nHmm, that doesn't match S1. Let me recheck.\n\nWait, actually Jacobi: x_i^{k+1} = (1/a_ii)(b_i - sum_{j≠i} a_ij x_j)\n\nIn matrix form using D^{-1}A: rows of D^{-1}A have 1 on diagonal. So equation is D^{-1}A x = D^{-1}b, i.e., x_i + sum_{j≠i}(a_ij/a_ii) x_j = b_i/a_ii.\n\nSo x_i^{new} = (D^{-1}b)_i - sum_{j≠i} (D^{-1}A)_{ij} x_j^{old}\n\nRow 1: 4 - (3*1 + 1*1) = 4 - 4 = 0\nRow 2: 4 - (1*1 + 1*1) = 4 - 2 = 2\nRow 3: 1 - (-2*1 + 2*1) = 1 - 0 = 1\n\nSo x1 = [0, 2, 1]^T, not [5,-1,-1].\n\nSo S1 is FALSE.\n\nS2: Check convergence of Jacobi. Iteration matrix B = I - D^{-1}A = -[[0,3,1],[1,0,1],[-2,2,0]] = [[0,-3,-1],[-1,0,-1],[2,-2,0]]\n\nFind spectral radius. Eigenvalues of B:\ndet(B - λI) = 0\n|-λ, -3, -1|\n|-1, -λ, -1|\n|2, -2, -λ|\n\n= -λ(λ² - 2) - (-3)(λ + 2) + (-1)(2 + 2λ)\n= -λ³ + 2λ + 3λ + 6 - 2 - 2λ\n= -λ³ + 3λ + 4\n\nSet to 0: λ³ - 3λ - 4 = 0\n\nTry λ=2: 8-6-4 = -2. No.\nλ=-1: -1+3-4 = -2. No.\nRoots not nice. Let me recompute.\n\nActually let me redo determinant carefully:\nB = [[0,-3,-1],[-1,0,-1],[2,-2,0]]\n\nB - λI = [[-λ,-3,-1],[-1,-λ,-1],[2,-2,-λ]]\n\nExpand along first row:\n-λ * det[[-λ,-1],[-2,-λ]] - (-3) * det[[-1,-1],[2,-λ]] + (-1) * det[[-1,-λ],[2,-2]]\n\n= -λ(λ² - 2) + 3(λ + 2) - 1(2 + 2λ)\n= -λ³ + 2λ + 3λ + 6 - 2 - 2λ\n= -λ³ + 3λ + 4\n\nSetting = 0: λ³ - 3λ - 4 = 0\n\nAt λ=2.2: 10.648 - 6.6 - 4 = 0.048. Close to root near 2.2.\nSo spectral radius > 1, Jacobi diverges for generic initial vectors.\n\nSo S2 is TRUE.\n\nAnswer: S1 false, S2 true. Depending on option labels, likely (B) or (D).\n\nWithout seeing options clearly, the answer is: S1 is false, S2 is true.\n\nTypically the option would be \"S1 is false and S2 is true\".\n</think>\n\n**Step 1: Verify S1 (Jacobi iteration)**\n\nThe Jacobi iteration in this form is:\n$$x_i^{(1)} = (D^{-1}b)_i - \\sum_{j \\neq i} (D^{-1}A)_{ij} x_j^{(0)}$$\n\nWith $x^{(0)} = [1,1,1]^T$:\n- Row 1: $4 - (3\\cdot 1 + 1\\cdot 1) = 0$\n- Row 2: $4 - (1\\cdot 1 + 1\\cdot 1) = 2$  \n- Row 3: $1 - (-2\\cdot 1 + 2\\cdot 1) = 1$\n\nSo $x^{(1)} = [0, 2, 1]^T \\neq [5, -1, -1]^T$. **S1 is FALSE.**\n\n**Step 2: Verify S2 (Convergence)**\n\nJacobi iteration matrix: $B = I - D^{-1}A = \\begin{pmatrix} 0 & -3 & -1 \\\\ -1 & 0 & -1 \\\\ 2 & -2 & 0 \\end{pmatrix}$\n\nCharacteristic polynomial: $\\lambda^3 - 3\\lambda - 4 = 0$\n\nTesting $\\lambda = 2.2$: $10.648 - 6.6 - 4 \\approx 0.05$, so there is a real root slightly greater than 2. Hence spectral radius $\\rho(B) > 1$, and Jacobi diverges for generic initial vectors. **S2 is TRUE.**\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 19.323,
+    "generation_cost": 0.04773
+  },
+  {
+    "question_number": 37,
+    "question": "Let 𝑦(𝑥) be the solution of the differential equation\n𝑥2𝑦′′ + 7𝑥𝑦′ + 9𝑦= 𝑥−3 log𝑒𝑥, 𝑥> 0,\nsatisfying 𝑦(1) = 0 and 𝑦′(1) = 0. Then, the value of 𝑦(𝑒) is equal to\n\n\n(A)\n\n1\n3 𝑒−3\n(B)\n\n1\n6 𝑒−3\n(C)\n\n2\n3 𝑒−3\n(D)\n\n1\n2 𝑒−3",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nCauchy-Euler: x²y''+7xy'+9y. Substitute x=e^t. Characteristic: m(m-1)+7m+9 = m²+6m+9=(m+3)². Homogeneous: y_h = (C1+C2 t)e^{-3t} = (C1+C2 ln x)x^{-3}.\n\nRHS: x^{-3} ln x = e^{-3t}·t. In t-variable: equation becomes y''+6y'+9y = t e^{-3t}.\n\nParticular: try y_p = e^{-3t}(at³+bt²). Since (D+3)² annihilates e^{-3t} and te^{-3t}, we need t² multiplier.\n\nLet y_p = e^{-3t} u(t). Then (D+3)²[e^{-3t}u] = e^{-3t} u''. So u'' = t, u = t³/6.\n\nThus y_p = (t³/6)e^{-3t} = ((ln x)³/6) x^{-3}.\n\nGeneral: y = x^{-3}[C1 + C2 ln x + (ln x)³/6].\n\nAt x=1: ln x=0, y = C1 = 0.\ny' = derivative. Let y = x^{-3} f(ln x) where f(u) = C2 u + u³/6 (with C1=0).\ny' = -3x^{-4} f + x^{-3} f'(u)·(1/x) = x^{-4}[-3f + f'].\nAt x=1: -3·0 + f'(0) = C2 = 0.\n\nSo y = x^{-3}(ln x)³/6. At x=e: y(e) = e^{-3}·1/6.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 13.003,
+    "generation_cost": 0.015575
+  },
+  {
+    "question_number": 38,
+    "question": "Let 𝑦1(𝑥) and 𝑦2(𝑥) be the two linearly independent solutions of the differential\nequation\n(1 + 𝑥2)𝑦′′ −𝑥𝑦′ + (cos2 𝑥)𝑦= 0,\nsatisfying the initial conditions\n𝑦1(0) = 3, 𝑦1\n′(0) = −1 and 𝑦2(0) = −5, 𝑦2\n′(0) = 2.\nDefine 𝑊(𝑥) = |\n𝑦1(𝑥)\n𝑦2(𝑥)\n𝑦1\n′(𝑥)\n𝑦2\n′(𝑥)\n|. Then, the value of 𝑊(\n1\n2) is\n\n\n(A)\n√5\n4\n(B)\n√5\n2\n(C)\n2\n√5\n\n(D)\n4\n√5",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Abel's formula: W' = -(P)W where equation is y'' + P y' + Q y = 0.\n\nHere P = -x/(1+x²).\n\nW(x) = W(0) exp(-∫P dx) = W(0) exp(∫ x/(1+x²) dx) = W(0) · √(1+x²).\n\nW(0) = 3·2 - (-5)(-1) = 6-5 = 1.\n\nW(1/2) = √(1+1/4) = √(5/4) = √5/2.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 3.199,
+    "generation_cost": 0.006525
+  },
+  {
+    "question_number": 39,
+    "question": "Let 𝐶 be the curve of intersection of the surfaces 𝑧2 = 𝑥2 + 𝑦2 and\n4𝑥+ 𝑧= 7. If 𝑃 is a point on 𝐶 at a minimum distance from the 𝑥𝑦-plane, then the\ndistance of 𝑃 from the origin is\n\n\n(A)\n7\n5\n(B)\n7√2\n5\n(C)\n14\n5\n(D)\n14√2\n5",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nz = 7 - 4x, z² = x²+y²\n(7-4x)² = x²+y²\n49 - 56x + 16x² = x² + y²\ny² = 15x² - 56x + 49\n\nMinimize |z| = |7-4x|. Need y² ≥ 0.\n15x² - 56x + 49 ≥ 0\nDiscriminant: 56² - 4·15·49 = 3136 - 2940 = 196\nx = (56 ± 14)/30 = 70/30 or 42/30 = 7/3 or 7/5\n\nSo x ∈ (-∞, 7/5] ∪ [7/3, ∞).\n\nz = 7-4x. |z| minimized: at x=7/5, z = 7-28/5 = 7/5. At x=7/3, z=7-28/3 = -7/3.\n|z|=7/5 is smaller.\n\nAt x=7/5, y=0, z=7/5.\nDistance from origin: √((7/5)² + 0 + (7/5)²) = (7/5)√2.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 6.374,
+    "generation_cost": 0.01033
+  },
+  {
+    "question_number": 40,
+    "question": "Let 𝑢(𝑥, 𝑡) be the solution of the initial-value problem\n\n𝜕2𝑢\n𝜕𝑡2 −9\n𝜕2𝑢\n𝜕𝑥2 = 0,\n𝑥∈ℝ,\n𝑡> 0, 𝑢(𝑥, 0) = 𝑒𝑥, 𝜕𝑢\n𝜕𝑡(𝑥, 0) = sin 𝑥.\nThen, the value of 𝑢(\n𝜋\n2 ,\n𝜋\n6) is\n\n\n(A)\n1\n2 (𝑒𝜋−1\n3)\n(B)\n1\n2 (𝑒𝜋+ 1\n3)\n(C)\n1\n2 (𝑒𝜋+ 5\n3)\n(D)\n1\n2 (𝑒𝜋−5\n3)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FT of e^{-a|x|} is 2a/(a²+w²). Heat equation gives factor e^{-kw²t}.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.479,
+    "generation_cost": 0.003855
+  },
+  {
+    "question_number": 41,
+    "question": "Let 𝑇 be the Möbius transformation that maps the points 0,\n1\n2 and 1 conformally\nonto the points −3, ∞ and 2, respectively, in the extended complex plane.\nIf 𝑇 maps the circle centred at 1 with radius 𝑘 onto a straight line given by the\nequation 𝛼𝑥+ 𝛽𝑦+ 𝛾= 0, then the value of\n2𝑘(𝛼+𝛽)+𝛾\n𝛼+𝛽−2𝑘𝛾 is equal to\n\n\n(A)\n1\n7\n(B)\n2\n7\n(C)\n1\n3\n(D)\n2\n3",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nFind Möbius T mapping 0→-3, 1/2→∞, 1→2.\n\nT(z) = (az+b)/(cz+d). Since T(1/2)=∞, denominator zero at z=1/2: cz+d = c(z-1/2), so d=-c/2.\n\nT(0) = b/d = -3, so b = -3d = -3(-c/2) = 3c/2.\n\nT(1) = (a+b)/(c+d) = (a+3c/2)/(c-c/2) = (a+3c/2)/(c/2) = 2. So a+3c/2 = c, a = -c/2.\n\nLet c=2: a=-1, b=3, d=-1. T(z) = (-z+3)/(2z-1) = (3-z)/(2z-1).\n\nCircle |z-1|=k maps to line. A circle maps to line iff it passes through the pole z=1/2.\n|1/2 - 1| = 1/2, so k = 1/2.\n\nFind the line. Take three points on circle |z-1|=1/2: z=1/2 (→∞), z=3/2, z=1+i/2, z=1-i/2.\n\nT(3/2) = (3-3/2)/(2·3/2-1) = (3/2)/2 = 3/4.\n\nT(1+i/2) = (3-1-i/2)/(2+i-1) = (2-i/2)/(1+i) = (2-i/2)(1-i)/2 = (2-2i-i/2+i²/2)/2 = (2-2i-i/2-1/2)/2 = (3/2 - 5i/2)/2 = 3/4 - 5i/4.\n\nSo line passes through (3/4, 0) and (3/4, -5/4). That's vertical line x=3/4.\n\nSo 4x - 3 = 0, α=4, β=0, γ=-3. Or any multiple.\n\nCompute (2k(α+β)+γ)/(α+β-2kγ) with k=1/2:\n= (1·(4+0) + (-3))/((4+0) - 1·(-3))\n= (4-3)/(4+3) = 1/7.\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 14.791,
+    "generation_cost": 0.019405
+  },
+  {
+    "question_number": 42,
+    "question": "Let 𝑈= {𝑧∈ℂ∶Im(𝑧) > 0} and 𝐷= {𝑧∈ℂ∶|𝑧| < 1}, where Im(𝑧) denotes\nthe imaginary part of 𝑧. Let 𝑆 be the set of all bijective analytic functions\n𝑓: 𝑈→𝐷 such that 𝑓(𝑖) = 0. Then, the value of sup\n𝑓∈𝑆 |𝑓(4𝑖)| is\n\n\n(A)\n0\n(B)\n1\n4\n(C)\n1\n2\n(D)\n3\n5",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nMöbius map from U to D sending i to 0: f(z) = (z-i)/(z+i). Then f(4i) = 3i/5i = 3/5. All such bijections differ by rotation, so |f(4i)| = 3/5.\n</think>\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 4.272,
+    "generation_cost": 0.00412
+  },
+  {
+    "question_number": 43,
+    "question": "Let Ω be a non-empty open connected subset of ℂ and 𝑓: Ω →ℂ be a non-constant\nfunction. Let the functions 𝑓2: Ω →ℂ and 𝑓3: Ω →ℂ be defined by\n𝑓2(𝑧) = (𝑓(𝑧))\n2 and 𝑓3(𝑧) = (𝑓(𝑧))\n3, 𝑧∈Ω.\nConsider the following two statements:\nS1: If 𝑓 is continuous in Ω and 𝑓2 is analytic in Ω, then 𝑓 is analytic in Ω.\nS2: If 𝑓2 and 𝑓3 are analytic in Ω, then 𝑓 is analytic in Ω.\n\n\n(A)\n(B)\n(C)\n(D)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nBoth S1 and S2 are true. S2: f = f³/f² where f²≠0, analytic. Need to handle zeros. Standard result: both true.\n\nS1: f² analytic, f continuous. At points where f²≠0, locally f²=g² for analytic g, and f=±g continuous, so f analytic. At zeros of f², need more care but continuity gives analyticity by Morera or removable singularity.\n\nBoth statements are true.\n</think>\n\nBoth S1 and S2 are true classical results in complex analysis.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 4.966,
+    "generation_cost": 0.006685
+  },
+  {
+    "question_number": 44,
+    "question": "In the following, all subsets of Euclidean spaces are considered with the respective\nsubspace topologies.\nDefine an equivalence relation ~ on the sphere\n𝑆= {(𝑥1, 𝑥2, 𝑥3) ∈ℝ3 ∶ 𝑥1\n2 + 𝑥2\n2 + 𝑥3\n2 = 1}\n\nby\n(𝑥1, 𝑥2, 𝑥3) ~ (𝑦1, 𝑦2, 𝑦3)\nif\n𝑥3 = 𝑦3,\nfor\n(𝑥1, 𝑥2, 𝑥3), (𝑦1, 𝑦2, 𝑦3) ∈𝑆.\nLet [𝑥1, 𝑥2, 𝑥3] denote the equivalence class of (𝑥1, 𝑥2, 𝑥3), and let 𝑋 denote the set\nof\nall\nsuch\nequivalence\nclasses.\nLet\nℒ∶𝑆→𝑋\nbe\ngiven\nby\nℒ((𝑥1, 𝑥2, 𝑥3)) = [𝑥1, 𝑥2, 𝑥3]. If 𝑋 is provided with the quotient topology induced\nby the map ℒ, then which one of the following is TRUE?\n\n\n\n(A)\n𝑋 is homeomorphic to {𝑥∈ℝ∶ −1 ≤𝑥≤1}\n(B)\n𝑋 is homeomorphic to {(𝑥1, 𝑥2) ∈ℝ2 ∶ 𝑥1\n2 + 𝑥2\n2 = 1}\n(C)\n𝑋 is homeomorphic to {(𝑥1, 𝑥2) ∈ℝ2 ∶ 𝑥1\n2 + 𝑥2\n2 ≤1}\n(D)\n𝑋 is homeomorphic to {(𝑥1, 𝑥2, 𝑥3) ∈ℝ3 ∶ 𝑥1\n2 + 𝑥2\n2 = 1 and −1 ≤𝑥3 ≤1}",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "The equivalence classes are circles of constant x_3 (latitude), parametrized by x_3 ∈ [-1,1]. So X is homeomorphic to [-1,1].\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.647,
+    "generation_cost": 0.005315
+  },
+  {
+    "question_number": 45,
+    "question": "Consider the following two spaces:\n𝑋= (𝐶[−1, 1], ∥⋅∥∞), the space of all real-valued continuous functions defined on\n[−1, 1] equipped with the norm ∥𝑓∥∞ = sup\n𝑡∈[−1,1]\n|𝑓(𝑡)|.\n𝑌= (𝐶[−1, 1], ∥⋅∥2), the space of all real-valued continuous functions defined on\n[−1, 1] equipped with the norm ∥𝑓∥2 = (∫|𝑓(𝑡)|2𝑑𝑡\n1\n−1\n)\n1/2\n.\nLet 𝑊 be the linear span over ℝ of all the Legendre polynomials. Then, which one\nof the following is correct?\n\n\n(A)\n𝑊 is dense in 𝑋 but not in 𝑌\n(B)\n𝑊 is dense in 𝑌 but not in 𝑋\n(C)\n𝑊 is dense in both 𝑋 and 𝑌\n(D)\n𝑊 is dense neither in 𝑋 nor in 𝑌",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Legendre polynomials span all polynomials. By Weierstrass, polynomials are dense in C[-1,1] with sup norm, hence dense in X and also in Y (since sup-norm convergence implies L2 convergence).\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 3.555,
+    "generation_cost": 0.004375
+  },
+  {
+    "question_number": 46,
+    "question": "Consider the metric spaces 𝑋= (ℝ, 𝑑1) and 𝑌= ([0, 1], 𝑑2) with the metrics\ndefined by 𝑑1(𝑥, 𝑦) = |𝑥−𝑦|, 𝑥, 𝑦∈ ℝ and 𝑑2(𝑥, 𝑦) = |𝑥−𝑦|, 𝑥, 𝑦∈[0,1],\nrespectively. Then, which one of the following is TRUE?\n\n\n(A)\n[0,\n1\n4) is open in 𝑋 but not in 𝑌\n(B)\n[0,\n1\n4) is open in 𝑌 but not in 𝑋\n(C)\n[0,\n1\n4) is open in both 𝑋 and 𝑌\n(D)\n[0,\n1\n4) is open neither in 𝑋 nor in 𝑌",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "In X=ℝ: [0,1/4) contains 0, but no open ball around 0 fits inside (negative numbers excluded). Not open.\n\nIn Y=[0,1]: open sets are intersections of open sets in ℝ with [0,1]. [0,1/4) = (-1,1/4) ∩ [0,1]. Open in Y.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 5.667,
+    "generation_cost": 0.005
+  },
+  {
+    "question_number": 47,
+    "question": "Let 𝐾 be an algebraically closed field containing a finite field 𝐹. Let 𝐿 be the\nsubfield of 𝐾 consisting of elements of 𝐾 that are algebraic over 𝐹.\nConsider the following statements:\nS1: 𝐿 is algebraically closed.\nS2: 𝐿 is infinite.\n\n\n(A)\n(B)\n(C)\n(D)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "L is the algebraic closure of F, which is algebraically closed and infinite (algebraic closure of finite field is infinite).\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 3.447,
+    "generation_cost": 0.00287
+  },
+  {
+    "question_number": 48,
+    "question": "Let 𝑀2(ℝ) be the vector space (over ℝ) of all 2 × 2 matrices with entries in ℝ.\nConsider the linear transformation 𝑇: 𝑀2(ℝ) →𝑀2(ℝ) defined by 𝑇(𝑋) = 𝐴𝑋𝐵,\nwhere 𝐴= [ 1\n−2\n1\n4 ] and 𝐵= [ 6\n5\n−2\n−1 ]. If 𝑃 is the matrix representation of\n𝑇 with respect to the standard basis of 𝑀2(ℝ), then which of the following is/are\nTRUE?\n\n\n(A)\n𝑃 is an invertible matrix\n(B)\nThe trace of 𝑃 is 25\n(C)\nThe rank of (𝑃2 −4𝐼4) is 4, where 𝐼4 is the 4 × 4 identity matrix\n(D)\nThe nullity of (𝑃−2𝐼4) is 0, where 𝐼4 is the 4 × 4 identity matrix",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nT(X) = AXB. Matrix rep w.r.t. standard basis is B^T ⊗ A (depending on convention) or A ⊗ B^T. Eigenvalues of T are products of eigenvalues of A and eigenvalues of B^T = eigenvalues of B.\n\nA = [[1,1],[-2,4]], eigenvalues: trace 5, det 4+2=6, so λ²-5λ+6=0, λ=2,3.\nB = [[6,-2],[5,-1]], trace 5, det -6+10=4, λ²-5λ+4=0, λ=1,4.\n\nEigenvalues of T: {2·1, 2·4, 3·1, 3·4} = {2, 8, 3, 12}.\n\nTrace of P = 2+8+3+12 = 25. ✓ (B)\n\ndet = 2·8·3·12 = 576 ≠ 0, so P invertible. ✓ (A)\n\nP² eigenvalues: 4, 64, 9, 144. P²-4I eigenvalues: 0, 60, 5, 140. Rank = 3, not 4. ✗ (C)\n\nP - 2I eigenvalues: 0, 6, 1, 10. Nullity = 1, not 0. ✗ (D)\n</think>\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 6.536,
+    "generation_cost": 0.01343
+  },
+  {
+    "question_number": 49,
+    "question": "Consider the linear programming problem (LPP):\nMaximize 𝑍= 3𝑥1 + 5𝑥2\nSubject to 𝑥1 + 𝑥3 = 4 ,\n2𝑥2 + 𝑥4 = 12,\n3𝑥1 + 2𝑥2 + 𝑥5 = 18,\n𝑥1, 𝑥2, 𝑥3, 𝑥4, 𝑥5 ≥0.\nGiven that 𝑥𝐵= (𝑥3, 𝑥2, 𝑥1)𝑇 forms the optimal basis of the LPP with basis matrix\n𝐵 and respective 𝐵−1 = [\n𝛼\n𝛽\n−𝛽\n0\n𝛾\n0\n0\n−𝛽\n𝛽\n] . If ( 𝑝, 𝑞, 𝑟) is the optimal solution of the\ndual of the LPP, then which of the following is/are TRUE?\n\n\n(A)\n𝛼+ 3𝛽+ 2𝛾= 3\n(B)\n𝛼−3𝛽+ 4𝛾= 1\n(C)\n𝑝+ 𝑞+ 𝑟=\n5\n2\n(D)\n𝑝2 + 𝑞2 + 𝑟2 =\n17\n4",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nBasis columns: x3, x2, x1. Columns from constraints:\nx3: (1,0,0), x2: (0,2,2), x1: (1,0,3).\n\nB = [[1,0,1],[0,2,0],[0,2,3]]\n\nFind B^{-1}. det = 1*(2*3-0*2) - 0 + 1*(0*2-2*0) = 6.\n\nCompute inverse. Let me solve:\nB^{-1} should satisfy B*B^{-1} = I.\n\nUsing cofactors:\nB = [[1,0,1],[0,2,0],[0,2,3]]\n\nCofactor matrix:\nC11 = det[[2,0],[2,3]] = 6\nC12 = -det[[0,0],[0,3]] = 0\nC13 = det[[0,2],[0,2]] = 0\nC21 = -det[[0,1],[2,3]] = -(-2) = 2\nC22 = det[[1,1],[0,3]] = 3\nC23 = -det[[1,0],[0,2]] = -2\nC31 = det[[0,1],[2,0]] = -2\nC32 = -det[[1,1],[0,0]] = 0\nC33 = det[[1,0],[0,2]] = 2\n\nAdjugate = transpose of cofactor:\n[[6,2,-2],[0,3,0],[0,-2,2]]\n\nB^{-1} = (1/6)*adj = [[1, 1/3, -1/3],[0, 1/2, 0],[0, -1/3, 1/3]]\n\nSo α=1, β=1/3, γ=1/2.\n\nCheck:\n(A) α + 3β + 2γ = 1 + 1 + 1 = 3 ✓\n(B) α - 3β + 4γ = 1 - 1 + 2 = 2 ✗\n\nDual: Maximize primal with ≤ constraints (original before slacks):\nx1 ≤ 4, 2x2 ≤ 12, 3x1+2x2 ≤ 18\n\nDual: min 4p + 12q + 18r\ns.t. p + 3r ≥ 3, 2q + 2r ≥ 5, p,q,r ≥ 0.\n\nOptimal dual from y = c_B * B^{-1}:\nc_B = (c3, c2, c1) = (0, 5, 3)\ny = (0,5,3) * B^{-1} = (0, 5*(1/2) + 3*(-1/3), 5*0 + 3*(1/3)) \n\nWait, let me compute: (0,5,3) row times B^{-1}:\nFirst entry: 0*1 + 5*0 + 3*0 = 0\nSecond: 0*(1/3) + 5*(1/2) + 3*(-1/3) = 5/2 - 1 = 3/2\nThird: 0*(-1/3) + 5*0 + 3*(1/3) = 1\n\nSo (p,q,r) = (0, 3/2, 1).\n\n(C) p+q+r = 0 + 3/2 + 1 = 5/2 ✓\n(D) p²+q²+r² = 0 + 9/4 + 1 = 13/4 ✗\n\nSo A and C are true.\n</think>\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 9.762,
+    "generation_cost": 0.02929
+  },
+  {
+    "question_number": 50,
+    "question": "Let 0 < 𝛼< 1. Define\n𝐶𝛼[0, 1] = {𝑓: [0, 1] →ℝ∶\nsup\n𝑠≠𝑡\n𝑠,𝑡∈[0,1]\n|𝑓(𝑡) −𝑓(𝑠)|\n|𝑡−𝑠|𝛼\n< ∞}.\nIt is given that 𝐶𝛼[0, 1] is a Banach space with respect to the norm ‖⋅‖𝛼 given by\n‖𝑓‖𝛼= |𝑓(0)| +\nsup\n𝑠≠𝑡\n𝑠,𝑡∈[0,1]\n|𝑓(𝑡) −𝑓(𝑠)|\n|𝑡−𝑠|𝛼\n.\nLet 𝐶[0, 1] be the space of all real-valued continuous functions on [0, 1] with the\nnorm ‖𝑓‖∞= sup\n0≤𝑡≤1\n|𝑓(𝑡)|. If 𝑇: 𝐶𝛼[0, 1] →𝐶[0,1] is the map 𝑇𝑓= 𝑓,\n𝑓∈𝐶𝛼[0, 1], then which of the following is/are TRUE?\n\n\n(A)\n𝑇 is a compact linear map\n(B)\nImage of 𝑇 is closed in 𝐶[0, 1]\n(C)\nImage of 𝑇 is dense in 𝐶[0, 1]\n(D)\n𝑇 is not a bounded linear map",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nT is inclusion from Hölder space into C[0,1]. It's bounded. Compact by Arzela-Ascoli since Hölder ball is equicontinuous and uniformly bounded. Image contains polynomials, dense in C[0,1]. Image not closed (since if closed and dense, would equal C[0,1], but not every continuous function is Hölder).\n\nSo A and C are true.\n</think>\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 3.577,
+    "generation_cost": 0.007105
+  },
+  {
+    "question_number": 51,
+    "question": "Let 𝑢(𝑥, 𝑡) be the solution of the initial value problem\n\n𝜕𝑢\n𝜕𝑡+ 3\n𝜕𝑢\n𝜕𝑥= 𝑢, 𝑥∈ℝ,\n𝑡> 0,\n𝑢(𝑥, 0) = cos 𝑥,\nand let 𝑣(𝑥, 𝑡) be the solution of the initial value problem\n\n𝜕𝑣\n𝜕𝑡+ 3\n𝜕𝑣\n𝜕𝑥= 𝑣2, 𝑥∈ℝ,\n𝑡> 0,\n𝑣(𝑥, 0) = cos 𝑥.\n\n\n(A)\n|𝑢(𝑥, 𝑡)| ≤𝑒𝑡 for all 𝑥∈ℝ and for all 𝑡> 0\n(B)\n𝑣(𝑥, 1) is not defined for certain values of 𝑥∈ℝ\n(C)\n𝑣(𝑥, 1) is not defined for any 𝑥∈ℝ\n(D)\n𝑢(2𝜋, 𝜋) = −𝑒𝜋",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nFor u: along characteristics dx/dt=3, du/dt=u, so u = cos(x-3t)·e^t. \n\nAt (2π, π): u = cos(2π-3π)·e^π = cos(-π)·e^π = -e^π. So D is correct.\n\n|u| ≤ e^t since |cos|≤1, so A is also correct.\n\nFor v: dv/dt = v² along characteristic. v(ξ,t) = cos(ξ)/(1 - t cos(ξ)) where ξ = x-3t.\nSo v(x,t) = cos(x-3t)/(1 - t cos(x-3t)).\n\nAt t=1: v(x,1) = cos(x-3)/(1 - cos(x-3)). Undefined when cos(x-3)=1, i.e., x-3 = 2kπ. So undefined for certain x. B is correct, C is wrong.\n\nSo A, B, D are correct.\n</think>\n\nFINAL_ANSWER: A,B,D",
+    "final_answer": "A,B,D",
+    "generation_time_s": 5.21,
+    "generation_cost": 0.010805
+  },
+  {
+    "question_number": 52,
+    "question": "Let 𝑢(𝑥, 𝑡) be the solution of the initial-boundary value problem\n\n𝜕𝑢\n𝜕𝑡= 2\n𝜕2𝑢\n𝜕𝑥2 , 0 < 𝑥< 1,\n𝑡> 0,\n𝑢(0, 𝑡) = 𝑢(1, 𝑡) = 0, 𝑢(𝑥, 0) = 2𝑥(1 −𝑥).\n\n\n(A)\n0 ≤𝑢(𝑥, 𝑡) ≤\n1\n4 for all 𝑡≥0 and 𝑥∈[0, 1]\n(B)\n𝑢(𝑥, 𝑡) = 𝑢(1 −𝑥, 𝑡) for all 𝑡≥0 and 𝑥∈[0, 1]\n(C)\n∫(𝑢(𝑥, 𝑡))\n2\n1\n0\n𝑑𝑥 is a decreasing function of 𝑡\n(D)\n∫(𝑢(𝑥, 𝑡))\n2\n1\n0\n𝑑𝑥 is not a decreasing function of 𝑡",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nInitial condition: 2x(1-x), max at x=1/2, value = 2(1/2)(1/2) = 1/2. So max is 1/2, not 1/4.\n\nBy maximum principle, 0 ≤ u ≤ 1/2. So (A) claiming ≤ 1/4 is false (initial condition itself violates it).\n\n(B) Symmetry: initial condition symmetric about x=1/2, BCs symmetric, so solution symmetric. True.\n\n(C) Energy decreasing: d/dt ∫u² = 2∫u u_t = 4∫u u_xx = -4∫(u_x)² ≤ 0. Decreasing. True.\n\n(D) False.\n</think>\n\n**Step 1: Check (A)**\nAt t=0, u(1/2, 0) = 2(1/2)(1/2) = 1/2 > 1/4. So (A) is FALSE.\n\n**Step 2: Check (B)**\nInitial condition 2x(1-x) is symmetric about x=1/2, i.e., u(x,0) = u(1-x,0). Boundary conditions are symmetric too. By uniqueness, v(x,t) = u(1-x,t) satisfies the same PDE, BCs, and IC, so u(x,t) = u(1-x,t). TRUE.\n\n**Step 3: Check (C)**\nLet E(t) = ∫₀¹ u² dx. Then\ndE/dt = 2∫₀¹ u·u_t dx = 4∫₀¹ u·u_xx dx = 4[u·u_x]₀¹ - 4∫₀¹ (u_x)² dx = -4∫₀¹ (u_x)² dx ≤ 0\n\nSo E(t) is decreasing. (C) TRUE, (D) FALSE.\n\nFINAL_ANSWER: B,C",
+    "final_answer": "B,C",
+    "generation_time_s": 6.129,
+    "generation_cost": 0.017295
+  },
+  {
+    "question_number": 53,
+    "question": "Consider the function 𝑓: ℝ2 →ℝ2 given by\n𝑓(𝑥, 𝑦) = (𝑒2𝜋𝑥cos 2𝜋𝑦, 𝑒2𝜋𝑥sin 2𝜋𝑦).\n\n\n(A)\nIf 𝐺 is open in ℝ2, then 𝑓(𝐺) is open in ℝ2\n(B)\nIf 𝐺 is closed in ℝ2, then 𝑓(𝐺) is closed in ℝ2\n(C)\nIf 𝐺 is dense in ℝ2, then 𝑓(𝐺) is dense in ℝ2\n(D)\n𝑓 is surjective",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf(x,y) = (e^{2πx}cos2πy, e^{2πx}sin2πy). This maps R² onto R²\\{0}. Image is complement of origin.\n\n(A) Open map: f is smooth, Jacobian determinant nonzero everywhere (it's like complex exp, which is open map). So yes, open.\n\n(B) Take G = R² closed, f(G) = R²\\{0} not closed. False.\n\nAlso consider closed set like {(x,0): x∈R}, image is {(e^{2πx}, 0)} = positive x-axis, not closed. False.\n\n(C) G dense in R². Is f(G) dense in R²? f is continuous and surjective onto R²\\{0}. If G is dense, f(G) contains... hmm. Actually f being open map: if G dense, then f(G) - is it dense in R²\\{0}? For any open U in R²\\{0}, f^{-1}(U) is open nonempty, so intersects G, so U intersects f(G). So f(G) dense in R²\\{0}, hence dense in R². True.\n\n(D) Not surjective, misses origin. False.\n\nAnswers: A, C.\n</think>\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 7.132,
+    "generation_cost": 0.01171
+  },
+  {
+    "question_number": 54,
+    "question": "Let {𝑥𝑘}𝑘=1\n∞ be an orthonormal set of vectors in a real Hilbert space 𝑋 with inner\nproduct <⋅ , ⋅>. Let 𝑛∈ℕ, and let 𝑌 be the linear span of {𝑥𝑘}𝑘=1\n𝑛\nover ℝ.\nFor 𝑥∈𝑋, let 𝑆𝑛(𝑥) = ∑\n< 𝑥, 𝑥𝑘> 𝑥𝑘\n𝑛\n𝑘=1\n. Then, which of the following is/are\nTRUE?\n\n\n(A)\n𝑆𝑛(𝑥) is the orthogonal projection of 𝑥 onto 𝑌\n(B)\n𝑆𝑛(𝑥) is the orthogonal projection of 𝑥 onto 𝑌⊥\n(C)\n(𝑥−𝑆𝑛(𝑥)) is orthogonal to 𝑆𝑛(𝑥) for all 𝑥 in 𝑋\n(D)\n∑\n|< 𝑥, 𝑥𝑘>|2 = ‖𝑥‖2\n𝑛\n𝑘=1\nfor all 𝑥 in 𝑋",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A and C are standard results. B is false (it's projection onto Y, not Y⊥). D is Bessel's inequality with ≤, not equality (equality only if complete basis).\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 2.486,
+    "generation_cost": 0.004635
+  },
+  {
+    "question_number": 55,
+    "question": "Consider the sequence { 𝑓𝑛} of continuous functions on [0, 1] defined by\n𝑓1(𝑥) = 𝑥\n2 ,\n𝑓𝑛+1(𝑥) = 𝑓𝑛(𝑥) −1\n2 ( (𝑓𝑛(𝑥))\n2 −𝑥) ,\n𝑛= 1, 2, 3, … .\n\n\n(A)\nThe sequence { 𝑓𝑛} converges pointwise but not uniformly on [0, 1]\n(B)\nThe sequence { 𝑓𝑛} converges uniformly on [0, 1]\n(C)\n√𝑥 −𝑓𝑛(𝑥) >\n2√𝑥\n2+𝑛√𝑥 for all 𝑥∈[0, 1] and 𝑛= 1, 2, 3, …\n(D)\n0 ≤𝑓𝑛(𝑥) ≤√𝑥 for all 𝑥∈[0, 1] and 𝑛= 1, 2, 3, …",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nThis is a classic problem. The sequence f_n converges uniformly to √x on [0,1]. Also 0 ≤ f_n(x) ≤ √x holds, and the inequality √x - f_n(x) ≤ 2√x/(2+n√x) holds (this is the standard bound, note direction).\n\nWait, the standard result: 0 ≤ √x - f_n(x) ≤ 2√x/(2+n√x). So option C says √x - f_n > 2√x/(2+n√x), which would be wrong direction.\n\nLet me check f_1(x) = x/2. Then √x - x/2. Is this ≤ 2√x/(2+√x)?\nAt x=1: √1 - 1/2 = 1/2. 2·1/(2+1) = 2/3. 1/2 ≤ 2/3 ✓\nSo option C with \">\" is false.\n\nOptions B and D are correct.\n\nActually wait, let me re-examine option C. The standard inequality is √x - f_n(x) ≤ 2√x/(2+n√x), giving uniform convergence. So C stated with > is wrong.\n\nD: 0 ≤ f_n(x) ≤ √x by induction. f_1 = x/2 ≤ √x on [0,1]? At x=1, 1/2 ≤ 1 ✓. At x=0.01, 0.005 ≤ 0.1 ✓. Yes.\n\nInduction: assume 0 ≤ f_n ≤ √x. Then f_{n+1} = f_n - (1/2)(f_n² - x) = f_n + (1/2)(x - f_n²) ≥ f_n ≥ 0.\nAnd √x - f_{n+1} = √x - f_n - (1/2)(x - f_n²) = (√x - f_n)(1 - (√x+f_n)/2). Since √x + f_n ≤ 2√x ≤ 2, we have 1 - (√x+f_n)/2 ≥ 0. So √x - f_{n+1} ≥ 0. ✓\n\nSo B and D are correct.\n</think>\n\nFINAL_ANSWER: B,D",
+    "final_answer": "B,D",
+    "generation_time_s": 8.477,
+    "generation_cost": 0.01997
+  },
+  {
+    "question_number": 56,
+    "question": "For 𝑥∈(0, 𝜋), let 𝑢𝑛(𝑥) =\nsin 𝑛𝑥\n√𝑛, 𝑛= 1, 2, 3, … . Then, which of the\nfollowing is/are TRUE?\n\n\n(A)\n∑\n𝑢𝑛(𝑥)\n∞\n𝑛=1\nconverges uniformly on (0,𝜋)\n(B)\n∑\n𝑢𝑛\n′ (𝑥)\n∞\n𝑛=1\nconverges uniformly on (0, 𝜋)\n(C)\n∑\n𝑢𝑛(𝑥)\n∞\n𝑛=1\nconverges pointwise but not uniformly on (0, 𝜋)\n(D)\n∑\n𝑢𝑛(𝑥)\n∞\n𝑛=1\nconverges uniformly on every compact subset of (0, 𝜋)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nSum of sin(nx)/√n. By Dirichlet's test, converges pointwise on (0,π). On compact subsets [a,π-a], |sum of sin(nx)| bounded by 1/sin(x/2) ≤ 1/sin(a/2), so uniform convergence on compact subsets. Not uniform on (0,π) since near 0 it behaves badly. Derivative series √n cos(nx) diverges.\n\nSo C and D are true.\n</think>\n\n**Step 1: Pointwise convergence**\n\nBy Dirichlet's test: partial sums of sin(nx) are bounded (by 1/|sin(x/2)|) for x ∈ (0,π), and 1/√n decreases to 0. So ∑ sin(nx)/√n converges pointwise on (0,π).\n\n**Step 2: Uniform convergence on (0,π)?**\n\nIf the series converged uniformly on (0,π), the sum would be continuous on (0,π), and behavior near x=0 shows the series is not uniformly convergent. Specifically, taking x = π/(2N), the tail terms don't uniformly go to zero. In fact, ∑ sin(nx)/√n ~ c/√x near 0, which is unbounded. So **not uniform on (0,π)**.\n\n**Step 3: Uniform convergence on compact subsets**\n\nFor any compact K ⊂ (0,π), K ⊂ [a, π−a] for some a > 0. Then |∑ₙ₌₁ᴺ sin(nx)| ≤ 1/sin(x/2) ≤ 1/sin(a/2), uniformly bounded on K. By Dirichlet's test (uniform version), the series converges uniformly on K. ✓\n\n**Step 4: Derivative series**\n\nu'ₙ(x) = √n cos(nx). The terms don't go to 0 (since √n → ∞), so ∑ u'ₙ(x) diverges everywhere. Not uniformly convergent.\n\n**Conclusion:** (C) and (D) are true.\n\nFINAL_ANSWER: C,D",
+    "final_answer": "C,D",
+    "generation_time_s": 9.222,
+    "generation_cost": 0.019345
+  },
+  {
+    "question_number": 57,
+    "question": "Let ℝ1 and ℝ2 be provided with the respective Euclidean topologies, and let\n𝑆1 = {(𝑥1, 𝑥2) ∈ℝ2 ∶ 𝑥1\n2 + 𝑥2\n2 = 1}\nbe assigned the subspace topology induced from ℝ2. If 𝑓: 𝑆1 →ℝ1 is a non-constant\ncontinuous function, then which of the following is/are TRUE?\n\n\n(A)\n𝑓 maps closed sets to closed sets\n(B)\n𝑓 is injective\n(C)\n𝑓 is surjective\n(D)\nThere exists 𝜆∈ℝ such that 𝑓(cos 𝜆, sin 𝜆) = 𝑓(−cos 𝜆, −sin 𝜆)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nS^1 compact, so f(S^1) compact, hence closed and bounded in R. Closed subsets of S^1 are compact, image compact hence closed. So (A) true.\n\n(B) not necessarily - e.g., f(x,y)=x is not injective.\n\n(C) f(S^1) is connected compact = closed interval [a,b], not all of R. So not surjective.\n\n(D) Borsuk-Ulam in dimension 1: for continuous f: S^1 → R, there exist antipodal points with same value. Yes, true. Define g(θ) = f(cos θ, sin θ) - f(-cos θ, -sin θ). g(θ+π) = -g(θ). By IVT, some θ with g(θ)=0.\n\nSo A and D.\n</think>\n\nFINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 8.038,
+    "generation_cost": 0.008685
+  },
+  {
+    "question_number": 58,
+    "question": "Let 𝑋 be an uncountable set. Let the topology on 𝑋 be defined by declaring a subset\n𝑈⊆𝑋 to be open if 𝑋−𝑈 is either empty or finite or countable, and the empty set\nto be open. Then, which of the following is/are TRUE?\n\n\n(A)\nEvery compact subset of 𝑋 is closed\n(B)\nEvery closed subset of 𝑋 is compact\n(C)\n𝑋 is 𝑇1 (singleton subsets are closed) but not 𝑇2 (Hausdorff)\n(D)\n𝑋 is 𝑇2 (Hausdorff)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nThis is the cocountable topology on uncountable X.\n\nT1: singletons are closed since complement of a singleton is X minus a point, which is uncountable but the singleton itself is countable... wait. Closed sets are sets whose complement is open. A set C is closed iff X-C is open iff C is empty, finite, countable, or C=X. Wait no: U open means X-U is empty/finite/countable, OR U is empty. So closed sets (complements of open sets) are: X itself, and sets that are empty/finite/countable. So closed sets = X and all countable subsets (including finite and empty).\n\nSingletons are countable, hence closed. So T1 holds.\n\nT2: Any two nonempty open sets intersect because their complements are countable, so union of complements is countable, can't be all of X (uncountable). So not Hausdorff.\n\nSo (C) is true, (D) false.\n\nCompact subsets: Consider any infinite subset. Actually, let's check if X is compact. Take open cover. Any open set has countable complement. Pick one open set U1, its complement is countable. Cover the countable complement with countably many sets from the cover (one point each). So X is Lindelöf but not necessarily compact with just finite subcover... Actually we need finite subcover.\n\nLet me think about compactness. Consider cover: for each x in X, let U_x = X \\ {x_n : n ≥ some enumeration}... hmm.\n\nActually consider an infinite subset A of X. Is A compact? \n\nTake a countably infinite subset A = {a_1, a_2, ...}. Cover A by U_n = X \\ {a_k : k > n} for n=1,2,... These are open (complement is countable). U_n covers a_1,...,a_n. No finite subcover covers all of A. So A is not compact.\n\nWait but is A closed? A countable set is closed. So we have a closed set that's not compact. So (B) is false.\n\nNow compact subsets: I claim compact subsets must be finite. Suppose K is infinite. Take countably infinite subset {k_1, k_2,...} ⊂ K. Define open sets V_n = X \\ {k_m : m > n}. These cover K (each k_i is in V_i, and other points of K are in all V_n). No finite subcover. So K not compact. Hence compact sets are finite.\n\nFinite sets are closed (countable). So every compact subset is closed. (A) is true.\n\nSo (A) and (C) are true.\n</think>\n\n**Step 1: Identify closed sets.**\nA set C is closed iff X−C is open, i.e., X−C is empty/finite/countable, or C=X. So closed sets = X together with all countable subsets (including finite).\n\n**Step 2: Check T₁ and T₂ (C vs D).**\n- Singletons are countable → closed. So X is T₁.\n- Any two nonempty open sets U, V have countable complements; (X−U)∪(X−V) is countable, so U∩V ≠ ∅ (since X is uncountable). Hence not T₂.\n\nSo **(C) true, (D) false**.\n\n**Step 3: Compact subsets (A).**\nSuppose K is infinite. Pick a countably infinite subset {k₁, k₂, …} ⊂ K. Let Vₙ = X − {kₘ : m > n}, which is open (countable complement). These cover K but no finite subcollection does. Hence infinite sets are not compact; compact subsets are finite, and finite sets are closed.\n\nSo **(A) is true**.\n\n**Step 4: Closed subsets compact? (B)**\nThe set A = {a₁, a₂, …} (countably infinite) is closed. But by the argument above, A is not compact.\n\nSo **(B) is false**.\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 45.454,
+    "generation_cost": 0.03199
+  },
+  {
+    "question_number": 59,
+    "question": "All rings considered below are assumed to be associative and commutative with\n1 ≠0. Further, all ring homomorphisms map 1 to 1.\nConsider the following statements about such a ring 𝑅:\nP1: 𝑅 is isomorphic to the product of two rings 𝑅1 and 𝑅2.\nP2: ∃ 𝑟1, 𝑟2 ∈𝑅 such that 𝑟1\n2 = 𝑟1 ≠0 ≠𝑟2 = 𝑟2\n2, 𝑟1𝑟2 = 0 and 𝑟1 + 𝑟2 = 1.\nP3: ∃ ideals 𝐼1, 𝐼2 ⊆𝑅 with 𝑅≠𝐼1 ≠(0) ≠𝐼2 ≠𝑅 such that 𝑅= 𝐼1 + 𝐼2 and\n𝐼1 ⋂𝐼2 = (0).\nP4: ∃ 𝑎, 𝑏∈𝑅 with 𝑎≠0 ≠𝑏 such that 𝑎𝑏= 0.\n\n\n(A)\n𝑃1 ⟹𝑃2\n(B)\n𝑃2 ⟹𝑃3\n(C)\n𝑃3 ⟹𝑃4\n(D)\n𝑃4 ⟹𝑃1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nP1: R ≅ R1 × R2 (nontrivial product). Then e1=(1,0), e2=(0,1) are orthogonal idempotents summing to 1, both nonzero. So P1⇒P2. ✓\n\nP2: orthogonal idempotents r1,r2 nonzero with r1+r2=1. Let I1=(r1), I2=(r2). These are ideals, nonzero (contain r1,r2). Are they proper? I1=R iff r1 is unit. r1 idempotent and unit means r1=1, but then r2=0, contradiction. So I1≠R. Similarly I2. Sum: I1+I2 contains r1+r2=1, so =R. Intersection: if x∈I1∩I2, x=ar1=br2, then x·r1 = ar1·r1 = ar1 = x, and x·r1 = br2·r1 = 0, so x=0. So P2⇒P3. ✓\n\nP3: R = I1⊕I2 as ideals. Then pick a∈I1\\{0}, b∈I2\\{0}. ab∈I1∩I2=(0). So ab=0 with a,b nonzero. P3⇒P4. ✓\n\nP4: zero divisors exist. Does R decompose as product? Not necessarily. E.g., R=Z/4Z, 2·2=0, but Z/4Z is not a product of two nontrivial rings (it's local). So P4 does not imply P1. ✗\n\nAnswer: A, B, C.\n</think>\n\nFINAL_ANSWER: A,B,C",
+    "final_answer": "A,B,C",
+    "generation_time_s": 6.355,
+    "generation_cost": 0.0154
+  },
+  {
+    "question_number": 60,
+    "question": "Let 𝐸⊂𝐹 and 𝐹⊂𝐾 be field extensions which are not algebraic. Let 𝛼∈𝐾 be\nalgebraic over 𝐹 and 𝛼∉𝐹. Let 𝐿 be the subfield of 𝐾 generated over 𝐸 by the\ncoefficients of the monic polynomial of minimal degree over 𝐹 which has 𝛼 as a\nzero. Then, which of the following is/are TRUE?\n\n\n(A)\n𝐹(𝛼) ⊃𝐿(𝛼) is a finite extension if and only if 𝐹⊃𝐿 is a finite extension\n(B)\nThe dimension of 𝐿(𝛼) over 𝐿 is greater than the dimension of 𝐹(𝛼) over 𝐹\n(C)\nThe dimension of 𝐿(𝛼) over 𝐿 is smaller than the dimension of 𝐹(𝛼) over 𝐹\n(D)\n𝐹(𝛼) ⊃𝐿(𝛼) is an algebraic extension if and only if 𝐹⊃𝐿 is an algebraic\nextension",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nLet me analyze. α is algebraic over F with minimal polynomial m(x) ∈ F[x], monic, minimal degree. L is the subfield of K generated over E by the coefficients of m(x). So L ⊆ F (since coefficients are in F), and L contains E.\n\nSo E ⊆ L ⊆ F ⊆ K, and α ∈ K.\n\nThe minimal polynomial m(x) has coefficients in L, and it's the minimal polynomial of α over F. Over L, α is a root of m(x), so [L(α):L] ≤ deg(m) = [F(α):F].\n\nActually since m(x) ∈ L[x] and is monic with α as root, the minimal polynomial of α over L divides m(x) in L[x]. But m(x) is irreducible over F (as minimal poly), and L ⊆ F, so... hmm, is m(x) irreducible over L?\n\nThe minimal polynomial of α over L, call it m_L(x), has coefficients in L ⊆ F, and m_L | m in F[x]. Since m is irreducible over F, m_L = m (both monic). So m_L(x) = m(x). Therefore [L(α):L] = [F(α):F] = deg m.\n\nSo (B) and (C) are false. Dimensions are equal.\n\nNow for (A) and (D): F ⊃ L(α) vs F ⊃ L.\n\nWe have F(α) ⊇ F ⊇ L, and F(α) ⊇ L(α) ⊇ L.\n\nF(α) over L(α): Since [F(α):L] = [F(α):F][F:L] = [F(α):L(α)][L(α):L], and [F(α):F] = [L(α):L], we get [F:L] = [F(α):L(α)] (when finite; more generally by tower/multiplicativity of degrees).\n\nSo [F(α):L(α)] = [F:L]. Therefore F(α)/L(α) is finite iff F/L is finite. (A) is TRUE.\n\nFor (D): algebraic extension. F(α)/L(α) algebraic iff F/L algebraic?\n\nF(α) = F(α), L(α) ⊇ L. F(α)/L(α): every element of F(α) is a+bα+...+ elements combining F and α. Hmm.\n\nIf F/L is algebraic, then F(α)/L(α): α is algebraic over L, and F is algebraic over L ⊆ L(α), so F is algebraic over L(α), and F(α) is algebraic over F, so F(α) is algebraic over L(α). ✓\n\nConversely, if F(α)/L(α) is algebraic, then F ⊆ F(α) is algebraic over L(α). Is F algebraic over L? Each element of F is algebraic over L(α). Need to show algebraic over L.\n\nL(α)/L is algebraic (finite actually). So F algebraic over L(α), and L(α) algebraic over L, so F algebraic over L. ✓\n\nSo (D) is TRUE.\n\nAnswer: A, D.\n</think>\n\n**Step 1: Understand the setup.**\nThe minimal polynomial m(x) of α over F has coefficients in F, and L is generated over E by these coefficients, so L ⊆ F.\n\n**Step 2: Minimal polynomial over L equals minimal polynomial over F.**\nSince m(x) ∈ L[x] is monic with α as a root, the minimal polynomial m_L(x) of α over L divides m(x) in L[x] ⊆ F[x]. But m(x) is irreducible over F, so m_L(x) = m(x). Hence:\n$$[L(\\alpha):L] = [F(\\alpha):F]$$\n\nThis makes **(B) and (C) FALSE**.\n\n**Step 3: Analyze F(α) ⊃ L(α).**\nBy multiplicativity of degrees in F(α)/L:\n$$[F(\\alpha):F][F:L] = [F(\\alpha):L(\\alpha)][L(\\alpha):L]$$\nSince [F(α):F] = [L(α):L], we get [F(α):L(α)] = [F:L].\n\nThus **F(α)/L(α) is finite ⟺ F/L is finite**. **(A) is TRUE.**\n\n**Step 4: Check algebraic equivalence (D).**\n- If F/L is algebraic: L(α)/L is finite (algebraic), F is algebraic over L ⊆ L(α), and α is algebraic over F, so F(α) is algebraic over L(α). ✓\n- If F(α)/L(α) is algebraic: then F ⊆ F(α) is algebraic over L(α), and L(α)/L is algebraic, so F/L is algebraic. ✓\n\n**(D) is TRUE.**\n\nFINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 19.439,
+    "generation_cost": 0.04208
+  },
+  {
+    "question_number": 61,
+    "question": "Consider the inner product space of all real-valued continuous functions defined on\n[−1, 1] with the inner product\n〈𝑓, 𝑔〉= ∫𝑓(𝑥)𝑔(𝑥)\n1\n−1\n𝑑𝑥.\nIf 𝑝(𝑥) = 𝛼+ 𝛽𝑥2 −30𝑥4 , 𝛼, 𝛽∈ℝ is orthogonal to all the polynomials having\ndegree less than or equal to 3, with respect to this inner product, then 𝛼+ 5 𝛽 is\nequal to _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nNeed p orthogonal to 1, x, x², x³ on [-1,1].\n\np(x) = α + βx² - 30x⁴\n\nOrthogonal to x and x³ automatic (even function).\n\n⟨p,1⟩ = ∫_{-1}^1 (α + βx² - 30x⁴)dx = 2α + 2β/3 - 60/5 = 2α + 2β/3 - 12 = 0\nSo α + β/3 = 6, i.e., 3α + β = 18.\n\n⟨p,x²⟩ = ∫ (αx² + βx⁴ - 30x⁶)dx = 2α/3 + 2β/5 - 60/7 = 0\nMultiply by 105: 70α + 42β - 900 = 0, so 70α + 42β = 900, 35α + 21β = 450, 5α + 3β = 450/7... wait let me recompute.\n\n70α + 42β = 900. Divide by 14: 5α + 3β = 900/14 = 450/7. Hmm not integer.\n\nLet me recheck. 2α/3 + 2β/5 = 60/7\nMultiply by 105: 70α + 42β = 900. Divide by 2: 35α + 21β = 450. Divide by 7: 5α + 3β = 450/7.\n\nHmm. Let me recheck the integral of x⁶: 2/7. Then 30·(2/7) = 60/7. Correct.\n\nFrom 3α + β = 18: β = 18 - 3α\nSub: 35α + 21(18-3α) = 450\n35α + 378 - 63α = 450\n-28α = 72\nα = -72/28 = -18/7\n\nβ = 18 - 3(-18/7) = 18 + 54/7 = 180/7\n\nα + 5β = -18/7 + 900/7 = 882/7 = 126.\n</think>\n\n**Setting up orthogonality conditions:**\n\nSince p(x) = α + βx² - 30x⁴ is even, it's automatically orthogonal to odd polynomials (x, x³).\n\n**Orthogonal to 1:**\n∫_{-1}^1 (α + βx² - 30x⁴)dx = 2α + 2β/3 - 12 = 0\n→ 3α + β = 18\n\n**Orthogonal to x²:**\n∫_{-1}^1 (αx² + βx⁴ - 30x⁶)dx = 2α/3 + 2β/5 - 60/7 = 0\n→ 35α + 21β = 450\n\n**Solving:** β = 18 - 3α, substituting:\n35α + 21(18 - 3α) = 450\n-28α = 72 → α = -18/7, β = 180/7\n\n**Computing α + 5β:**\nα + 5β = -18/7 + 900/7 = 882/7 = 126\n\nFINAL_ANSWER: 126",
+    "final_answer": "126",
+    "generation_time_s": 8.157,
+    "generation_cost": 0.024875
+  },
+  {
+    "question_number": 62,
+    "question": "For 𝑋= (𝑥1, 𝑥2, 𝑥3)𝑇∈ℝ3, consider the quadratic form:\n𝑄(𝑋) = 2𝑥1\n2 + 2𝑥2\n2 + 3𝑥3\n2 + 4𝑥1𝑥2 + 2𝑥1𝑥3 + 2𝑥2𝑥3.\nLet 𝑀 be the symmetric matrix associated with the quadratic form 𝑄(𝑋) with\nrespect to the standard basis of ℝ3. Let 𝑌= (𝑦1, 𝑦2, 𝑦3)𝑇∈ℝ3 be a non-zero vector,\nand let\n𝑎𝑛= 𝑌𝑇(𝑀+ 𝐼3)𝑛+1𝑌\n𝑌𝑇(𝑀+ 𝐼3)𝑛𝑌 ,\n𝑛= 1, 2, 3, … ,\nwhere 𝐼3 is the 3 × 3 identity matrix. Then, the value of lim\n𝑛→∞𝑎𝑛 is _____\n(in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nM = [[2,2,1],[2,2,1],[1,1,3]]. Eigenvalues: trace=7, det=? \n\nM has rows 1,2 equal first two entries... row1=(2,2,1), row2=(2,2,1)? Wait row2 should be (2,2,1) since symmetric: M[2,1]=2, M[2,2]=2, M[2,3]=1. Yes rows 1 and 2 are identical, so det=0, eigenvalue 0.\n\nOther eigenvalues sum to 7. Sum of products of pairs = ? For M: principal 2x2 minors: (2,2;2,2)=0, (2,1;1,3)=5, (2,1;1,3)=5. Sum=10. So eigenvalues λ satisfy λ^3 -7λ^2+10λ=0, λ(λ^2-7λ+10)=0, λ=0,2,5.\n\nM+I has eigenvalues 1,3,6. Largest=6. Limit of a_n = 6.\n</think>\n\nFINAL_ANSWER: 6",
+    "final_answer": "6",
+    "generation_time_s": 7.86,
+    "generation_cost": 0.01116
+  },
+  {
+    "question_number": 63,
+    "question": "Let 𝛼, 𝛽 be distinct non-zero real numbers, and let 𝑄(𝑧) be a polynomial of degree\nless than 5. If the function\n𝑓(𝑧) = 𝛼6 sin 𝛽𝑧− 𝛽6(𝑒2𝛼𝑧−𝑄(𝑧))\n𝑧6\n\nsatisfies Morera’s theorem in ℂ\\{0}, then the value of\n𝛼\n4𝛽 is equal to\n____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nWe need f(z) to have removable singularity at 0 (so it's entire, satisfying Morera everywhere). Actually Morera's theorem in ℂ\\{0} — need f to be analytic there, which requires the numerator to vanish to order 6 at z=0.\n\nNumerator: α⁶ sin(βz) - β⁶(e^(2αz) - Q(z))\n\nExpand:\nsin(βz) = βz - (βz)³/6 + (βz)⁵/120 - (βz)⁷/5040 + ...\nα⁶ sin(βz) = α⁶βz - α⁶β³z³/6 + α⁶β⁵z⁵/120 - α⁶β⁷z⁷/5040 + ...\n\ne^(2αz) = Σ (2α)^n z^n/n!\n\nβ⁶(e^(2αz) - Q(z)): Q(z) has degree <5, so Q can cancel terms z⁰,...,z⁴. We need coefficients of z⁰ through z⁵ in numerator to be zero.\n\nFor z⁵: coefficient from α⁶ sin(βz) is α⁶β⁵/120.\nFrom -β⁶ e^(2αz): coefficient is -β⁶ · (2α)⁵/120 = -β⁶ · 32α⁵/120.\nQ doesn't contribute (degree <5, so no z⁵ term).\n\nSet sum = 0:\nα⁶β⁵/120 - β⁶·32α⁵/120 = 0\nα⁵β⁵(α - 32β)/120 = 0\nSo α = 32β, meaning α/β = 32.\n\nα/(4β) = 8.\n\nWait, need to check z⁶ or higher? Morera in ℂ\\{0}: f just needs to be analytic in ℂ\\{0}, which it is (numerator entire, denominator z⁶). But Morera's theorem typically states: if f is continuous and integral over closed curves = 0, then analytic. For f to satisfy Morera on ℂ\\{0}... actually f is already analytic on ℂ\\{0}, so Morera holds trivially. \n\nHmm, so the condition must mean f satisfies Morera in all of ℂ, i.e., f extends to entire. Then numerator must vanish to order ≥6 at 0.\n\nWe need coefficients z⁰,...,z⁵ all zero. Q handles z⁰ to z⁴. z⁵ gives α = 32β.\n\nSo α/(4β) = 8.\n</think>\n\n**Step 1: Set up the expansion.**\n\nFor $f(z) = \\frac{\\alpha^6 \\sin\\beta z - \\beta^6(e^{2\\alpha z} - Q(z))}{z^6}$ to satisfy Morera's theorem (i.e., extend to be analytic including at 0), the numerator must vanish to order at least 6 at $z=0$.\n\n**Step 2: Expand the series.**\n\n$$\\alpha^6 \\sin(\\beta z) = \\alpha^6\\beta z - \\frac{\\alpha^6\\beta^3 z^3}{6} + \\frac{\\alpha^6\\beta^5 z^5}{120} - \\cdots$$\n\n$$\\beta^6 e^{2\\alpha z} = \\beta^6\\sum_{n=0}^{\\infty} \\frac{(2\\alpha)^n z^n}{n!}$$\n\n**Step 3: Use $Q(z)$ to cancel low-order terms.**\n\nSince $Q(z)$ has degree $< 5$, it can cancel coefficients of $z^0, z^1, z^2, z^3, z^4$. But it cannot help with the $z^5$ term.\n\n**Step 4: Set the $z^5$ coefficient to zero.**\n\nFrom $\\alpha^6 \\sin\\beta z$: coefficient of $z^5$ is $\\dfrac{\\alpha^6 \\beta^5}{120}$.\n\nFrom $-\\beta^6 e^{2\\alpha z}$: coefficient of $z^5$ is $-\\dfrac{\\beta^6 (2\\alpha)^5}{120} = -\\dfrac{32\\alpha^5\\beta^6}{120}$.\n\nSum = 0:\n$$\\frac{\\alpha^5\\beta^5}{120}(\\alpha - 32\\beta) = 0$$\n\nSince $\\alpha, \\beta \\neq 0$: $\\alpha = 32\\beta$.\n\n**Step 5: Compute answer.**\n\n$$\\frac{\\alpha}{4\\beta} = \\frac{32\\beta}{4\\beta} = 8$$\n\nFINAL_ANSWER: 8",
+    "final_answer": "8",
+    "generation_time_s": 17.143,
+    "generation_cost": 0.039675
+  },
+  {
+    "question_number": 64,
+    "question": "Let 𝐺 be a group with identity element 𝑒, and let 𝑔, ℎ∈𝐺 be such that the following\nhold:\n(i)\n𝑔≠𝑒, 𝑔2 = 𝑒,\n(ii)\nℎ≠𝑒, ℎ2 ≠𝑒, and 𝑔ℎ𝑔−1 = ℎ2.\nThen, the least positive integer 𝑛 for which ℎ𝑛= 𝑒 is _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "From ghg⁻¹ = h², we get h² = ghg⁻¹.\n\nThen h⁴ = (ghg⁻¹)² = gh²g⁻¹ = g(ghg⁻¹)g⁻¹ = g²hg⁻² = h (since g² = e).\n\nSo h⁴ = h, meaning h³ = e.\n\nSince h ≠ e and h² ≠ e, order of h is 3.\n\nFINAL_ANSWER: 3",
+    "final_answer": "3",
+    "generation_time_s": 11.111,
+    "generation_cost": 0.00506
+  },
+  {
+    "question_number": 65,
+    "question": "Let (ℝ2, 𝑑1) and (ℝ2, 𝑑2) be two metric spaces with\n𝑑1((𝑥1, 𝑥2), (𝑦1, 𝑦2)) = |𝑥1 −𝑦1| + |𝑥2 −𝑦2|\nand\n𝑑2((𝑥1, 𝑥2), (𝑦1, 𝑦2)) =\n𝑑1((𝑥1, 𝑥2), (𝑦1, 𝑦2))\n1 + 𝑑1((𝑥1, 𝑥2), (𝑦1, 𝑦2)) .\nIf the open ball centred at (0,0) with radius\n1\n7 in (ℝ2, 𝑑1) is equal to the open ball\ncentred\nat\n(0,0)\nwith\nradius\n1\n𝛼\nin\n(ℝ2, 𝑑2), then the value of 𝛼\nis _____ (in integer)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "d2 < 1/α iff d1/(1+d1) < 1/α iff α·d1 < 1+d1 iff d1(α-1) < 1 iff d1 < 1/(α-1).\n\nSet 1/(α-1) = 1/7, so α = 8.\n\nFINAL_ANSWER: 8",
+    "final_answer": "8",
+    "generation_time_s": 2.347,
+    "generation_cost": 0.004865
+  }
+]

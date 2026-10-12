@@ -1,0 +1,652 @@
+[
+  {
+    "question_number": 1,
+    "question": "Courage : Bravery :: Yearning : __________\nSelect the most appropriate option to complete the analogy.\n(A)\nLonging\n(B)\nYelling\n(C)\nYawning\n(D)\nGlaring",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Courage means Bravery (synonyms). Yearning means Longing.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.91,
+    "generation_cost": 0.00198
+  },
+  {
+    "question_number": 2,
+    "question": "We __________ tennis in the lawn when it suddenly started to rain.\nSelect the most appropriate option to complete the above sentence.\n(A)\nhave been playing\n(B)\nhad been playing\n(C)\nwould have been playing\n(D)\ncould be playing",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.462,
+    "generation_cost": 0.00141
+  },
+  {
+    "question_number": 3,
+    "question": "A 4 × 4 digital image has pixel intensities (𝑈) as shown in the figure. The number of\npixels with 𝑈≤4 is:\n\n\n(A) 3\n(B) 8\n(C) 11\n(D) 9",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Counting pixels with U ≤ 4:\n\nRow 1: 0,1,0,2 → all 4\nRow 2: 4,7,3,3 → 4,3,3 = 3\nRow 3: 5,5,4,4 → 4,4 = 2\nRow 4: 6,7,3,2 → 3,2 = 2\n\nTotal: 4+3+2+2 = 11\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 3.449,
+    "generation_cost": 0.004735
+  },
+  {
+    "question_number": 4,
+    "question": "In the given figure, the numbers associated with the rectangle, triangle, and ellipse\nare 1, 2, and 3, respectively. Which one among the given options is the most\nappropriate combination of P, Q, and R ?\n\n\n\n\n\n\n\n\n\n\n\n(A)\nP = 6; Q = 5; R = 3\n(B)\nP = 5; Q = 6; R = 3\n(C)\nP = 3; Q = 6; R = 6\n(D)\nP = 5; Q = 3; R = 6\n\n\n\n\n\n\n\n\n\n1\n2\n4\n3\nP\nQ\nR",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nRectangle=1, Triangle=2, Ellipse=3.\n\nRegion 4: inside ellipse and triangle but not rectangle? Let me check. Looking at figure: 4 is inside ellipse and triangle, possibly inside rectangle too. \n\nActually the regions:\n- 1: only rectangle\n- 2: only triangle\n- 3: only ellipse\n- 4: ellipse ∩ triangle (need to check rectangle)\n- P: intersection of all three (rectangle+triangle+ellipse) = 1+2+3 = 6\n- Q: triangle ∩ ellipse only = 2+3 = 5\n- R: rectangle ∩ triangle only = 1+2 = 3\n\nSo P=6, Q=5, R=3. Answer A.\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 6.364,
+    "generation_cost": 0.01148
+  },
+  {
+    "question_number": 5,
+    "question": "A rectangle has a length L and a width W, where L > W. If the width, W, is increased\nby 10%, which one of the following statements is correct for all values of L and W?\n(A)\nPerimeter increases by 10%.\n(B)\nLength of the diagonals increases by 10%.\n(C)\nArea increases by 10%.\n(D)\nThe rectangle becomes a square.",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Area = L×W, new area = L×1.1W = 1.1×original. Increases by 10%.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 1.353,
+    "generation_cost": 0.002415
+  },
+  {
+    "question_number": 6,
+    "question": "Column-I has statements made by Shanthala; and, Column-II has responses given\nby Kanishk.\nColumn-I\nColumn-II\nP. This house is in a mess.\n1. Alright, I won’t bring it up during\nour conversations.\nQ. I am not happy with the marks\ngiven to me.\n2. Well, you can easily look it up.\nR. Politics is a subject I avoid talking\nabout.\n3. No problem, let me clear it up for\nyou.\nS.\nI don’t know what this word\nmeans.\n4. Don’t worry, I will take it up with\nyour teacher.\nIdentify the option that has the correct match between Column-I and Column-II.\n(A)\nP – 2; Q – 3; R – 1; S – 4\n(B)\nP – 3; Q – 4; R – 1; S – 2\n(C)\nP – 4; Q – 1; R – 2; S – 3\n(D)\nP – 1; Q – 2; R – 4; S – 3",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.459,
+    "generation_cost": 0.002455
+  },
+  {
+    "question_number": 7,
+    "question": "Weight of a person can be expressed as a function of their age. The function usually\nvaries from person to person. Suppose this function is identical for two brothers,\nand it monotonically increases till the age of 50 years and then it monotonically\ndecreases. Let 𝑎1 and 𝑎2 (in years) denote the ages of the brothers and 𝑎1 < 𝑎2.\nWhich one of the following statements is correct about their age on the day when\nthey attain the same weight?\n(A)\n𝑎1 < 𝑎2 < 50\n(B)\n𝑎1 < 50 < 𝑎2\n(C)\n50 < 𝑎1 < 𝑎2\n(D)\nEither 𝑎1 = 50 or 𝑎2 = 50",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "If both brothers have the same weight function and same age, they'd always have the same weight. But a_1 < a_2, so they have different ages. For them to have the same weight at different ages, one must be on the increasing part and the other on the decreasing part.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 8.217,
+    "generation_cost": 0.00393
+  },
+  {
+    "question_number": 8,
+    "question": "A regular dodecagon (12-sided regular polygon) is inscribed in a circle of radius r\ncm as shown in the figure. The side of the dodecagon is d cm. All the triangles\n(numbered 1 to 12) in the figure are used to form squares of side r cm and each\nnumbered triangle is used only once to form a square.\nThe number of squares that can be formed and the number of triangles required to\nform each square, respectively, are:\nNote: The figure shown is representative.\n\n\n(A)\n3; 4\n(B)\n4; 3\n(C)\n3; 3\n(D)\n3; 2",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Area of dodecagon = 3r². Area of square = r². So 3 squares, each from 4 triangles (12/3=4).\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 6.595,
+    "generation_cost": 0.00399
+  },
+  {
+    "question_number": 9,
+    "question": "If a real variable 𝑥 satisfies 3𝑥2 = 27 × 9𝑥, then the value of\n2𝑥2\n(2𝑥)2 is:\n(A)\n2−1\n(B)\n20\n(C)\n23\n(D)\n215",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "3^(x²) = 27·9^x = 3^(3+2x)\nx² = 2x+3, x²-2x = 3\n2^(x²)/2^(2x) = 2^(x²-2x) = 2^3\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 1.94,
+    "generation_cost": 0.003305
+  },
+  {
+    "question_number": 10,
+    "question": "The number of patients per shift (𝑋) consulting Dr. Gita in her past 100 shifts is\nshown in the figure. If the amount she earns is ₹ 1000(𝑋−0.2), what is the average\namount (in ₹) she has earned per shift in the past 100 shifts?\nNote: The figure shown is representative.\n\n\n(A)\n6,100\n(B)\n6,300\n(C)\n6,000\n(D)\n6,500\n\n\n\n20\n40\n30\n10\n0\n10\n20\n30\n40\n50\n5\n6\n7\n8\nNumber of shifts\nNumber of patients per shift (X)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "Mean X = (5·20+6·40+7·30+8·10)/100 = (100+240+210+80)/100 = 630/100 = 6.3\n\nAmount = 1000(6.3-0.2) = 6100\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.253,
+    "generation_cost": 0.00692
+  },
+  {
+    "question_number": 11,
+    "question": "Suppose X and Y are random variables. The conditional expectation of X given Y is\ndenoted by E[X|Y ]. Then E[E[X|Y ]] equals\n(A)\nE[X|Y ]\n(B)\nE[X]\nE[Y ]\n(C)\nE[X]\n(D)\nE[Y ]",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 9.829,
+    "generation_cost": 0.00156
+  },
+  {
+    "question_number": 12,
+    "question": "The number of additions and multiplications involved in performing Gaussian elimina-\ntion on any n × n upper triangular matrix is of the order\n(A)\nO(n)\n(B)\nO(n2)\n(C)\nO(n3)\n(D)\nO(n4)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "For an upper triangular matrix, back substitution requires O(n²) operations.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 4.168,
+    "generation_cost": 0.002055
+  },
+  {
+    "question_number": 13,
+    "question": "The sum of the elements in each row of A ∈Rn×n is 1. If B = A3 −2A2 + A, which\none of the following statements is correct (for x ∈Rn)?\n(A)\nThe equation Bx = 0 has no solution\n(B)\nThe equation Bx = 0 has exactly two solutions\n(C)\nThe equation Bx = 0 has inﬁnitely many solutions\n(D)\nThe equation Bx = 0 has a unique solution",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Row sums = 1 means A·1 = 1, so 1 is eigenvalue of A. Then B = A(A-I)² has eigenvalue 1·0 = 0. So B is singular, Bx=0 has infinitely many solutions.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 7.819,
+    "generation_cost": 0.003855
+  },
+  {
+    "question_number": 14,
+    "question": "Let f(x) = ex −e−x\n2\n, x ∈R. Let f (k)(a) denote the kth derivative of f evaluated at a.\nWhat is the value of f (10)(0)? (Note: ! denotes factorial)\n(A)\n0\n(B)\n1\n(C)\n1\n10!\n(D)\n2\n10!",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "f(x) = sinh(x), 10th derivative at 0 = sinh(0) = 0.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 6.917,
+    "generation_cost": 0.00261
+  },
+  {
+    "question_number": 15,
+    "question": "Let p and q be any two propositions. Consider the following propositional statements.\nS1 : p →q,\nS2 : ¬p ∧q,\nS3 : ¬p ∨q,\nS4 : ¬p ∨¬q,\nwhere ∧denotes conjunction (AND operation), ∨denotes disjunction (OR operation),\nand ¬ denotes negation (NOT operation). Which one of the following options is correct?\n(Note: ≡denotes logical equivalence)\n(A)\nS1 ≡S3\n(B)\nS2 ≡S3\n(C)\nS2 ≡S4\n(D)\nS1 ≡S4",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "p→q ≡ ¬p∨q, so S1≡S3.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 5.625,
+    "generation_cost": 0.00281
+  },
+  {
+    "question_number": 16,
+    "question": "If a relational decomposition is not dependency-preserving, which one of the following\nrelational operators will be executed more frequently in order to maintain the depen-\ndencies?\n(A)\nSelection\n(B)\nProjection\n(C)\nJoin\n(D)\nSet union",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 10.279,
+    "generation_cost": 0.00137
+  },
+  {
+    "question_number": 17,
+    "question": "Consider the following three relations:\nCar (model, year, serial, color)\nMake (maker, model)\nOwn (owner, serial)\nA tuple in Car represents a speciﬁc car of a given model, made in a given year, with\na serial number and a color. A tuple in Make speciﬁes that a maker company\nmakes cars of a certain model. A tuple in Own speciﬁes that an owner owns the car\nwith a given serial number. Keys are underlined; (owner, serial) together\nform key for Own. (▷◁denotes natural join)\nπowner(Own ▷◁(σcolor=“red”(Car ▷◁(σmaker=“ABC”Make))))\nWhich one of the following options describes what the above expression computes?\n(A)\nAll owners of a red car, a car made by ABC, or a red car made by ABC\n(B)\nAll owners of more than one car, where at least one car is red and made by ABC\n(C)\nAll owners of a red car made by ABC\n(D)\nAll red cars made by ABC",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "The expression filters Make for maker=\"ABC\", joins with Car (getting all cars made by ABC), filters for color=\"red\" (red cars made by ABC), then joins with Own to get owners.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 2.749,
+    "generation_cost": 0.004315
+  },
+  {
+    "question_number": 18,
+    "question": "Consider a hash table of size 10 with indices {0, 1, . . . , 9}, with the hash function\nh(x) = 3x (mod 10),\nwhere linear probing is used to handle collisions. The hash table is initially empty and\nthen the following sequence of keys is inserted into the hash table: 1, 4, 5, 6, 14, 15. The\nindices where the keys 14 and 15 are stored are, respectively\n(A)\n2 and 5\n(B)\n2 and 6\n(C)\n4 and 5\n(D)\n4 and 6",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "h(1)=3, h(4)=12 mod 10=2, h(5)=15 mod 10=5, h(6)=18 mod 10=8, h(14)=42 mod 10=2, h(15)=45 mod 10=5.\n\nInsert order:\n- 1 → 3\n- 4 → 2\n- 5 → 5\n- 6 → 8\n- 14 → h=2, occupied, try 3 (occupied), try 4 → place at 4\n- 15 → h=5, occupied, try 6 → place at 6\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 9.293,
+    "generation_cost": 0.00618
+  },
+  {
+    "question_number": 19,
+    "question": "Let X be a continuous random variable whose cumulative distribution function (CDF)\nFX(x), for some t, is given as follows:\nFX(x) =\n\n\n\n\n\n\n\n\n\n0\nx ≤t\nx −t\n4 −t\nt ≤x ≤4\n1\nx ≥4\nIf the median of X is 3, then what is the value of t?\n(A)\n2\n(B)\n1\n(C)\n−1\n(D)\n0",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Median: F(3) = 1/2, so (3-t)/(4-t) = 1/2, 6-2t = 4-t, t=2.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 4.047,
+    "generation_cost": 0.00301
+  },
+  {
+    "question_number": 20,
+    "question": "Let X = aZ + b, where Z is a standard normal random variable, and a, b are two\nunknown constants. It is given that\nE[X] = 1,\nE[(X −E[X])Z] = −2,\nE[(X −E[X])2] = 4,\nwhere E[X] denotes the expectation of random variable X. The values of a, b are:\n(A)\na = −2, b = 1\n(B)\na = 2, b = −1\n(C)\na = −2, b = −1\n(D)\na = 1, b = 1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "E[X]=b=1. (X-E[X])=aZ, so E[aZ·Z]=a=-2. \n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 11.859,
+    "generation_cost": 0.002845
+  },
+  {
+    "question_number": 21,
+    "question": "It is given that P(X ≥2) = 0.25 for an exponentially distributed random variable X\nwith E[X] = 1\nλ, where E[X] denotes the expectation of X. What is the value of λ?\n(ln denotes natural logarithm)\n(A)\nln 2\n(B)\nln 4\n(C)\nln 3\n(D)\nln 0.25",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "P(X≥2) = e^(-2λ) = 0.25 = 1/4\n-2λ = ln(1/4) = -ln4\nλ = (ln4)/2 = ln2\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 3.394,
+    "generation_cost": 0.003255
+  },
+  {
+    "question_number": 22,
+    "question": "Consider designing a linear classiﬁer\ny = sign(f(x; w, b)),\nf(x; w, b) = w⊤x + b\non a dataset D = {(x1, y1), (x2, y2), . . . , (xN, yN)}, xi ∈Rd, yi ∈{+1, −1}, i =\n1, 2, . . . , N. Recall that the sign function outputs +1 if the argument is positive, and −1\nif the argument is non-positive. The parameters w and b are updated as per the following\ntraining algorithm:\nwnew = wold + ynxn,\nbnew = bold + yn\nwhenever sign(f(xn; wold, bold)) ̸= yn. In other words, whenever the classiﬁer wrongly\npredicts a sample (xn, yn) from the dataset, wold gets updated to wnew, and likewise bold\ngets updated to bnew. Consider the case (xn, +1), f(xn; wold, bold) < 0. Then\n(A)\nf(xn; wnew, bnew) > f(xn; wold, bold)\n(B)\nf(xn; wnew, bnew) < f(xn; wold, bold)\n(C)\nf(xn; wnew, bnew) = f(xn; wold, bold)\n(D)\nynf(xn; wold, bold) > 1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "f_new - f_old = y_n(x_n^T x_n + 1) = ||x_n||^2 + 1 > 0.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 4.195,
+    "generation_cost": 0.004725
+  },
+  {
+    "question_number": 23,
+    "question": "Consider the following Python declarations of two lists.\nA=[1,2,3]\nB=[4,5,6]\nWhich one of the following statements results in A= [1, 2, 3, 4, 5, 6]?\n(A)\nA.extend(B)\n(B)\nA.append(B)\n(C)\nA.update(B)\n(D)\nA.insert(B)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 4.905,
+    "generation_cost": 0.00157
+  },
+  {
+    "question_number": 24,
+    "question": "Consider two functions f : R →R and g : R →(1, ∞). Both functions are differen-\ntiable at a point c. Which of the following functions is/are ALWAYS differentiable at\nc? The symbol · denotes product and the symbol ◦denotes composition of functions.\n(A)\nf ± g\n(B)\nf · g\n(C)\nf\ng\n(D)\nf ◦g + g ◦f",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "All options use standard differentiation rules:\n- f±g: differentiable (sum rule)\n- f·g: differentiable (product rule)\n- f/g: g(c) > 1 ≠ 0, so differentiable (quotient rule)\n- f∘g + g∘f: needs f differentiable at g(c) and g differentiable at f(c). We only know f,g differentiable at c, not necessarily at g(c) or f(c).\n\nSo D is not always differentiable.\n\nFINAL_ANSWER: A,B,C",
+    "final_answer": "A,B,C",
+    "generation_time_s": 4.761,
+    "generation_cost": 0.005775
+  },
+  {
+    "question_number": 25,
+    "question": "(A)\nRn has a unique set of orthonormal basis vectors\n(B)\nRn does not have a unique set of orthonormal basis vectors\n(C)\nLinearly independent vectors in Rn are orthonormal\n(D)\nOrthonormal vectors Rn are linearly independent",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A is false (many orthonormal bases exist). B is true. C is false. D is true.\n\nFINAL_ANSWER: B,D",
+    "final_answer": "B,D",
+    "generation_time_s": 2.344,
+    "generation_cost": 0.002245
+  },
+  {
+    "question_number": 26,
+    "question": "Which of the following statements is/are correct in a Bayesian network?\n(A)\nVariable elimination is an approximate inference algorithm\n(B)\nGibbs sampling is an exact inference algorithm\n(C)\nVariable elimination is used to determine conditional probabilities\n(D)\nRejection sampling is an approximate inference algorithm",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Variable elimination is exact inference, used for computing conditional probabilities. Gibbs sampling is approximate. Rejection sampling is approximate.\n\nFINAL_ANSWER: C,D",
+    "final_answer": "C,D",
+    "generation_time_s": 1.45,
+    "generation_cost": 0.00284
+  },
+  {
+    "question_number": 27,
+    "question": "For which of the following inputs does binary search take time O(log n) in the worst\ncase?\n(A)\nAn array of n integers in any order\n(B)\nA linked list of n integers in any order\n(C)\nAn array of n integers in increasing order\n(D)\nA linked list of n integers in increasing order",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 3.589,
+    "generation_cost": 0.00144
+  },
+  {
+    "question_number": 28,
+    "question": "Let A = In + xx⊤, where In is the n × n identity matrix and x ∈Rn, x⊤x = 1. Which\nof the following options is/are correct?\n(A)\nRank of A is n\n(B)\nA is invertible\n(C)\n0 is an eigenvalue of A\n(D)\nA−1 has a negative eigenvalue",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Eigenvalues of xx^T are 1 (once) and 0 (n-1 times). So A = I + xx^T has eigenvalues 2 and 1's. All positive, rank n, invertible. A^-1 eigenvalues 1/2, 1 - all positive.\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 3.438,
+    "generation_cost": 0.003905
+  },
+  {
+    "question_number": 29,
+    "question": "Suppose that insertion sort is applied to the array [1, 3, 5, 7, 9, 11, x, 15, 13] and it takes\nexactly two swaps to sort the array. Select all possible values of x.\n(A)\n10\n(B)\n12\n(C)\n14\n(D)\n16",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nInsertion sort swaps adjacent elements. Array: [1,3,5,7,9,11,x,15,13].\n\nFor x, it's compared to 11. If x≥11, no swap. If x<11, swaps needed.\nThen 15 compared to previous (x or 11): if x≤15, no swap.\nThen 13 compared to 15: swap. Then 13 vs previous.\n\nLet me count swaps for each x:\n\nx=10: insert 10 after 11. Swap 11,10. Array becomes [1,3,5,7,9,10,11,15,13]. That's 1 swap.\nThen 15: no swap. Then 13: swap with 15 → [...,11,13,15]. 13 vs 11: no swap. Total 2 swaps. ✓\n\nx=12: 12 vs 11, no swap. 15 no swap. 13 swaps with 15, then 13 vs 12: no swap. Total 1 swap. ✗\n\nx=14: 14 vs 11, no swap. 15 no swap. 13 swaps with 15, then 13 vs 14: swap. Then 13 vs 11: no swap. Total 2 swaps. ✓\n\nx=16: 16 no swap. 15 swaps with 16. 13 swaps with 16, then 13 vs 15: swap, then 13 vs 11: no. Total 3 swaps. ✗\n\nWait, let me recount x=16:\nArray: [1,3,5,7,9,11,16,15,13]\nInsert 15: 15<16, swap → [1,3,5,7,9,11,15,16,13]. 1 swap.\nInsert 13: 13<16 swap → [...,15,13,16]. 13<15 swap → [...,11,13,15,16]. 2 more swaps.\nTotal 3 swaps. ✗\n\nSo A and C.\n</think>\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 6.379,
+    "generation_cost": 0.01657
+  },
+  {
+    "question_number": 30,
+    "question": "Let C1 and C2 be two sets of objects. Let D(x, y) be a measure of dissimilarity between\ntwo objects x and y. Consider the following deﬁnitions of dissimilarity between C1 and\nC2.\nDIS-1(C1, C2) =\nmax\nx∈C1, y∈C2D(x, y)\nDIS-2(C1, C2) =\nmin\nx∈C1, y∈C2D(x, y)\n(A)\nSingle Linkage Clustering uses DIS-1\n(B)\nSingle Linkage Clustering uses DIS-2\n(C)\nComplete Linkage Clustering uses DIS-2\n(D)\nComplete Linkage Clustering uses DIS-1",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: B,D",
+    "final_answer": "B,D",
+    "generation_time_s": 6.684,
+    "generation_cost": 0.002445
+  },
+  {
+    "question_number": 31,
+    "question": "There are three boxes containing white balls and black balls.\nBox-1 contains 2 black and 1 white balls.\nBox-2 contains 1 black and 2 white balls.\nBox-3 contains 3 black and 3 white balls.\nIn a random experiment, one of these boxes is selected, where the probability of choos-\ning Box-1 is 1\n2, Box-2 is 1\n6, and Box-3 is 1\n3. A ball is drawn at random from the selected\nbox. Given that the ball drawn is white, the probability that it is drawn from Box-2 is\n(Round off to two decimal places)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "P(W|B1)=1/3, P(W|B2)=2/3, P(W|B3)=1/2\n\nP(W) = (1/2)(1/3)+(1/6)(2/3)+(1/3)(1/2)\n= 1/6 + 2/18 + 1/6\n= 1/6 + 1/9 + 1/6\n= 3/18 + 2/18 + 3/18 = 8/18 = 4/9\n\nP(B2|W) = (1/6)(2/3)/(4/9) = (2/18)/(4/9) = (1/9)/(4/9) = 1/4 = 0.25\n\nFINAL_ANSWER: 0.25",
+    "final_answer": "0.25",
+    "generation_time_s": 2.15,
+    "generation_cost": 0.007125
+  },
+  {
+    "question_number": 32,
+    "question": "lim\nt→+∞\n√\nt2 + t −t =\n(Round off to one decimal place)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "√(t²+t) - t = t/(√(t²+t)+t) → 1/2\n\nFINAL_ANSWER: 0.5",
+    "final_answer": "0.5",
+    "generation_time_s": 1.693,
+    "generation_cost": 0.002055
+  },
+  {
+    "question_number": 33,
+    "question": "On a relation named Loan of a bank:\nLoan\nloan number\nbranch name\namount\nL11\nBanjara Hills\n90000\nL14\nKondapur\n50000\nL15\nSR Nagar\n40000\nL22\nSR Nagar\n25000\nL23\nBalanagar\n80000\nL25\nKondapur\n70000\nL19\nSR Nagar\n65000\nthe following SQL query is executed.\nSELECT L1.loan number\nFROM Loan L1\nWHERE L1.amount > (SELECT MAX (L2.amount)\nFROM Loan L2\nWHERE L2.branch name = ’SR Nagar’);\nThe number of rows returned by the query is",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Max amount in SR Nagar = 65000.\n\nLoans with amount > 65000: L11 (90000), L23 (80000), L25 (70000) = 3 rows.\n\nFINAL_ANSWER: 3",
+    "final_answer": "3",
+    "generation_time_s": 2.373,
+    "generation_cost": 0.00378
+  },
+  {
+    "question_number": 34,
+    "question": "Given data {(−1, 1), (2, −5), (3, 5)} of the form (x, y), we ﬁt a model y = wx using\nlinear least-squares regression. The optimal value of w is\n(Round off to three decimal places)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "w = Σxy/Σx² = ((-1)(1) + (2)(-5) + (3)(5))/(1+4+9) = (-1-10+15)/14 = 4/14 = 0.2857\n\nFINAL_ANSWER: 0.286",
+    "final_answer": "0.286",
+    "generation_time_s": 3.346,
+    "generation_cost": 0.00321
+  },
+  {
+    "question_number": 35,
+    "question": "The naive Bayes classiﬁer is used to solve a two-class classiﬁcation problem with class-\nlabels y1, y2. Suppose the prior probabilities are P(y1) = 1\n3 and P(y2) = 2\n3. Assuming\na discrete feature space with\nP(x|y1) = 3\n4\nand\nP(x|y2) = 1\n4\nfor a speciﬁc feature vector x. The probability of misclassifying x is\n(Round off to two decimal places)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "P(x,y1) = 1/3 × 3/4 = 1/4\nP(x,y2) = 2/3 × 1/4 = 1/6\n\nP(y1|x) = (1/4)/(1/4+1/6) = (1/4)/(5/12) = 3/5\nP(y2|x) = 2/5\n\nClassify as y1, misclassification prob = 2/5 = 0.40\n\nFINAL_ANSWER: 0.40",
+    "final_answer": "0.40",
+    "generation_time_s": 2.222,
+    "generation_cost": 0.005235
+  },
+  {
+    "question_number": 36,
+    "question": "Let Y = Z2, Z = X −µ\nσ\n, where X is a normal random variable with mean µ and\nvariance σ2. The variance of Y is\n(A)\n1\n(B)\n2\n(C)\n3\n(D)\n4",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Y = Z² where Z is standard normal, so Y is chi-square with 1 degree of freedom. Variance = 2.\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 1.797,
+    "generation_cost": 0.002555
+  },
+  {
+    "question_number": 37,
+    "question": "Let A ∈Rn×n be such that A3 = A. Which one of the following statements is ALWAYS\ncorrect?\n(A)\nA is invertible\n(B)\nDeterminant of A is 0\n(C)\nThe sum of the diagonal elements of A is 1\n(D)\nA and A2 have the same rank",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A³ = A means A(A²-I) = 0. Eigenvalues satisfy λ³=λ, so λ ∈ {0, 1, -1}.\n\nA is diagonalizable (minimal polynomial divides x³-x = x(x-1)(x+1), distinct roots).\n\nRank of A = number of nonzero eigenvalues. A² has eigenvalues λ² ∈ {0, 1, 1}, so rank of A² = number of nonzero eigenvalues of A = rank of A.\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 3.677,
+    "generation_cost": 0.005685
+  },
+  {
+    "question_number": 38,
+    "question": "Let {x1, x2, . . . , xn} be a set of linearly independent vectors in Rn. Let the (i, j)-th\nelement of matrix A ∈Rn×n be given by Aij = x⊤\ni xj, 1 ≤i, j ≤n. Which one of the\nfollowing statements is correct?\n(A)\nA is invertible\n(B)\n0 is a singular value of A\n(C)\nDeterminant of A is 0\n(D)\nz⊤Az = 0 for some non-zero z ∈Rn",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A is Gram matrix of linearly independent vectors, hence positive definite and invertible.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 1.472,
+    "generation_cost": 0.002775
+  },
+  {
+    "question_number": 39,
+    "question": "Consider the cumulative distribution function (CDF) of a random variable X:\nFX(x) =\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\nx ≤−1\n1\n4(x + 1)2\n−1 ≤x ≤1\n1\nx ≥1\nThe value of P(X2 ≤0.25) is\n(A)\n0.625\n(B)\n0.25\n(C)\n0.5\n(D)\n0.5625",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "P(X² ≤ 0.25) = P(-0.5 ≤ X ≤ 0.5) = F(0.5) - F(-0.5)\n\nF(0.5) = (1.5)²/4 = 2.25/4 = 0.5625\nF(-0.5) = (0.5)²/4 = 0.25/4 = 0.0625\n\nDifference = 0.5\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 4.097,
+    "generation_cost": 0.00488
+  },
+  {
+    "question_number": 40,
+    "question": "A random variable X is said to be distributed as Bernoulli(θ), denoted by X ∼\nBernoulli(θ), if\nP(X = 1) = θ,\nP(X = 0) = 1 −θ\nfor 0 < θ < 1. Let Y =\n300\nX\ni=1\nXi, where Xi ∼Bernoulli(θ), i = 1, 2, . . . , 300 be\nindependent and identically distributed random variables with θ = 0.25. The value of\nP(60 ≤Y ≤90), after approximation through Central Limit Theorem, is given by\n\u0000Recall that φ(x) =\n1\n√\n2π\nZ x\n−∞\ne−t2\n2 dt\n\u0001\n(A)\nφ(2) −φ(−2)\n(B)\nφ(1) −φ(−1)\n(C)\nφ(3) −φ(−3)\n(D)\nφ(90) −φ(60)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "Mean = 75, variance = 300·0.25·0.75 = 56.25, SD = 7.5.\n\n(60-75)/7.5 = -2, (90-75)/7.5 = 2.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 5.248,
+    "generation_cost": 0.004415
+  },
+  {
+    "question_number": 41,
+    "question": "For x ∈R, the ﬂoor function is denoted by f(x) = ⌊x⌋and deﬁned as follows\n⌊x⌋= k, k ≤x < k + 1,\nwhere k is an integer. Let Y = ⌊X⌋, where X is an exponentially distributed random\nvariable with mean\n1\nln 10, where ln denotes natural logarithm. For any positive integer\nℓ, one can write the probability of the event Y = ℓas follows\nP(Y = ℓ) = qℓ(1 −q)\nThe value of q is\n(A)\n0.1\n(B)\n0.01\n(C)\n0.5\n(D)\n0.434",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "X exponential with mean 1/ln10, so rate λ = ln10.\n\nP(Y=ℓ) = P(ℓ ≤ X < ℓ+1) = e^(-λℓ) - e^(-λ(ℓ+1)) = e^(-λℓ)(1-e^(-λ))\n\nSo q = e^(-ln10) = 0.1.\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 2.842,
+    "generation_cost": 0.00509
+  },
+  {
+    "question_number": 42,
+    "question": "Consider the neural network shown in the ﬁgure with\ninputs: u, v\nweights: a, b, c, d, e, f\noutput: y\nR denotes the ReLU function, R(x) = max(0, x).\nu\nv\nR\nR\nR\na\nb\nc\nd\ne\nf\ny\nGiven u = 2, v = 3,\na = 1, b = 1, c = 1, d = −1, e = 4, f = −1,\nwhich one of the following is correct?\n(A)\n∂y\n∂a = 8, ∂y\n∂f = 0\n(B)\n∂y\n∂a = 1, ∂y\n∂f = 0\n(C)\n∂y\n∂a = 1, ∂y\n∂f = −1\n(D)\n∂y\n∂a = 2, ∂y\n∂f = −1",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nHidden node 1: h1 = R(a*u + c*v) = R(1*2 + 1*3) = R(5) = 5\nHidden node 2: h2 = R(b*u + d*v) = R(1*2 + (-1)*3) = R(-1) = 0\n\nWait, let me check the figure. \"a\" goes from u to top R, \"b\" goes from u to... actually the labels: a from u to top R, b labeled near u going to... let me re-read.\n\nFrom figure: u connects to top R with weight a, and u connects to bottom R (crossing). v connects to top R (crossing) and to bottom R with weight d.\n\nLabels: a (u to top R), b (u to bottom R, crossing), c (v to top R, crossing), d (v to bottom R).\n\nSo top R: a*u + c*v = 1*2 + 1*3 = 5, R=5\nBottom R: b*u + d*v = 1*2 + (-1)*3 = -1, R=0\n\nOutput: y = R(e*h1 + f*h2) = R(4*5 + (-1)*0) = R(20) = 20\n\n∂y/∂a: y = R(e*R(a*u+c*v) + f*R(b*u+d*v))\nOutput R is active (20>0), so derivative = 1.\n∂y/∂a = 1 * e * 1 * u = 4 * 2 = 8\n\n∂y/∂f = 1 * h2 = 0\n\nSo answer is A.\n</think>\n\nFINAL_ANSWER: A",
+    "final_answer": "A",
+    "generation_time_s": 6.692,
+    "generation_cost": 0.015545
+  },
+  {
+    "question_number": 43,
+    "question": "Consider game trees Tree-1 and Tree-2 as shown. The ﬁrst level is a MAX agent and\nthe second level is a MIN agent. The value in the square node is the output of the utility\nfunction.\nA\n2\nB\nx\n1\nC\nD\nE\n5\ny\n2\nMAX\nMIN\nTree-1\nTree-2\nFor what ranges of x and y, the right child of node B and the right child of node E will\nbe pruned by alpha-beta pruning algorithm?\n(A)\nx ∈[1, ∞) and y ∈(−∞, 2]\n(B)\nx ∈(−∞, 2] and y ∈(−∞, 5]\n(C)\nx ∈(−∞, 2] and y ∈[2, ∞)\n(D)\nx ∈[1, ∞) and y ∈(−∞, 5]",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nTree-1: A is MAX, left child=2, right child B is MIN with children x and 1. After visiting left=2, alpha=2 at A. Going to B, B is MIN, beta=∞ initially. Visit x: B's value ≤ x, so beta=x. Prune right child if beta ≤ alpha, i.e., x ≤ 2. So x ∈ (-∞, 2].\n\nTree-2: C is MAX, D is MIN with children 5, y. D's value = min(5,y). Then alpha at C = min(5,y).\nWait, D's value: visit 5, beta=5. Visit y, beta=min(5,y). D returns min(5,y).\nThen alpha at C = min(5,y).\nNow E is MIN. Visit left child=2, beta=2. Prune right if beta ≤ alpha, i.e., 2 ≤ min(5,y), meaning min(5,y) ≥ 2, so y ≥ 2 (and 5≥2 always).\n\nSo y ∈ [2, ∞).\n\nAnswer: C\n</think>\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 5.353,
+    "generation_cost": 0.012885
+  },
+  {
+    "question_number": 44,
+    "question": "The state graph shows the action cost along the edges and the heuristic function h asso-\nciated with each state.\nS\nA\nE\nB\nC\nD\nG\n4\n1\n2\n2\n3\n3\n2\nh=2\nh=2\nh=6\nh=2\nh=0\nh=6\nSuppose A∗algorithm is applied on this state graph using priority queue to store the\nfrontier. In what sequence are the nodes expanded?\n(A)\nS,A,E,C,B,D,G\n(B)\nS,E,A,C,B,D,G\n(C)\nS,A,E,B,C,D,G\n(D)\nS,A,B,E,C,D,G",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nExpand S: neighbors A (g=4, h=2, f=6), E (g=1, h=6, f=7).\nExpand A (f=6): neighbor B (g=6, h=2, f=8). Frontier: E(7), B(8).\nExpand E (f=7): neighbor C (g=3, h=6, f=9). Frontier: B(8), C(9).\nExpand B (f=8): neighbor C via B: g=8, f=14. Keep C(9).\nExpand C (f=9): neighbor D (g=6, h=2, f=8)... wait C's g is 3 (via E), so D: g=3+3=6, f=8.\nFrontier: D(8).\nExpand D (f=8): G (g=9, f=9).\nExpand G.\n\nSequence: S, A, E, B, C, D, G → option C.\n</think>\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 5.784,
+    "generation_cost": 0.01104
+  },
+  {
+    "question_number": 45,
+    "question": "A random experiment consists of throwing 100 fair dice, each die having six faces\nnumbered 1 to 6. An event A represents the set of all outcomes where at least one of\nthe dice shows a 1. Then, P(A) =\n(A)\n0\n(B)\n1\n(C)\n1 −\n\u00125\n6\n\u0013100\n(D)\n\u00125\n6\n\u0013100",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "FINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 8.385,
+    "generation_cost": 0.00169
+  },
+  {
+    "question_number": 46,
+    "question": "Consider a fact table in an OLAP application: Facts(D1, D2, val), where D1\nand D2 are its dimension attributes and val is a dependent attribute. Suppose attribute\nD1 takes 3 values and D2 takes 2 values, and all combinations of these values are present\nin the table Facts. How many tuples are there in the result of the following query?\nSELECT D1, D2, sum(val)\nFROM Facts\nGROUP BY CUBE (D1, D2);\n(A)\n1\n(B)\n6\n(C)\n9\n(D)\n12",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "CUBE produces all combinations: (D1,D2) = 3×2=6, (D1, all)=3, (all, D2)=2, (all,all)=1. Total = 6+3+2+1=12.\n\nFINAL_ANSWER: D",
+    "final_answer": "D",
+    "generation_time_s": 1.634,
+    "generation_cost": 0.003665
+  },
+  {
+    "question_number": 47,
+    "question": "Consider the following Python code snippet.\nA={\"this\",\"that\"}\nB={\"that\",\"other\"}\nC={\"other\",\"this\"}\nwhile \"other\" in C:\nif \"this\" in A:\nA,B,C=A-B,B-C,C-A\nif \"that\" in B:\nA,B,C=C|A,A|B,B|C\nWhen the above program is executed, at the end, which of the following sets contains\n\"this\"?\n(A)\nOnly A\n(B)\nOnly B\n(C)\nOnly C\n(D)\nA, C",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nInitial: A={this,that}, B={that,other}, C={other,this}\n\nLoop iteration 1: \"other\" in C? yes.\n\"this\" in A? yes.\nA = A-B = {this,that}-{that,other} = {this}\nB = B-C = {that,other}-{other,this} = {that}\nC = C-A (original A? or updated?) \n\nIn Python, tuple assignment evaluates RHS first. So RHS uses original values.\nA-B = {this,that}-{that,other} = {this}\nB-C = {that,other}-{other,this} = {that}\nC-A = {other,this}-{this,that} = {other}\n\nSo A={this}, B={that}, C={other}.\n\n\"that\" in B? yes.\nRHS: C|A = {other,this}, A|B = {this,that}, B|C = {that,other}\nSo A={other,this}, B={this,that}, C={that,other}.\n\nLoop check: \"other\" in C? yes.\n\"this\" in A? yes.\nA-B = {other,this}-{this,that} = {other}\nB-C = {this,that}-{that,other} = {this}\nC-A = {that,other}-{other,this} = {that}\nA={other}, B={this}, C={that}\n\n\"that\" in B? no.\n\nLoop check: \"other\" in C? C={that}, no. Exit.\n\nFinal: A={other}, B={this}, C={that}\n\n\"this\" is in B only.\n</think>\n\nFINAL_ANSWER: B",
+    "final_answer": "B",
+    "generation_time_s": 13.101,
+    "generation_cost": 0.013155
+  },
+  {
+    "question_number": 48,
+    "question": "Which of the following statements is/are correct about the rectiﬁed linear unit (ReLU)\nactivation function deﬁned as ReLU(x) = max(x, 0), where x ∈R?\n(A)\nReLU is continuous everywhere\n(B)\nReLU is differentiable everywhere\n(C)\nReLU is not differentiable at x = 0\n(D)\nReLU(x) = ReLU(ax), for all a ∈R",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "ReLU is continuous everywhere: true.\nNot differentiable at x=0: true.\nDifferentiable everywhere: false.\nD: false (only for a=1 or specific cases).\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 2.781,
+    "generation_cost": 0.00338
+  },
+  {
+    "question_number": 49,
+    "question": "Consider the function f(x) = x3\n3 + 7\n2x2 + 10 x + 133\n2 , x ∈[−8, 0]. Which of the\nfollowing statements is/are correct?\n(A)\nThe maximum value of f is attained at x = −5\n(B)\nThe minimum value of f is attained at x = −2\n(C)\nThe maximum value of f is 133\n2\n(D)\nThe minimum value of the derivative of f is attained at x = −7\n2",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf'(x) = x² + 7x + 10 = (x+2)(x+5)\n\nCritical points: x=-2, x=-5.\n\nf(-8) = -512/3 + 7/2·64 + 10(-8) + 133/2 = -512/3 + 224 - 80 + 66.5\n= -170.667 + 210.5 = 39.833\n\nf(-5) = -125/3 + 7/2·25 - 50 + 133/2 = -41.667 + 87.5 - 50 + 66.5 = 62.333\n\nf(-2) = -8/3 + 7/2·4 - 20 + 133/2 = -2.667 + 14 - 20 + 66.5 = 57.833\n\nf(0) = 133/2 = 66.5\n\nMaximum = 66.5 at x=0. Not at x=-5. (A) false. (C) true (max is 133/2).\nMinimum = 39.833 at x=-8. Not at x=-2. (B) false.\n\nf'(x) minimum: f''(x)=2x+7=0, x=-7/2. (D) true.\n</think>\n\nFINAL_ANSWER: C,D",
+    "final_answer": "C,D",
+    "generation_time_s": 4.897,
+    "generation_cost": 0.010805
+  },
+  {
+    "question_number": 50,
+    "question": "Let x1, x2, x3, x4, x5 be a system of orthonormal vectors in R10. Consider the matrix\nA = x1x⊤\n1 + . . . + x5x⊤\n5 . Which of the following statements is/are correct?\n(A)\nSingular values of A are also its eigenvalues\n(B)\nSingular values of A are either 0 or 1\n(C)\nDeterminant of A is 1\n(D)\nA is invertible",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A is a projection matrix onto 5-dim subspace. Eigenvalues: 1 (five times), 0 (five times). Symmetric PSD, so singular values equal eigenvalues.\n\nA: correct\nB: correct (0 or 1)\nC: det = 0, incorrect\nD: not invertible, incorrect\n\nFINAL_ANSWER: A,B",
+    "final_answer": "A,B",
+    "generation_time_s": 2.824,
+    "generation_cost": 0.004405
+  },
+  {
+    "question_number": 51,
+    "question": "Let f : R →R be a twice-differentiable function and suppose its second derivative\nsatisﬁes f ′′(x) > 0 for all x ∈R. Which of the following statements is/are ALWAYS\ncorrect?\n(A)\nf has a local minima\n(B)\nThere does not exist x and y, x ̸= y, such that f ′(x) = f ′(y) = 0\n(C)\nf has at most one global minimum\n(D)\nf has at most one local minimum",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf'' > 0 means f' is strictly increasing.\n\n(A) f has a local minima - NOT always. e.g., f(x) = e^x, no local min.\n\n(B) f'(x)=f'(y)=0 for x≠y - impossible since f' strictly increasing. So statement is TRUE.\n\n(C) at most one global minimum - if minimum exists, it's unique (strictly convex). TRUE.\n\n(D) at most one local minimum - TRUE, since strictly convex.\n\nSo B, C, D.\n</think>\n\nFINAL_ANSWER: B,C,D",
+    "final_answer": "B,C,D",
+    "generation_time_s": 3.731,
+    "generation_cost": 0.00619
+  },
+  {
+    "question_number": 52,
+    "question": "An n × n matrix A with real entries satisﬁes the property: ∥Ax∥2 = ∥x∥2, for all\nx ∈Rn, where ∥· ∥denotes the Euclidean norm. Which of the following statements\nis/are ALWAYS correct?\n(A)\nA must be orthogonal\n(B)\nA = I, where I denotes the identity matrix, is the only solution\n(C)\nThe eigenvalues of A are either +1 or −1\n(D)\nA has full rank",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A preserves norm means A is orthogonal. So (A) true. (B) false (many orthogonal matrices). (C) false (eigenvalues can be complex on unit circle). (D) true (orthogonal is invertible).\n\nFINAL_ANSWER: A,D",
+    "final_answer": "A,D",
+    "generation_time_s": 2.435,
+    "generation_cost": 0.0037
+  },
+  {
+    "question_number": 53,
+    "question": "Consider designing a linear binary classiﬁer f(x) = sign(w⊤x + b), x ∈R2 on the\nfollowing training data:\nClass-1:\n\n\n\n\n2\n0\n\n,\n\n0\n2\n\n,\n\n2\n2\n\n\n\n\n, Class-2:\n\n\n\n\n0\n0\n\n\n\n\n\nHard-margin support vector machine (SVM) formulation is solved to obtain w and b.\nWhich of the following options is/are correct?\n(A)\nw =\n\n4\n4\n\nand b = 1\n(B)\nThe number of support vectors is 3\n(C)\nThe margin is\n√\n2\n(D)\nTraining accuracy is 98%",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nHard margin SVM. Class 1 points: (2,0),(0,2),(2,2) with label +1. Class 2: (0,0) with label -1.\n\nThe separating hyperplane should be between (0,0) and the closest class-1 points. Closest class-1 points to origin: (2,0) and (0,2) at distance 2. (2,2) is farther.\n\nBy symmetry w = (1,1)*c. Hyperplane: x1+x2 = 1 (midway between 0 and 2 on line x1+x2).\n\nFor support vectors (2,0): w^T x + b = 1 → 2w1 + b = 1\nFor (0,0): w^T x + b = -1 → b = -1\nSo 2w1 = 2, w1 = 1. Similarly w2 = 1.\n\nSo w=(1,1), b=-1. Margin = 2/||w|| = 2/√2 = √2. ✓ (C)\n\nSupport vectors: (2,0), (0,2) give w^Tx+b = 1, and (0,0) gives -1. (2,2) gives 2+2-1=3, not support. So 3 support vectors. ✓ (B)\n\n(A) w=(4,4), b=1: not the solution (though could scale... but hard margin SVM has unique w with margin constraint =1). Wrong.\n\n(D) Training accuracy: all 4 points classified correctly = 100%, not 98%. Wrong.\n</think>\n\nFINAL_ANSWER: B,C",
+    "final_answer": "B,C",
+    "generation_time_s": 6.145,
+    "generation_cost": 0.01436
+  },
+  {
+    "question_number": 54,
+    "question": "Consider a coin-toss experiment where the probability of head showing up is p. In the\nith coin toss, let Xi = 1 if head appears, and Xi = 0 if tail appears. Consider\nbp = 1\nn\nn\nX\ni=1\nXi\nwhere n is the total number of independent coin tosses.\n(A)\nE[ bp ] = p\n(B)\nE[ bp ] = p\nn\n(C)\nAs n increases, variance of bp decreases\n(D)\nVariance of bp does not depend on n",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "A, C\n\nFINAL_ANSWER: A,C",
+    "final_answer": "A,C",
+    "generation_time_s": 1.113,
+    "generation_cost": 0.00223
+  },
+  {
+    "question_number": 55,
+    "question": "Consider a two-class problem in Rd with class labels red and green. Let µred and\nµgreen be the means of the two classes. Given test sample x ∈Rd, a classiﬁer calculates\nthe squared Euclidean distance (denoted by ∥· ∥2) between x and the means of the two\nclasses and assigns the class label that the sample x is closest to. That is, the classiﬁer\ncomputes\nf(x) = ∥µred −x∥2 −∥µgreen −x∥2\nand assigns the label red to x if f(x) < 0, and green otherwise. Which of the following\nstatements is/are correct?\n(A)\nThe sample x = 0 is assigned the label green if ∥µred∥< ∥µgreen∥\n(B)\nf is a linear function of x\n(C)\nf(x) = w⊤x + b, where w and b are functions of µred and µgreen\n(D)\nf is a quadratic polynomial in x",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "f(x) = ||μr-x||² - ||μg-x||² = ||μr||² - 2μr·x - ||μg||² + 2μg·x = 2(μg-μr)·x + (||μr||²-||μg||²)\n\nThis is linear (affine) in x.\n\n(A) At x=0: f(0) = ||μr||² - ||μg||². If ||μr||<||μg||, f(0)<0, assigns red. So (A) wrong.\n(B) Linear function - technically affine, but often called linear. In strict sense, not linear due to constant. Debatable.\n(C) Correct: w = 2(μg-μr), b = ||μr||²-||μg||².\n(D) Quadratic terms cancel, so not quadratic. Wrong.\n\nGATE answer typically: (C) only, since (B) is affine not linear strictly.\n\nFINAL_ANSWER: C",
+    "final_answer": "C",
+    "generation_time_s": 8.161,
+    "generation_cost": 0.009785
+  },
+  {
+    "question_number": 56,
+    "question": "Consider the following two relations, named Customer and Person, in a database:\nPerson (\naadhaar CHAR(12) PRIMARY KEY,\nname VARCHAR(32));\nCustomer (\nname VARCHAR(32),\nemail VARCHAR(32) PRIMARY KEY,\nphone CHAR(10),\naadhaar CHAR(12),\nFOREIGN KEY (aadhaar) REFERENCES Person(aadhaar));\n(A)\naadhaar is a candidate key in the Customer relation\n(B)\nphone can be NULL in the Customer relation\n(C)\naadhaar is a candidate key in the Person relation\n(D)\naadhaar can be NULL in the Person relation",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "In Customer, aadhaar is a foreign key, not necessarily unique - not a candidate key.\n\nPhone has no NOT NULL constraint, so can be NULL.\n\nIn Person, aadhaar is PRIMARY KEY, so it's a candidate key and cannot be NULL.\n\nFINAL_ANSWER: B,C",
+    "final_answer": "B,C",
+    "generation_time_s": 7.653,
+    "generation_cost": 0.00465
+  },
+  {
+    "question_number": 57,
+    "question": "Consider a database relation R with attributes ABCDEFG, and having the following\nfunctional dependencies:\nA →BCEF\nE →DG\nBC →A\n(A)\nA is the only candidate key of R\n(B)\nA, BC are the candidate keys of R\n(C)\nA, BC, E are the candidate keys of R\n(D)\nRelation R is not in Boyce-Codd Normal Form (BCNF)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nAttributes: ABCDEFG. FDs: A→BCEF, E→DG, BC→A.\n\nCheck A: A→BCEF, then A→E→DG, so A→ABCDEFG. A is a key.\nBC: BC→A→everything. BC is a key.\nE: E→DG only. E+ = EDG. Not a key.\n\nSo candidate keys: A, BC. Answer B.\n\nBCNF: E→DG, E is not superkey, so not in BCNF. D is correct.\n</think>\n\nFINAL_ANSWER: B,D",
+    "final_answer": "B,D",
+    "generation_time_s": 10.436,
+    "generation_cost": 0.006075
+  },
+  {
+    "question_number": 58,
+    "question": "Let G be a simple, unweighted, and undirected graph. A subset of the vertices and\nedges of G are shown below.\na\nb\nc\nd\ne\nf\ng\nh\nIt is given that a −b −c −d is a shortest path between a and d; e −f −g −h is a\nshortest path between e and h; a −f −c −h is a shortest path between a and h. Which\nof the following is/are NOT the edges of G?\n(A)\n(b, d)\n(B)\n(b, g)\n(C)\n(b, h)\n(D)\n(e, g)",
+    "has_image": true,
+    "reasoning": null,
+    "completion": "<think>\nEdges shown: a-b, b-c, c-d, a-f, c-f, c-h, e-f, f-g, g-h, f-h? Let me look carefully.\n\nFrom figure: a-b, b-c, c-d (top row). e-f, f-g, g-h (bottom row). Diagonals: a-f, c-f, c-h, f-h (need to check).\n\nGiven paths:\n- a-b-c-d shortest (length 3) means no shorter path between a,d\n- e-f-g-h shortest (length 3) means no shorter path between e,h\n- a-f-c-h shortest (length 3) means no shorter path between a,h\n\nNow check each option as a possible edge:\n\n(A) (b,d): If b-d existed, then a-b-d would be length 2, contradicting a-b-c-d being shortest of length 3. So (b,d) is NOT an edge. ✓ NOT edge\n\n(B) (b,g): If b-g existed... does it create shorter path? Check shortest a-h: a-b-g-h would be length 3, same as a-f-c-h. That's fine (still shortest). Check e-h: e-f-...no relation. Check a-d: doesn't shorten. So b-g could exist. But wait, we need to determine if it's NOT an edge. The question asks which are NOT edges. We need to determine which edges are forbidden.\n\nHmm, the figure shows certain edges. Let me reconsider - the figure shows \"a subset of vertices and edges\". So additional edges might exist, but some can be ruled out.\n\n(A) (b,d): Would make a-d distance 2, but shortest is given as length 3. So NOT edge. ✓\n\n(B) (b,g): Doesn't violate any shortest path constraint directly. Could be edge.\n\nActually wait - need to check if a-h could be shorter. a-b-g-h = 3, same as given. OK.\ne-h: e-...-b-g-h? e to b? e-f-... no direct. Doesn't shorten e-h.\n\nHmm but does b-g being present affect anything? Let's check: a-h shortest = 3. With b-g: a-b-g-h = 3. OK.\n\n(C) (b,h): If b-h existed, then a-b-h = 2, making a-h distance 2, but a-f-c-h is given as shortest of length 3. Contradiction. NOT edge. ✓\n\n(D) (e,g): If e-g existed, then e-g-h = 2, but e-f-g-h is given as shortest of length 3. Contradiction. NOT edge. ✓\n\nSo A, C, D are NOT edges.\n\nFor B: Does b-g being an edge cause issues? \n- a-d shortest 3: a-b-g-?-d, no shorter\n- e-h shortest 3: doesn't help\n- a-h shortest 3: a-b-g-h = 3, same length, OK\n\nSo b-g could be an edge. Answer: A, C, D.\n</think>\n\n**Analysis of each option:**\n\n**Given shortest paths (all length 3):**\n- a-b-c-d: d(a,d) = 3\n- e-f-g-h: d(e,h) = 3  \n- a-f-c-h: d(a,h) = 3\n\n**(A) (b,d):** If edge (b,d) existed, then a-b-d would be a path of length 2, making d(a,d) = 2. This contradicts a-b-c-d being shortest. **NOT an edge.**\n\n**(B) (b,g):** Adding edge (b,g) creates path a-b-g-h of length 3, which equals d(a,h) = 3 — no contradiction. Also doesn't shorten d(a,d) or d(e,h). **Could be an edge.**\n\n**(C) (b,h):** If edge (b,h) existed, then a-b-h would be length 2, making d(a,h) = 2. This contradicts a-f-c-h being shortest of length 3. **NOT an edge.**\n\n**(D) (e,g):** If edge (e,g) existed, then e-g-h would be length 2, making d(e,h) = 2. This contradicts e-f-g-h being shortest of length 3. **NOT an edge.**\n\nFINAL_ANSWER: A,C,D",
+    "final_answer": "A,C,D",
+    "generation_time_s": 12.907,
+    "generation_cost": 0.03647
+  },
+  {
+    "question_number": 59,
+    "question": "Let f : R →R be such that |f(x) −f(y)| ≤(x −y)2 for all x, y ∈R. Then\nf(1) −f(0) =",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "The condition implies f is constant (derivative is 0 everywhere), so f(1)-f(0)=0.\n\nFINAL_ANSWER: 0",
+    "final_answer": "0",
+    "generation_time_s": 1.549,
+    "generation_cost": 0.00248
+  },
+  {
+    "question_number": 60,
+    "question": "Let D = {x(1), . . . , x(n)} be a dataset of n observations where each x(i) ∈R100. It\nis given that\nn\nX\ni=1\nx(i) = 0. The covariance matrix computed from D has eigenvalues\nλi = 1002−i, 1 ≤i ≤100. Let u ∈R100 be the direction of maximum variance with\nu⊤u = 1.\nThe value of\n1\nn\nn\nX\ni=1\n\u0000u⊤x(i)\u00012 =",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "The maximum variance along unit direction u equals the largest eigenvalue = 100^(2-1) = 100^1 = 100.\n\nWait, λ_i = 100^(2-i), so λ_1 = 100^1 = 100.\n\nFINAL_ANSWER: 100",
+    "final_answer": "100",
+    "generation_time_s": 2.344,
+    "generation_cost": 0.003765
+  },
+  {
+    "question_number": 61,
+    "question": "A bag contains 5 white balls and 10 black balls. In a random experiment, n balls are\ndrawn from the bag one at a time with replacement. Let Sn denote the total number of\nblack balls drawn in the experiment.\nThe expectation of S100 denoted by E[S100] =\n(Round off to one decimal place)",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "p = 10/15 = 2/3\n\nE[S_100] = 100 × 2/3 = 66.666...\n\nFINAL_ANSWER: 66.7",
+    "final_answer": "66.7",
+    "generation_time_s": 4.16,
+    "generation_cost": 0.002605
+  },
+  {
+    "question_number": 62,
+    "question": "Consider the following tables, Loan and Borrower, of a bank.\nLoan\nloan num\nbranch name\namount\nL11\nBanjara Hills\n90000\nL14\nKondapur\n50000\nL15\nSR Nagar\n40000\nL22\nSR Nagar\n25000\nL23\nBalanagar\n80000\nL25\nKondapur\n70000\nL19\nSR Nagar\n65000\nBorrower\ncustomer name\nloan num\nAnand\nL11\nKarteek\nL11\nKarteek\nL14\nAnkita\nL15\nGopal\nL19\nKarteek\nL22\nKarteek\nL23\nSunil\nL23\nSunil\nL25\nQuery: πbranch name, customer name(Loan ▷◁Borrower) ÷ πbranch name(Loan)\nwhere ▷◁denotes natural join.\nThe number of tuples returned by the above relational algebra query is",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nWe need customers who have borrowed from every branch that appears in Loan.\n\nBranches in Loan: Banjara Hills, Kondapur, SR Nagar, Balanagar (distinct: 4 branches - Banjara Hills, Kondapur, SR Nagar, SR Nagar, Balanagar, Kondapur, SR Nagar → {Banjara Hills, Kondapur, SR Nagar, Balanagar} = 4)\n\nNow compute Loan ⨝ Borrower and get (branch_name, customer_name) pairs.\n\nLoan table:\nL11 - Banjara Hills\nL14 - Kondapur\nL15 - SR Nagar\nL22 - SR Nagar\nL23 - Balanagar\nL25 - Kondapur\nL19 - SR Nagar\n\nBorrower:\nAnand - L11\nKartek - L11\nKartek - L14\nAnkita - L15\nGopal - L19\nKartek - L22\nKartek - L23\nSunil - L23\nSunil - L25\n\nJoin pairs (branch, customer):\nL11: Banjara Hills - Anand; Banjara Hills - Kartek\nL14: Kondapur - Kartek\nL15: SR Nagar - Ankita\nL19: SR Nagar - Gopal\nL22: SR Nagar - Kartek\nL23: Balanagar - Kartek; Balanagar - Sunil\nL25: Kondapur - Sunil\n\nCustomer branches:\n- Anand: {Banjara Hills}\n- Kartek: {Banjara Hills, Kondapur, SR Nagar, Balanagar} ✓ all 4\n- Ankita: {SR Nagar}\n- Gopal: {SR Nagar}\n- Sunil: {Balanagar, Kondapur}\n\nDivision returns (branch_name, customer_name) — wait, division: R(X,Y) ÷ S(Y) returns X values. Here R has (branch_name, customer_name), S has (branch_name). Result has customer_name attribute.\n\nWait, division: R÷S where S's attributes ⊆ R's. Result = R's attributes - S's attributes = customer_name.\n\nSo result is customers who appear with every branch in S. That's Kartek only.\n\nNumber of tuples = 1.\n</think>\n\nFINAL_ANSWER: 1",
+    "final_answer": "1",
+    "generation_time_s": 7.77,
+    "generation_cost": 0.021895
+  },
+  {
+    "question_number": 63,
+    "question": "Consider the following Python code snippet.\ndef f(a,b):\nif (a==0):\nreturn b\nif (a%2==1):\nreturn 2*f((a-1)/2,b)\nreturn b+f(a-1,b)\nprint(f(15,10))\nThe value printed by the code snippet is",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nf(15,10): a=15 odd, return 2*f(7,10)\nf(7,10): odd, 2*f(3,10)\nf(3,10): odd, 2*f(1,10)\nf(1,10): odd, 2*f(0,10) = 2*10=20\nf(3,10)=2*20=40\nf(7,10)=2*40=80\nf(15,10)=2*80=160\n\nWait, but a=15, (a-1)/2 = 7. Then f(7,10): a=7 odd, (7-1)/2=3. f(3,10): odd, (3-1)/2=1. f(1,10): odd, (1-1)/2=0, returns b=10, so 2*10=20. Then back: 2*20=40, 2*40=80, 2*80=160.\n\nBut wait, this function looks like it computes a*b. 15*10=150, not 160. Let me recheck.\n\nActually the recursion 2*f((a-1)/2, b) for odd a should be b + 2*f((a-1)/2, b) to get a*b. Let me verify: if a odd, a*b = b + (a-1)*b = b + 2*((a-1)/2)*b. So the code is buggy or computes something else.\n\nLet me just trace carefully:\nf(1,10): a=1 odd, return 2*f(0,10) = 2*10 = 20\nf(3,10): odd, 2*f(1,10) = 2*20 = 40\nf(7,10): odd, 2*f(3,10) = 2*40 = 80\nf(15,10): odd, 2*f(7,10) = 2*80 = 160\n\nSo 160.\n</think>\n\nFINAL_ANSWER: 160",
+    "final_answer": "160",
+    "generation_time_s": 5.002,
+    "generation_cost": 0.014835
+  },
+  {
+    "question_number": 64,
+    "question": "Consider the following pseudocode.\nCreate empty stack S\nSet x=0, flag=0, sum=0\nPush x onto S\nwhile (S is not empty){\nif (flag equals 0){\nSet x = x+1\nPush x onto S}\nif (x equals 8):\nSet flag=1\nif (flag equals 1){\nx = Pop(S)\nif (x is odd):\nPop(S)\nSet sum = sum + x}\n}\nOutput sum\nThe value of\nsum\noutput by a program executing the above pseudocode is",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nLet me trace through this carefully.\n\nInitial: S=[], x=0, flag=0, sum=0\nPush x=0: S=[0]\n\nLoop iteration 1: S=[0], not empty\n- flag=0: x=1, push. S=[0,1]\n- x==8? No\n- flag==1? No\n\nIter 2: S=[0,1]\n- flag=0: x=2, push. S=[0,1,2]\n- x==8? No\n\nIter 3: x=3, S=[0,1,2,3]\nIter 4: x=4, S=[0,1,2,3,4]\nIter 5: x=5, S=[0,1,2,3,4,5]\nIter 6: x=6, S=[0,1,2,3,4,5,6]\nIter 7: x=7, S=[0,1,2,3,4,5,6,7]\nIter 8: x=8, S=[0,1,2,3,4,5,6,7,8]\n- x==8: flag=1\n- flag=1: x=Pop(S)=8, S=[0,1,2,3,4,5,6,7]\n  - x odd? No\n  - sum = 0+8 = 8\n\nIter 9: S=[0,1,2,3,4,5,6,7], not empty\n- flag=0? No, flag=1\n- x==8? x is currently 8, yes, flag=1 (already)\n- flag=1: x=Pop=7, S=[0,1,2,3,4,5,6]\n  - x odd: Pop(S)=6, S=[0,1,2,3,4,5]\n  - sum = 8+7 = 15\n\nIter 10: S=[0,1,2,3,4,5]\n- flag=0? No\n- x==8? x=7, no\n- flag=1: x=Pop=5, S=[0,1,2,3,4]\n  - x odd: Pop=4, S=[0,1,2,3]\n  - sum = 15+5 = 20\n\nIter 11: S=[0,1,2,3]\n- x=Pop=3, S=[0,1,2]\n  - odd: Pop=2, S=[0,1]\n  - sum = 20+3 = 23\n\nIter 12: S=[0,1]\n- x=Pop=1, S=[0]\n  - odd: Pop=0, S=[]\n  - sum = 23+1 = 24\n\nIter 13: S empty, exit.\n\nsum = 24\n</think>\n\nTracing the pseudocode:\n\n**Phase 1 (flag=0): Push 0 through 8**\n- Stack builds: [0,1,2,3,4,5,6,7,8], x=8\n\n**When x=8, flag becomes 1. Then pop operations begin:**\n\n| Iteration | Pop x | x odd? | Extra Pop | sum |\n|-----------|-------|--------|-----------|-----|\n| 1 | 8 | No | - | 0+8 = 8 |\n| 2 | 7 | Yes | pop 6 | 8+7 = 15 |\n| 3 | 5 | Yes | pop 4 | 15+5 = 20 |\n| 4 | 3 | Yes | pop 2 | 20+3 = 23 |\n| 5 | 1 | Yes | pop 0 | 23+1 = 24 |\n\nStack is now empty, loop exits.\n\n**sum = 8 + 7 + 5 + 3 + 1 = 24**\n\nFINAL_ANSWER: 24",
+    "final_answer": "24",
+    "generation_time_s": 8.617,
+    "generation_cost": 0.02951
+  },
+  {
+    "question_number": 65,
+    "question": "Consider a directed graph G = (V, E), where V = {0, 1, 2, . . . , 100} and\nE = {(i, j) : 0 < j −i ≤2, for all i, j ∈V }. Suppose the adjacency list of each\nvertex is in decreasing order of vertex number, and depth-ﬁrst search (DFS) is per-\nformed at vertex 0. The number of vertices that will be discovered after vertex 50 is",
+    "has_image": false,
+    "reasoning": null,
+    "completion": "<think>\nDFS from 0, adjacency list in decreasing order. From vertex i, neighbors are i+2, i+1 (in decreasing order). So DFS visits i+2 first.\n\nFrom 0: go to 2, then 4, ... all even numbers up to 100. Then backtrack.\n\nWait, from 0 → 2 → 4 → ... → 100. At 100, no outgoing edges. Backtrack to 98. From 98, other neighbor is 99. Go to 99. From 99, neighbor is 100 (already visited). Backtrack.\n\nBack to 98, done. Back to 96, visit 97. From 97: 99 (visited), 98 (visited). Back. Continue.\n\nSo pattern: visit all evens 0,2,...,100, then odds in reverse order: 99, 97, 95, ..., 1.\n\nDiscovery order: 0, 2, 4, ..., 100 (51 vertices), then 99, 97, ..., 1 (50 vertices).\n\nVertex 50 is discovered at position 26 (0-indexed: position 25). After vertex 50: remaining evens 52,54,...,100 = 25 vertices, then all 50 odds = 75 vertices total.\n\nWait, check: evens from 52 to 100: (100-52)/2+1 = 25. Plus odds 99,97,...,1: 50. Total = 75.\n</think>\n\nFINAL_ANSWER: 75",
+    "final_answer": "75",
+    "generation_time_s": 5.488,
+    "generation_cost": 0.013165
+  }
+]

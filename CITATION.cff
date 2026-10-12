@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use GATEBench, please cite the paper below."
+title: "GATEBench: benchmarking large language models on the Graduate Aptitude Test in Engineering"
+abstract: >-
+  Code, extracted question bank, official answer keys and full model responses
+  for a benchmark of seven frontier large language models on six GATE 2025 and
+  2026 test papers.
+type: software
+authors:
+  - family-names: Gupte
+    given-names: Parth
+    affiliation: "Department of Electrical Engineering, Indian Institute of Science, Bangalore"
+  - family-names: Seelamantula
+    given-names: Chandra Sekhar
+    affiliation: "Department of Electrical Engineering, Indian Institute of Science, Bangalore"
+license: MIT
+repository-code: "https://github.com/ParthGupte/GATEBenchmarking"
+keywords:
+  - large language models
+  - LLM benchmarking
+  - engineering education
+  - GATE
+preferred-citation:
+  type: unpublished
+  title: "And the AIR-1 in GATE goes to..."
+  authors:
+    - family-names: Gupte
+      given-names: Parth
+    - family-names: Seelamantula
+      given-names: Chandra Sekhar
+  year: 2026
+  notes: "Manuscript under review at IEEE Transactions on Education."
