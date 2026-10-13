@@ -215,7 +215,7 @@ def main() -> None:
     plot_grid(
         "combined_model_comparison_2025_vs_2026_time.png",
         "TOTAL GENERATION TIME BY PAPER (2025 VS 2026)",
-        "TOTAL TIME (min)", time_total_min, fmt=".1f",
+        "TOTAL TIME (min)", time_total_min, fmt=".2f",
         reference_line=EXAM_DURATION_MIN,
         reference_label=f"{EXAM_DURATION_MIN} min (exam duration)",
     )

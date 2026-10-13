@@ -89,7 +89,7 @@ Model directory names are the full model identifiers, e.g.
 `null` is not a synonym for "wrong". It means the answer could not be scored, which covers
 three distinct situations: the model produced no parseable answer, the answer was not a
 valid option for that question type, or the question was voided. Treating null as wrong
-would understate every model's accuracy.
+would understate every model's score.
 
 ## `air1_scores.json`
 

@@ -44,10 +44,10 @@ Each figure below is written to `figures/` by `make figures`.
 |---|---|
 | **Fig. 1** — per-paper model scores vs AIR-1 | `combined_model_comparison_2025_vs_2026_vs_air1_3x2.png` |
 | **Fig. 2** — average performance per test paper | `subject_average_across_models_2025_vs_2026.png` |
-| **Fig. 3** — subject-wise image vs no-image accuracy | `paperwise_image_vs_noimage_2025_vs_2026.png` |
-| **Fig. 4** — model-wise image vs no-image accuracy | `modelwise_image_vs_noimage_2025_vs_2026.png` |
-| **Fig. 5** — model-wise MCQ/MSQ/NAT accuracy | `modelwise_question_type_accuracy.png` |
-| **Fig. 6** — paper-wise MCQ/MSQ/NAT accuracy | `paperwise_question_type_accuracy.png` |
+| **Fig. 3** — subject-wise image vs no-image score | `paperwise_image_vs_noimage_2025_vs_2026.png` |
+| **Fig. 4** — model-wise image vs no-image score | `modelwise_image_vs_noimage_2025_vs_2026.png` |
+| **Fig. 5** — model-wise MCQ/MSQ/NAT score | `modelwise_question_type_accuracy.png` |
+| **Fig. 6** — paper-wise MCQ/MSQ/NAT score | `paperwise_question_type_accuracy.png` |
 | **Fig. 7** — model-wise General Aptitude vs subject | `modelwise_ga_vs_subject_2025_vs_2026.png` |
 | **Fig. 8** — paper-wise General Aptitude vs subject | `subjectwise_ga_vs_subject_2025_vs_2026.png` |
 | **Fig. 9** — overall model average across papers | `overall_model_performance_2025_vs_2026.png` |
@@ -108,9 +108,10 @@ The official GATE scheme, implemented in `gatebench/scoring.py`:
 - **Unparseable or unattempted** — scored as null rather than wrong, so a parsing gap is
   never silently counted as a model error
 
-Figures reporting a *score* use pooled marks-percent (negative marking included). Figures
-reporting *accuracy* use correct / (correct + wrong) over attempted, scorable questions
-only.
+Every figure reports a *score*: pooled marks-percent, i.e. total marks obtained divided by
+total marks available, times 100. Negative marking is included, unattempted or unparseable
+questions contribute 0 marks, and voided questions count as full marks. No figure reports
+question-level accuracy.
 
 ---
 

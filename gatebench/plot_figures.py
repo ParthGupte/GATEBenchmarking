@@ -1,16 +1,10 @@
 """
 Generate Figures 1-9 of the paper from results/.
 
-Two families of figures, matching the paper's own metric choices:
-  - "SCORE" figures (overall model performance, subject averages, GA vs
-    subject) use pooled marks-percent: sum(marks_obtained, treating a
-    null/unattempted question as 0) / sum(marks) * 100. This bakes in
-    GATE's official negative marking for wrong MCQ answers.
-  - "ACCURACY" figures (image vs no-image, question-type) use plain
-    correct / (correct + wrong) over scorable, attempted questions only
-    (is_correct is True or False) -- unattempted/unscorable (voided,
-    unparseable) questions are excluded from both sides rather than counted
-    as wrong, matching how "accuracy" reads in the paper.
+Every figure reports the same metric: pooled marks-percent,
+sum(marks_obtained, treating a null/unattempted question as 0) /
+sum(marks) * 100. This bakes in GATE's official negative marking for wrong
+MCQ answers and counts voided "marks to all" questions as full marks.
 
 AIR-1 scores are external reference data read from data/air1_scores.json.
 
@@ -61,11 +55,11 @@ def compute_all():
     score_by_paper_year = defaultdict(lambda: [0.0, 0.0])
     score_by_paper_model_year = defaultdict(lambda: [0.0, 0.0])
 
-    img_acc_by_model_year = defaultdict(lambda: [0, 0])
-    img_acc_by_paper_year = defaultdict(lambda: [0, 0])
+    img_score_by_model_year = defaultdict(lambda: [0.0, 0.0])
+    img_score_by_paper_year = defaultdict(lambda: [0.0, 0.0])
 
-    qtype_acc_by_model = defaultdict(lambda: [0, 0])
-    qtype_acc_by_paper = defaultdict(lambda: [0, 0])
+    qtype_score_by_model = defaultdict(lambda: [0.0, 0.0])
+    qtype_score_by_paper = defaultdict(lambda: [0.0, 0.0])
 
     ga_by_model_year = defaultdict(lambda: [0.0, 0.0])
     ga_by_paper_year = defaultdict(lambda: [0.0, 0.0])
@@ -87,32 +81,27 @@ def compute_all():
         ga_by_paper_year[(paper, year, ga_group)][0] += obtained
         ga_by_paper_year[(paper, year, ga_group)][1] += marks
 
-        if row["is_correct"] is None:
-            continue  # unattempted/unscorable -- excluded from accuracy figures
-
-        outcome_idx = 0 if row["is_correct"] else 1
         image_group = "IMAGE" if row["has_image"] else "NO IMAGE"
-
-        img_acc_by_model_year[(model_label, year, image_group)][outcome_idx] += 1
-        img_acc_by_paper_year[(paper, year, image_group)][outcome_idx] += 1
-        qtype_acc_by_model[(model_label, row["question_type"])][outcome_idx] += 1
-        qtype_acc_by_paper[(paper, row["question_type"])][outcome_idx] += 1
+        for agg, key in (
+            (img_score_by_model_year, (model_label, year, image_group)),
+            (img_score_by_paper_year, (paper, year, image_group)),
+            (qtype_score_by_model, (model_label, row["question_type"])),
+            (qtype_score_by_paper, (paper, row["question_type"])),
+        ):
+            agg[key][0] += obtained
+            agg[key][1] += marks
 
     def pct(obtained, possible):
         return 100 * obtained / possible if possible else 0.0
-
-    def acc(correct, wrong):
-        total = correct + wrong
-        return correct / total if total else 0.0
 
     return {
         "score_by_model_year": {k: pct(*v) for k, v in score_by_model_year.items()},
         "score_by_paper_year": {k: pct(*v) for k, v in score_by_paper_year.items()},
         "score_by_paper_model_year": {k: pct(*v) for k, v in score_by_paper_model_year.items()},
-        "img_acc_by_model_year": {k: acc(*v) for k, v in img_acc_by_model_year.items()},
-        "img_acc_by_paper_year": {k: acc(*v) for k, v in img_acc_by_paper_year.items()},
-        "qtype_acc_by_model": {k: acc(*v) for k, v in qtype_acc_by_model.items()},
-        "qtype_acc_by_paper": {k: acc(*v) for k, v in qtype_acc_by_paper.items()},
+        "img_score_by_model_year": {k: pct(*v) for k, v in img_score_by_model_year.items()},
+        "img_score_by_paper_year": {k: pct(*v) for k, v in img_score_by_paper_year.items()},
+        "qtype_score_by_model": {k: pct(*v) for k, v in qtype_score_by_model.items()},
+        "qtype_score_by_paper": {k: pct(*v) for k, v in qtype_score_by_paper.items()},
         "ga_by_model_year": {k: pct(*v) for k, v in ga_by_model_year.items()},
         "ga_by_paper_year": {k: pct(*v) for k, v in ga_by_paper_year.items()},
     }
@@ -144,20 +133,20 @@ def plot_paper_model_grid(score_by_paper_model_year, air1):
         for bars in (bars_2025, bars_2026):
             for bar in bars:
                 ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() - 1.5,
-                        f"{bar.get_height():.1f}", ha="center", va="top",
+                        f"{bar.get_height():.2f}", ha="center", va="top",
                         rotation=90, fontsize=VALUE_SIZE, fontweight="bold",
                         color="white", zorder=6, path_effects=outline())
 
         ax.set_title(paper, fontsize=TITLE_SIZE)
         ax.set_xlabel("MODEL", fontsize=LABEL_SIZE)
-        ax.set_ylabel("SCORE", fontsize=LABEL_SIZE)
+        ax.set_ylabel("SCORE (%)", fontsize=LABEL_SIZE)
         ax.set_ylim(*YLIM)
         ax.set_yticks(np.arange(YLIM[0], YLIM[1] + 1, 10))
         ax.set_xticks(x)
         ax.set_xticklabels(MODELS, rotation=45, ha="right")
         ax.tick_params(axis="both", labelsize=TICK_SIZE)
         ax.legend([line, bars_2025, bars_2026],
-                  [f"AIR-1 (2026): {air1_score:.1f}", "2025", "2026"],
+                  [f"AIR-1 (2026): {air1_score:.2f}", "2025", "2026"],
                   loc="lower left", fontsize=LEGEND_SIZE)
 
     fig.suptitle("MODEL COMPARISON ACROSS PAPERS (2025 VS 2026 VS AIR-1)",
@@ -188,10 +177,10 @@ def main() -> None:
         "AVERAGE PERFORMANCE ACROSS MODELS BY TEST PAPERS\n"
         "(2025 VS 2026 VS AIR-1)",
         PAPERS, subject_series,
-        "TEST PAPERS", "AVERAGE SCORE", width=0.25, fmt=".1f",
+        "TEST PAPERS", "AVERAGE SCORE (%)", width=0.25, fmt=".2f",
         ylim=(30, 100), rotation=0, **NARROW)
 
-    # --- Figures 3 & 4: image vs no-image accuracy -------------------------
+    # --- Figures 3 & 4: image vs no-image score -------------------------
     IMG_SERIES = ["IMAGE 2025", "NO IMAGE 2025", "IMAGE 2026", "NO IMAGE 2026"]
     IMG_COLORS = [BLUE, TEAL, ORANGE, RED]
     img_series_specs = [
@@ -203,34 +192,34 @@ def main() -> None:
 
     grouped_bar(
         out, "paperwise_image_vs_noimage_2025_vs_2026.png",
-        "PAPERWISE IMAGE VS NO IMAGE ACCURACY (2025 VS 2026)", PAPERS,
-        [(label, color, [data["img_acc_by_paper_year"].get((p, year, group), 0.0) for p in PAPERS])
+        "PAPERWISE IMAGE VS NO IMAGE SCORE (2025 VS 2026)", PAPERS,
+        [(label, color, [data["img_score_by_paper_year"].get((p, year, group), 0.0) for p in PAPERS])
          for label, color, year, group in img_series_specs],
-        "TEST PAPERS", "AVERAGE ACCURACY", width=0.18, **WIDE)
+        "TEST PAPERS", "AVERAGE SCORE (%)", width=0.18, ylim=(0, 100), **WIDE)
 
     grouped_bar(
         out, "modelwise_image_vs_noimage_2025_vs_2026.png",
-        "MODELWISE IMAGE VS NO IMAGE ACCURACY (2025 VS 2026)", MODELS,
-        [(label, color, [data["img_acc_by_model_year"].get((m, year, group), 0.0) for m in MODELS])
+        "MODELWISE IMAGE VS NO IMAGE SCORE (2025 VS 2026)", MODELS,
+        [(label, color, [data["img_score_by_model_year"].get((m, year, group), 0.0) for m in MODELS])
          for label, color, year, group in img_series_specs],
-        "MODEL", "AVERAGE ACCURACY", width=0.18, **WIDE)
+        "MODEL", "AVERAGE SCORE (%)", width=0.18, ylim=(0, 100), **WIDE)
 
-    # --- Figures 5 & 6: question-type accuracy -----------------------------
+    # --- Figures 5 & 6: question-type score -----------------------------
     QCOLORS = [BLUE, ORANGE, GREEN]
 
     grouped_bar(
         out, "modelwise_question_type_accuracy.png",
-        "MODELWISE QUESTION TYPE ACCURACY", MODELS,
+        "MODELWISE QUESTION TYPE SCORE", MODELS,
         list(zip(QTYPES, QCOLORS,
-                 [[data["qtype_acc_by_model"].get((m, qt), 0.0) for m in MODELS] for qt in QTYPES])),
-        "MODEL", "AVERAGE ACCURACY", width=0.8 / 3, **WIDE)
+                 [[data["qtype_score_by_model"].get((m, qt), 0.0) for m in MODELS] for qt in QTYPES])),
+        "MODEL", "AVERAGE SCORE (%)", width=0.8 / 3, ylim=(0, 100), **WIDE)
 
     grouped_bar(
         out, "paperwise_question_type_accuracy.png",
-        "PAPERWISE QUESTION TYPE ACCURACY", PAPERS,
+        "PAPERWISE QUESTION TYPE SCORE", PAPERS,
         list(zip(QTYPES, QCOLORS,
-                 [[data["qtype_acc_by_paper"].get((p, qt), 0.0) for p in PAPERS] for qt in QTYPES])),
-        "TEST PAPERS", "AVERAGE ACCURACY", width=0.8 / 3, **WIDE)
+                 [[data["qtype_score_by_paper"].get((p, qt), 0.0) for p in PAPERS] for qt in QTYPES])),
+        "TEST PAPERS", "AVERAGE SCORE (%)", width=0.8 / 3, ylim=(0, 100), **WIDE)
 
     # --- Figures 7 & 8: General Aptitude vs subject ------------------------
     GA_SERIES = ["GA 2025", "SUBJECT 2025", "GA 2026", "SUBJECT 2026"]
@@ -244,19 +233,19 @@ def main() -> None:
 
     grouped_bar(
         out, "modelwise_ga_vs_subject_2025_vs_2026.png",
-        "MODELWISE GENERAL APTITUDE VS SUBJECT MARKS PERCENT (2025 VS 2026)",
+        "MODELWISE GENERAL APTITUDE VS SUBJECT SCORE (%) (2025 VS 2026)",
         MODELS,
         [(label, color, [data["ga_by_model_year"].get((m, year, group), 0.0) for m in MODELS])
          for label, color, year, group in ga_series_specs],
-        "MODEL", "MARKS PERCENT", width=0.18, ylim=(0, 100), **WIDE)
+        "MODEL", "SCORE (%)", width=0.18, ylim=(0, 100), **WIDE)
 
     grouped_bar(
         out, "subjectwise_ga_vs_subject_2025_vs_2026.png",
-        "SUBJECTWISE GENERAL APTITUDE VS SUBJECT MARKS PERCENT (2025 VS 2026)",
+        "SUBJECTWISE GENERAL APTITUDE VS SUBJECT SCORE (%) (2025 VS 2026)",
         PAPERS,
         [(label, color, [data["ga_by_paper_year"].get((p, year, group), 0.0) for p in PAPERS])
          for label, color, year, group in ga_series_specs],
-        "TEST PAPERS", "MARKS PERCENT", width=0.18, ylim=(0, 100), **WIDE)
+        "TEST PAPERS", "SCORE (%)", width=0.18, ylim=(0, 100), **WIDE)
 
     # --- Figure 9: overall model performance -------------------------------
     grouped_bar(
@@ -265,7 +254,7 @@ def main() -> None:
         [(year, {"2025": BLUE, "2026": ORANGE}[year],
           [data["score_by_model_year"][(m, year)] for m in MODELS])
          for year in YEARS],
-        "MODEL", "AVERAGE SCORE", width=0.35, fmt=".2f",
+        "MODEL", "AVERAGE SCORE (%)", width=0.35, fmt=".2f",
         ylim=(30, 100), legend_loc="lower left", **NARROW)
 
 

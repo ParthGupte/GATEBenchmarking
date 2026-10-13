@@ -49,13 +49,13 @@ def main() -> None:
     grouped_bar(
         str(FIGURES_DIR),
         f"{model_dir}_ga_vs_subject_2025_vs_2026.png",
-        f"{label} GENERAL APTITUDE VS SUBJECT MARKS PERCENT (2025 VS 2026)",
+        f"{label} GENERAL APTITUDE VS SUBJECT SCORE (%) (2025 VS 2026)",
         PAPERS,
         [("GA 2025", BLUE, [pct(p, "2025", "GA") for p in PAPERS]),
          ("SUBJECT 2025", TEAL, [pct(p, "2025", "SUBJECT") for p in PAPERS]),
          ("GA 2026", ORANGE, [pct(p, "2026", "GA") for p in PAPERS]),
          ("SUBJECT 2026", RED, [pct(p, "2026", "SUBJECT") for p in PAPERS])],
-        "TEST PAPERS", "MARKS PERCENT", width=0.18, ylim=(0, 100), **WIDE)
+        "TEST PAPERS", "SCORE (%)", width=0.18, ylim=(0, 100), **WIDE)
 
 
 if __name__ == "__main__":

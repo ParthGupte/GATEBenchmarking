@@ -84,7 +84,7 @@ def build_table(total_dict, avg_model_dict, avg_paper_dict, grand_avg, fmt,
 
 
 def cost_fmt(v: float) -> str:
-    return f"{v:.3f}" if v < 1 else f"{v:.2f}"
+    return f"{v:.3f}"
 
 
 def time_fmt(v: float) -> str:
