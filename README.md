@@ -142,26 +142,28 @@ safely after an interruption.
 
 ## Model knowledge cutoffs
 
-GATE 2025 and GATE 2026 were held in early February 2025 and February 2026. Cutoffs below are
-as reported by vendors or, where marked, by third-party listings; they were compiled from
-public sources and should be confirmed against each provider's model card before citing.
+GATE 2025 and GATE 2026 were held in early February 2025 and February 2026. Cutoffs are
+taken from [knowledge-cutoff.date](https://www.knowledge-cutoff.date/index.html), a
+third-party compilation that gives no per-entry sources. Where a vendor page states the
+cutoff, it is cited alongside. Models absent from that site are marked unknown.
 
-| Model | Release snapshot | Knowledge cutoff | Basis |
+| Model | Release snapshot | Knowledge cutoff | Sources |
 |---|---|---|---|
-| Claude Opus 4.7 | 2026-04-16 | Jan 2026 | Vendor documentation |
-| Gemini 3.1 Pro Preview | 2026-02-19 | Jan 2025 (probable) | Inherited from Gemini 3 Pro; not confirmed for 3.1 |
-| GPT-5.5 | 2026-04-23 | Dec 2025 | Vendor documentation |
-| Grok 4.3 | 2026-04-30 | Dec 2025 (probable) | Third-party listings disagree; not published by xAI |
-| Kimi K2.6 | 2026-04-20 | Apr 2025 (probable) | Third-party listings |
-| Mistral Large 3 | 2512 | Not published | One third-party listing says Jun 2025 |
-| Qwen3.6-Plus | 04-02 | Not published ("2026" per the model's own system prompt) | Unreliable |
+| Claude Opus 4.7 | 2026-04-16 | Jan 2026 | [Anthropic docs](https://platform.claude.com/docs/de/models/opus-4-7/overview); [knowledge-cutoff.date](https://www.knowledge-cutoff.date/index.html) |
+| Gemini 3.1 Pro Preview | 2026-02-19 | Nov 2025 | [knowledge-cutoff.date](https://www.knowledge-cutoff.date/index.html) only. Google's [Gemini 3 Pro page](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-pro) says Jan 2025 for the earlier model, which conflicts |
+| GPT-5.5 | 2026-04-23 | Dec 2025 | [OpenAI docs](https://developers.openai.com/api/docs/models/gpt-5.5); [knowledge-cutoff.date](https://www.knowledge-cutoff.date/index.html) |
+| Grok 4.3 | 2026-04-30 | Nov 2024 | [knowledge-cutoff.date](https://www.knowledge-cutoff.date/index.html) only. Other listings say Dec 2025 and xAI has not published one |
+| Kimi K2.6 | 2026-04-20 | Unknown | Not listed |
+| Mistral Large 3 | 2512 | Jun 2025 | [knowledge-cutoff.date](https://www.knowledge-cutoff.date/index.html), listed without the 2512 suffix |
+| Qwen3.6-Plus | 04-02 | Unknown | Not listed |
 
 The snapshot in each model ID is the provider's version date, not the date the benchmark was
 run. All generations were collected in May 2026, with a few re-queries in August 2026.
 
-Implication: for most models the cutoff falls before the GATE 2026 exam, so the 2026 papers
-are the cleaner test. Several cutoffs fall after the GATE 2025 exam, so contamination of the
-2025 papers (and their answer keys) cannot be ruled out.
+Implication: the reported cutoffs of Claude, Gemini, GPT, Grok and Mistral fall before the
+GATE 2026 exam, but those of Kimi and Qwen are unknown. Every known cutoff except Grok's
+falls after the GATE 2025 exam, so contamination of the 2025 papers (and their answer keys)
+cannot be ruled out.
 
 ---
 
